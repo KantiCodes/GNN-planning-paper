@@ -1,22 +1,20 @@
 from src.graph_building import pdg_and_nodes
 from src.model.training import ModelSetting, train_and_save_model
+import os
 
 
 
 class Runner:
-    def __init__(self):
-        self.network_size=[256,512]
-        self.network_layers=[3,4]
-        self.network_type=['SAGEConv','GATConv']
-        self.network_aggr=['sum','mean']
-
     def prepare(self):
         # Load data here
 
         # This step only if we create  graphs here 
-        pdg_and_nodes() # TODO: Add parameters
+        # pdg_and_nodes() # TODO: Add parameters
 
-        # Load model settings from JSON or use the ones from __init__ TODO: Makde decision wchih to use 
+        # Load model setting here
+        for model_setting in os.listdir("model-settings"):
+            model_setting = ModelSetting.from_file(model_setting)
+
         self.model_setting = ModelSetting() # TODO: Add parameters
         pass
                           

@@ -1,0 +1,9 @@
+{
+    "layers_num": 3,
+    "hidden_size": 256,
+    "conv_type": "conv2d",
+    "aggr": "mean",
+    "optimizer": "Adam",
+    "lr": "0.001",
+    "kwargs": ""
+}
