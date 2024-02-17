@@ -22,7 +22,7 @@ class Runner:
     def compute(self):
         # Do training here
         # Model setting is already loaded
-        train_and_save_model(model_setting=self.model_setting) # TODO: Add parameters
+        train_and_save_model(model_settings_path=self.model_settings) # TODO: Add parameters
         pass
 
     def persist(self):
@@ -36,6 +36,7 @@ class Runner:
             for layers in self.network_layers:
                 for type in self.network_type:
                     for aggr in self.network_aggr:
+                        
 
                         self.prepare()
                         self.compute()

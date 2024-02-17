@@ -25,6 +25,10 @@ METADATA = (
     ],
 )
 
+from enum import Enum
+from torch.optim import Optimizer
+
+
 
 class ModelHandler:
     def __init__(self, init_model, weights_path=None, pos_weight=1, neg_weight=1, aggr="sum"):  # TODO hyperparameter on aggr
@@ -39,21 +43,12 @@ class ModelHandler:
         self.optimizer = None
 
 
-    def init_optimizer(self, model_setting:"ModelSetting") -> torch.optim.Optimizer:
-        assert model_setting.optimizer in ["Adam", "RMSprop", "Adagrad"]
+    def init_optimizer(self, OptimizerClass: type[Optimizer], learning_rate=None) -> torch.optim.Optimizer:
 
-        optimizer_classes = {
-            "Adam": torch.optim.Adam,
-            "RMSprop": torch.optim.RMSprop,
-            "Adagrad": torch.optim.Adagrad,
-        }
-
-        OptimizerClass = optimizer_classes[model_setting.optimizer]
-
-        if model_setting.lr is None:
+        if learning_rate is None:
             optimizer = OptimizerClass(self.model.parameters())
         else:
-            optimizer = OptimizerClass(self.model.parameters(), model_setting.lr)
+            optimizer = OptimizerClass(self.model.parameters(), learning_rate)
 
         self.optimizer = optimizer
 
@@ -68,7 +63,7 @@ class ModelHandler:
 
     def train(self, train_loader: torch.utils.data.DataLoader):
         self.model.train()
-
+    
         for batch in train_loader:
             train_weights = torch.ones_like(batch["operator"].y)
             train_weights[batch["operator"].y == 0] = self.neg_weight

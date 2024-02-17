@@ -18,7 +18,7 @@ def generate_graphs(domain_task_dir, output_dir, use_relaxed_plan, use_simple_la
 
     # For all runs inside a task folder
     for run_dir in runs_dirs:
-        if run_dir == "domain.pddl":
+        if run_dir == "domain.pddl" or run_dir == ".DS_Store":
             continue
         # e.g: graph_training_data/satellite/p01-2-2-2-5-7
         path_run_dir = os.path.join(domain_task_dir, run_dir)

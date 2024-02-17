@@ -55,7 +55,15 @@ def run_gnn_preprocessor(sas_path, output_dir, model_path, threshold, retries=No
         model_setting = ModelSetting.from_file(os.path.join(model_path.split("/")[0] ,model_path.split("/")[1], "model_settings.txt"))
     else:
         model_setting = ModelSetting.from_path(model_path)
-    Architecture = architectures.get_dynamic(model_setting)
+    Architecture = architectures.DynamicGNN(
+        conv_type=model_setting.conv_type,
+        layers_num=model_setting.layers_num,
+        hidden_size=model_setting.hidden_size,
+        activation_functions=[model_setting.activation_function],
+        conv_specific_kwargs=model_setting.conv_type_specific_kwargs,
+        use_batch_norm=model_setting.use_batch_norm,
+        standardize_input_using_batch_norm=model_setting.standardize_input_using_batch_norm,
+    )
     init_model = Architecture()
     # TODO KURWA
     model_handler = ModelHandler(init_model, model_path)

@@ -1,102 +1,199 @@
 import torch
+from enum import Enum
 from typing import TYPE_CHECKING
 from torch_geometric.nn import SAGEConv
 from torch_geometric.nn import GCNConv
 from torch_geometric.nn import GATConv
+from torch_geometric.nn.conv import MessagePassing
+
+
 
 if TYPE_CHECKING:
     from .training import ModelSetting
 
+class EActivationFunction(Enum):
+    RELU = "relu"
+    SIGMOID = "sigmoid"
+    TANH = "tanh"
 
-def get_dynamic(model_setting: "ModelSetting"):
-    CONVOLUTIONS = {
-        "SAGEConv": SAGEConv,
-        "GATConv": GATConv,
-        "GCNConv": GCNConv,
-    }
-    """
-    Hidden size diminishes by the order of 2
+class EConvolution(Enum):
+    SAGEConv = "SAGEConv"
+    GCNConv = "GCNConv"
+    GATConv = "GATConv"
 
-    Example:
-        layers_num = 3
-        hidden_size = 128
-        conv_type = "SAGEConv"
-        conv0 = SAGEConv((-1, -1), 128)
-        conv1 = SAGEConv((-1, -1), 64)
-        conv2 = SAGEConv((-1, -1), 32)
-    """
-    ConvClass = CONVOLUTIONS[model_setting.conv_type]
+    def to_message_passing_type(self) -> type[MessagePassing]:
+        if self == EConvolution.SAGEConv:
+            return SAGEConv
+        elif self == EConvolution.GCNConv:
+            return GCNConv
+        elif self == EConvolution.GATConv:
+            return GATConv
+        else:
+            raise ValueError(f"Convolution type {self} not supported")
 
-    class GNN(torch.nn.Module):
-        def __init__(self, out_channels=1):
-            super().__init__()
-            self.layers_num = model_setting.layers_num
+    def to_message_passing_layer(self, hidden_size, **kwargs) -> MessagePassing:
+        """The negative values come from the fact that the input size is not known yet"""
+        if self == EConvolution.SAGEConv:
+            return SAGEConv((-1, -1), hidden_size, **kwargs)
+        elif self == EConvolution.GCNConv:
+            return GCNConv((-1, -1), hidden_size, **kwargs)
+        elif self == EConvolution.GATConv:
+            return GATConv((-1, -1), hidden_size, **kwargs)
+        else:
+            raise ValueError(f"Convolution type {self} not supported")
+
+
+import torch.nn.functional as F
+from torch.nn import Dropout, BatchNorm1d
+
+class DynamicGNN(torch.nn.Module):
+    def __init__(
+        self,
+        *,
+        conv_type: EConvolution,
+        hidden_size: int,
+        layers_num: int,
+        activation_function: EActivationFunction,
+        # activation_functions: list,  # Todo when we want to use different activation functions based on layer
+        conv_specific_kwargs: dict = None,
+        use_batch_norm=False,
+        standardize_input_using_batch_norm=False,
+    ):
+        super().__init__()
+        self.layers_num = layers_num
+        self.conv_type = conv_type
+        self.hidden_size = hidden_size
+        self.activation_function = activation_function
+        # self.activation_functions = activation_functions  # Todo when we want to use different activation functions based on layer
+        self.conv_specific_kwargs = conv_specific_kwargs
+        self.out_channels = 1  # Classification problem most likely never change
+        self.use_batch_norm = use_batch_norm
+        self.standardize_input_using_batch_norm = standardize_input_using_batch_norm
+
+        self._initialize_network()
+
+    def _initialize_network(self):
+        # Initial batch normalization to scale input
+        
+        if self.standardize_input_using_batch_norm:
+            self.batch_norm_input = BatchNorm1d(self.hidden_size)
+        try:
             for i in range(self.layers_num):
-                setattr(self, f"conv{i}", ConvClass((-1, -1), model_setting.hidden_size // (2**i)))
-            self.output = ConvClass((-1, -1), out_channels)
+                new_layer = self.conv_type.to_message_passing_layer(
+                    self.hidden_size, **self.conv_specific_kwargs
+                )
+                setattr(self, f"conv{i}", new_layer)
 
-        def forward(self, x, edge_index):
-            for i in range(self.layers_num):
-                x = getattr(self, f"conv{i}")(x, edge_index)
-                x = x.relu()
-            x = self.output(x, edge_index)
-            x = x.sigmoid()
-            return x
+                if self.use_batch_norm:
+                    setattr(self, f"batch_norm{i}", BatchNorm1d(self.hidden_size))
 
-    return GNN
+            # Add last layer
+            self.output = self.conv_type.to_message_passing_layer(
+                self.out_channels, **self.conv_specific_kwargs
+            )
+        except TypeError as e:
+            raise ValueError(
+                "Model specific kwargs:"
+                f"{self.conv_specific_kwargs} are not valid "
+                f"for {self.conv_type.to_message_passing_type()}"
+            ) from e
+
+    def forward(self, x, edge_index):
+        for i in range(self.layers_num):
+            # Input data can be standardized using batch norm
+            if self.standardize_input_using_batch_norm:
+                x = self.batch_norm_input(x)
+
+            # Pass that through the convolutional layer
+            conv_layer: MessagePassing = getattr(self, f"conv{i}")
+            x = conv_layer(x, edge_index)
+
+            # activation_function = self.activation_functions[i]  # Todo when we want to use different activation functions based on layer
+            x = getattr(F, self.activation_function.value)(x)
+            
+            if self.use_batch_norm:
+                batch_norm_layer = getattr(self, f"batch_norm{i}")
+                x = batch_norm_layer(x)
 
 
-def _get_SAGEConv(hidden_size):
-    return SAGEConv((-1, -1), hidden_size)
 
-def _get_GATConv(hidden_size, heads=1):
-    return GATConv((-1, -1), hidden_size, heads=heads, add_self_loops=False)
+        x = self.output(x, edge_index)
+        x = x.sigmoid()
+        return x
+    
 
-def _get_GCNConv(hidden_size):
-    return GCNConv((-1, -1), hidden_size)
 
-def get_dynamic(model_setting: "ModelSetting"):
+class DynamicGNNTest(torch.nn.Module):
+    """A dynamic GNN model with the specified parameters.
+
+    :param conv_type: The type of convolution to use from `EConvolution`
+    :param hidden_size: The size of all hidden layers
+    :param layers_num: The number of layers to use
+    :param conv_specific_kwargs: The specific kwargs for the convolution type
+    :param activation_function: The activation function to use, defaults to None
+    :param out_channels: The number of output channels, defaults to 1
     """
-    Dynamic model creation
+    def __init__(
+        self,
+        *,
+        conv_type: EConvolution,
+        hidden_size: int,
+        layers_num: int,
+        activation_function: EActivationFunction,
+        conv_specific_kwargs: dict = None,
+        out_channels=1,
+        **kwargs,
 
-    Hidden size diminishes by the order of 2
-        Example:
-            layers_num = 3
-            hidden_size = 128
-            conv_type = "SAGEConv"
-            conv0 = SAGEConv((-1, -1), 128)
-            conv1 = SAGEConv((-1, -1), 64)
-            conv2 = SAGEConv((-1, -1), 32)
-    """
-    CONVOLUTIONS = {
-        "SAGEConv": _get_SAGEConv,
-        "GATConv": _get_GATConv,
-        "GCNConv": _get_GCNConv,
-    }
+    ):
+        super().__init__()
+        self.layers_num = layers_num
+        self.conv_type = conv_type
+        self.hidden_size = hidden_size
+        self.activation_function = activation_function
+        self.conv_specific_kwargs = conv_specific_kwargs
+        self.out_channels = out_channels
+    
+        self._initialize_network()
 
-    ConvFunc = CONVOLUTIONS[model_setting.conv_type]
-
-    class GNN(torch.nn.Module):
-        def __init__(self, out_channels=1):
-            super().__init__()
-            self.layers_num = model_setting.layers_num
+    def _initialize_network(self):
+        """Initializes the network with the specified parameters.
+        
+        :raises ValueError: If the model specific kwargs are not valid for the convolution type
+        """
+        try:
             for i in range(self.layers_num):
-                current_hidden_size = model_setting.hidden_size
-                model_specific_kwargs = model_setting.model_specific_kwargs
+                    new_layer = self.conv_type.to_message_passing_layer(
+                        self.hidden_size, **self.conv_specific_kwargs
+                    )
+                    setattr(self, f"conv{i}", new_layer)
 
-                try:
-                    setattr(self, f"conv{i}", ConvFunc(current_hidden_size, **model_specific_kwargs))
-                except TypeError as e:
-                    raise Exception(f"Model specific kwargs{model_specific_kwargs} are not valid for {ConvFunc}") from e
+            # Add last layer
+            self.output = self.conv_type.to_message_passing_layer(
+                self.out_channels,
+                **self.conv_specific_kwargs
+            )
+        except TypeError as e:
+            raise ValueError(
+                "Model specific kwargs:"
+                f"{self.conv_specific_kwargs} are not valid "
+                f"for {self.conv_type.to_message_passing_type()}"
+            ) from e
 
-            self.output = ConvFunc(out_channels)
 
-        def forward(self, x, edge_index):
-            for i in range(self.layers_num):
-                x = getattr(self, f"conv{i}")(x, edge_index)
-                x = x.relu()
-            x = self.output(x, edge_index)
-            x = x.sigmoid()
-            return x
 
-    return GNN
+    def forward(self, x, edge_index):
+        for i in range(self.layers_num):
+            x = getattr(self, f"conv{i}")(x, edge_index)
+            # TODO smarter:
+            match self.activation_function:
+                case EActivationFunction.RELU:
+                    x = torch.relu(x)
+                case EActivationFunction.SIGMOID:
+                    x = torch.sigmoid(x)
+                case EActivationFunction.TANH:
+                    x = torch.tanh(x)
+
+
+        x = self.output(x, edge_index)
+        x = x.sigmoid()
+        return x

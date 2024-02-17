@@ -1,15 +1,5 @@
 torch
-jupyter
-pytest
-black
-flake8
-mypy
-networkx
-torch
+numpy
 torch-geometric
-torch_sparse
-torch_scatter
-torchvision
-matplotlib
 pandas
-downward-lab    
+matplotlib
