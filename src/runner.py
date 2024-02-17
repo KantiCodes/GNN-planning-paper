@@ -12,8 +12,9 @@ class Runner:
         # pdg_and_nodes() # TODO: Add parameters
 
         # Load model setting here
+        self.model_setting = []
         for model_setting in os.listdir("model-settings"):
-            model_setting = ModelSetting.from_file(model_setting)
+            self.model_setting.append(ModelSetting.from_file(model_setting))
 
         self.model_setting = ModelSetting() # TODO: Add parameters
         pass
