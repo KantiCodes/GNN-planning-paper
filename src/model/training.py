@@ -2,7 +2,7 @@ from datetime import datetime
 import os
 import json
 from dataclasses import dataclass, field, asdict
-from git import Optional
+from typing import Optional
 from pydantic import BaseModel
 from . import data_loading
 from . import architectures
@@ -28,7 +28,16 @@ class EOptimizer(Enum):
     ADAGRAD ="Adagrad"
 
     def to_optim(self) -> Optimizer:
-        return self.__optimizer_classes[self.value]
+        match self:
+            case EOptimizer.ADAM:
+                return Adam
+    
+            case EOptimizer.RMSPROP:
+                return RMSprop
+    
+            case EOptimizer.ADAGRAD:
+                return Adagrad
+        # return self.__optimizer_classes[self.value]
 
 class NetworkArchitecture(BaseModel):
     layers: int
