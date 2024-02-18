@@ -19,11 +19,6 @@ Path = str
 
 
 class EOptimizer(Enum):
-    __optimizer_classes = {
-            "Adam": Adam,
-            "RMSprop": RMSprop,
-            "Adagrad": Adagrad,
-    }
     ADAM = "Adam"
     RMSPROP = "RMSprop"
     ADAGRAD ="Adagrad"
