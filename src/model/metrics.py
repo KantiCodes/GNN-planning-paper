@@ -1,7 +1,30 @@
+from typing import Callable
 import torch
 import torch.nn.functional as F
 from sklearn.metrics import precision_recall_fscore_support
 from collections import namedtuple
+from enum import Enum
+from torcheval.metrics.functional import binary_f1_score
+import torch.nn.functional as F
+# TODO
+class EvalMetrics(Enum):
+    F1 = "f1"
+
+
+    def to_function(self):
+        match self:
+            case EvalMetrics.F1:
+                return binary_f1_score
+            
+
+class ELossFunction(Enum):
+    BCE = "BCE"
+
+    def to_function(self):
+        match self:
+            case ELossFunction.BCE:
+                return F.binary_cross_entropy
+
 
 Results = namedtuple("Results", ["loss", "preds", "original"])
 
@@ -27,7 +50,7 @@ def treshhold_result(data, true_data, treshold):
     return recall_positive, recall_negative, accuracy_positive, accuracy_negative
 
 
-def test_val_results(batch, model: torch.nn.Module, pos_weight, neg_weight) -> Results:
+def test_val_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_function: ELossFunction) -> Results:
     """returns loss, preds, original"""
     test_val_weights = torch.ones_like(batch["operator"].y)
     test_val_weights[batch["operator"].y == 1] = pos_weight
@@ -35,7 +58,7 @@ def test_val_results(batch, model: torch.nn.Module, pos_weight, neg_weight) -> R
 
     out = model(batch.x_dict, batch.edge_index_dict)
     # BCEWithLogitsLoss = torch.nn.BCEWithLogitsLoss()
-    loss = F.binary_cross_entropy(out["operator"], batch["operator"].y, weight=test_val_weights)
+    loss = loss_function(out["operator"], batch["operator"].y, weight=test_val_weights)
     original = batch["operator"].y
     preds = out["operator"]
     return Results(loss, preds, original)

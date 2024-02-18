@@ -3,6 +3,7 @@ import os
 import json
 from dataclasses import dataclass, field, asdict
 from typing import Optional
+from model.metrics import ELossFunction
 from pydantic import BaseModel
 from . import data_loading
 from . import architectures
@@ -80,6 +81,7 @@ class ModelSetting(BaseModel):
     standardize_input_using_batch_norm: bool = False
     conv_type_specific_kwargs: dict = {}
     index: int = 0
+    loss_function: ELossFunction = ELossFunction.BCE
 
 
     @classmethod
@@ -157,7 +159,8 @@ def train_and_save_model(
     init_model = ModelArchitecture  # initialize model with random weights
     model_handler = ModelHandler(
         init_model=init_model, weights_path=None, 
-        pos_weight=pos_weight, neg_weight=neg_weight
+        pos_weight=pos_weight, neg_weight=neg_weight,
+        loss_function=model_settings.loss_function,
     
 )
     model_handler.init_optimizer(model_settings.optimizer.to_optim(), learning_rate=model_settings.lr) 
@@ -189,6 +192,10 @@ def train_and_save_model(
     for epoch in range(1, num_epochs):
         train_results = model_handler.train(train_loader)
         train_loss = train_results.loss.item()
+        predictions = train_results.preds
+        original = train_results.original
+
+
         train_loss_list.append(train_loss)
         
         if test_set:

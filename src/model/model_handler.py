@@ -5,7 +5,7 @@ from torch_geometric.nn import to_hetero
 from torch_geometric.data import HeteroData
 from collections import namedtuple
 from model.metrics import test_val_results
-from .metrics import Results
+from .metrics import ELossFunction, Results
 
 if TYPE_CHECKING:
     from .training import ModelSetting
@@ -31,13 +31,14 @@ from torch.optim import Optimizer
 
 
 class ModelHandler:
-    def __init__(self, init_model, weights_path=None, pos_weight=1, neg_weight=1, aggr="sum"):  # TODO hyperparameter on aggr
+    def __init__(self, *, init_model, loss_function=ELossFunction, weights_path=None, pos_weight=1, neg_weight=1, aggr="sum",):  # TODO hyperparameter on aggr
         self.model = to_hetero(
             init_model, metadata=METADATA, aggr="sum"
         )
         if weights_path is not None:
             self.model.load_state_dict(torch.load(weights_path))
 
+        self.loss_function = loss_function.to_function()
         self.pos_weight: float = pos_weight
         self.neg_weight: float = neg_weight
         self.optimizer = None
@@ -72,7 +73,7 @@ class ModelHandler:
             out = self.model(batch.x_dict, batch.edge_index_dict)
             # metric_loss = torch.nn.BCEWithLogitsLoss()
             # loss = metric_loss(out['operator'], batch['operator'].y)
-            loss = F.binary_cross_entropy(
+            loss = self.loss_function(
                 out["operator"], batch["operator"].y, weight=train_weights
             )
             loss.backward()
@@ -102,4 +103,4 @@ class ModelHandler:
         # if not all from plan are good
         # then we have some key-map for the files
         # add the test failed that failed xxx times more to the train set
-        return test_val_results(test_batch, self.model, self.pos_weight, self.neg_weight)
+        return test_val_results(test_batch, self.model, self.pos_weight, self.neg_weight, self.loss_function)

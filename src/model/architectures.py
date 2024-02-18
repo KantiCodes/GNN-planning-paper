@@ -8,9 +8,14 @@ from torch_geometric.nn import GINConv
 from torch_geometric.nn.conv import MessagePassing
 
 
-
 if TYPE_CHECKING:
     from .training import ModelSetting
+
+
+# class ELossFunction(Enum):
+#     BCEWithLogitsLoss = "BCEWithLogitsLoss"
+#     BCELoss = "BCELoss"
+#     CrossEntropyLoss = "CrossEntropyLoss"
 
 class EActivationFunction(Enum):
     RELU = "relu"
@@ -127,6 +132,7 @@ class DynamicGNN(torch.nn.Module):
 
         x = self.output(x, edge_index)
         x = x.sigmoid()
+        # x = getattr(F, self.classfication_function.value)(x)  # TODO we need to add parametrization for classification function. It is already parametrized in ModelSetting
         return x
     
 
