@@ -8,8 +8,9 @@ from pydantic import BaseModel
 from . import data_loading
 from . import architectures
 from .model_handler import ModelHandler
+from model.metrics import EEvalMetric
 from torch.optim import Optimizer, Adam, RMSprop, Adagrad
-from enum import Enum
+from model import ReprStrEnum
 
 file_path = str
 dir_path = str
@@ -17,8 +18,15 @@ dir_path = str
 
 Path = str 
 
+class ReprStrEnum(ReprStrEnum):
+    def __str__(self):
+        return self.value
+    
+    def __repr__(self):
+        return self.value
 
-class EOptimizer(Enum):
+
+class EOptimizer(str, ReprStrEnum):
     ADAM = "Adam"
     RMSPROP = "RMSprop"
     ADAGRAD ="Adagrad"
@@ -34,6 +42,12 @@ class EOptimizer(Enum):
             case EOptimizer.ADAGRAD:
                 return Adagrad
         # return self.__optimizer_classes[self.value]
+    
+    def __str__(self):
+        return self.value
+    
+    def __repr__(self):
+        return self.value
 
 class NetworkArchitecture(BaseModel):
     layers: int
@@ -76,7 +90,9 @@ class ModelSetting(BaseModel):
     standardize_input_using_batch_norm: bool = False
     conv_type_specific_kwargs: dict = {}
     index: int = 0
+
     loss_function: ELossFunction = ELossFunction.BCE
+    eval_metric: EEvalMetric = EEvalMetric.F1
 
 
     @classmethod
@@ -118,7 +134,7 @@ def train_and_save_model(
         time = datetime.now()
         model_settings_path = f"model_settings_{time}.json"
         with open(model_settings_path, "w") as f:
-            json.dump(model_settings.model_dump_json(), f) 
+            json.dump(dict(model_settings), f)
 
     this_model_path = os.path.join(models_dir, model_settings_path.split("/")[-1].split(".")[0])
 
@@ -142,7 +158,8 @@ def train_and_save_model(
         train_set, test_set, val_set=val_set, batch_size=batch_size
     )
 
-    ModelArchitecture = architectures.DynamicGNN(
+    # initialize model with random weights
+    init_model = architectures.DynamicGNN(
         conv_type=model_settings.conv_type,
         layers_num=model_settings.layers_num,
         hidden_size=model_settings.hidden_size,
@@ -151,11 +168,11 @@ def train_and_save_model(
         use_batch_norm=model_settings.use_batch_norm,
         standardize_input_using_batch_norm=model_settings.standardize_input_using_batch_norm,
     )
-    init_model = ModelArchitecture  # initialize model with random weights
     model_handler = ModelHandler(
         init_model=init_model, weights_path=None, 
         pos_weight=pos_weight, neg_weight=neg_weight,
         loss_function=model_settings.loss_function,
+        eval_metric=model_settings.eval_metric,
     
 )
     model_handler.init_optimizer(model_settings.optimizer.to_optim(), learning_rate=model_settings.lr) 
@@ -163,57 +180,61 @@ def train_and_save_model(
     train_loss_list = []
     test_loss_list = []
     val_loss_list = []
-    # import mlflow
-    # experiment_description = (
-    #     "This is the grocery forecasting project. "
-    #     "This experiment contains the produce models for apples."
-    # )
-    # experiment_tags = {
-    #     "project_name": "grocery-forecasting",
-    #     "store_dept": "produce",
-    #     "team": "huzar",
-    #     "project_quarter": "Q3-2024",
-    #     "mlflow.note.content": experiment_description,
-    # }
-    # mlflow.set_tracking_uri("http://127.0.0.1:5000")
-    # gnn_experiment = mlflow.set_experiment(experiment_name="gnn")
-    # input("Press Enter to continue...")
-    # run_name = "gnn_stuff"
-    # artifact_path = "gnn_stuff"
-    # mlflow.pytorch.autolog()
-    # params = asdict(model_settings)
-    # with mlflow.start_run(run_name=run_name) as run:
-        # Parameter to save the plots
-    for epoch in range(1, num_epochs):
-        train_results = model_handler.train(train_loader)
-        train_loss = train_results.loss.item()
-        predictions = train_results.preds
-        original = train_results.original
+    import mlflow
+    experiment_description = "Test run of the runner with multiple settings"
+    experiment_tags = {
+        "project_name": "Initial project",
+        "mlflow.note.content": experiment_description,
+    }
+    mlflow.set_tracking_uri("http://127.0.0.1:5000")
+    gnn_experiment = mlflow.set_experiment(experiment_name="Hyperparameters experiment")
+    input("Press Enter to continue...")
+    run_name = "batch_norm_and_x64"
+    mlflow.pytorch.autolog()
+    params = model_settings.model_dump()
+    with mlflow.start_run(run_name=run_name) as run:
+        for epoch in range(1, num_epochs):
+            this_epoch_metrics = {}
+            train_results = model_handler.train(train_loader)
+            train_loss = train_results.loss.item()
+            train_metrics = train_results.metric
 
+            train_loss_list.append(train_loss)
 
-        train_loss_list.append(train_loss)
-        
-        if test_set:
-            # Somehow from here or the following functions we need to be able to retrieve the actions 
-            test_results = model_handler.test(test_loader)
-            test_loss_list.append(test_results.loss.item())
+            this_epoch_metrics["train_loss"] = train_loss
+            this_epoch_metrics["train_metrics"] = train_metrics
+            
+            if test_set:
+                # Somehow from here or the following functions we need to be able to retrieve the actions 
+                test_results = model_handler.test(test_loader)
+                test_loss = test_results.loss.item()
+                test_metrics = test_results.metric
+                test_loss_list.append(test_loss)
+                this_epoch_metrics["test_loss"] = test_loss
+                this_epoch_metrics["test_metrics"] = test_metrics
 
-        if val_set:
-            val_results = model_handler.test(val_loader)
-            val_loss_list.append(val_loss_list.append(val_results.loss.item()))
+            if val_set:
+                val_results = model_handler.test(val_loader)
+                val_loss = val_results.loss.item()
+                val_metrics = val_results.metric
+                val_loss_list.append(val_loss)
+                this_epoch_metrics["val_loss"] = val_loss
+                this_epoch_metrics["val_metrics"] = val_metrics
 
-        if epoch % 10 == 0:
-            print("Epoch: ",epoch,)
-            print("Train loss: ",train_results.loss.item())
-            # if test_set:
-            #     print("Test loss: ",test_results.loss.item())
-            # print("saving model")
-            # model_handler.save_model(this_model_path)
+            if epoch % 10 == 0:
+                print("Epoch: ",epoch,)
+                print("Train loss: ",train_loss)
+            
+            mlflow.log_metrics(metrics=this_epoch_metrics, step=epoch)
+                # if test_set:
+                #     print("Test loss: ",test_results.loss.item())
+                # print("saving model")
+                # model_handler.save_model(this_model_path)
         #     metrics = {
         #         "train_loss": train_loss, "test_loss": 0.5,
         #     }
         #     mlflow.log_metrics(metrics, step=epoch)
-        # mlflow.log_params(params)
+        mlflow.log_params(params)
         
 
 

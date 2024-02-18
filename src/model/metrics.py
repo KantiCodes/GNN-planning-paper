@@ -1,23 +1,25 @@
+from dataclasses import dataclass
 from typing import Callable
+from pydantic import BaseModel
 import torch
 import torch.nn.functional as F
 from sklearn.metrics import precision_recall_fscore_support
 from collections import namedtuple
-from enum import Enum
+from model import ReprStrEnum
 from torcheval.metrics.functional import binary_f1_score
 import torch.nn.functional as F
 # TODO
-class EvalMetrics(Enum):
+class EEvalMetric(str, ReprStrEnum):
     F1 = "f1"
 
 
     def to_function(self):
         match self:
-            case EvalMetrics.F1:
+            case EEvalMetric.F1:
                 return binary_f1_score
             
 
-class ELossFunction(Enum):
+class ELossFunction(str, ReprStrEnum):
     BCE = "BCE"
 
     def to_function(self):
@@ -25,8 +27,13 @@ class ELossFunction(Enum):
             case ELossFunction.BCE:
                 return F.binary_cross_entropy
 
+@dataclass
+class Results:
+    loss: float
+    metric: float
+    preds: torch.Tensor
+    original: torch.Tensor
 
-Results = namedtuple("Results", ["loss", "preds", "original"])
 
 
 def treshhold_result(data, true_data, treshold):
@@ -50,7 +57,7 @@ def treshhold_result(data, true_data, treshold):
     return recall_positive, recall_negative, accuracy_positive, accuracy_negative
 
 
-def test_val_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_function: ELossFunction) -> Results:
+def test_val_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_function, eval_metric,) -> Results:
     """returns loss, preds, original"""
     test_val_weights = torch.ones_like(batch["operator"].y)
     test_val_weights[batch["operator"].y == 1] = pos_weight
@@ -59,9 +66,10 @@ def test_val_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss
     out = model(batch.x_dict, batch.edge_index_dict)
     # BCEWithLogitsLoss = torch.nn.BCEWithLogitsLoss()
     loss = loss_function(out["operator"], batch["operator"].y, weight=test_val_weights)
+    metric_result = eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
     original = batch["operator"].y
     preds = out["operator"]
-    return Results(loss, preds, original)
+    return Results(loss, metric_result, preds, original)
 
 
 def evaluate_and_return_confusion(model: torch.nn.Module, data):

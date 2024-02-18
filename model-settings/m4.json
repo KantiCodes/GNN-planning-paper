@@ -1,9 +1,0 @@
-{
-    "layers_num": 3,
-    "hidden_size":16,
-    "conv_type": "SAGEConv",
-    "aggr": "mean",
-    "optimizer": "Adam",
-    "lr": "0.001",
-    "kwargs": ""
-}

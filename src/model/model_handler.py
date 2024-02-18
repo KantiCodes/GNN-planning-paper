@@ -5,7 +5,7 @@ from torch_geometric.nn import to_hetero
 from torch_geometric.data import HeteroData
 from collections import namedtuple
 from model.metrics import test_val_results
-from .metrics import ELossFunction, Results
+from .metrics import EEvalMetric, ELossFunction, Results
 
 if TYPE_CHECKING:
     from .training import ModelSetting
@@ -25,13 +25,23 @@ METADATA = (
     ],
 )
 
-from enum import Enum
+from model import ReprStrEnum
 from torch.optim import Optimizer
 
 
 
 class ModelHandler:
-    def __init__(self, *, init_model, loss_function=ELossFunction, weights_path=None, pos_weight=1, neg_weight=1, aggr="sum",):  # TODO hyperparameter on aggr
+    def __init__(
+        self,
+        *,
+        init_model,
+        loss_function: ELossFunction,
+        eval_metric: EEvalMetric,
+        weights_path=None,
+        pos_weight=1,
+        neg_weight=1,
+        aggr="sum",
+    ):  # TODO hyperparameter on aggr
         self.model = to_hetero(
             init_model, metadata=METADATA, aggr="sum"
         )
@@ -39,6 +49,7 @@ class ModelHandler:
             self.model.load_state_dict(torch.load(weights_path))
 
         self.loss_function = loss_function.to_function()
+        self.eval_metric = eval_metric.to_function()
         self.pos_weight: float = pos_weight
         self.neg_weight: float = neg_weight
         self.optimizer = None
@@ -71,15 +82,17 @@ class ModelHandler:
             train_weights[batch["operator"].y == 1] = self.pos_weight
             self.optimizer.zero_grad()
             out = self.model(batch.x_dict, batch.edge_index_dict)
-            # metric_loss = torch.nn.BCEWithLogitsLoss()
-            # loss = metric_loss(out['operator'], batch['operator'].y)
+
+            # Torch eval requires one dimensional tensors and these are X,1
+            metric_result = self.eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
+
             loss = self.loss_function(
                 out["operator"], batch["operator"].y, weight=train_weights
             )
             loss.backward()
             self.optimizer.step()
         # loss, pred, original
-        return Results(loss, out["operator"], batch["operator"].y)
+        return Results(loss, metric_result, out["operator"], batch["operator"].y)
 
     def get_action_predictions(model: torch.nn.Module, state: torch.Tensor) -> torch.Tensor:
         pass
@@ -97,10 +110,18 @@ class ModelHandler:
         return action_predictions
 
     @torch.no_grad()
-    def test(self, data_loader: torch.utils.data.DataLoader):
+    def test(self, data_loader: torch.utils.data.DataLoader) -> Results:
         self.model.eval()
         test_batch = next(iter(data_loader))
         # if not all from plan are good
         # then we have some key-map for the files
         # add the test failed that failed xxx times more to the train set
-        return test_val_results(test_batch, self.model, self.pos_weight, self.neg_weight, self.loss_function)
+        return test_val_results(
+            test_batch,
+            self.model,
+            self.pos_weight,
+            self.neg_weight,
+            self.loss_function,
+            self.eval_metric,
+        )
+    

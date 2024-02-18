@@ -1,5 +1,5 @@
 import torch
-from enum import Enum
+from model import ReprStrEnum
 from typing import TYPE_CHECKING
 from torch_geometric.nn import SAGEConv
 from torch_geometric.nn import GCNConv
@@ -12,17 +12,17 @@ if TYPE_CHECKING:
     from .training import ModelSetting
 
 
-# class ELossFunction(Enum):
+# class ELossFunction(ReprStrEnum):
 #     BCEWithLogitsLoss = "BCEWithLogitsLoss"
 #     BCELoss = "BCELoss"
 #     CrossEntropyLoss = "CrossEntropyLoss"
 
-class EActivationFunction(Enum):
+class EActivationFunction(str, ReprStrEnum):
     RELU = "relu"
     SIGMOID = "sigmoid"
     TANH = "tanh"
 
-class EConvolution(Enum):
+class EConvolution(str, ReprStrEnum):
     SAGEConv = "SAGEConv"
     GCNConv = "GCNConv"
     GATConv = "GATConv"
