@@ -4,6 +4,7 @@ from typing import TYPE_CHECKING
 from torch_geometric.nn import SAGEConv
 from torch_geometric.nn import GCNConv
 from torch_geometric.nn import GATConv
+from torch_geometric.nn import GINConv
 from torch_geometric.nn.conv import MessagePassing
 
 
@@ -20,6 +21,7 @@ class EConvolution(Enum):
     SAGEConv = "SAGEConv"
     GCNConv = "GCNConv"
     GATConv = "GATConv"
+    GINConv = "GINConv"
 
     def to_message_passing_type(self) -> type[MessagePassing]:
         if self == EConvolution.SAGEConv:
@@ -28,6 +30,8 @@ class EConvolution(Enum):
             return GCNConv
         elif self == EConvolution.GATConv:
             return GATConv
+        elif self == EConvolution.GINConv:
+            return GINConv
         else:
             raise ValueError(f"Convolution type {self} not supported")
 
@@ -77,26 +81,26 @@ class DynamicGNN(torch.nn.Module):
         
         if self.standardize_input_using_batch_norm:
             self.batch_norm_input = BatchNorm1d(self.hidden_size)
-        try:
-            for i in range(self.layers_num):
-                new_layer = self.conv_type.to_message_passing_layer(
-                    self.hidden_size, **self.conv_specific_kwargs
-                )
-                setattr(self, f"conv{i}", new_layer)
-
-                if self.use_batch_norm:
-                    setattr(self, f"batch_norm{i}", BatchNorm1d(self.hidden_size))
-
-            # Add last layer
-            self.output = self.conv_type.to_message_passing_layer(
-                self.out_channels, **self.conv_specific_kwargs
+        # try:
+        for i in range(self.layers_num):
+            new_layer = self.conv_type.to_message_passing_layer(
+                self.hidden_size, **self.conv_specific_kwargs
             )
-        except TypeError as e:
-            raise ValueError(
-                "Model specific kwargs:"
-                f"{self.conv_specific_kwargs} are not valid "
-                f"for {self.conv_type.to_message_passing_type()}"
-            ) from e
+            setattr(self, f"conv{i}", new_layer)
+
+            if self.use_batch_norm:
+                setattr(self, f"batch_norm{i}", BatchNorm1d(self.hidden_size))
+
+        # Add last layer
+        self.output = self.conv_type.to_message_passing_layer(
+            self.out_channels, **self.conv_specific_kwargs
+        )
+        # except TypeError as e:
+        #     raise ValueError(
+        #         "Model specific kwargs:"
+        #         f"{self.conv_specific_kwargs} are not valid "
+        #         f"for {self.conv_type.to_message_passing_type()}"
+        #     ) from e
 
     def forward(self, x, edge_index):
         for i in range(self.layers_num):

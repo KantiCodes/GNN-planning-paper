@@ -1,12 +1,15 @@
+from datetime import datetime
 import os
 import json
 from dataclasses import dataclass, field, asdict
+from git import Optional
 from pydantic import BaseModel
 from . import data_loading
 from . import architectures
 from .model_handler import ModelHandler
 from torch.optim import Optimizer, Adam, RMSprop, Adagrad
 from enum import Enum
+
 file_path = str
 dir_path = str
 
@@ -59,7 +62,7 @@ class ModelSetting(BaseModel):
     lr: float
     layers_num: int
     hidden_size: int
-    aggr: str  # How to aggregate the neighbours
+    # aggr: str  # How to aggregate the neighbours  # currently not used
     optimizer: EOptimizer
     conv_type: architectures.EConvolution
     activation_function: architectures.EActivationFunction = architectures.EActivationFunction.RELU
@@ -76,13 +79,43 @@ class ModelSetting(BaseModel):
             data=json.load(f)
 
         return ModelSetting(**data)
-
-
-def train_and_save_model(models_dir, model_settings: Path | ModelSetting, train_instances:list[file_path],
-                         test_instances:list[file_path], num_epochs, batch_size, val_instances=None):
     
-    model_settings = ModelSetting.from_file(model_settings_path)
+
+
+def train_and_save_model(
+    models_dir, 
+    train_instances:list[file_path],
+    test_instances:list[file_path],
+    num_epochs,
+    batch_size,
+    model_settings_path: Optional[Path] = None,
+    model_settings: Optional[ModelSetting] = None,
+    val_instances=None
+):
+    """This function trains a model using the given settings and saves the model in the models_dir
+    
+    :param models_dir: The directory where the models will be saved
+    :param train_instances: A list of paths to the training instances
+    :param test_instances: A list of paths to the test instances
+    :param num_epochs: The number of epochs to train the model
+    :param batch_size: The batch size to use
+    :param model_settings_path: The path to the model settings file
+    :param model_settings: The model settings to use
+    :param val_instances: A list of paths to the validation instances
+    """
+    if not model_settings and not model_settings_path:
+        raise ValueError("Either model_settings or model_settings_path must be provided")
+    
+    if model_settings_path:
+        model_settings = ModelSetting.from_file(model_settings_path)
+    else:
+        time = datetime.now()
+        model_settings_path = f"model_settings_{time}.json"
+        with open(model_settings_path, "w") as f:
+            json.dump(model_settings.model_dump_json(), f) 
+
     this_model_path = os.path.join(models_dir, model_settings_path.split("/")[-1].split(".")[0])
+
 
     train_set = data_loading.build_data_set(problem_instances=train_instances)
     test_set = []
@@ -164,7 +197,7 @@ def train_and_save_model(models_dir, model_settings: Path | ModelSetting, train_
             # if test_set:
             #     print("Test loss: ",test_results.loss.item())
             # print("saving model")
-            model_handler.save_model(this_model_path)
+            # model_handler.save_model(this_model_path)
         #     metrics = {
         #         "train_loss": train_loss, "test_loss": 0.5,
         #     }
