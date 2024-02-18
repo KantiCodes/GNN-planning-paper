@@ -3,6 +3,7 @@ from graph_building import pdg_and_nodes
 from model.architectures import EActivationFunction, EConvolution
 from model.training import ModelSetting, train_and_save_model
 import os
+import random
 from pydantic import BaseModel
 
 from model.training import EOptimizer
@@ -35,10 +36,19 @@ class Runner():
     def prepare(self):
         # TODO FIX IT:
         data_location = "test123"
-        self.training_instances = [os.path.join(data_location, x) for x in os.listdir(data_location)]
-        return # TODO what goes here?
-        # Load data here
 
+        all_instances = [os.path.join(data_location, x) for x in os.listdir(data_location)]
+
+        # Shuffle the instances
+        random.shuffle(all_instances)
+
+        # Do random split here
+        self.training_instances = all_instances[:int(len(all_instances) * 0.8)]
+        self.test_instances = all_instances[int(len(all_instances) * 0.8):]
+        return # TODO what goes here?
+    
+
+        # Load data here
         # This step only if we create  graphs here 
         # pdg_and_nodes() # TODO: Add parameters
 
