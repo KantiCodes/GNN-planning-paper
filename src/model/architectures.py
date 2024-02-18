@@ -24,27 +24,31 @@ class EConvolution(Enum):
     GINConv = "GINConv"
 
     def to_message_passing_type(self) -> type[MessagePassing]:
-        if self == EConvolution.SAGEConv:
-            return SAGEConv
-        elif self == EConvolution.GCNConv:
-            return GCNConv
-        elif self == EConvolution.GATConv:
-            return GATConv
-        elif self == EConvolution.GINConv:
-            return GINConv
-        else:
-            raise ValueError(f"Convolution type {self} not supported")
+        match self:
+            case EConvolution.SAGEConv:
+                return SAGEConv
+            case EConvolution.GCNConv:
+                return GCNConv
+            case EConvolution.GATConv:
+                return GATConv
+            case EConvolution.GINConv:
+                return GINConv
+            case _:
+                raise ValueError(f"Convolution type {self} not supported")
 
     def to_message_passing_layer(self, hidden_size, **kwargs) -> MessagePassing:
         """The negative values come from the fact that the input size is not known yet"""
-        if self == EConvolution.SAGEConv:
-            return SAGEConv((-1, -1), hidden_size, **kwargs)
-        elif self == EConvolution.GCNConv:
-            return GCNConv((-1, -1), hidden_size, **kwargs)
-        elif self == EConvolution.GATConv:
-            return GATConv((-1, -1), hidden_size, **kwargs)
-        else:
-            raise ValueError(f"Convolution type {self} not supported")
+        match self:
+            case EConvolution.SAGEConv:
+                return SAGEConv((-1, -1), hidden_size, **kwargs)
+            case EConvolution.GCNConv:
+                return GCNConv((-1, -1), hidden_size, **kwargs)
+            case EConvolution.GATConv:
+                return GATConv((-1, -1), hidden_size, **kwargs)
+            case EConvolution.GINConv:
+                return GINConv((-1, -1), hidden_size, **kwargs)
+            case _:
+                raise ValueError(f"Convolution type {self} not supported")
 
 
 import torch.nn.functional as F

@@ -163,6 +163,7 @@ cython_debug/
 scorpion/experiments/*
 
 *.DS_Store
+.vs_code/
 
 # Data
 /data
