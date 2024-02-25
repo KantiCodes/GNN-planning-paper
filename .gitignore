@@ -165,5 +165,6 @@ scorpion/experiments/*
 *.DS_Store
 .vs_code/
 
-# Data
-/data
+# 
+fast-downward-symbolic-optimal-actions/
+*fast-downward-symbolic-optimal-actions*
