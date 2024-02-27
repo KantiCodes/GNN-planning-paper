@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0"
-  "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-build"
-  "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0"
-  "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/tmp"
-  "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp"
-  "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src"
-  "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp"
+  "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0"
+  "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-build"
+  "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0"
+  "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/tmp"
+  "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp"
+  "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src"
+  "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/src/libcudd.a-stamp${cfgdir}") # cfgdir has leading slash
 endif()

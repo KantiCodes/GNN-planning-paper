@@ -768,14 +768,14 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} '/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' aclocal-1.16
+ACLOCAL = ${SHELL} '/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' aclocal-1.16
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
 AS = as
-AUTOCONF = ${SHELL} '/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' autoconf
-AUTOHEADER = ${SHELL} '/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' autoheader
-AUTOMAKE = ${SHELL} '/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' automake-1.16
+AUTOCONF = ${SHELL} '/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' autoconf
+AUTOHEADER = ${SHELL} '/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' autoheader
+AUTOMAKE = ${SHELL} '/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' automake-1.16
 AWK = awk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -791,7 +791,7 @@ CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
 DLLTOOL = false
-DOXYGEN = 
+DOXYGEN = doxygen
 DSYMUTIL = 
 DUMPBIN = 
 ECHO_C = \c
@@ -816,7 +816,7 @@ LIPO =
 LN_S = ln -s
 LTLIBOBJS = 
 MAKEINDEX = 
-MAKEINFO = ${SHELL} '/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' makeinfo
+MAKEINFO = ${SHELL} '/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/missing' makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = ./build-aux/install-sh -c -d
 NM = /usr/bin/nm -B
@@ -840,10 +840,10 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = strip
 VERSION = 3.0.0
-abs_builddir = /Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
-abs_srcdir = /Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
-abs_top_builddir = /Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
-abs_top_srcdir = /Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
+abs_builddir = /Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
+abs_srcdir = /Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
+abs_top_builddir = /Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
+abs_top_srcdir = /Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -873,7 +873,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/install-sh
+install_sh = ${SHELL} /Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0/build-aux/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -1097,8 +1097,8 @@ $(srcdir)/config.h.in:  $(am__configure_deps)
 
 distclean-hdr:
 	-rm -f config.h stamp-h1
-#Doxyfile: $(top_builddir)/config.status $(srcdir)/Doxyfile.in
-#	cd $(top_builddir) && $(SHELL) ./config.status $@
+Doxyfile: $(top_builddir)/config.status $(srcdir)/Doxyfile.in
+	cd $(top_builddir) && $(SHELL) ./config.status $@
 #doc/cudd.tex: $(top_builddir)/config.status $(top_srcdir)/doc/cudd.tex.in
 #	cd $(top_builddir) && $(SHELL) ./config.status $@
 dddmp/exp/test1.sh: $(top_builddir)/config.status $(top_srcdir)/dddmp/exp/test1.sh.in
@@ -3137,7 +3137,7 @@ distclean-generic:
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
-clean-local:
+#clean-local:
 clean: clean-am
 
 clean-am: clean-checkPROGRAMS clean-generic clean-libLTLIBRARIES \
@@ -3516,14 +3516,14 @@ dist-hook:
 
 all: html/index.html doc/cudd.pdf
 
-#html/index.html: Doxyfile $(lib_LTLIBRARIES)
-#	@if $(AM_V_P); then dest='2>&1'; else dest='> /dev/null 2>&1'; fi; \
-#	eval "$(DOXYGEN) $< $${dest}"
+html/index.html: Doxyfile $(lib_LTLIBRARIES)
+	@if $(AM_V_P); then dest='2>&1'; else dest='> /dev/null 2>&1'; fi; \
+	eval "$(DOXYGEN) $< $${dest}"
 
-#clean-local:
-#	rm -rf html doxygen_sqlite3.db
+clean-local:
+	rm -rf html doxygen_sqlite3.db
 
-html/index.html:
+#html/index.html:
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

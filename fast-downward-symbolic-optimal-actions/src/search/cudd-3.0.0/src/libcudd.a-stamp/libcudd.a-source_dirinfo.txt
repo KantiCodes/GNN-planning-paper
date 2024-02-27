@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/piotrgzubicki/School/projectGNNs/data_generator/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
+source_dir=/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/src/search/cudd-3.0.0
 work_dir=
 
