@@ -16,6 +16,7 @@ from datetime import datetime
 import time
 
 def process_file(input_problem_file, input_domain_file, output_directory):
+    print(f"Processing file: {input_problem_file}")
     with tempfile.TemporaryDirectory() as temp_dir:
         # Copy the file to the temporary directory
         temp_problem_file = os.path.join(temp_dir, os.path.basename(input_problem_file))
