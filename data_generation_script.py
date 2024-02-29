@@ -4,6 +4,12 @@ import shutil
 from multiprocessing import Pool
 import tempfile
 
+
+ABSOLUTE_SYMBOLIC_PATH = os.path.abspath(os.path.join("fast-downward-symbolic-optimal-actions", "fast-downward.py"))
+ABSOLUTE_SCORPION_PATH = os.path.abspath(os.path.join("scorpion", "fast-downward.py"))
+ABSOLUTE_INPUT_PATH = os.path.abspath(os.path.join("data", "benchmarks", "satellite", "training", "easy"))
+ABSOLUTE_OUTPUT_PATH = os.path.abspath(os.path.join("data", "preprocessed", "satellite", "training", "easy"))
+
 BENCHMARKS_DIR = os.path.abspath(os.path.join("data", "benchmarks"))
 
 SATELLITE_DOMAIN = os.path.abspath(os.path.join(BENCHMARKS_DIR, "satellite", "domain.pddl"))
@@ -29,8 +35,8 @@ def process_file(input_problem_file, input_domain_file, output_directory):
 
         # Define the command to execute on each file
         # Generate features from scorpion
-        command_features = ["python", "/Users/bartoszlachowicz/projects/GNN-planning-paper/scorpion/fast-downward.py",  "--translate", "--find-relaxed-plan", "--find-simple-landmarks", f"{temp_domain_file}", f"{temp_problem_file}",]
-        command_planner = ["python", "/Users/bartoszlachowicz/projects/GNN-planning-paper/fast-downward-symbolic-optimal-actions/fast-downward.py", f"{temp_domain_file}", f"{temp_problem_file}", "--search", "sbd(store_operators_in_optimal_plan=true, cost_type=1)"]
+        command_features = ["python", ABSOLUTE_SCORPION_PATH,  "--translate", "--find-relaxed-plan", "--find-simple-landmarks", f"{temp_domain_file}", f"{temp_problem_file}",]
+        command_planner = ["python", ABSOLUTE_SYMBOLIC_PATH, f"{temp_domain_file}", f"{temp_problem_file}", "--search", "sbd(store_operators_in_optimal_plan=true, cost_type=1)"]
         # Execute the command using subprocess
         subprocess.run(command_features, check=True, stdout=subprocess.DEVNULL)
         # wait for the features to be generated
@@ -61,11 +67,6 @@ def process_directory(input_directory, output_directory):
         pool.starmap(process_file, zip(files, [SATELLITE_DOMAIN]*len(files), [output_directory]*len(files)))
 
 if __name__ == "__main__":
-    # Specify the directory you want to process
-    input_directory = "/Users/bartoszlachowicz/projects/GNN-planning-paper/data/benchmarks/satellite/training/easy"
-    output_directory = "/Users/bartoszlachowicz/projects/GNN-planning-paper/data/preprocessed/satellite/training/easy"
-    abs_input_directory = os.path.abspath(input_directory)
-    abs_output_directory = os.path.abspath(output_directory)
 
     # Call the function to process the directory
-    process_directory(abs_input_directory, abs_output_directory)
+    process_directory(ABSOLUTE_INPUT_PATH, ABSOLUTE_OUTPUT_PATH)
