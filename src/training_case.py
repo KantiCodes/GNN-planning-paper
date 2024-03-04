@@ -1,6 +1,8 @@
 import random
 import os
+from typing import Literal
 import mlflow
+from model.metrics import Results
 
 from model.training import ModelSetting, get_model_handler
 from pydantic import BaseModel
@@ -18,28 +20,20 @@ class TrainingCase:
     batch_size: int
     result_dict: dict
 
-    def __init__(self, model_settings_path: str):
+    def __init__(self, model_settings_path: str, training_instances: list, test_instances: list, val_instances: list = None):
         self.model_settings_path = model_settings_path
         self.model_setting = ModelSetting.from_file(model_settings_path)
-
         self.val_instances = None
+        self.training_instaces = training_instances
+        self.test_instances = test_instances
+        self.val_instances = val_instances
+        print("Running with model settings123: ", self.model_setting.dict())
 
         # TODO: Where fo we parameterize this?
-        self.num_epochs = 200
-        self.batch_size = 8
+        self.num_epochs = 300
 
+    # TODO Use same prepare function for all files
     def prepare(self):
-        # TODO make this a parameter
-        data_location = "data/preprocessed/blocksworld_graph/training/easy"
-        all_instances = [
-            os.path.join(data_location, x) for x in os.listdir(data_location)
-        ]
-        # Shuffle the instances
-        random.shuffle(all_instances)
-        # Do random split here
-        self.training_instances = all_instances[: int(len(all_instances) * 0.8)]
-        self.test_instances = all_instances[int(len(all_instances) * 0.8) :]
-
         (
             self.model_handler,
             self.train_loader,
@@ -48,11 +42,9 @@ class TrainingCase:
             self.this_model_path,
         ) = get_model_handler(
             models_dir="models",
-            train_instances=self.training_instances,
+            train_instances=self.training_instaces,
             test_instances=self.test_instances,
             model_settings=self.model_setting,
-            num_epochs=self.num_epochs,
-            batch_size=self.batch_size,
         )
 
     def compute(self):
@@ -64,73 +56,48 @@ class TrainingCase:
         )
         params = self.model_setting.model_dump()
 
-        train_loss_list = []
-        test_loss_list = []
-        val_loss_list = []
-
         mlflow.pytorch.autolog()
 
-
         with mlflow.start_run(run_name=str(datetime.now())) as run:
-
+            print(f"Training using pos_weight: {self.model_handler.pos_weight} and neg_weight: {self.model_handler.neg_weight}")
             for epoch in range(1, self.num_epochs):
                 this_epoch_metrics = {}
-                train_results = self.model_handler.train(self.train_loader)
-                train_loss = train_results.loss.item()
-                train_metrics = train_results.metric
+                val_metrics_dict = {}  # Convenience for the if statement
+                # Average over batches
+                epoch_train_results: Results = self.model_handler.train(self.train_loader)
+                train_metrics_dict = TrainingCase.create_metrics_dict("train", epoch_train_results)
 
-                train_loss_list.append(train_loss)
-
-                this_epoch_metrics["train_loss"] = train_loss
-                this_epoch_metrics["train_metrics"] = train_metrics
-
-                if self.test_instances:
-                    # Somehow from here or the following functions we need to be able to retrieve the actions
-                    test_results = self.model_handler.test(self.test_loader)
-                    test_loss = test_results.loss.item()
-                    test_metrics = test_results.metric
-                    test_loss_list.append(test_loss)
-                    this_epoch_metrics["test_loss"] = test_loss
-                    this_epoch_metrics["test_metrics"] = test_metrics
+                epoch_test_results = self.model_handler.test(self.test_loader)
+                test_metrics_dict = TrainingCase.create_metrics_dict("test", epoch_test_results)
 
                 if self.val_instances:
-                    val_results = self.model_handler.test(self.val_loader)
-                    val_loss = val_results.loss.item()
-                    val_metrics = val_results.metric
-                    val_loss_list.append(val_loss)
-                    this_epoch_metrics["val_loss"] = val_loss
-                    this_epoch_metrics["val_metrics"] = val_metrics
+                    epoch_val_results = self.model_handler.test(self.val_loader)
+                    val_metrics_dict = TrainingCase.create_metrics_dict("val", epoch_val_results)
 
-                if epoch % 10 == 0:
-                    print(
-                        "Epoch: ",
-                        epoch,
-                    )
-                    print("Train loss: ", train_loss)
+                this_epoch_metrics.update(train_metrics_dict)
+                this_epoch_metrics.update(test_metrics_dict)
+                this_epoch_metrics.update(val_metrics_dict)
 
                 mlflow.log_metrics(metrics=this_epoch_metrics, step=epoch)
-                # if test_set:
-                #     print("Test loss: ",test_results.loss.item())
-                # print("saving model")
-                # model_handler.save_model(this_model_path)
-            #     metrics = {
-            #         "train_loss": train_loss, "test_loss": 0.5,
-            #     }
-            #     mlflow.log_metrics(metrics, step=epoch)
+
+                if epoch % 10 == 0:
+                    print(f"Epoch {epoch}:")
+                    # Print train loss and metric
+                    print(f"Train loss: {epoch_train_results.loss}, Train metric: {epoch_train_results.metric}")
+                    # Print test loss and metric
+                    print(f"Test loss: {epoch_test_results.loss}, Test metric: {epoch_test_results.metric}")
+
             mlflow.log_params(params)
             mlflow.pytorch.log_model(self.model_handler.model, "models")
             mlflow.log_artifact(self.model_settings_path)
 
-            self.print_auto_logged_info(run)
-
     def persist(self):
         pass
 
-    def print_auto_logged_info(self, r):
-        tags = {k: v for k, v in r.data.tags.items() if not k.startswith("mlflow.")}
-        artifacts = [f.path for f in mlflow.MlflowClient().list_artifacts(r.info.run_id, "model")]
-        print(f"run_id: {r.info.run_id}")
-        print(f"artifacts: {artifacts}")
-        print(f"params: {r.data.params}")
-        print(f"metrics: {r.data.metrics}")
-        print(f"tags: {tags}")
+    @staticmethod
+    def create_metrics_dict(prefix: Literal["train", "test", "val"], results: Results) -> dict:
+        """Convencience function to create a dictionary of metrics from a Results object"""
+        results.loss = results.loss.item()  # Convert to float
+        dictified_results_object = vars(results)
+        dict_of_not_none = {k: v for k, v in dictified_results_object.items() if v is not None}
+        return {f"{prefix}_{k}": v for k, v in dict_of_not_none.items()}

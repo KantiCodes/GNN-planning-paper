@@ -10,7 +10,7 @@ from .model_handler import ModelHandler
 from model.metrics import EEvalMetric
 from torch.optim import Optimizer, Adam, RMSprop, Adagrad
 from model import ReprStrEnum
-
+import random
 file_path = str
 dir_path = str
 
@@ -49,10 +49,6 @@ class EOptimizer(str, ReprStrEnum):
     def __repr__(self):
         return self.value
 
-
-class NetworkArchitecture(BaseModel):
-    layers: int
-    layer_size: int
 
 
 class ProblemFolder(BaseModel):
@@ -97,6 +93,7 @@ class ModelSetting(BaseModel):
 
     loss_function: ELossFunction = ELossFunction.BCE
     eval_metric: EEvalMetric = EEvalMetric.F1
+    batch_size: int = 8
 
     @classmethod
     def from_file(cls, path: str):
@@ -105,13 +102,59 @@ class ModelSetting(BaseModel):
 
         return ModelSetting(**data)
 
+    @classmethod
+    def generate_random_settings_explicit(cls, num_settings: int) -> List['ModelSetting']:
+        """Returns a list of model settings with explicitly specified values"""
+        settings_list = []
+        for _ in range(num_settings):
+            settings = cls(
+                lr=random.uniform(0.0001, 0.1),
+                layers_num=random.randint(1, 5),
+                hidden_size=random.randint(32, 256),
+                optimizer=random.choice(list(EOptimizer)),
+                conv_type=random.choice(list(architectures.EConvolution)),
+                activation_function=random.choice(list(architectures.EActivationFunction)),
+                classification_function=random.choice(list(architectures.EActivationFunction)),
+                use_batch_norm=random.choice([True, False]),
+                standardize_input_using_batch_norm=random.choice([True, False]),
+                conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
+                index=random.randint(0, 10),
+                loss_function=random.choice(list(ELossFunction)),
+                eval_metric=random.choice(list(EEvalMetric)),
+                batch_size=random.choice([8, 16, 32, 64])
+            )
+            settings_list.append(settings)
+        return settings_list
+
+    @classmethod
+    def generate_random_settings_ranges(cls, num_settings: int) -> List['ModelSetting']:
+        """Returns a list of model settings where all properties are in some space"""
+        settings_list = []
+        for _ in range(num_settings):
+            settings = cls(
+                lr=random.uniform(0.0001, 0.1),
+                layers_num=random.randint(1, 5),
+                hidden_size=random.randint(32, 256),
+                optimizer=random.choice(list(EOptimizer)),
+                conv_type=random.choice(list(EConvolution)),
+                activation_function=random.choice(list(EActivationFunction)),
+                classification_function=random.choice(list(EActivationFunction)),
+                use_batch_norm=random.choice([True, False]),
+                standardize_input_using_batch_norm=random.choice([True, False]),
+                conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
+                index=random.randint(0, 10),
+                loss_function=random.choice(list(ELossFunction)),
+                eval_metric=random.choice(list(EEvalMetric)),
+                batch_size=random.randint(8, 64)
+            )
+            settings_list.append(settings)
+        return settings_list
+
 
 def get_model_handler(
     models_dir,
     train_instances: list[file_path],
     test_instances: list[file_path],
-    num_epochs,
-    batch_size,
     model_settings_path: Optional[Path] = None,
     model_settings: Optional[ModelSetting] = None,
     val_instances=None,
@@ -123,8 +166,6 @@ def get_model_handler(
     :param models_dir: The directory where the models will be saved
     :param train_instances: A list of paths to the training instances
     :param test_instances: A list of paths to the test instances
-    :param num_epochs: The number of epochs to train the model
-    :param batch_size: The batch size to use
     :param model_settings_path: The path to the model settings file
     :param model_settings: The model settings to use
     :param val_instances: A list of paths to the validation instances
@@ -159,10 +200,10 @@ def get_model_handler(
     # We setup weights as global properties of the dataset only on the train set
     # to prevent overfitting
     # TODO hyperparameter on the weights
-    pos_weight, neg_weight = data_loading.calculate_weights(train_set)
+    pos_weight, neg_weight = data_loading.calculate_weights(train_set, train_instances)
 
     train_loader, test_loader, val_loader = data_loading.create_loaders(
-        train_set, test_set, val_set=val_set, batch_size=batch_size
+        train_set, test_set, val_set=val_set, batch_size=model_settings.batch_size
     )
 
     # initialize model with random weights

@@ -1,10 +1,11 @@
+from sklearn.metrics import precision_recall_fscore_support
 import torch
 from typing import TYPE_CHECKING
 import torch.nn.functional as F
 from torch_geometric.nn import to_hetero
 from torch_geometric.data import HeteroData
 from collections import namedtuple
-from model.metrics import test_val_results
+from model import metrics
 from .metrics import EEvalMetric, ELossFunction, Results
 
 if TYPE_CHECKING:
@@ -25,7 +26,6 @@ METADATA = (
     ],
 )
 
-from model import ReprStrEnum
 from torch.optim import Optimizer
 
 
@@ -40,7 +40,6 @@ class ModelHandler:
         weights_path=None,
         pos_weight=1,
         neg_weight=1,
-        aggr="sum",
     ):  # TODO hyperparameter on aggr
         self.model = to_hetero(
             init_model, metadata=METADATA, aggr="sum"
@@ -64,8 +63,6 @@ class ModelHandler:
 
         self.optimizer = optimizer
 
-    def init_best_model(self):
-        """Hardcoded best solution for the model after hyperparameter tuning"""
 
     def save_model(self, model_path: str) -> None:
         torch.save(self.model.state_dict(), model_path)
@@ -75,33 +72,29 @@ class ModelHandler:
 
     def train(self, train_loader: torch.utils.data.DataLoader):
         self.model.train()
-    
+
+        batch_results_list: list[Results] = []
+
         for batch in train_loader:
-            train_weights = torch.ones_like(batch["operator"].y)
-            train_weights[batch["operator"].y == 0] = self.neg_weight
-            train_weights[batch["operator"].y == 1] = self.pos_weight
             self.optimizer.zero_grad()
             out = self.model(batch.x_dict, batch.edge_index_dict)
 
             # Torch eval requires one dimensional tensors and these are X,1
             metric_result = self.eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
-
-            loss = self.loss_function(
-                out["operator"], batch["operator"].y, weight=train_weights
+            results = metrics.compute_results(
+                batch, self.model, self.pos_weight, self.neg_weight, self.loss_function, self.eval_metric
             )
-            loss.backward()
+            batch_results_list.append(results)
+            results.loss.backward()
             self.optimizer.step()
-        # loss, pred, original
-        return Results(loss, metric_result, out["operator"], batch["operator"].y)
-
-    def get_action_predictions(model: torch.nn.Module, state: torch.Tensor) -> torch.Tensor:
-        pass
+        
+        epoch_mean_results = Results.reduce_list_of_results(batch_results_list)
+        return epoch_mean_results
     
     @torch.no_grad()
     def predict(self, hetero_data: HeteroData):
         self.model.eval()
         return self.model.forward(hetero_data.x_dict, hetero_data.edge_index_dict)['operator']
-
 
     @torch.no_grad()
     def predict_threshold(self, actions_proba, threshold: float):
@@ -113,10 +106,8 @@ class ModelHandler:
     def test(self, data_loader: torch.utils.data.DataLoader) -> Results:
         self.model.eval()
         test_batch = next(iter(data_loader))
-        # if not all from plan are good
-        # then we have some key-map for the files
-        # add the test failed that failed xxx times more to the train set
-        return test_val_results(
+
+        return metrics.compute_results(
             test_batch,
             self.model,
             self.pos_weight,

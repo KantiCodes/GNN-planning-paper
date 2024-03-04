@@ -29,11 +29,39 @@ class ELossFunction(str, ReprStrEnum):
 
 @dataclass
 class Results:
-    loss: float
+    loss: torch.Tensor
     metric: float
-    preds: torch.Tensor
-    original: torch.Tensor
+    # preds: torch.Tensor
+    # original: torch.Tensor
+    precision_false: float = None
+    precision_true: float = None
+    recall_false: float = None
+    recall_true: float = None
+    f1_score_false: float = None
+    f1_score_true: float = None
+    orginal_number_of_false: int = None
+    orignal_number_of_true: int = None
+    predicted_number_of_false: int = None
+    predicted_number_of_true: int = None
 
+    @classmethod
+    def reduce_list_of_results(cls, results: list["Results"]):
+        """Returns the average of the results"""
+        return Results(
+            loss=torch.mean(torch.tensor([x.loss for x in results])),
+            metric=torch.mean(torch.tensor([x.metric for x in results])).item(),
+            precision_false=torch.mean(torch.tensor([x.precision_false for x in results])).item(),
+            precision_true=torch.mean(torch.tensor([x.precision_true for x in results])).item(),
+            recall_false=torch.mean(torch.tensor([x.recall_false for x in results])).item(),
+            recall_true=torch.mean(torch.tensor([x.recall_true for x in results])).item(),
+            f1_score_false=torch.mean(torch.tensor([x.f1_score_false for x in results])).item(),
+            f1_score_true=torch.mean(torch.tensor([x.f1_score_true for x in results])).item(),
+            # BELOW IS SUM!
+            orginal_number_of_false=sum([x.orginal_number_of_false for x in results]).item(),
+            orignal_number_of_true=sum([x.orignal_number_of_true for x in results]).item(),
+            predicted_number_of_false=sum([x.predicted_number_of_false for x in results]).item(),
+            predicted_number_of_true=sum([x.predicted_number_of_true for x in results]).item(),
+        )
 
 
 def treshhold_result(data, true_data, treshold):
@@ -57,19 +85,35 @@ def treshhold_result(data, true_data, treshold):
     return recall_positive, recall_negative, accuracy_positive, accuracy_negative
 
 
-def test_val_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_function, eval_metric,) -> Results:
+def compute_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_function, eval_metric,) -> Results:
     """returns loss, preds, original"""
-    test_val_weights = torch.ones_like(batch["operator"].y)
-    test_val_weights[batch["operator"].y == 1] = pos_weight
-    test_val_weights[batch["operator"].y == 0] = neg_weight
+    weights = torch.ones_like(batch["operator"].y)
+    weights[batch["operator"].y == 0] = neg_weight
+    weights[batch["operator"].y == 1] = pos_weight
 
     out = model(batch.x_dict, batch.edge_index_dict)
     # BCEWithLogitsLoss = torch.nn.BCEWithLogitsLoss()
-    loss = loss_function(out["operator"], batch["operator"].y, weight=test_val_weights)
+    loss = loss_function(out["operator"], batch["operator"].y, weight=weights)
     metric_result = eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
-    original = batch["operator"].y
-    preds = out["operator"]
-    return Results(loss, metric_result, preds, original)
+    original = batch["operator"].y.squeeze()
+    preds = out["operator"].squeeze()
+    (precision_false, precision_true), (recall_false, recall_true), (f1_score_false, f1_score_true), (orginal_number_of_false, orignal_number_of_true) = precision_recall_fscore_support(
+        original, (preds >= 0.5).type(torch.int), average=None
+    )
+    return Results(
+        loss=loss,
+        metric=metric_result,
+        precision_false=precision_false,
+        precision_true=precision_true,
+        recall_false=recall_false,
+        recall_true=recall_true,
+        f1_score_false=f1_score_false,
+        f1_score_true=f1_score_true,
+        orginal_number_of_false=orginal_number_of_false,
+        orignal_number_of_true=orignal_number_of_true,
+        predicted_number_of_false=(preds < 0.5).type(torch.int).sum(),
+        predicted_number_of_true=(preds >= 0.5).type(torch.int).sum(),
+    )
 
 
 def evaluate_and_return_confusion(model: torch.nn.Module, data):

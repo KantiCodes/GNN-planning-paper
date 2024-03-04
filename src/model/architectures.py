@@ -5,6 +5,7 @@ from torch_geometric.nn import SAGEConv
 from torch_geometric.nn import GCNConv
 from torch_geometric.nn import GATConv
 from torch_geometric.nn import GINConv
+from torch_geometric.nn import GraphConv
 from torch_geometric.nn.conv import MessagePassing
 
 
@@ -27,17 +28,18 @@ class EConvolution(str, ReprStrEnum):
     GCNConv = "GCNConv"
     GATConv = "GATConv"
     GINConv = "GINConv"
+    GRAPHConv = "GraphConv"
 
     def to_message_passing_type(self) -> type[MessagePassing]:
         match self:
             case EConvolution.SAGEConv:
                 return SAGEConv
-            case EConvolution.GCNConv:
-                return GCNConv
             case EConvolution.GATConv:
                 return GATConv
             case EConvolution.GINConv:
                 return GINConv
+            case EConvolution.GRAPHConv:
+                return GraphConv
             case _:
                 raise ValueError(f"Convolution type {self} not supported")
 
@@ -47,11 +49,13 @@ class EConvolution(str, ReprStrEnum):
             case EConvolution.SAGEConv:
                 return SAGEConv((-1, -1), hidden_size, **kwargs)
             case EConvolution.GCNConv:
-                return GCNConv((-1, -1), hidden_size, **kwargs)
+                return GCNConv(-1, hidden_size, add_self_loops=False, **kwargs)
             case EConvolution.GATConv:
-                return GATConv((-1, -1), hidden_size, **kwargs)
+                return GATConv((-1, -1), hidden_size, add_self_loops=False, **kwargs)
             case EConvolution.GINConv:
                 return GINConv((-1, -1), hidden_size, **kwargs)
+            case EConvolution.GRAPHConv:
+                return GraphConv((-1,-1), hidden_size, **kwargs)
             case _:
                 raise ValueError(f"Convolution type {self} not supported")
 
