@@ -1,0 +1,50 @@
+pickup b16
+pickup b20
+pickup b24
+pickup b8
+putdown b17
+putdown b23
+putdown b9
+stack b1 b2
+stack b10 b6
+stack b11 b8
+stack b12 b23
+stack b13 b19
+stack b14 b18
+stack b15 b13
+stack b16 b1
+stack b18 b10
+stack b19 b3
+stack b2 b24
+stack b20 b15
+stack b21 b12
+stack b22 b9
+stack b24 b20
+stack b25 b5
+stack b3 b21
+stack b4 b25
+stack b5 b14
+stack b6 b17
+stack b7 b4
+stack b8 b16
+unstack b1 b25
+unstack b10 b20
+unstack b11 b13
+unstack b12 b6
+unstack b13 b18
+unstack b14 b15
+unstack b15 b10
+unstack b17 b3
+unstack b18 b5
+unstack b19 b22
+unstack b2 b17
+unstack b21 b7
+unstack b22 b16
+unstack b23 b4
+unstack b25 b9
+unstack b3 b24
+unstack b4 b21
+unstack b5 b2
+unstack b6 b14
+unstack b7 b1
+unstack b9 b8

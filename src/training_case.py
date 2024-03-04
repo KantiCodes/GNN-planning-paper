@@ -25,7 +25,7 @@ class TrainingCase:
 
     def prepare(self):
         # TODO make this a parameter
-        data_location = "test123"
+        data_location = "data/preprocessed/blocksworld_graph/training/easy"
         all_instances = [
             os.path.join(data_location, x) for x in os.listdir(data_location)
         ]
@@ -34,7 +34,6 @@ class TrainingCase:
         # Do random split here
         self.training_instances = all_instances[: int(len(all_instances) * 0.8)]
         self.test_instances = all_instances[int(len(all_instances) * 0.8) :]
-        self.val_instances = None
 
         (
             self.model_handler,
@@ -53,24 +52,20 @@ class TrainingCase:
 
     def compute(self):
         experiment_description = "Test run of the runner with multiple settings"
-        experiment_tags = {
-            "project_name": "Initial project",
-            "mlflow.note.content": experiment_description,
-        }
+
         mlflow.set_tracking_uri("http://127.0.0.1:5000")
         gnn_experiment = mlflow.set_experiment(
             experiment_name="Hyperparameters experiment"
         )
-        input("Press Enter to continue...")
-        run_name = "batch_norm_and_x64"
-        mlflow.pytorch.autolog()
         params = self.model_setting.model_dump()
 
         train_loss_list = []
         test_loss_list = []
         val_loss_list = []
 
-        with mlflow.start_run(run_name=run_name) as run:
+        from datetime import datetime
+
+        with mlflow.start_run(run_name=str(datetime.now())) as run:
             for epoch in range(1, self.num_epochs):
                 this_epoch_metrics = {}
                 train_results = self.model_handler.train(self.train_loader)
@@ -116,6 +111,7 @@ class TrainingCase:
             #     }
             #     mlflow.log_metrics(metrics, step=epoch)
             mlflow.log_params(params)
+            mlflow.log_artifact(self.model_settings_path)
 
     def persist(self):
         pass

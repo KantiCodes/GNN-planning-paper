@@ -1,0 +1,13 @@
+index,is_init,is_goal,is_simple_landmark
+0,True,False,True
+1,False,False,False
+2,True,True,True
+3,False,False,False
+4,True,False,False
+5,False,False,False
+6,False,False,True
+7,False,True,False
+8,True,False,True
+9,False,False,True
+10,False,False,False
+11,True,True,False

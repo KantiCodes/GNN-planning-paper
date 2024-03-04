@@ -23,7 +23,7 @@ from datetime import datetime
 import time
 
 def process_file(input_problem_file, input_domain_file, output_directory):
-    if os.path.exists(os.path.join(output_directory, os.path.basename(input_problem_file))):
+    if os.path.exists(os.path.join(output_directory, os.path.basename(input_problem_file), "good_operators")):
         print(f"Skipping file: {input_problem_file}, at: {datetime.now()} cause exists")
         return
     print(f"Processing file: {input_problem_file}, at: {datetime.now()}")
@@ -40,12 +40,12 @@ def process_file(input_problem_file, input_domain_file, output_directory):
         # Define the command to execute on each file
         # Generate features from scorpion
         command_features = ["python", ABSOLUTE_SCORPION_PATH,  "--translate", "--find-relaxed-plan", "--find-simple-landmarks", f"{temp_domain_file}", f"{temp_problem_file}",]
-        command_planner = ["python", ABSOLUTE_SYMBOLIC_PATH, "--overall-time-limit", "1200", f"{temp_domain_file}", f"{temp_problem_file}", "--search", "sbd(store_operators_in_optimal_plan=true, cost_type=1)"]
+        command_planner = ["python", ABSOLUTE_SYMBOLIC_PATH, "--overall-time-limit", "2400", f"{temp_domain_file}", f"{temp_problem_file}", "--search", "sbd(store_operators_in_optimal_plan=true, cost_type=1)"]
         # Execute the command using subprocess
         try:
-            subprocess.run(command_features)
+            subprocess.run(command_features, stdout=subprocess.DEVNULL)
             # wait for the features to be generated
-            subprocess.run(command_planner) 
+            subprocess.run(command_planner, stdout=subprocess.DEVNULL) 
         except subprocess.TimeoutExpired as e:
             return
         
@@ -71,7 +71,7 @@ def process_directory(input_directory, output_directory):
     files = [os.path.join(input_directory, file) for file in os.listdir(input_directory) if os.path.isfile(os.path.join(input_directory, file))]
 
     # Use multiprocessing pool to parallelize the execution
-    with Pool(processes=4) as pool:
+    with Pool(processes=2) as pool:
         # Create a temporary directory for each process
         # Map the process_file function to the pool
         pool.starmap(process_file, zip(files, [BLOCKSWORLD_DOMAIN]*len(files), [output_directory]*len(files)))

@@ -1,0 +1,6 @@
+calibrate sat6 ins9 dir1
+switch_on ins9 sat6
+take_image sat6 dir2 ins9 mod1
+turn_to sat5 dir6 dir3
+turn_to sat6 dir2 dir1
+turn_to sat6 dir6 dir1
