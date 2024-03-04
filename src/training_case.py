@@ -6,6 +6,9 @@ from model.training import ModelSetting, get_model_handler
 from pydantic import BaseModel
 from model.architectures import EActivationFunction, EConvolution
 from model.training import EOptimizer
+from datetime import datetime
+import mlflow.pytorch
+
 
 
 class TrainingCase:
@@ -19,8 +22,10 @@ class TrainingCase:
         self.model_settings_path = model_settings_path
         self.model_setting = ModelSetting.from_file(model_settings_path)
 
+        self.val_instances = None
+
         # TODO: Where fo we parameterize this?
-        self.num_epochs = 30
+        self.num_epochs = 200
         self.batch_size = 8
 
     def prepare(self):
@@ -63,9 +68,11 @@ class TrainingCase:
         test_loss_list = []
         val_loss_list = []
 
-        from datetime import datetime
+        mlflow.pytorch.autolog()
+
 
         with mlflow.start_run(run_name=str(datetime.now())) as run:
+
             for epoch in range(1, self.num_epochs):
                 this_epoch_metrics = {}
                 train_results = self.model_handler.train(self.train_loader)
@@ -111,7 +118,19 @@ class TrainingCase:
             #     }
             #     mlflow.log_metrics(metrics, step=epoch)
             mlflow.log_params(params)
+            mlflow.pytorch.log_model(self.model_handler.model, "models")
             mlflow.log_artifact(self.model_settings_path)
+
+            self.print_auto_logged_info(run)
 
     def persist(self):
         pass
+
+    def print_auto_logged_info(self, r):
+        tags = {k: v for k, v in r.data.tags.items() if not k.startswith("mlflow.")}
+        artifacts = [f.path for f in mlflow.MlflowClient().list_artifacts(r.info.run_id, "model")]
+        print(f"run_id: {r.info.run_id}")
+        print(f"artifacts: {artifacts}")
+        print(f"params: {r.data.params}")
+        print(f"metrics: {r.data.metrics}")
+        print(f"tags: {tags}")
