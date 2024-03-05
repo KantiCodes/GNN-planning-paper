@@ -1,0 +1,15 @@
+{
+    "lr": 0.06443972083306072,
+    "layers_num": 4,
+    "hidden_size": 8,
+    "optimizer": "Adam",
+    "conv_type": "GraphConv",
+    "activation_function": "sigmoid",
+    "classification_function": "relu",
+    "use_batch_norm": true,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 8,
+    "model_settings_path": "model-settings/10c0b5736a4dcd4bba5b9e4247d5d41b.json"
+}

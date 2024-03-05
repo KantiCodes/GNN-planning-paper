@@ -1,21 +1,17 @@
-from datetime import datetime
+from __future__ import annotations 
 import os
-import json
-from typing import Optional
-from model.metrics import ELossFunction
-from pydantic import BaseModel
-from . import data_loading
+from typing import TYPE_CHECKING
+
 from . import architectures
 from .model_handler import ModelHandler
-from model.metrics import EEvalMetric
 from torch.optim import Optimizer, Adam, RMSprop, Adagrad
 from model import ReprStrEnum
+from . import data_loading
 
-file_path = str
-dir_path = str
-
-
-Path = str
+if TYPE_CHECKING:
+    from pathlib import Path
+    file_path = Path
+    from model_setting import ModelSetting
 
 
 class ReprStrEnum(ReprStrEnum):
@@ -29,7 +25,7 @@ class ReprStrEnum(ReprStrEnum):
 class EOptimizer(str, ReprStrEnum):
     ADAM = "Adam"
     RMSPROP = "RMSprop"
-    ADAGRAD = "Adagrad"
+    # ADAGRAD = "Adagrad"  # Turned off for now cause lazy loading error
 
     def to_optim(self) -> Optimizer:
         match self:
@@ -50,70 +46,11 @@ class EOptimizer(str, ReprStrEnum):
         return self.value
 
 
-class NetworkArchitecture(BaseModel):
-    layers: int
-    layer_size: int
-
-
-class ProblemFolder(BaseModel):
-    folder_path: Path
-
-    # Planning stuff
-    output_sas: Path
-    good_actions: Path
-    operators_txt: Path
-    variables_txt: Path
-    # This is a dictionary of operators ids mapping to fragment of text from operators_txt
-    global_operators_json: Path
-
-    # Graph nodes
-    operators_csv: Path
-    values_csv: Path
-    variables_csv: Path
-
-    # Graph edges
-    global_values_csv: Path
-    op_val_edges: Path
-    val_op_val_edges: Path
-
-
-class ModelSetting(BaseModel):
-    lr: float
-    layers_num: int
-    hidden_size: int
-    # aggr: str  # How to aggregate the neighbours  # currently not used
-    optimizer: EOptimizer
-    conv_type: architectures.EConvolution
-    activation_function: architectures.EActivationFunction = (
-        architectures.EActivationFunction.RELU
-    )
-    classification_function: architectures.EActivationFunction = (
-        architectures.EActivationFunction.SIGMOID
-    )
-    use_batch_norm: bool = False
-    standardize_input_using_batch_norm: bool = False
-    conv_type_specific_kwargs: dict = {}
-    index: int = 0
-
-    loss_function: ELossFunction = ELossFunction.BCE
-    eval_metric: EEvalMetric = EEvalMetric.F1
-
-    @classmethod
-    def from_file(cls, path: str):
-        with open(path, "r") as f:
-            data = json.load(f)
-
-        return ModelSetting(**data)
-
-
 def get_model_handler(
     models_dir,
-    train_instances: list[file_path],
-    test_instances: list[file_path],
-    num_epochs,
-    batch_size,
-    model_settings_path: Optional[Path] = None,
-    model_settings: Optional[ModelSetting] = None,
+    train_instances: list[Path],
+    test_instances: list[Path],
+    model_settings: ModelSetting,
     val_instances=None,
 ):
     """This function initializes the model handler that is used for training later on.
@@ -123,27 +60,15 @@ def get_model_handler(
     :param models_dir: The directory where the models will be saved
     :param train_instances: A list of paths to the training instances
     :param test_instances: A list of paths to the test instances
-    :param num_epochs: The number of epochs to train the model
-    :param batch_size: The batch size to use
     :param model_settings_path: The path to the model settings file
     :param model_settings: The model settings to use
     :param val_instances: A list of paths to the validation instances
     """
-    if not model_settings and not model_settings_path:
-        raise ValueError(
-            "Either model_settings or model_settings_path must be provided"
-        )
+    print(f"Traing using model settings: {model_settings}")
 
-    if model_settings_path:
-        model_settings = ModelSetting.from_file(model_settings_path)
-    else:
-        time = datetime.now()
-        model_settings_path = f"model_settings_{time}.json"
-        with open(model_settings_path, "w") as f:
-            json.dump(dict(model_settings), f)
 
     this_model_path = os.path.join(
-        models_dir, model_settings_path.split("/")[-1].split(".")[0]
+        models_dir, model_settings.model_settings_path.split("/")[-1].split(".")[0]
     )
 
     train_set = data_loading.build_data_set(problem_instances=train_instances)
@@ -159,10 +84,13 @@ def get_model_handler(
     # We setup weights as global properties of the dataset only on the train set
     # to prevent overfitting
     # TODO hyperparameter on the weights
-    pos_weight, neg_weight = data_loading.calculate_weights(train_set)
+    if model_settings.use_class_weights:
+        pos_weight, neg_weight = data_loading.calculate_weights(train_set, train_instances)
+    else:
+        pos_weight, neg_weight = 1, 1
 
     train_loader, test_loader, val_loader = data_loading.create_loaders(
-        train_set, test_set, val_set=val_set, batch_size=batch_size
+        train_set, test_set, val_set=val_set, batch_size=model_settings.batch_size
     )
 
     # initialize model with random weights
@@ -173,7 +101,6 @@ def get_model_handler(
         activation_function=model_settings.activation_function,
         conv_specific_kwargs=model_settings.conv_type_specific_kwargs,
         use_batch_norm=model_settings.use_batch_norm,
-        standardize_input_using_batch_norm=model_settings.standardize_input_using_batch_norm,
     )
     model_handler = ModelHandler(
         init_model=init_model,

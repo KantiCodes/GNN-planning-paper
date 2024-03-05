@@ -97,11 +97,18 @@ def build(config_name, cmake_parameters, make_parameters):
             pass
         else:
             raise
-
+    print(f"Running CMake in {build_path} with parameters {cmake_parameters}")
+    c1 = [CMAKE, "-G", CMAKE_GENERATOR] + cmake_parameters + [rel_src_path]
+    print(F"Running CMake with command: {c1}")
+                          
     subprocess.check_call([CMAKE, "-G", CMAKE_GENERATOR]
                           + cmake_parameters
                           + [rel_src_path],
                           cwd=build_path)
+    
+    c2 = [MAKE] + make_parameters
+    print(f"Running Make with command: {c2}")
+    input("Press Enter to continue...")
     subprocess.check_call([MAKE] + make_parameters, cwd=build_path)
     print("Built configuration " + config_name + " successfully")
 

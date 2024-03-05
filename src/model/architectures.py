@@ -5,7 +5,9 @@ from torch_geometric.nn import SAGEConv
 from torch_geometric.nn import GCNConv
 from torch_geometric.nn import GATConv
 from torch_geometric.nn import GINConv
+from torch_geometric.nn import GraphConv
 from torch_geometric.nn.conv import MessagePassing
+from torch_geometric.nn.norm.batch_norm import BatchNorm
 
 
 if TYPE_CHECKING:
@@ -24,20 +26,20 @@ class EActivationFunction(str, ReprStrEnum):
 
 class EConvolution(str, ReprStrEnum):
     SAGEConv = "SAGEConv"
-    GCNConv = "GCNConv"
     GATConv = "GATConv"
-    GINConv = "GINConv"
+    # GINConv = "GINConv"
+    GRAPHConv = "GraphConv"
 
     def to_message_passing_type(self) -> type[MessagePassing]:
         match self:
             case EConvolution.SAGEConv:
                 return SAGEConv
-            case EConvolution.GCNConv:
-                return GCNConv
             case EConvolution.GATConv:
                 return GATConv
-            case EConvolution.GINConv:
-                return GINConv
+            # case EConvolution.GINConv:
+            #     return GINConv
+            case EConvolution.GRAPHConv:
+                return GraphConv
             case _:
                 raise ValueError(f"Convolution type {self} not supported")
 
@@ -46,12 +48,12 @@ class EConvolution(str, ReprStrEnum):
         match self:
             case EConvolution.SAGEConv:
                 return SAGEConv((-1, -1), hidden_size, **kwargs)
-            case EConvolution.GCNConv:
-                return GCNConv((-1, -1), hidden_size, **kwargs)
             case EConvolution.GATConv:
-                return GATConv((-1, -1), hidden_size, **kwargs)
-            case EConvolution.GINConv:
-                return GINConv((-1, -1), hidden_size, **kwargs)
+                return GATConv((-1, -1), hidden_size, add_self_loops=False, **kwargs)
+            # case EConvolution.GINConv:
+            #     return GINConv((-1, -1), hidden_size, **kwargs)
+            case EConvolution.GRAPHConv:
+                return GraphConv((-1,-1), hidden_size, **kwargs)
             case _:
                 raise ValueError(f"Convolution type {self} not supported")
 
@@ -70,7 +72,6 @@ class DynamicGNN(torch.nn.Module):
         # activation_functions: list,  # Todo when we want to use different activation functions based on layer
         conv_specific_kwargs: dict = None,
         use_batch_norm=False,
-        standardize_input_using_batch_norm=False,
     ):
         super().__init__()
         self.layers_num = layers_num
@@ -81,16 +82,10 @@ class DynamicGNN(torch.nn.Module):
         self.conv_specific_kwargs = conv_specific_kwargs
         self.out_channels = 1  # Classification problem most likely never change
         self.use_batch_norm = use_batch_norm
-        self.standardize_input_using_batch_norm = standardize_input_using_batch_norm
 
         self._initialize_network()
 
     def _initialize_network(self):
-        # Initial batch normalization to scale input
-        
-        if self.standardize_input_using_batch_norm:
-            self.batch_norm_input = BatchNorm1d(self.hidden_size)
-        # try:
         for i in range(self.layers_num):
             new_layer = self.conv_type.to_message_passing_layer(
                 self.hidden_size, **self.conv_specific_kwargs
@@ -114,8 +109,6 @@ class DynamicGNN(torch.nn.Module):
     def forward(self, x, edge_index):
         for i in range(self.layers_num):
             # Input data can be standardized using batch norm
-            if self.standardize_input_using_batch_norm:
-                x = self.batch_norm_input(x)
 
             # Pass that through the convolutional layer
             conv_layer: MessagePassing = getattr(self, f"conv{i}")

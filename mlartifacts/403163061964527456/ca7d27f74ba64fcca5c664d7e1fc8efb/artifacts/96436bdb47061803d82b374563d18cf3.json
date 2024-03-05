@@ -1,0 +1,15 @@
+{
+    "lr": 0.023505996407792867,
+    "layers_num": 4,
+    "hidden_size": 32,
+    "optimizer": "RMSprop",
+    "conv_type": "GraphConv",
+    "activation_function": "tanh",
+    "classification_function": "sigmoid",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 4,
+    "model_settings_path": "model-settings/96436bdb47061803d82b374563d18cf3.json"
+}

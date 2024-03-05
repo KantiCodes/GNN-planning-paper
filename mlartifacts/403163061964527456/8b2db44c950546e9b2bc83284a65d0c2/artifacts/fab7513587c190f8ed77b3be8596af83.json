@@ -1,0 +1,15 @@
+{
+    "lr": 0.0775025221191656,
+    "layers_num": 3,
+    "hidden_size": 16,
+    "optimizer": "Adam",
+    "conv_type": "SAGEConv",
+    "activation_function": "tanh",
+    "classification_function": "sigmoid",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 8,
+    "model_settings_path": "model-settings/fab7513587c190f8ed77b3be8596af83.json"
+}

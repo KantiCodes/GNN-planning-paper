@@ -3,3 +3,8 @@ numpy
 torch-geometric
 pandas
 matplotlib
+pydantic
+torcheval
+mlflow
+# uncomment this if u have issue with torch-sparse
+# torch-sparse

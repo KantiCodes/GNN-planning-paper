@@ -1,0 +1,12 @@
+{
+    "lr": 0.028669517195772543,
+    "layers_num": 4,
+    "hidden_size": 32,
+    "optimizer": "Adam",
+    "conv_type": "GATConv",
+    "activation_function": "relu",
+    "classification_function": "relu",
+    "use_batch_norm": false,
+    "standardize_input_using_batch_norm": true,
+    "model_settings_path": "model-settings/4817c207101b7a4ea6c590a4057d566b.json"
+}
