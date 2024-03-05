@@ -1,13 +1,10 @@
-import random
-import os
+
 from typing import Literal
 import mlflow
 from model.metrics import Results
 
-from model.training import ModelSetting, get_model_handler
-from pydantic import BaseModel
-from model.architectures import EActivationFunction, EConvolution
-from model.training import EOptimizer
+from model.training import get_model_handler
+from model.model_setting import ModelSetting
 from datetime import datetime
 import mlflow.pytorch
 
@@ -20,17 +17,15 @@ class TrainingCase:
     batch_size: int
     result_dict: dict
 
-    def __init__(self, model_settings_path: str, training_instances: list, test_instances: list, val_instances: list = None):
-        self.model_settings_path = model_settings_path
-        self.model_setting = ModelSetting.from_file(model_settings_path)
+    def __init__(self, model_setting: ModelSetting, training_instances: list, test_instances: list, val_instances: list = None):
+        self.model_setting = model_setting
         self.val_instances = None
         self.training_instaces = training_instances
         self.test_instances = test_instances
         self.val_instances = val_instances
-        print("Running with model settings123: ", self.model_setting.dict())
 
         # TODO: Where fo we parameterize this?
-        self.num_epochs = 300
+        self.num_epochs = 15
 
     # TODO Use same prepare function for all files
     def prepare(self):
@@ -52,13 +47,14 @@ class TrainingCase:
 
         mlflow.set_tracking_uri("http://127.0.0.1:5000")
         gnn_experiment = mlflow.set_experiment(
-            experiment_name="Hyperparameters experiment"
+            experiment_name="Hyperparameters experiment blocksworld"
         )
         params = self.model_setting.model_dump()
-
         mlflow.pytorch.autolog()
 
         with mlflow.start_run(run_name=str(datetime.now())) as run:
+            mlflow.log_params(params)
+            mlflow.log_artifact(self.model_setting.model_settings_path)
             print(f"Training using pos_weight: {self.model_handler.pos_weight} and neg_weight: {self.model_handler.neg_weight}")
             for epoch in range(1, self.num_epochs):
                 this_epoch_metrics = {}
@@ -87,9 +83,7 @@ class TrainingCase:
                     # Print test loss and metric
                     print(f"Test loss: {epoch_test_results.loss}, Test metric: {epoch_test_results.metric}")
 
-            mlflow.log_params(params)
             mlflow.pytorch.log_model(self.model_handler.model, "models")
-            mlflow.log_artifact(self.model_settings_path)
 
     def persist(self):
         pass

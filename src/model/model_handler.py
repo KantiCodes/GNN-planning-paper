@@ -1,16 +1,24 @@
-from sklearn.metrics import precision_recall_fscore_support
 import torch
 from typing import TYPE_CHECKING
-import torch.nn.functional as F
 from torch_geometric.nn import to_hetero
 from torch_geometric.data import HeteroData
-from collections import namedtuple
-from model import metrics
-from .metrics import EEvalMetric, ELossFunction, Results
+from torch.optim import Optimizer
+from model.metrics import (
+    Results,
+    compute_results
+)
+from model.metrics import ELossFunction, EEvalMetric 
 
 if TYPE_CHECKING:
-    from .training import ModelSetting
-    from .training import OptimizerSetting
+    from model.model_setting import ModelSetting
+    from architectures import (
+        EActivationFunction,
+        EConvolution,
+    )
+    from metrics import (
+        ELossFunction,
+        EEvalMetric,
+    )
 
 
 # TestValResults = namedtuple('Test_Val_Results', ['test', 'val'])
@@ -25,9 +33,6 @@ METADATA = (
         ("value", "rev_effect", "operator"),
     ],
 )
-
-from torch.optim import Optimizer
-
 
 
 class ModelHandler:
@@ -55,7 +60,6 @@ class ModelHandler:
 
 
     def init_optimizer(self, OptimizerClass: type[Optimizer], learning_rate=None) -> torch.optim.Optimizer:
-
         if learning_rate is None:
             optimizer = OptimizerClass(self.model.parameters())
         else:
@@ -77,11 +81,7 @@ class ModelHandler:
 
         for batch in train_loader:
             self.optimizer.zero_grad()
-            out = self.model(batch.x_dict, batch.edge_index_dict)
-
-            # Torch eval requires one dimensional tensors and these are X,1
-            metric_result = self.eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
-            results = metrics.compute_results(
+            results = compute_results(
                 batch, self.model, self.pos_weight, self.neg_weight, self.loss_function, self.eval_metric
             )
             batch_results_list.append(results)
@@ -107,7 +107,7 @@ class ModelHandler:
         self.model.eval()
         test_batch = next(iter(data_loader))
 
-        return metrics.compute_results(
+        return compute_results(
             test_batch,
             self.model,
             self.pos_weight,

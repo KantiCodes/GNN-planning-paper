@@ -1,14 +1,11 @@
 from dataclasses import dataclass
-from typing import Callable
-from pydantic import BaseModel
 import torch
 import torch.nn.functional as F
 from sklearn.metrics import precision_recall_fscore_support
-from collections import namedtuple
 from model import ReprStrEnum
 from torcheval.metrics.functional import binary_f1_score
-import torch.nn.functional as F
-# TODO
+
+
 class EEvalMetric(str, ReprStrEnum):
     F1 = "f1"
 

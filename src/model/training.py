@@ -1,21 +1,17 @@
-from datetime import datetime
+from __future__ import annotations 
 import os
-import json
-from typing import Optional
-from model.metrics import ELossFunction
-from pydantic import BaseModel
-from . import data_loading
+from typing import TYPE_CHECKING
+
 from . import architectures
 from .model_handler import ModelHandler
-from model.metrics import EEvalMetric
 from torch.optim import Optimizer, Adam, RMSprop, Adagrad
 from model import ReprStrEnum
-import random
-file_path = str
-dir_path = str
+from . import data_loading
 
-
-Path = str
+if TYPE_CHECKING:
+    from pathlib import Path
+    file_path = Path
+    from model_setting import ModelSetting
 
 
 class ReprStrEnum(ReprStrEnum):
@@ -50,113 +46,11 @@ class EOptimizer(str, ReprStrEnum):
         return self.value
 
 
-
-class ProblemFolder(BaseModel):
-    folder_path: Path
-
-    # Planning stuff
-    output_sas: Path
-    good_actions: Path
-    operators_txt: Path
-    variables_txt: Path
-    # This is a dictionary of operators ids mapping to fragment of text from operators_txt
-    global_operators_json: Path
-
-    # Graph nodes
-    operators_csv: Path
-    values_csv: Path
-    variables_csv: Path
-
-    # Graph edges
-    global_values_csv: Path
-    op_val_edges: Path
-    val_op_val_edges: Path
-
-
-class ModelSetting(BaseModel):
-    lr: float
-    layers_num: int
-    hidden_size: int
-    # aggr: str  # How to aggregate the neighbours  # currently not used
-    optimizer: EOptimizer
-    conv_type: architectures.EConvolution
-    activation_function: architectures.EActivationFunction = (
-        architectures.EActivationFunction.RELU
-    )
-    classification_function: architectures.EActivationFunction = (
-        architectures.EActivationFunction.SIGMOID
-    )
-    use_batch_norm: bool = False
-    standardize_input_using_batch_norm: bool = False
-    conv_type_specific_kwargs: dict = {}
-    index: int = 0
-
-    loss_function: ELossFunction = ELossFunction.BCE
-    eval_metric: EEvalMetric = EEvalMetric.F1
-    batch_size: int = 8
-
-    @classmethod
-    def from_file(cls, path: str):
-        with open(path, "r") as f:
-            data = json.load(f)
-
-        return ModelSetting(**data)
-
-    @classmethod
-    def generate_random_settings_explicit(cls, num_settings: int) -> List['ModelSetting']:
-        """Returns a list of model settings with explicitly specified values"""
-        settings_list = []
-        for _ in range(num_settings):
-            settings = cls(
-                lr=random.uniform(0.0001, 0.1),
-                layers_num=random.randint(1, 5),
-                hidden_size=random.randint(32, 256),
-                optimizer=random.choice(list(EOptimizer)),
-                conv_type=random.choice(list(architectures.EConvolution)),
-                activation_function=random.choice(list(architectures.EActivationFunction)),
-                classification_function=random.choice(list(architectures.EActivationFunction)),
-                use_batch_norm=random.choice([True, False]),
-                standardize_input_using_batch_norm=random.choice([True, False]),
-                conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
-                index=random.randint(0, 10),
-                loss_function=random.choice(list(ELossFunction)),
-                eval_metric=random.choice(list(EEvalMetric)),
-                batch_size=random.choice([8, 16, 32, 64])
-            )
-            settings_list.append(settings)
-        return settings_list
-
-    @classmethod
-    def generate_random_settings_ranges(cls, num_settings: int) -> List['ModelSetting']:
-        """Returns a list of model settings where all properties are in some space"""
-        settings_list = []
-        for _ in range(num_settings):
-            settings = cls(
-                lr=random.uniform(0.0001, 0.1),
-                layers_num=random.randint(1, 5),
-                hidden_size=random.randint(32, 256),
-                optimizer=random.choice(list(EOptimizer)),
-                conv_type=random.choice(list(EConvolution)),
-                activation_function=random.choice(list(EActivationFunction)),
-                classification_function=random.choice(list(EActivationFunction)),
-                use_batch_norm=random.choice([True, False]),
-                standardize_input_using_batch_norm=random.choice([True, False]),
-                conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
-                index=random.randint(0, 10),
-                loss_function=random.choice(list(ELossFunction)),
-                eval_metric=random.choice(list(EEvalMetric)),
-                batch_size=random.randint(8, 64)
-            )
-            settings_list.append(settings)
-        return settings_list
-
-
 def get_model_handler(
     models_dir,
-    train_instances: list[file_path],
-    test_instances: list[file_path],
-    model_settings_path: Optional[Path] = None,
-    model_settings: Optional[ModelSetting] = None,
+    train_instances: list[Path],
+    test_instances: list[Path],
+    model_settings: ModelSetting,
     val_instances=None,
 ):
     """This function initializes the model handler that is used for training later on.
@@ -170,21 +64,11 @@ def get_model_handler(
     :param model_settings: The model settings to use
     :param val_instances: A list of paths to the validation instances
     """
-    if not model_settings and not model_settings_path:
-        raise ValueError(
-            "Either model_settings or model_settings_path must be provided"
-        )
+    print(f"Traing using model settings: {model_settings}")
 
-    if model_settings_path:
-        model_settings = ModelSetting.from_file(model_settings_path)
-    else:
-        time = datetime.now()
-        model_settings_path = f"model_settings_{time}.json"
-        with open(model_settings_path, "w") as f:
-            json.dump(dict(model_settings), f)
 
     this_model_path = os.path.join(
-        models_dir, model_settings_path.split("/")[-1].split(".")[0]
+        models_dir, model_settings.model_settings_path.split("/")[-1].split(".")[0]
     )
 
     train_set = data_loading.build_data_set(problem_instances=train_instances)
@@ -214,7 +98,6 @@ def get_model_handler(
         activation_function=model_settings.activation_function,
         conv_specific_kwargs=model_settings.conv_type_specific_kwargs,
         use_batch_norm=model_settings.use_batch_norm,
-        standardize_input_using_batch_norm=model_settings.standardize_input_using_batch_norm,
     )
     model_handler = ModelHandler(
         init_model=init_model,
