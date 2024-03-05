@@ -1,0 +1,47 @@
+change_color robot1 white black
+change_color robot2 black white
+move_down robot2 tile_3_4 tile_2_4
+move_down robot2 tile_3_5 tile_2_5
+move_down robot2 tile_4_5 tile_3_5
+move_down robot2 tile_5_2 tile_4_2
+move_down robot2 tile_5_3 tile_4_3
+move_down robot2 tile_5_4 tile_4_4
+move_down robot2 tile_5_5 tile_4_5
+move_left robot2 tile_3_5 tile_3_4
+move_left robot2 tile_5_3 tile_5_2
+move_left robot2 tile_5_4 tile_5_3
+move_left robot2 tile_5_5 tile_5_4
+move_right robot1 tile_1_1 tile_1_2
+move_right robot1 tile_1_2 tile_1_3
+move_right robot1 tile_1_3 tile_1_4
+move_right robot1 tile_2_1 tile_2_2
+move_right robot1 tile_3_1 tile_3_2
+move_up robot1 tile_1_1 tile_2_1
+move_up robot1 tile_1_3 tile_2_3
+move_up robot1 tile_2_1 tile_3_1
+move_up robot1 tile_3_1 tile_4_1
+paint_down robot1 tile_1_1 tile_2_1 white
+paint_down robot1 tile_1_2 tile_2_2 black
+paint_down robot1 tile_1_3 tile_2_3 white
+paint_down robot2 tile_1_4 tile_2_4 black
+paint_down robot2 tile_1_5 tile_2_5 white
+paint_down robot2 tile_2_5 tile_3_5 black
+paint_down robot2 tile_3_4 tile_4_4 black
+paint_down robot2 tile_3_5 tile_4_5 white
+paint_down robot2 tile_4_3 tile_5_3 black
+paint_down robot2 tile_4_4 tile_5_4 white
+paint_down robot2 tile_4_5 tile_5_5 black
+paint_up robot1 tile_2_1 tile_1_1 black
+paint_up robot1 tile_2_2 tile_1_2 white
+paint_up robot1 tile_2_3 tile_1_3 black
+paint_up robot1 tile_2_4 tile_1_4 white
+paint_up robot1 tile_3_1 tile_2_1 white
+paint_up robot1 tile_3_2 tile_2_2 black
+paint_up robot1 tile_3_3 tile_2_3 white
+paint_up robot1 tile_4_1 tile_3_1 black
+paint_up robot1 tile_4_2 tile_3_2 white
+paint_up robot1 tile_5_1 tile_4_1 white
+paint_up robot2 tile_5_2 tile_4_2 black
+paint_up robot2 tile_5_3 tile_4_3 white
+paint_up robot2 tile_5_4 tile_4_4 black
+paint_up robot2 tile_5_5 tile_4_5 white

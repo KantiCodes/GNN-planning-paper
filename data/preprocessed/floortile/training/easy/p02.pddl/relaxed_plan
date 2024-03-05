@@ -1,0 +1,3 @@
+change_color robot1 black white
+move_down robot1 tile_1_1 tile_0_1
+paint_up robot1 tile_1_1 tile_0_1 white

@@ -1,0 +1,226 @@
+calibrate rover2 camera3 objective8 waypoint1
+calibrate rover2 camera3 objective8 waypoint2
+calibrate rover2 camera3 objective8 waypoint3
+calibrate rover2 camera3 objective8 waypoint5
+calibrate rover2 camera3 objective8 waypoint6
+calibrate rover2 camera3 objective8 waypoint7
+calibrate rover2 camera3 objective8 waypoint8
+calibrate rover2 camera3 objective8 waypoint9
+calibrate rover4 camera1 objective2 waypoint1
+calibrate rover4 camera1 objective2 waypoint2
+calibrate rover4 camera1 objective2 waypoint5
+calibrate rover4 camera1 objective2 waypoint8
+calibrate rover4 camera1 objective2 waypoint9
+calibrate rover4 camera2 objective6 waypoint1
+calibrate rover4 camera2 objective6 waypoint2
+calibrate rover4 camera2 objective6 waypoint5
+calibrate rover4 camera2 objective6 waypoint8
+calibrate rover4 camera2 objective6 waypoint9
+calibrate rover4 camera4 objective4 waypoint1
+calibrate rover4 camera4 objective4 waypoint2
+calibrate rover4 camera4 objective4 waypoint3
+calibrate rover4 camera4 objective4 waypoint5
+calibrate rover4 camera4 objective4 waypoint9
+communicate_image_data rover2 general objective1 low_res waypoint2 waypoint5
+communicate_image_data rover2 general objective1 low_res waypoint3 waypoint5
+communicate_image_data rover2 general objective1 low_res waypoint6 waypoint5
+communicate_image_data rover2 general objective1 low_res waypoint7 waypoint5
+communicate_image_data rover2 general objective1 low_res waypoint8 waypoint5
+communicate_image_data rover2 general objective1 low_res waypoint9 waypoint5
+communicate_image_data rover2 general objective2 colour waypoint2 waypoint5
+communicate_image_data rover2 general objective2 colour waypoint3 waypoint5
+communicate_image_data rover2 general objective2 colour waypoint6 waypoint5
+communicate_image_data rover2 general objective2 colour waypoint7 waypoint5
+communicate_image_data rover2 general objective2 colour waypoint8 waypoint5
+communicate_image_data rover2 general objective2 colour waypoint9 waypoint5
+communicate_image_data rover2 general objective4 high_res waypoint2 waypoint5
+communicate_image_data rover2 general objective4 high_res waypoint3 waypoint5
+communicate_image_data rover2 general objective4 high_res waypoint6 waypoint5
+communicate_image_data rover2 general objective4 high_res waypoint7 waypoint5
+communicate_image_data rover2 general objective4 high_res waypoint8 waypoint5
+communicate_image_data rover2 general objective4 high_res waypoint9 waypoint5
+communicate_image_data rover2 general objective4 low_res waypoint2 waypoint5
+communicate_image_data rover2 general objective4 low_res waypoint3 waypoint5
+communicate_image_data rover2 general objective4 low_res waypoint6 waypoint5
+communicate_image_data rover2 general objective4 low_res waypoint7 waypoint5
+communicate_image_data rover2 general objective4 low_res waypoint8 waypoint5
+communicate_image_data rover2 general objective4 low_res waypoint9 waypoint5
+communicate_image_data rover2 general objective7 colour waypoint3 waypoint5
+communicate_image_data rover2 general objective7 colour waypoint6 waypoint5
+communicate_image_data rover2 general objective7 colour waypoint7 waypoint5
+communicate_image_data rover2 general objective7 colour waypoint8 waypoint5
+communicate_image_data rover2 general objective7 colour waypoint9 waypoint5
+communicate_image_data rover2 general objective7 low_res waypoint3 waypoint5
+communicate_image_data rover2 general objective7 low_res waypoint6 waypoint5
+communicate_image_data rover2 general objective7 low_res waypoint7 waypoint5
+communicate_image_data rover2 general objective7 low_res waypoint8 waypoint5
+communicate_image_data rover2 general objective7 low_res waypoint9 waypoint5
+communicate_image_data rover2 general objective8 colour waypoint2 waypoint5
+communicate_image_data rover2 general objective8 colour waypoint3 waypoint5
+communicate_image_data rover2 general objective8 colour waypoint6 waypoint5
+communicate_image_data rover2 general objective8 colour waypoint7 waypoint5
+communicate_image_data rover2 general objective8 colour waypoint8 waypoint5
+communicate_image_data rover2 general objective8 colour waypoint9 waypoint5
+communicate_image_data rover4 general objective2 colour waypoint2 waypoint5
+communicate_image_data rover4 general objective2 colour waypoint3 waypoint5
+communicate_image_data rover4 general objective2 colour waypoint8 waypoint5
+communicate_image_data rover4 general objective2 colour waypoint9 waypoint5
+communicate_image_data rover4 general objective4 high_res waypoint2 waypoint5
+communicate_image_data rover4 general objective4 high_res waypoint3 waypoint5
+communicate_image_data rover4 general objective4 high_res waypoint8 waypoint5
+communicate_image_data rover4 general objective4 high_res waypoint9 waypoint5
+communicate_image_data rover4 general objective7 colour waypoint3 waypoint5
+communicate_image_data rover4 general objective7 colour waypoint8 waypoint5
+communicate_image_data rover4 general objective7 colour waypoint9 waypoint5
+communicate_image_data rover4 general objective8 colour waypoint2 waypoint5
+communicate_image_data rover4 general objective8 colour waypoint3 waypoint5
+communicate_image_data rover4 general objective8 colour waypoint8 waypoint5
+communicate_image_data rover4 general objective8 colour waypoint9 waypoint5
+communicate_rock_data rover1 general waypoint2 waypoint2 waypoint5
+communicate_rock_data rover1 general waypoint3 waypoint2 waypoint5
+communicate_rock_data rover1 general waypoint3 waypoint3 waypoint5
+communicate_soil_data rover1 general waypoint1 waypoint2 waypoint5
+communicate_soil_data rover1 general waypoint1 waypoint3 waypoint5
+communicate_soil_data rover1 general waypoint3 waypoint2 waypoint5
+communicate_soil_data rover1 general waypoint3 waypoint3 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint3 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint6 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint7 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint8 waypoint5
+communicate_soil_data rover2 general waypoint1 waypoint9 waypoint5
+communicate_soil_data rover2 general waypoint3 waypoint3 waypoint5
+communicate_soil_data rover2 general waypoint3 waypoint6 waypoint5
+communicate_soil_data rover2 general waypoint3 waypoint7 waypoint5
+communicate_soil_data rover2 general waypoint3 waypoint8 waypoint5
+communicate_soil_data rover2 general waypoint3 waypoint9 waypoint5
+communicate_soil_data rover2 general waypoint5 waypoint9 waypoint5
+communicate_soil_data rover2 general waypoint9 waypoint9 waypoint5
+communicate_soil_data rover4 general waypoint1 waypoint3 waypoint5
+communicate_soil_data rover4 general waypoint1 waypoint8 waypoint5
+communicate_soil_data rover4 general waypoint1 waypoint9 waypoint5
+communicate_soil_data rover4 general waypoint3 waypoint3 waypoint5
+communicate_soil_data rover4 general waypoint3 waypoint9 waypoint5
+communicate_soil_data rover4 general waypoint5 waypoint9 waypoint5
+communicate_soil_data rover4 general waypoint9 waypoint9 waypoint5
+drop rover1 rover1store
+drop rover2 rover2store
+drop rover4 rover4store
+navigate rover1 waypoint1 waypoint3
+navigate rover1 waypoint3 waypoint1
+navigate rover1 waypoint3 waypoint2
+navigate rover1 waypoint4 waypoint3
+navigate rover2 waypoint1 waypoint3
+navigate rover2 waypoint1 waypoint6
+navigate rover2 waypoint1 waypoint7
+navigate rover2 waypoint1 waypoint8
+navigate rover2 waypoint2 waypoint3
+navigate rover2 waypoint2 waypoint7
+navigate rover2 waypoint3 waypoint1
+navigate rover2 waypoint5 waypoint9
+navigate rover2 waypoint7 waypoint1
+navigate rover2 waypoint8 waypoint5
+navigate rover4 waypoint1 waypoint3
+navigate rover4 waypoint1 waypoint8
+navigate rover4 waypoint2 waypoint3
+navigate rover4 waypoint3 waypoint1
+navigate rover4 waypoint3 waypoint5
+navigate rover4 waypoint5 waypoint9
+navigate rover4 waypoint8 waypoint5
+sample_rock rover1 rover1store waypoint2
+sample_rock rover1 rover1store waypoint3
+sample_soil rover1 rover1store waypoint1
+sample_soil rover1 rover1store waypoint3
+sample_soil rover2 rover2store waypoint1
+sample_soil rover2 rover2store waypoint3
+sample_soil rover2 rover2store waypoint5
+sample_soil rover2 rover2store waypoint9
+sample_soil rover4 rover4store waypoint1
+sample_soil rover4 rover4store waypoint3
+sample_soil rover4 rover4store waypoint5
+sample_soil rover4 rover4store waypoint9
+take_image rover2 waypoint1 objective1 camera3 low_res
+take_image rover2 waypoint1 objective2 camera3 colour
+take_image rover2 waypoint1 objective4 camera3 high_res
+take_image rover2 waypoint1 objective4 camera3 low_res
+take_image rover2 waypoint1 objective7 camera3 colour
+take_image rover2 waypoint1 objective7 camera3 low_res
+take_image rover2 waypoint1 objective8 camera3 colour
+take_image rover2 waypoint2 objective1 camera3 low_res
+take_image rover2 waypoint2 objective2 camera3 colour
+take_image rover2 waypoint2 objective4 camera3 high_res
+take_image rover2 waypoint2 objective4 camera3 low_res
+take_image rover2 waypoint2 objective8 camera3 colour
+take_image rover2 waypoint3 objective1 camera3 low_res
+take_image rover2 waypoint3 objective4 camera3 high_res
+take_image rover2 waypoint3 objective4 camera3 low_res
+take_image rover2 waypoint3 objective7 camera3 colour
+take_image rover2 waypoint3 objective7 camera3 low_res
+take_image rover2 waypoint3 objective8 camera3 colour
+take_image rover2 waypoint5 objective2 camera3 colour
+take_image rover2 waypoint5 objective4 camera3 high_res
+take_image rover2 waypoint5 objective4 camera3 low_res
+take_image rover2 waypoint5 objective8 camera3 colour
+take_image rover2 waypoint6 objective2 camera3 colour
+take_image rover2 waypoint6 objective4 camera3 high_res
+take_image rover2 waypoint6 objective4 camera3 low_res
+take_image rover2 waypoint6 objective7 camera3 colour
+take_image rover2 waypoint6 objective7 camera3 low_res
+take_image rover2 waypoint6 objective8 camera3 colour
+take_image rover2 waypoint7 objective1 camera3 low_res
+take_image rover2 waypoint7 objective2 camera3 colour
+take_image rover2 waypoint7 objective4 camera3 high_res
+take_image rover2 waypoint7 objective4 camera3 low_res
+take_image rover2 waypoint7 objective7 camera3 colour
+take_image rover2 waypoint7 objective7 camera3 low_res
+take_image rover2 waypoint7 objective8 camera3 colour
+take_image rover2 waypoint8 objective2 camera3 colour
+take_image rover2 waypoint8 objective7 camera3 colour
+take_image rover2 waypoint8 objective7 camera3 low_res
+take_image rover2 waypoint8 objective8 camera3 colour
+take_image rover2 waypoint9 objective1 camera3 low_res
+take_image rover2 waypoint9 objective2 camera3 colour
+take_image rover2 waypoint9 objective4 camera3 high_res
+take_image rover2 waypoint9 objective4 camera3 low_res
+take_image rover2 waypoint9 objective7 camera3 colour
+take_image rover2 waypoint9 objective7 camera3 low_res
+take_image rover2 waypoint9 objective8 camera3 colour
+take_image rover4 waypoint1 objective2 camera1 colour
+take_image rover4 waypoint1 objective2 camera4 colour
+take_image rover4 waypoint1 objective4 camera1 high_res
+take_image rover4 waypoint1 objective4 camera2 high_res
+take_image rover4 waypoint1 objective7 camera1 colour
+take_image rover4 waypoint1 objective7 camera4 colour
+take_image rover4 waypoint1 objective8 camera1 colour
+take_image rover4 waypoint1 objective8 camera4 colour
+take_image rover4 waypoint2 objective2 camera1 colour
+take_image rover4 waypoint2 objective2 camera4 colour
+take_image rover4 waypoint2 objective4 camera1 high_res
+take_image rover4 waypoint2 objective4 camera2 high_res
+take_image rover4 waypoint2 objective8 camera1 colour
+take_image rover4 waypoint2 objective8 camera4 colour
+take_image rover4 waypoint3 objective4 camera1 high_res
+take_image rover4 waypoint3 objective4 camera2 high_res
+take_image rover4 waypoint3 objective7 camera1 colour
+take_image rover4 waypoint3 objective7 camera4 colour
+take_image rover4 waypoint3 objective8 camera1 colour
+take_image rover4 waypoint3 objective8 camera4 colour
+take_image rover4 waypoint5 objective2 camera1 colour
+take_image rover4 waypoint5 objective2 camera4 colour
+take_image rover4 waypoint5 objective4 camera1 high_res
+take_image rover4 waypoint5 objective4 camera2 high_res
+take_image rover4 waypoint5 objective8 camera1 colour
+take_image rover4 waypoint5 objective8 camera4 colour
+take_image rover4 waypoint8 objective2 camera1 colour
+take_image rover4 waypoint8 objective2 camera4 colour
+take_image rover4 waypoint8 objective7 camera1 colour
+take_image rover4 waypoint8 objective7 camera4 colour
+take_image rover4 waypoint8 objective8 camera1 colour
+take_image rover4 waypoint8 objective8 camera4 colour
+take_image rover4 waypoint9 objective2 camera1 colour
+take_image rover4 waypoint9 objective2 camera4 colour
+take_image rover4 waypoint9 objective4 camera1 high_res
+take_image rover4 waypoint9 objective4 camera2 high_res
+take_image rover4 waypoint9 objective7 camera1 colour
+take_image rover4 waypoint9 objective7 camera4 colour
+take_image rover4 waypoint9 objective8 camera1 colour
+take_image rover4 waypoint9 objective8 camera4 colour

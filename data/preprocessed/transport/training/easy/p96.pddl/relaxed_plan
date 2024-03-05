@@ -1,0 +1,56 @@
+drive v1 l15 l9
+drive v1 l16 l1
+drive v1 l16 l13
+drive v1 l16 l15
+drive v1 l16 l4
+drive v2 l13 l5
+drive v2 l13 l9
+drive v2 l5 l12
+drive v3 l11 l5
+drive v3 l11 l8
+drive v3 l5 l13
+drive v3 l8 l1
+drive v5 l1 l12
+drive v5 l1 l7
+drive v5 l7 l10
+drive v6 l13 l5
+drive v6 l13 l9
+drive v6 l5 l12
+drive v7 l10 l14
+drive v7 l11 l10
+drive v7 l11 l3
+drive v7 l3 l6
+drop v1 l13 p11 c1 c2
+drop v1 l13 p6 c1 c2
+drop v1 l4 p13 c1 c2
+drop v1 l9 p10 c1 c2
+drop v2 l12 p3 c1 c2
+drop v2 l12 p5 c1 c2
+drop v2 l9 p7 c1 c2
+drop v3 l1 p4 c2 c3
+drop v3 l11 p17 c2 c3
+drop v3 l13 p9 c2 c3
+drop v3 l8 p12 c2 c3
+drop v5 l10 p16 c1 c2
+drop v5 l10 p2 c1 c2
+drop v6 l13 p1 c1 c2
+drop v6 l9 p14 c1 c2
+drop v7 l11 p8 c2 c3
+drop v7 l3 p15 c2 c3
+pick-up v1 l1 p10 c0 c1
+pick-up v1 l1 p11 c0 c1
+pick-up v1 l16 p13 c0 c1
+pick-up v1 l16 p6 c0 c1
+pick-up v2 l13 p3 c0 c1
+pick-up v2 l13 p5 c0 c1
+pick-up v2 l5 p7 c0 c1
+pick-up v3 l11 p4 c1 c2
+pick-up v3 l11 p9 c1 c2
+pick-up v3 l5 p12 c1 c2
+pick-up v3 l8 p17 c1 c2
+pick-up v5 l1 p2 c0 c1
+pick-up v5 l12 p16 c0 c1
+pick-up v6 l12 p1 c0 c1
+pick-up v6 l12 p14 c0 c1
+pick-up v7 l14 p8 c1 c2
+pick-up v7 l6 p15 c1 c2

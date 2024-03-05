@@ -1,0 +1,42 @@
+drive v1 l1 l2
+drive v1 l1 l4
+drive v1 l2 l1
+drive v1 l2 l7
+drive v1 l4 l1
+drive v1 l4 l6
+drive v1 l5 l2
+drive v1 l6 l4
+drive v2 l1 l2
+drive v2 l1 l4
+drive v2 l2 l7
+drive v2 l3 l1
+drive v2 l3 l6
+drive v2 l4 l1
+drive v2 l4 l6
+drive v2 l6 l4
+drive v4 l4 l6
+drive v4 l6 l4
+drop v1 l1 p1 c0 c1
+drop v1 l2 p3 c1 c2
+drop v1 l6 p2 c0 c1
+drop v1 l6 p2 c1 c2
+drop v1 l7 p4 c1 c2
+drop v2 l1 p1 c0 c1
+drop v2 l6 p2 c0 c1
+drop v2 l6 p2 c1 c2
+drop v2 l7 p4 c1 c2
+drop v4 l6 p2 c0 c1
+pick-up v1 l4 p1 c0 c1
+pick-up v1 l4 p1 c1 c2
+pick-up v1 l4 p2 c0 c1
+pick-up v1 l4 p2 c1 c2
+pick-up v1 l4 p4 c0 c1
+pick-up v1 l4 p4 c1 c2
+pick-up v1 l5 p3 c1 c2
+pick-up v2 l4 p1 c0 c1
+pick-up v2 l4 p1 c1 c2
+pick-up v2 l4 p2 c0 c1
+pick-up v2 l4 p2 c1 c2
+pick-up v2 l4 p4 c0 c1
+pick-up v2 l4 p4 c1 c2
+pick-up v4 l4 p2 c0 c1
