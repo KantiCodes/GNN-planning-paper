@@ -76,7 +76,7 @@ class TrainingCase:
 
                 mlflow.log_metrics(metrics=this_epoch_metrics, step=epoch)
 
-                if epoch % 50 == 0:
+                if epoch % 10 == 0:
                     print(f"Epoch {epoch}:")
                     # Print train loss and metric
                     print(f"Train loss: {epoch_train_results.loss}, Train metric: {epoch_train_results.metric}")
@@ -95,11 +95,14 @@ class TrainingCase:
                 batch.x_dict, batch.edge_index_dict)
             preds = out["operator"].squeeze()
 
+            file_name = f"confusion_matrix-{os.urandom(16).hex()}.png"
             make_and_save_confusion_matrix(
                 predictions=preds,
-                true_preds=next(iter(self.test_loader))["operator"].y,
-                file_name=f"confusion_matrix-{os.urandom(16).hex()}",
+                true_labels=batch["operator"].y,
+                file_name=file_name,
             )
+            mlflow.log_artifact(file_name)
+            os.remove(file_name)
 
     def persist(self):
         pass

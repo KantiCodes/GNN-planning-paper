@@ -85,7 +85,10 @@ if __name__ == "__main__":
             "For instance to run with specified config run: \n"
             "python src/runner.py "
             "--directory-with-jsons model-settings "
-            "--data-directory-path data/preprocessed/blocksworld_graph/training/easy " 
+            "--data-directory-path data/preprocessed/blocksworld_graph/training/easy "
+            "or python src/runner.py "
+            "--random-settings-number 5 "
+            "--data-directory-path data/preprocessed/blocksworld_graph/training/easy" 
         ))
     parser.add_argument(
         "--directory-with-jsons",

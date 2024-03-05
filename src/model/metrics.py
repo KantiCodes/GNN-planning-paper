@@ -5,6 +5,11 @@ from sklearn.metrics import precision_recall_fscore_support
 from model import ReprStrEnum
 from torcheval.metrics.functional import binary_f1_score
 
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
 
 class EEvalMetric(str, ReprStrEnum):
     F1 = "f1"
@@ -201,16 +206,20 @@ def evaluate_and_return_confusion(model: torch.nn.Module, data):
 #     else:
 #         fig.savefig("results.png")
 
-def make_and_save_confusion_matrix(predictions, true_preds, file_name):
-    changed_data = (predictions >= 0.5).astype(int)
+def make_and_save_confusion_matrix(predictions, true_labels, file_name):
+    # Create a new figure
+    plt.figure()
 
-    from sklearn.metrics import confusion_matrix
-    import seaborn as sns
-    import pandas as pd
-    import matplotlib.pyplot as plt
+    changed_data = (predictions >= 0.5).numpy().astype(int)
 
-    cm = confusion_matrix(true_preds, changed_data)
-    df_cm = pd.DataFrame(cm, index=["False", "True"], columns=["False", "True"])
-    sns.heatmap(df_cm, annot=True, fmt="g")
+    import sklearn.metrics
+    confusion_matrix = sklearn.metrics.ConfusionMatrixDisplay(
+        confusion_matrix=sklearn.metrics.confusion_matrix(
+            true_labels.numpy(), changed_data
+        ),
+    ).plot()
+
+    plt.xlabel("Predicted Label")
+    plt.ylabel("True Label")
     plt.savefig(file_name)
-    plt.show()
+    plt.close()  # Close the figure to avoid affecting global plt state
