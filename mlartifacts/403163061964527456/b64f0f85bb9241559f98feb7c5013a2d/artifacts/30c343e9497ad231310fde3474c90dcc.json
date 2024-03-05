@@ -1,0 +1,15 @@
+{
+    "lr": 0.07682556906109722,
+    "layers_num": 5,
+    "hidden_size": 32,
+    "optimizer": "RMSprop",
+    "conv_type": "SAGEConv",
+    "activation_function": "tanh",
+    "classification_function": "tanh",
+    "use_batch_norm": true,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 4,
+    "model_settings_path": "model-settings/30c343e9497ad231310fde3474c90dcc.json"
+}

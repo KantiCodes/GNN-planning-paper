@@ -1,0 +1,15 @@
+{
+    "lr": 0.02217483980835944,
+    "layers_num": 5,
+    "hidden_size": 32,
+    "optimizer": "RMSprop",
+    "conv_type": "GATConv",
+    "activation_function": "relu",
+    "classification_function": "relu",
+    "use_batch_norm": true,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 8,
+    "model_settings_path": "model-settings/739e072da4c374a774b2c7fbf09cba8f.json"
+}
