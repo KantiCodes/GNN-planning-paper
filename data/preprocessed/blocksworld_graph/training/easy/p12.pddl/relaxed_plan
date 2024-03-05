@@ -1,4 +1,0 @@
-putdown b2
-stack b1 b2
-unstack b1 b3
-unstack b2 b1

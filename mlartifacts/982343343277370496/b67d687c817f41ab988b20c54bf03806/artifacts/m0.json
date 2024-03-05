@@ -1,0 +1,10 @@
+{
+    "layers_num": 4,
+    "hidden_size":64,
+    "conv_type": "GraphConv",
+    "aggr": "mean",
+    "optimizer": "Adam",
+    "lr": "0.001",
+    "use_batch_norm": "True",
+    "batch_size": 4
+}

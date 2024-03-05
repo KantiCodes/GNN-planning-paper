@@ -1,0 +1,10 @@
+{
+    "layers_num": 4,
+    "hidden_size":64,
+    "conv_type": "SAGEConv",
+    "aggr": "max",
+    "optimizer": "Adam",
+    "lr": "0.001",
+    "kwargs": "",
+    "use_batch_norm": "True"
+}

@@ -1,7 +1,0 @@
-pickup b4
-putdown b1
-stack b3 b1
-stack b4 b2
-unstack b1 b2
-unstack b2 b3
-unstack b3 b4

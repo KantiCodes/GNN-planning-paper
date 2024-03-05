@@ -1,0 +1,13 @@
+{
+    "layers_num": 4,
+    "hidden_size":64,
+    "conv_type": "GATConv",
+    "aggr": "mean",
+    "optimizer": "Adam",
+    "lr": "0.001",
+    "kwargs": "",
+    "use_batch_norm": "False",
+    "conv_type_specific_kwargs": {
+        "negative_slope": 0.2
+    }
+}
