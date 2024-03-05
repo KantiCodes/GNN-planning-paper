@@ -25,7 +25,7 @@ class ReprStrEnum(ReprStrEnum):
 class EOptimizer(str, ReprStrEnum):
     ADAM = "Adam"
     RMSPROP = "RMSprop"
-    ADAGRAD = "Adagrad"
+    # ADAGRAD = "Adagrad"  # Turned off for now cause lazy loading error
 
     def to_optim(self) -> Optimizer:
         match self:
@@ -84,7 +84,10 @@ def get_model_handler(
     # We setup weights as global properties of the dataset only on the train set
     # to prevent overfitting
     # TODO hyperparameter on the weights
-    pos_weight, neg_weight = data_loading.calculate_weights(train_set, train_instances)
+    if model_settings.use_class_weights:
+        pos_weight, neg_weight = data_loading.calculate_weights(train_set, train_instances)
+    else:
+        pos_weight, neg_weight = 1, 1
 
     train_loader, test_loader, val_loader = data_loading.create_loaders(
         train_set, test_set, val_set=val_set, batch_size=model_settings.batch_size

@@ -1,7 +1,7 @@
-
+import os
 from typing import Literal
 import mlflow
-from model.metrics import Results
+from model.metrics import Results, make_and_save_confusion_matrix
 
 from model.training import get_model_handler
 from model.model_setting import ModelSetting
@@ -76,7 +76,7 @@ class TrainingCase:
 
                 mlflow.log_metrics(metrics=this_epoch_metrics, step=epoch)
 
-                if epoch % 10 == 0:
+                if epoch % 50 == 0:
                     print(f"Epoch {epoch}:")
                     # Print train loss and metric
                     print(f"Train loss: {epoch_train_results.loss}, Train metric: {epoch_train_results.metric}")
@@ -84,6 +84,22 @@ class TrainingCase:
                     print(f"Test loss: {epoch_test_results.loss}, Test metric: {epoch_test_results.metric}")
 
             mlflow.pytorch.log_model(self.model_handler.model, "models")
+
+            # If training successfully completed we delete the settings file since it 
+            # is present in mlflow
+            if os.path.exists(self.model_setting.model_settings_path):
+                os.remove(self.model_setting.model_settings_path)
+
+            batch = next(iter(self.test_loader))
+            out = self.model_handler.model(
+                batch.x_dict, batch.edge_index_dict)
+            preds = out["operator"].squeeze()
+
+            make_and_save_confusion_matrix(
+                predictions=preds,
+                true_preds=next(iter(self.test_loader))["operator"].y,
+                file_name=f"confusion_matrix-{os.urandom(16).hex()}",
+            )
 
     def persist(self):
         pass

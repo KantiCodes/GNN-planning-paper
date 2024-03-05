@@ -43,8 +43,8 @@ class ModelHandler:
         loss_function: ELossFunction,
         eval_metric: EEvalMetric,
         weights_path=None,
-        pos_weight=1,
-        neg_weight=1,
+        pos_weight,
+        neg_weight,
     ):  # TODO hyperparameter on aggr
         self.model = to_hetero(
             init_model, metadata=METADATA, aggr="sum"
@@ -110,8 +110,8 @@ class ModelHandler:
         return compute_results(
             test_batch,
             self.model,
-            self.pos_weight,
-            self.neg_weight,
+            1,
+            1,
             self.loss_function,
             self.eval_metric,
         )
