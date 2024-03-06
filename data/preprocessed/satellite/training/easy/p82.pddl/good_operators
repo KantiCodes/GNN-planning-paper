@@ -1,0 +1,51 @@
+calibrate sat1 ins7 dir3
+calibrate sat2 ins5 dir9
+calibrate sat3 ins9 dir5
+calibrate sat5 ins1 dir6
+calibrate sat5 ins10 dir3
+calibrate sat5 ins12 dir4
+calibrate sat6 ins6 dir3
+calibrate sat7 ins8 dir1
+calibrate sat8 ins17 dir4
+switch_on ins1 sat5
+switch_on ins10 sat5
+switch_on ins12 sat5
+switch_on ins17 sat8
+switch_on ins5 sat2
+switch_on ins6 sat6
+switch_on ins7 sat1
+switch_on ins8 sat7
+switch_on ins9 sat3
+take_image sat1 dir2 ins7 mod3
+take_image sat2 dir2 ins5 mod3
+take_image sat3 dir2 ins9 mod3
+take_image sat5 dir2 ins1 mod3
+take_image sat5 dir2 ins10 mod3
+take_image sat5 dir2 ins12 mod3
+take_image sat6 dir2 ins6 mod3
+take_image sat7 dir2 ins8 mod3
+take_image sat8 dir2 ins17 mod3
+turn_to sat1 dir2 dir3
+turn_to sat1 dir3 dir5
+turn_to sat2 dir2 dir9
+turn_to sat2 dir9 dir4
+turn_to sat3 dir2 dir5
+turn_to sat3 dir5 dir2
+turn_to sat4 dir5 dir9
+turn_to sat5 dir2 dir3
+turn_to sat5 dir2 dir4
+turn_to sat5 dir2 dir6
+turn_to sat5 dir3 dir2
+turn_to sat5 dir4 dir2
+turn_to sat5 dir6 dir2
+turn_to sat6 dir2 dir3
+turn_to sat6 dir3 dir6
+turn_to sat7 dir1 dir9
+turn_to sat7 dir2 dir1
+turn_to sat7 dir3 dir2
+turn_to sat7 dir3 dir9
+turn_to sat8 dir2 dir4
+turn_to sat8 dir3 dir2
+turn_to sat8 dir3 dir5
+turn_to sat8 dir4 dir5
+turn_to sat9 dir9 dir5

@@ -1,0 +1,79 @@
+calibrate sat4 ins3 dir5
+calibrate sat5 ins11 dir2
+calibrate sat5 ins8 dir9
+switch_on ins11 sat5
+switch_on ins3 sat4
+switch_on ins8 sat5
+take_image sat4 dir10 ins3 mod2
+take_image sat4 dir4 ins3 mod3
+take_image sat4 dir5 ins3 mod3
+take_image sat4 dir6 ins3 mod2
+take_image sat4 dir7 ins3 mod3
+take_image sat4 dir9 ins3 mod3
+take_image sat5 dir10 ins11 mod2
+take_image sat5 dir10 ins8 mod2
+take_image sat5 dir4 ins11 mod3
+take_image sat5 dir4 ins8 mod3
+take_image sat5 dir5 ins11 mod3
+take_image sat5 dir5 ins8 mod3
+take_image sat5 dir6 ins11 mod2
+take_image sat5 dir6 ins8 mod2
+take_image sat5 dir7 ins11 mod3
+take_image sat5 dir7 ins8 mod3
+take_image sat5 dir9 ins11 mod3
+take_image sat5 dir9 ins8 mod3
+turn_to sat10 dir9 dir7
+turn_to sat3 dir3 dir10
+turn_to sat4 dir10 dir4
+turn_to sat4 dir10 dir5
+turn_to sat4 dir10 dir6
+turn_to sat4 dir10 dir7
+turn_to sat4 dir4 dir10
+turn_to sat4 dir4 dir5
+turn_to sat4 dir4 dir6
+turn_to sat4 dir4 dir7
+turn_to sat4 dir5 dir10
+turn_to sat4 dir6 dir10
+turn_to sat4 dir6 dir4
+turn_to sat4 dir6 dir5
+turn_to sat4 dir6 dir7
+turn_to sat4 dir7 dir10
+turn_to sat4 dir7 dir4
+turn_to sat4 dir7 dir5
+turn_to sat4 dir7 dir6
+turn_to sat4 dir9 dir10
+turn_to sat4 dir9 dir4
+turn_to sat4 dir9 dir6
+turn_to sat4 dir9 dir7
+turn_to sat5 dir10 dir2
+turn_to sat5 dir10 dir5
+turn_to sat5 dir10 dir6
+turn_to sat5 dir10 dir7
+turn_to sat5 dir10 dir9
+turn_to sat5 dir4 dir10
+turn_to sat5 dir4 dir2
+turn_to sat5 dir4 dir5
+turn_to sat5 dir4 dir6
+turn_to sat5 dir4 dir7
+turn_to sat5 dir4 dir9
+turn_to sat5 dir5 dir10
+turn_to sat5 dir5 dir2
+turn_to sat5 dir5 dir6
+turn_to sat5 dir5 dir7
+turn_to sat5 dir5 dir9
+turn_to sat5 dir6 dir10
+turn_to sat5 dir6 dir2
+turn_to sat5 dir6 dir5
+turn_to sat5 dir6 dir7
+turn_to sat5 dir6 dir9
+turn_to sat5 dir7 dir10
+turn_to sat5 dir7 dir2
+turn_to sat5 dir7 dir5
+turn_to sat5 dir7 dir6
+turn_to sat5 dir7 dir9
+turn_to sat5 dir9 dir10
+turn_to sat5 dir9 dir2
+turn_to sat5 dir9 dir5
+turn_to sat5 dir9 dir6
+turn_to sat5 dir9 dir7
+turn_to sat7 dir3 dir1

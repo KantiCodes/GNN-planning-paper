@@ -1,0 +1,17814 @@
+begin_version
+3
+end_version
+begin_metric
+0
+end_metric
+71
+begin_variable
+var48
+-1
+10
+Atom pointing(sat1, dir1)
+Atom pointing(sat1, dir10)
+Atom pointing(sat1, dir2)
+Atom pointing(sat1, dir3)
+Atom pointing(sat1, dir4)
+Atom pointing(sat1, dir5)
+Atom pointing(sat1, dir6)
+Atom pointing(sat1, dir7)
+Atom pointing(sat1, dir8)
+Atom pointing(sat1, dir9)
+end_variable
+begin_variable
+var49
+-1
+10
+Atom pointing(sat10, dir1)
+Atom pointing(sat10, dir10)
+Atom pointing(sat10, dir2)
+Atom pointing(sat10, dir3)
+Atom pointing(sat10, dir4)
+Atom pointing(sat10, dir5)
+Atom pointing(sat10, dir6)
+Atom pointing(sat10, dir7)
+Atom pointing(sat10, dir8)
+Atom pointing(sat10, dir9)
+end_variable
+begin_variable
+var50
+-1
+10
+Atom pointing(sat2, dir1)
+Atom pointing(sat2, dir10)
+Atom pointing(sat2, dir2)
+Atom pointing(sat2, dir3)
+Atom pointing(sat2, dir4)
+Atom pointing(sat2, dir5)
+Atom pointing(sat2, dir6)
+Atom pointing(sat2, dir7)
+Atom pointing(sat2, dir8)
+Atom pointing(sat2, dir9)
+end_variable
+begin_variable
+var51
+-1
+10
+Atom pointing(sat3, dir1)
+Atom pointing(sat3, dir10)
+Atom pointing(sat3, dir2)
+Atom pointing(sat3, dir3)
+Atom pointing(sat3, dir4)
+Atom pointing(sat3, dir5)
+Atom pointing(sat3, dir6)
+Atom pointing(sat3, dir7)
+Atom pointing(sat3, dir8)
+Atom pointing(sat3, dir9)
+end_variable
+begin_variable
+var52
+-1
+10
+Atom pointing(sat4, dir1)
+Atom pointing(sat4, dir10)
+Atom pointing(sat4, dir2)
+Atom pointing(sat4, dir3)
+Atom pointing(sat4, dir4)
+Atom pointing(sat4, dir5)
+Atom pointing(sat4, dir6)
+Atom pointing(sat4, dir7)
+Atom pointing(sat4, dir8)
+Atom pointing(sat4, dir9)
+end_variable
+begin_variable
+var53
+-1
+10
+Atom pointing(sat5, dir1)
+Atom pointing(sat5, dir10)
+Atom pointing(sat5, dir2)
+Atom pointing(sat5, dir3)
+Atom pointing(sat5, dir4)
+Atom pointing(sat5, dir5)
+Atom pointing(sat5, dir6)
+Atom pointing(sat5, dir7)
+Atom pointing(sat5, dir8)
+Atom pointing(sat5, dir9)
+end_variable
+begin_variable
+var54
+-1
+10
+Atom pointing(sat6, dir1)
+Atom pointing(sat6, dir10)
+Atom pointing(sat6, dir2)
+Atom pointing(sat6, dir3)
+Atom pointing(sat6, dir4)
+Atom pointing(sat6, dir5)
+Atom pointing(sat6, dir6)
+Atom pointing(sat6, dir7)
+Atom pointing(sat6, dir8)
+Atom pointing(sat6, dir9)
+end_variable
+begin_variable
+var55
+-1
+10
+Atom pointing(sat7, dir1)
+Atom pointing(sat7, dir10)
+Atom pointing(sat7, dir2)
+Atom pointing(sat7, dir3)
+Atom pointing(sat7, dir4)
+Atom pointing(sat7, dir5)
+Atom pointing(sat7, dir6)
+Atom pointing(sat7, dir7)
+Atom pointing(sat7, dir8)
+Atom pointing(sat7, dir9)
+end_variable
+begin_variable
+var56
+-1
+10
+Atom pointing(sat8, dir1)
+Atom pointing(sat8, dir10)
+Atom pointing(sat8, dir2)
+Atom pointing(sat8, dir3)
+Atom pointing(sat8, dir4)
+Atom pointing(sat8, dir5)
+Atom pointing(sat8, dir6)
+Atom pointing(sat8, dir7)
+Atom pointing(sat8, dir8)
+Atom pointing(sat8, dir9)
+end_variable
+begin_variable
+var57
+-1
+10
+Atom pointing(sat9, dir1)
+Atom pointing(sat9, dir10)
+Atom pointing(sat9, dir2)
+Atom pointing(sat9, dir3)
+Atom pointing(sat9, dir4)
+Atom pointing(sat9, dir5)
+Atom pointing(sat9, dir6)
+Atom pointing(sat9, dir7)
+Atom pointing(sat9, dir8)
+Atom pointing(sat9, dir9)
+end_variable
+begin_variable
+var77
+-1
+2
+Atom power_on(ins18)
+NegatedAtom power_on(ins18)
+end_variable
+begin_variable
+var81
+-1
+2
+Atom power_on(ins5)
+NegatedAtom power_on(ins5)
+end_variable
+begin_variable
+var58
+-1
+2
+Atom power_avail(sat1)
+NegatedAtom power_avail(sat1)
+end_variable
+begin_variable
+var13
+-1
+2
+Atom calibrated(ins5)
+NegatedAtom calibrated(ins5)
+end_variable
+begin_variable
+var9
+-1
+2
+Atom calibrated(ins18)
+NegatedAtom calibrated(ins18)
+end_variable
+begin_variable
+var76
+-1
+2
+Atom power_on(ins17)
+NegatedAtom power_on(ins17)
+end_variable
+begin_variable
+var82
+-1
+2
+Atom power_on(ins6)
+NegatedAtom power_on(ins6)
+end_variable
+begin_variable
+var59
+-1
+2
+Atom power_avail(sat10)
+NegatedAtom power_avail(sat10)
+end_variable
+begin_variable
+var14
+-1
+2
+Atom calibrated(ins6)
+NegatedAtom calibrated(ins6)
+end_variable
+begin_variable
+var8
+-1
+2
+Atom calibrated(ins17)
+NegatedAtom calibrated(ins17)
+end_variable
+begin_variable
+var73
+-1
+2
+Atom power_on(ins14)
+NegatedAtom power_on(ins14)
+end_variable
+begin_variable
+var75
+-1
+2
+Atom power_on(ins16)
+NegatedAtom power_on(ins16)
+end_variable
+begin_variable
+var79
+-1
+2
+Atom power_on(ins3)
+NegatedAtom power_on(ins3)
+end_variable
+begin_variable
+var60
+-1
+2
+Atom power_avail(sat2)
+NegatedAtom power_avail(sat2)
+end_variable
+begin_variable
+var11
+-1
+2
+Atom calibrated(ins3)
+NegatedAtom calibrated(ins3)
+end_variable
+begin_variable
+var7
+-1
+2
+Atom calibrated(ins16)
+NegatedAtom calibrated(ins16)
+end_variable
+begin_variable
+var5
+-1
+2
+Atom calibrated(ins14)
+NegatedAtom calibrated(ins14)
+end_variable
+begin_variable
+var70
+-1
+2
+Atom power_on(ins11)
+NegatedAtom power_on(ins11)
+end_variable
+begin_variable
+var83
+-1
+2
+Atom power_on(ins7)
+NegatedAtom power_on(ins7)
+end_variable
+begin_variable
+var61
+-1
+2
+Atom power_avail(sat3)
+NegatedAtom power_avail(sat3)
+end_variable
+begin_variable
+var15
+-1
+2
+Atom calibrated(ins7)
+NegatedAtom calibrated(ins7)
+end_variable
+begin_variable
+var2
+-1
+2
+Atom calibrated(ins11)
+NegatedAtom calibrated(ins11)
+end_variable
+begin_variable
+var62
+-1
+2
+Atom power_avail(sat4)
+NegatedAtom power_avail(sat4)
+end_variable
+begin_variable
+var78
+-1
+2
+Atom power_on(ins2)
+NegatedAtom power_on(ins2)
+end_variable
+begin_variable
+var10
+-1
+2
+Atom calibrated(ins2)
+NegatedAtom calibrated(ins2)
+end_variable
+begin_variable
+var63
+-1
+2
+Atom power_avail(sat5)
+NegatedAtom power_avail(sat5)
+end_variable
+begin_variable
+var84
+-1
+2
+Atom power_on(ins8)
+NegatedAtom power_on(ins8)
+end_variable
+begin_variable
+var16
+-1
+2
+Atom calibrated(ins8)
+NegatedAtom calibrated(ins8)
+end_variable
+begin_variable
+var68
+-1
+2
+Atom power_on(ins1)
+NegatedAtom power_on(ins1)
+end_variable
+begin_variable
+var71
+-1
+2
+Atom power_on(ins12)
+NegatedAtom power_on(ins12)
+end_variable
+begin_variable
+var64
+-1
+2
+Atom power_avail(sat6)
+NegatedAtom power_avail(sat6)
+end_variable
+begin_variable
+var3
+-1
+2
+Atom calibrated(ins12)
+NegatedAtom calibrated(ins12)
+end_variable
+begin_variable
+var0
+-1
+2
+Atom calibrated(ins1)
+NegatedAtom calibrated(ins1)
+end_variable
+begin_variable
+var72
+-1
+2
+Atom power_on(ins13)
+NegatedAtom power_on(ins13)
+end_variable
+begin_variable
+var80
+-1
+2
+Atom power_on(ins4)
+NegatedAtom power_on(ins4)
+end_variable
+begin_variable
+var65
+-1
+2
+Atom power_avail(sat7)
+NegatedAtom power_avail(sat7)
+end_variable
+begin_variable
+var12
+-1
+2
+Atom calibrated(ins4)
+NegatedAtom calibrated(ins4)
+end_variable
+begin_variable
+var4
+-1
+2
+Atom calibrated(ins13)
+NegatedAtom calibrated(ins13)
+end_variable
+begin_variable
+var74
+-1
+2
+Atom power_on(ins15)
+NegatedAtom power_on(ins15)
+end_variable
+begin_variable
+var85
+-1
+2
+Atom power_on(ins9)
+NegatedAtom power_on(ins9)
+end_variable
+begin_variable
+var66
+-1
+2
+Atom power_avail(sat8)
+NegatedAtom power_avail(sat8)
+end_variable
+begin_variable
+var17
+-1
+2
+Atom calibrated(ins9)
+NegatedAtom calibrated(ins9)
+end_variable
+begin_variable
+var6
+-1
+2
+Atom calibrated(ins15)
+NegatedAtom calibrated(ins15)
+end_variable
+begin_variable
+var67
+-1
+2
+Atom power_avail(sat9)
+NegatedAtom power_avail(sat9)
+end_variable
+begin_variable
+var69
+-1
+2
+Atom power_on(ins10)
+NegatedAtom power_on(ins10)
+end_variable
+begin_variable
+var1
+-1
+2
+Atom calibrated(ins10)
+NegatedAtom calibrated(ins10)
+end_variable
+begin_variable
+var46
+-1
+2
+Atom have_image(dir9, mod2)
+NegatedAtom have_image(dir9, mod2)
+end_variable
+begin_variable
+var43
+-1
+2
+Atom have_image(dir8, mod2)
+NegatedAtom have_image(dir8, mod2)
+end_variable
+begin_variable
+var40
+-1
+2
+Atom have_image(dir7, mod2)
+NegatedAtom have_image(dir7, mod2)
+end_variable
+begin_variable
+var39
+-1
+2
+Atom have_image(dir7, mod1)
+NegatedAtom have_image(dir7, mod1)
+end_variable
+begin_variable
+var36
+-1
+2
+Atom have_image(dir6, mod1)
+NegatedAtom have_image(dir6, mod1)
+end_variable
+begin_variable
+var34
+-1
+2
+Atom have_image(dir5, mod2)
+NegatedAtom have_image(dir5, mod2)
+end_variable
+begin_variable
+var33
+-1
+2
+Atom have_image(dir5, mod1)
+NegatedAtom have_image(dir5, mod1)
+end_variable
+begin_variable
+var32
+-1
+2
+Atom have_image(dir4, mod3)
+NegatedAtom have_image(dir4, mod3)
+end_variable
+begin_variable
+var31
+-1
+2
+Atom have_image(dir4, mod2)
+NegatedAtom have_image(dir4, mod2)
+end_variable
+begin_variable
+var29
+-1
+2
+Atom have_image(dir3, mod3)
+NegatedAtom have_image(dir3, mod3)
+end_variable
+begin_variable
+var27
+-1
+2
+Atom have_image(dir3, mod1)
+NegatedAtom have_image(dir3, mod1)
+end_variable
+begin_variable
+var26
+-1
+2
+Atom have_image(dir2, mod3)
+NegatedAtom have_image(dir2, mod3)
+end_variable
+begin_variable
+var25
+-1
+2
+Atom have_image(dir2, mod2)
+NegatedAtom have_image(dir2, mod2)
+end_variable
+begin_variable
+var24
+-1
+2
+Atom have_image(dir2, mod1)
+NegatedAtom have_image(dir2, mod1)
+end_variable
+begin_variable
+var19
+-1
+2
+Atom have_image(dir1, mod2)
+NegatedAtom have_image(dir1, mod2)
+end_variable
+30
+begin_mutex_group
+mutex
+fw
+2
+53 0
+54 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+53 1
+54 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+48 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+48 0
+50 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+49 0
+50 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+44 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 1
+36 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 1
+33 1
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+28 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+29 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+29 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+20 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+20 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+20 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+21 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+21 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+22 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+12 0
+end_mutex_group
+begin_state
+9
+3
+4
+1
+5
+2
+6
+4
+8
+1
+1
+1
+0
+1
+1
+1
+1
+0
+1
+1
+1
+1
+1
+0
+1
+1
+1
+1
+1
+0
+1
+1
+0
+1
+1
+0
+1
+1
+1
+1
+0
+1
+1
+1
+1
+0
+1
+1
+1
+1
+0
+1
+1
+0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+end_state
+begin_goal
+22
+0 0
+3 7
+4 9
+5 2
+6 6
+7 3
+8 8
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+end_goal
+1169
+begin_operator
+calibrate sat1 ins18 dir2
+2
+0 2
+10 0
+1
+0 14 -1 0
+1
+end_operator
+begin_operator
+calibrate sat1 ins5 dir9
+2
+0 9
+11 0
+1
+0 13 -1 0
+1
+end_operator
+begin_operator
+calibrate sat10 ins17 dir10
+2
+1 1
+15 0
+1
+0 19 -1 0
+1
+end_operator
+begin_operator
+calibrate sat10 ins6 dir7
+2
+1 7
+16 0
+1
+0 18 -1 0
+1
+end_operator
+begin_operator
+calibrate sat2 ins14 dir2
+2
+2 2
+20 0
+1
+0 26 -1 0
+1
+end_operator
+begin_operator
+calibrate sat2 ins16 dir8
+2
+2 8
+21 0
+1
+0 25 -1 0
+1
+end_operator
+begin_operator
+calibrate sat2 ins3 dir8
+2
+2 8
+22 0
+1
+0 24 -1 0
+1
+end_operator
+begin_operator
+calibrate sat3 ins11 dir8
+2
+3 8
+27 0
+1
+0 31 -1 0
+1
+end_operator
+begin_operator
+calibrate sat3 ins7 dir7
+2
+3 7
+28 0
+1
+0 30 -1 0
+1
+end_operator
+begin_operator
+calibrate sat4 ins2 dir5
+2
+4 5
+33 0
+1
+0 34 -1 0
+1
+end_operator
+begin_operator
+calibrate sat5 ins8 dir3
+2
+5 3
+36 0
+1
+0 37 -1 0
+1
+end_operator
+begin_operator
+calibrate sat6 ins1 dir2
+2
+6 2
+38 0
+1
+0 42 -1 0
+1
+end_operator
+begin_operator
+calibrate sat6 ins12 dir2
+2
+6 2
+39 0
+1
+0 41 -1 0
+1
+end_operator
+begin_operator
+calibrate sat7 ins13 dir7
+2
+7 7
+43 0
+1
+0 47 -1 0
+1
+end_operator
+begin_operator
+calibrate sat7 ins4 dir4
+2
+7 4
+44 0
+1
+0 46 -1 0
+1
+end_operator
+begin_operator
+calibrate sat8 ins15 dir9
+2
+8 9
+48 0
+1
+0 52 -1 0
+1
+end_operator
+begin_operator
+calibrate sat8 ins9 dir6
+2
+8 6
+49 0
+1
+0 51 -1 0
+1
+end_operator
+begin_operator
+calibrate sat9 ins10 dir5
+2
+9 5
+54 0
+1
+0 55 -1 0
+1
+end_operator
+begin_operator
+switch_off ins1 sat6
+0
+2
+0 40 -1 0
+0 38 0 1
+1
+end_operator
+begin_operator
+switch_off ins10 sat9
+0
+2
+0 53 -1 0
+0 54 0 1
+1
+end_operator
+begin_operator
+switch_off ins11 sat3
+0
+2
+0 29 -1 0
+0 27 0 1
+1
+end_operator
+begin_operator
+switch_off ins12 sat6
+0
+2
+0 40 -1 0
+0 39 0 1
+1
+end_operator
+begin_operator
+switch_off ins13 sat7
+0
+2
+0 45 -1 0
+0 43 0 1
+1
+end_operator
+begin_operator
+switch_off ins14 sat2
+0
+2
+0 23 -1 0
+0 20 0 1
+1
+end_operator
+begin_operator
+switch_off ins15 sat8
+0
+2
+0 50 -1 0
+0 48 0 1
+1
+end_operator
+begin_operator
+switch_off ins16 sat2
+0
+2
+0 23 -1 0
+0 21 0 1
+1
+end_operator
+begin_operator
+switch_off ins17 sat10
+0
+2
+0 17 -1 0
+0 15 0 1
+1
+end_operator
+begin_operator
+switch_off ins18 sat1
+0
+2
+0 12 -1 0
+0 10 0 1
+1
+end_operator
+begin_operator
+switch_off ins2 sat4
+0
+2
+0 32 -1 0
+0 33 0 1
+1
+end_operator
+begin_operator
+switch_off ins3 sat2
+0
+2
+0 23 -1 0
+0 22 0 1
+1
+end_operator
+begin_operator
+switch_off ins4 sat7
+0
+2
+0 45 -1 0
+0 44 0 1
+1
+end_operator
+begin_operator
+switch_off ins5 sat1
+0
+2
+0 12 -1 0
+0 11 0 1
+1
+end_operator
+begin_operator
+switch_off ins6 sat10
+0
+2
+0 17 -1 0
+0 16 0 1
+1
+end_operator
+begin_operator
+switch_off ins7 sat3
+0
+2
+0 29 -1 0
+0 28 0 1
+1
+end_operator
+begin_operator
+switch_off ins8 sat5
+0
+2
+0 35 -1 0
+0 36 0 1
+1
+end_operator
+begin_operator
+switch_off ins9 sat8
+0
+2
+0 50 -1 0
+0 49 0 1
+1
+end_operator
+begin_operator
+switch_on ins1 sat6
+0
+3
+0 42 -1 1
+0 40 0 1
+0 38 -1 0
+1
+end_operator
+begin_operator
+switch_on ins10 sat9
+0
+3
+0 55 -1 1
+0 53 0 1
+0 54 -1 0
+1
+end_operator
+begin_operator
+switch_on ins11 sat3
+0
+3
+0 31 -1 1
+0 29 0 1
+0 27 -1 0
+1
+end_operator
+begin_operator
+switch_on ins12 sat6
+0
+3
+0 41 -1 1
+0 40 0 1
+0 39 -1 0
+1
+end_operator
+begin_operator
+switch_on ins13 sat7
+0
+3
+0 47 -1 1
+0 45 0 1
+0 43 -1 0
+1
+end_operator
+begin_operator
+switch_on ins14 sat2
+0
+3
+0 26 -1 1
+0 23 0 1
+0 20 -1 0
+1
+end_operator
+begin_operator
+switch_on ins15 sat8
+0
+3
+0 52 -1 1
+0 50 0 1
+0 48 -1 0
+1
+end_operator
+begin_operator
+switch_on ins16 sat2
+0
+3
+0 25 -1 1
+0 23 0 1
+0 21 -1 0
+1
+end_operator
+begin_operator
+switch_on ins17 sat10
+0
+3
+0 19 -1 1
+0 17 0 1
+0 15 -1 0
+1
+end_operator
+begin_operator
+switch_on ins18 sat1
+0
+3
+0 14 -1 1
+0 12 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+switch_on ins2 sat4
+0
+3
+0 34 -1 1
+0 32 0 1
+0 33 -1 0
+1
+end_operator
+begin_operator
+switch_on ins3 sat2
+0
+3
+0 24 -1 1
+0 23 0 1
+0 22 -1 0
+1
+end_operator
+begin_operator
+switch_on ins4 sat7
+0
+3
+0 46 -1 1
+0 45 0 1
+0 44 -1 0
+1
+end_operator
+begin_operator
+switch_on ins5 sat1
+0
+3
+0 13 -1 1
+0 12 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+switch_on ins6 sat10
+0
+3
+0 18 -1 1
+0 17 0 1
+0 16 -1 0
+1
+end_operator
+begin_operator
+switch_on ins7 sat3
+0
+3
+0 30 -1 1
+0 29 0 1
+0 28 -1 0
+1
+end_operator
+begin_operator
+switch_on ins8 sat5
+0
+3
+0 37 -1 1
+0 35 0 1
+0 36 -1 0
+1
+end_operator
+begin_operator
+switch_on ins9 sat8
+0
+3
+0 51 -1 1
+0 50 0 1
+0 49 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir1 ins18 mod2
+3
+14 0
+0 0
+10 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir2 ins18 mod1
+3
+14 0
+0 2
+10 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir2 ins18 mod2
+3
+14 0
+0 2
+10 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir2 ins5 mod3
+3
+13 0
+0 2
+11 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir3 ins18 mod1
+3
+14 0
+0 3
+10 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir3 ins5 mod3
+3
+13 0
+0 3
+11 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir4 ins18 mod2
+3
+14 0
+0 4
+10 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir4 ins5 mod3
+3
+13 0
+0 4
+11 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir5 ins18 mod1
+3
+14 0
+0 5
+10 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir5 ins18 mod2
+3
+14 0
+0 5
+10 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir6 ins18 mod1
+3
+14 0
+0 6
+10 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir7 ins18 mod1
+3
+14 0
+0 7
+10 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir7 ins18 mod2
+3
+14 0
+0 7
+10 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir8 ins18 mod2
+3
+14 0
+0 8
+10 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat1 dir9 ins18 mod2
+3
+14 0
+0 9
+10 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir1 ins17 mod2
+3
+19 0
+1 0
+15 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir1 ins6 mod2
+3
+18 0
+1 0
+16 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir2 ins17 mod1
+3
+19 0
+1 2
+15 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir2 ins17 mod2
+3
+19 0
+1 2
+15 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir2 ins17 mod3
+3
+19 0
+1 2
+15 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir2 ins6 mod1
+3
+18 0
+1 2
+16 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir2 ins6 mod2
+3
+18 0
+1 2
+16 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir2 ins6 mod3
+3
+18 0
+1 2
+16 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir3 ins17 mod1
+3
+19 0
+1 3
+15 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir3 ins17 mod3
+3
+19 0
+1 3
+15 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir3 ins6 mod1
+3
+18 0
+1 3
+16 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir3 ins6 mod3
+3
+18 0
+1 3
+16 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir4 ins17 mod2
+3
+19 0
+1 4
+15 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir4 ins17 mod3
+3
+19 0
+1 4
+15 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir4 ins6 mod2
+3
+18 0
+1 4
+16 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir4 ins6 mod3
+3
+18 0
+1 4
+16 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir5 ins17 mod1
+3
+19 0
+1 5
+15 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir5 ins17 mod2
+3
+19 0
+1 5
+15 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir5 ins6 mod1
+3
+18 0
+1 5
+16 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir5 ins6 mod2
+3
+18 0
+1 5
+16 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir6 ins17 mod1
+3
+19 0
+1 6
+15 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir6 ins6 mod1
+3
+18 0
+1 6
+16 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir7 ins17 mod1
+3
+19 0
+1 7
+15 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir7 ins17 mod2
+3
+19 0
+1 7
+15 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir7 ins6 mod1
+3
+18 0
+1 7
+16 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir7 ins6 mod2
+3
+18 0
+1 7
+16 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir8 ins17 mod2
+3
+19 0
+1 8
+15 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir8 ins6 mod2
+3
+18 0
+1 8
+16 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir9 ins17 mod2
+3
+19 0
+1 9
+15 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat10 dir9 ins6 mod2
+3
+18 0
+1 9
+16 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir1 ins14 mod2
+3
+26 0
+2 0
+20 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir1 ins16 mod2
+3
+25 0
+2 0
+21 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir1 ins3 mod2
+3
+24 0
+2 0
+22 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins14 mod2
+3
+26 0
+2 2
+20 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins14 mod3
+3
+26 0
+2 2
+20 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins16 mod1
+3
+25 0
+2 2
+21 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins16 mod2
+3
+25 0
+2 2
+21 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins16 mod3
+3
+25 0
+2 2
+21 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins3 mod1
+3
+24 0
+2 2
+22 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins3 mod2
+3
+24 0
+2 2
+22 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir2 ins3 mod3
+3
+24 0
+2 2
+22 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir3 ins14 mod3
+3
+26 0
+2 3
+20 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir3 ins16 mod1
+3
+25 0
+2 3
+21 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir3 ins16 mod3
+3
+25 0
+2 3
+21 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir3 ins3 mod1
+3
+24 0
+2 3
+22 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir3 ins3 mod3
+3
+24 0
+2 3
+22 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir4 ins14 mod2
+3
+26 0
+2 4
+20 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir4 ins14 mod3
+3
+26 0
+2 4
+20 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir4 ins16 mod2
+3
+25 0
+2 4
+21 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir4 ins16 mod3
+3
+25 0
+2 4
+21 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir4 ins3 mod2
+3
+24 0
+2 4
+22 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir4 ins3 mod3
+3
+24 0
+2 4
+22 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir5 ins14 mod2
+3
+26 0
+2 5
+20 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir5 ins16 mod1
+3
+25 0
+2 5
+21 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir5 ins16 mod2
+3
+25 0
+2 5
+21 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir5 ins3 mod1
+3
+24 0
+2 5
+22 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir5 ins3 mod2
+3
+24 0
+2 5
+22 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir6 ins16 mod1
+3
+25 0
+2 6
+21 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir6 ins3 mod1
+3
+24 0
+2 6
+22 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir7 ins14 mod2
+3
+26 0
+2 7
+20 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir7 ins16 mod1
+3
+25 0
+2 7
+21 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir7 ins16 mod2
+3
+25 0
+2 7
+21 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir7 ins3 mod1
+3
+24 0
+2 7
+22 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir7 ins3 mod2
+3
+24 0
+2 7
+22 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir8 ins14 mod2
+3
+26 0
+2 8
+20 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir8 ins16 mod2
+3
+25 0
+2 8
+21 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir8 ins3 mod2
+3
+24 0
+2 8
+22 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir9 ins14 mod2
+3
+26 0
+2 9
+20 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir9 ins16 mod2
+3
+25 0
+2 9
+21 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat2 dir9 ins3 mod2
+3
+24 0
+2 9
+22 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir2 ins11 mod3
+3
+31 0
+3 2
+27 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir2 ins7 mod1
+3
+30 0
+3 2
+28 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir2 ins7 mod3
+3
+30 0
+3 2
+28 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir3 ins11 mod3
+3
+31 0
+3 3
+27 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir3 ins7 mod1
+3
+30 0
+3 3
+28 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir3 ins7 mod3
+3
+30 0
+3 3
+28 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir4 ins11 mod3
+3
+31 0
+3 4
+27 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir4 ins7 mod3
+3
+30 0
+3 4
+28 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir5 ins7 mod1
+3
+30 0
+3 5
+28 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir6 ins7 mod1
+3
+30 0
+3 6
+28 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat3 dir7 ins7 mod1
+3
+30 0
+3 7
+28 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir1 ins2 mod2
+3
+34 0
+4 0
+33 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir2 ins2 mod1
+3
+34 0
+4 2
+33 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir2 ins2 mod2
+3
+34 0
+4 2
+33 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir2 ins2 mod3
+3
+34 0
+4 2
+33 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir3 ins2 mod1
+3
+34 0
+4 3
+33 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir3 ins2 mod3
+3
+34 0
+4 3
+33 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir4 ins2 mod2
+3
+34 0
+4 4
+33 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir4 ins2 mod3
+3
+34 0
+4 4
+33 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir5 ins2 mod1
+3
+34 0
+4 5
+33 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir5 ins2 mod2
+3
+34 0
+4 5
+33 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir6 ins2 mod1
+3
+34 0
+4 6
+33 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir7 ins2 mod1
+3
+34 0
+4 7
+33 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir7 ins2 mod2
+3
+34 0
+4 7
+33 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir8 ins2 mod2
+3
+34 0
+4 8
+33 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat4 dir9 ins2 mod2
+3
+34 0
+4 9
+33 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir1 ins8 mod2
+3
+37 0
+5 0
+36 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir2 ins8 mod1
+3
+37 0
+5 2
+36 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir2 ins8 mod2
+3
+37 0
+5 2
+36 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir3 ins8 mod1
+3
+37 0
+5 3
+36 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir4 ins8 mod2
+3
+37 0
+5 4
+36 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir5 ins8 mod1
+3
+37 0
+5 5
+36 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir5 ins8 mod2
+3
+37 0
+5 5
+36 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir6 ins8 mod1
+3
+37 0
+5 6
+36 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir7 ins8 mod1
+3
+37 0
+5 7
+36 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir7 ins8 mod2
+3
+37 0
+5 7
+36 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir8 ins8 mod2
+3
+37 0
+5 8
+36 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat5 dir9 ins8 mod2
+3
+37 0
+5 9
+36 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir1 ins1 mod2
+3
+42 0
+6 0
+38 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir1 ins12 mod2
+3
+41 0
+6 0
+39 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir2 ins1 mod2
+3
+42 0
+6 2
+38 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir2 ins1 mod3
+3
+42 0
+6 2
+38 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir2 ins12 mod1
+3
+41 0
+6 2
+39 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir2 ins12 mod2
+3
+41 0
+6 2
+39 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir2 ins12 mod3
+3
+41 0
+6 2
+39 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir3 ins1 mod3
+3
+42 0
+6 3
+38 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir3 ins12 mod1
+3
+41 0
+6 3
+39 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir3 ins12 mod3
+3
+41 0
+6 3
+39 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir4 ins1 mod2
+3
+42 0
+6 4
+38 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir4 ins1 mod3
+3
+42 0
+6 4
+38 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir4 ins12 mod2
+3
+41 0
+6 4
+39 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir4 ins12 mod3
+3
+41 0
+6 4
+39 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir5 ins1 mod2
+3
+42 0
+6 5
+38 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir5 ins12 mod1
+3
+41 0
+6 5
+39 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir5 ins12 mod2
+3
+41 0
+6 5
+39 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir6 ins12 mod1
+3
+41 0
+6 6
+39 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir7 ins1 mod2
+3
+42 0
+6 7
+38 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir7 ins12 mod1
+3
+41 0
+6 7
+39 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir7 ins12 mod2
+3
+41 0
+6 7
+39 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir8 ins1 mod2
+3
+42 0
+6 8
+38 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir8 ins12 mod2
+3
+41 0
+6 8
+39 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir9 ins1 mod2
+3
+42 0
+6 9
+38 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat6 dir9 ins12 mod2
+3
+41 0
+6 9
+39 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir1 ins13 mod2
+3
+47 0
+7 0
+43 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir1 ins4 mod2
+3
+46 0
+7 0
+44 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir2 ins13 mod1
+3
+47 0
+7 2
+43 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir2 ins13 mod2
+3
+47 0
+7 2
+43 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir2 ins13 mod3
+3
+47 0
+7 2
+43 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir2 ins4 mod1
+3
+46 0
+7 2
+44 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir2 ins4 mod2
+3
+46 0
+7 2
+44 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir2 ins4 mod3
+3
+46 0
+7 2
+44 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir3 ins13 mod1
+3
+47 0
+7 3
+43 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir3 ins13 mod3
+3
+47 0
+7 3
+43 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir3 ins4 mod1
+3
+46 0
+7 3
+44 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir3 ins4 mod3
+3
+46 0
+7 3
+44 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir4 ins13 mod2
+3
+47 0
+7 4
+43 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir4 ins13 mod3
+3
+47 0
+7 4
+43 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir4 ins4 mod2
+3
+46 0
+7 4
+44 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir4 ins4 mod3
+3
+46 0
+7 4
+44 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir5 ins13 mod1
+3
+47 0
+7 5
+43 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir5 ins13 mod2
+3
+47 0
+7 5
+43 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir5 ins4 mod1
+3
+46 0
+7 5
+44 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir5 ins4 mod2
+3
+46 0
+7 5
+44 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir6 ins13 mod1
+3
+47 0
+7 6
+43 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir6 ins4 mod1
+3
+46 0
+7 6
+44 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir7 ins13 mod1
+3
+47 0
+7 7
+43 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir7 ins13 mod2
+3
+47 0
+7 7
+43 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir7 ins4 mod1
+3
+46 0
+7 7
+44 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir7 ins4 mod2
+3
+46 0
+7 7
+44 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir8 ins13 mod2
+3
+47 0
+7 8
+43 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir8 ins4 mod2
+3
+46 0
+7 8
+44 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir9 ins13 mod2
+3
+47 0
+7 9
+43 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat7 dir9 ins4 mod2
+3
+46 0
+7 9
+44 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir1 ins15 mod2
+3
+52 0
+8 0
+48 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir1 ins9 mod2
+3
+51 0
+8 0
+49 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir2 ins15 mod2
+3
+52 0
+8 2
+48 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir2 ins15 mod3
+3
+52 0
+8 2
+48 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir2 ins9 mod1
+3
+51 0
+8 2
+49 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir2 ins9 mod2
+3
+51 0
+8 2
+49 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir3 ins15 mod3
+3
+52 0
+8 3
+48 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir3 ins9 mod1
+3
+51 0
+8 3
+49 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir4 ins15 mod2
+3
+52 0
+8 4
+48 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir4 ins15 mod3
+3
+52 0
+8 4
+48 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir4 ins9 mod2
+3
+51 0
+8 4
+49 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir5 ins15 mod2
+3
+52 0
+8 5
+48 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir5 ins9 mod1
+3
+51 0
+8 5
+49 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir5 ins9 mod2
+3
+51 0
+8 5
+49 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir6 ins9 mod1
+3
+51 0
+8 6
+49 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir7 ins15 mod2
+3
+52 0
+8 7
+48 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir7 ins9 mod1
+3
+51 0
+8 7
+49 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir7 ins9 mod2
+3
+51 0
+8 7
+49 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir8 ins15 mod2
+3
+52 0
+8 8
+48 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir8 ins9 mod2
+3
+51 0
+8 8
+49 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir9 ins15 mod2
+3
+52 0
+8 9
+48 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat8 dir9 ins9 mod2
+3
+51 0
+8 9
+49 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir1 ins10 mod2
+3
+55 0
+9 0
+54 0
+1
+0 70 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir2 ins10 mod1
+3
+55 0
+9 2
+54 0
+1
+0 69 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir2 ins10 mod2
+3
+55 0
+9 2
+54 0
+1
+0 68 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir2 ins10 mod3
+3
+55 0
+9 2
+54 0
+1
+0 67 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir3 ins10 mod1
+3
+55 0
+9 3
+54 0
+1
+0 66 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir3 ins10 mod3
+3
+55 0
+9 3
+54 0
+1
+0 65 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir4 ins10 mod2
+3
+55 0
+9 4
+54 0
+1
+0 64 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir4 ins10 mod3
+3
+55 0
+9 4
+54 0
+1
+0 63 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir5 ins10 mod1
+3
+55 0
+9 5
+54 0
+1
+0 62 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir5 ins10 mod2
+3
+55 0
+9 5
+54 0
+1
+0 61 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir6 ins10 mod1
+3
+55 0
+9 6
+54 0
+1
+0 60 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir7 ins10 mod1
+3
+55 0
+9 7
+54 0
+1
+0 59 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir7 ins10 mod2
+3
+55 0
+9 7
+54 0
+1
+0 58 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir8 ins10 mod2
+3
+55 0
+9 8
+54 0
+1
+0 57 -1 0
+1
+end_operator
+begin_operator
+take_image sat9 dir9 ins10 mod2
+3
+55 0
+9 9
+54 0
+1
+0 56 -1 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir10
+0
+1
+0 0 1 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir2
+0
+1
+0 0 2 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir3
+0
+1
+0 0 3 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir4
+0
+1
+0 0 4 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir5
+0
+1
+0 0 5 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir6
+0
+1
+0 0 6 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir7
+0
+1
+0 0 7 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir8
+0
+1
+0 0 8 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir1 dir9
+0
+1
+0 0 9 0
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir1
+0
+1
+0 0 0 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir2
+0
+1
+0 0 2 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir3
+0
+1
+0 0 3 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir4
+0
+1
+0 0 4 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir5
+0
+1
+0 0 5 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir6
+0
+1
+0 0 6 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir7
+0
+1
+0 0 7 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir8
+0
+1
+0 0 8 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir10 dir9
+0
+1
+0 0 9 1
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir1
+0
+1
+0 0 0 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir10
+0
+1
+0 0 1 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir3
+0
+1
+0 0 3 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir4
+0
+1
+0 0 4 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir5
+0
+1
+0 0 5 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir6
+0
+1
+0 0 6 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir7
+0
+1
+0 0 7 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir8
+0
+1
+0 0 8 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir2 dir9
+0
+1
+0 0 9 2
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir1
+0
+1
+0 0 0 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir10
+0
+1
+0 0 1 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir2
+0
+1
+0 0 2 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir4
+0
+1
+0 0 4 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir5
+0
+1
+0 0 5 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir6
+0
+1
+0 0 6 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir7
+0
+1
+0 0 7 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir8
+0
+1
+0 0 8 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir3 dir9
+0
+1
+0 0 9 3
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir1
+0
+1
+0 0 0 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir10
+0
+1
+0 0 1 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir2
+0
+1
+0 0 2 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir3
+0
+1
+0 0 3 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir5
+0
+1
+0 0 5 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir6
+0
+1
+0 0 6 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir7
+0
+1
+0 0 7 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir8
+0
+1
+0 0 8 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir4 dir9
+0
+1
+0 0 9 4
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir1
+0
+1
+0 0 0 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir10
+0
+1
+0 0 1 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir2
+0
+1
+0 0 2 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir3
+0
+1
+0 0 3 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir4
+0
+1
+0 0 4 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir6
+0
+1
+0 0 6 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir7
+0
+1
+0 0 7 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir8
+0
+1
+0 0 8 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir5 dir9
+0
+1
+0 0 9 5
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir1
+0
+1
+0 0 0 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir10
+0
+1
+0 0 1 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir2
+0
+1
+0 0 2 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir3
+0
+1
+0 0 3 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir4
+0
+1
+0 0 4 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir5
+0
+1
+0 0 5 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir7
+0
+1
+0 0 7 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir8
+0
+1
+0 0 8 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir6 dir9
+0
+1
+0 0 9 6
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir1
+0
+1
+0 0 0 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir10
+0
+1
+0 0 1 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir2
+0
+1
+0 0 2 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir3
+0
+1
+0 0 3 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir4
+0
+1
+0 0 4 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir5
+0
+1
+0 0 5 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir6
+0
+1
+0 0 6 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir8
+0
+1
+0 0 8 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir7 dir9
+0
+1
+0 0 9 7
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir1
+0
+1
+0 0 0 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir10
+0
+1
+0 0 1 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir2
+0
+1
+0 0 2 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir3
+0
+1
+0 0 3 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir4
+0
+1
+0 0 4 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir5
+0
+1
+0 0 5 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir6
+0
+1
+0 0 6 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir7
+0
+1
+0 0 7 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir8 dir9
+0
+1
+0 0 9 8
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir1
+0
+1
+0 0 0 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir10
+0
+1
+0 0 1 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir2
+0
+1
+0 0 2 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir3
+0
+1
+0 0 3 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir4
+0
+1
+0 0 4 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir5
+0
+1
+0 0 5 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir6
+0
+1
+0 0 6 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir7
+0
+1
+0 0 7 9
+1
+end_operator
+begin_operator
+turn_to sat1 dir9 dir8
+0
+1
+0 0 8 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir10
+0
+1
+0 1 1 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir2
+0
+1
+0 1 2 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir3
+0
+1
+0 1 3 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir4
+0
+1
+0 1 4 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir5
+0
+1
+0 1 5 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir6
+0
+1
+0 1 6 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir7
+0
+1
+0 1 7 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir8
+0
+1
+0 1 8 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir1 dir9
+0
+1
+0 1 9 0
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir1
+0
+1
+0 1 0 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir2
+0
+1
+0 1 2 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir3
+0
+1
+0 1 3 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir4
+0
+1
+0 1 4 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir5
+0
+1
+0 1 5 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir6
+0
+1
+0 1 6 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir7
+0
+1
+0 1 7 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir8
+0
+1
+0 1 8 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir10 dir9
+0
+1
+0 1 9 1
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir1
+0
+1
+0 1 0 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir10
+0
+1
+0 1 1 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir3
+0
+1
+0 1 3 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir4
+0
+1
+0 1 4 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir5
+0
+1
+0 1 5 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir6
+0
+1
+0 1 6 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir7
+0
+1
+0 1 7 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir8
+0
+1
+0 1 8 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir2 dir9
+0
+1
+0 1 9 2
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir1
+0
+1
+0 1 0 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir10
+0
+1
+0 1 1 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir2
+0
+1
+0 1 2 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir4
+0
+1
+0 1 4 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir5
+0
+1
+0 1 5 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir6
+0
+1
+0 1 6 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir7
+0
+1
+0 1 7 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir8
+0
+1
+0 1 8 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir3 dir9
+0
+1
+0 1 9 3
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir1
+0
+1
+0 1 0 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir10
+0
+1
+0 1 1 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir2
+0
+1
+0 1 2 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir3
+0
+1
+0 1 3 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir5
+0
+1
+0 1 5 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir6
+0
+1
+0 1 6 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir7
+0
+1
+0 1 7 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir8
+0
+1
+0 1 8 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir4 dir9
+0
+1
+0 1 9 4
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir1
+0
+1
+0 1 0 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir10
+0
+1
+0 1 1 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir2
+0
+1
+0 1 2 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir3
+0
+1
+0 1 3 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir4
+0
+1
+0 1 4 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir6
+0
+1
+0 1 6 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir7
+0
+1
+0 1 7 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir8
+0
+1
+0 1 8 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir5 dir9
+0
+1
+0 1 9 5
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir1
+0
+1
+0 1 0 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir10
+0
+1
+0 1 1 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir2
+0
+1
+0 1 2 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir3
+0
+1
+0 1 3 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir4
+0
+1
+0 1 4 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir5
+0
+1
+0 1 5 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir7
+0
+1
+0 1 7 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir8
+0
+1
+0 1 8 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir6 dir9
+0
+1
+0 1 9 6
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir1
+0
+1
+0 1 0 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir10
+0
+1
+0 1 1 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir2
+0
+1
+0 1 2 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir3
+0
+1
+0 1 3 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir4
+0
+1
+0 1 4 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir5
+0
+1
+0 1 5 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir6
+0
+1
+0 1 6 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir8
+0
+1
+0 1 8 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir7 dir9
+0
+1
+0 1 9 7
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir1
+0
+1
+0 1 0 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir10
+0
+1
+0 1 1 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir2
+0
+1
+0 1 2 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir3
+0
+1
+0 1 3 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir4
+0
+1
+0 1 4 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir5
+0
+1
+0 1 5 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir6
+0
+1
+0 1 6 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir7
+0
+1
+0 1 7 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir8 dir9
+0
+1
+0 1 9 8
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir1
+0
+1
+0 1 0 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir10
+0
+1
+0 1 1 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir2
+0
+1
+0 1 2 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir3
+0
+1
+0 1 3 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir4
+0
+1
+0 1 4 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir5
+0
+1
+0 1 5 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir6
+0
+1
+0 1 6 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir7
+0
+1
+0 1 7 9
+1
+end_operator
+begin_operator
+turn_to sat10 dir9 dir8
+0
+1
+0 1 8 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir10
+0
+1
+0 2 1 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir2
+0
+1
+0 2 2 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir3
+0
+1
+0 2 3 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir4
+0
+1
+0 2 4 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir5
+0
+1
+0 2 5 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir6
+0
+1
+0 2 6 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir7
+0
+1
+0 2 7 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir8
+0
+1
+0 2 8 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir1 dir9
+0
+1
+0 2 9 0
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir1
+0
+1
+0 2 0 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir2
+0
+1
+0 2 2 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir3
+0
+1
+0 2 3 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir4
+0
+1
+0 2 4 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir5
+0
+1
+0 2 5 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir6
+0
+1
+0 2 6 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir7
+0
+1
+0 2 7 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir8
+0
+1
+0 2 8 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir10 dir9
+0
+1
+0 2 9 1
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir1
+0
+1
+0 2 0 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir10
+0
+1
+0 2 1 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir3
+0
+1
+0 2 3 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir4
+0
+1
+0 2 4 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir5
+0
+1
+0 2 5 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir6
+0
+1
+0 2 6 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir7
+0
+1
+0 2 7 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir8
+0
+1
+0 2 8 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir2 dir9
+0
+1
+0 2 9 2
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir1
+0
+1
+0 2 0 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir10
+0
+1
+0 2 1 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir2
+0
+1
+0 2 2 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir4
+0
+1
+0 2 4 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir5
+0
+1
+0 2 5 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir6
+0
+1
+0 2 6 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir7
+0
+1
+0 2 7 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir8
+0
+1
+0 2 8 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir3 dir9
+0
+1
+0 2 9 3
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir1
+0
+1
+0 2 0 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir10
+0
+1
+0 2 1 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir2
+0
+1
+0 2 2 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir3
+0
+1
+0 2 3 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir5
+0
+1
+0 2 5 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir6
+0
+1
+0 2 6 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir7
+0
+1
+0 2 7 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir8
+0
+1
+0 2 8 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir4 dir9
+0
+1
+0 2 9 4
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir1
+0
+1
+0 2 0 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir10
+0
+1
+0 2 1 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir2
+0
+1
+0 2 2 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir3
+0
+1
+0 2 3 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir4
+0
+1
+0 2 4 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir6
+0
+1
+0 2 6 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir7
+0
+1
+0 2 7 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir8
+0
+1
+0 2 8 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir5 dir9
+0
+1
+0 2 9 5
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir1
+0
+1
+0 2 0 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir10
+0
+1
+0 2 1 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir2
+0
+1
+0 2 2 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir3
+0
+1
+0 2 3 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir4
+0
+1
+0 2 4 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir5
+0
+1
+0 2 5 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir7
+0
+1
+0 2 7 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir8
+0
+1
+0 2 8 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir6 dir9
+0
+1
+0 2 9 6
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir1
+0
+1
+0 2 0 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir10
+0
+1
+0 2 1 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir2
+0
+1
+0 2 2 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir3
+0
+1
+0 2 3 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir4
+0
+1
+0 2 4 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir5
+0
+1
+0 2 5 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir6
+0
+1
+0 2 6 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir8
+0
+1
+0 2 8 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir7 dir9
+0
+1
+0 2 9 7
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir1
+0
+1
+0 2 0 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir10
+0
+1
+0 2 1 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir2
+0
+1
+0 2 2 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir3
+0
+1
+0 2 3 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir4
+0
+1
+0 2 4 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir5
+0
+1
+0 2 5 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir6
+0
+1
+0 2 6 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir7
+0
+1
+0 2 7 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir8 dir9
+0
+1
+0 2 9 8
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir1
+0
+1
+0 2 0 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir10
+0
+1
+0 2 1 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir2
+0
+1
+0 2 2 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir3
+0
+1
+0 2 3 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir4
+0
+1
+0 2 4 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir5
+0
+1
+0 2 5 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir6
+0
+1
+0 2 6 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir7
+0
+1
+0 2 7 9
+1
+end_operator
+begin_operator
+turn_to sat2 dir9 dir8
+0
+1
+0 2 8 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir10
+0
+1
+0 3 1 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir2
+0
+1
+0 3 2 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir3
+0
+1
+0 3 3 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir4
+0
+1
+0 3 4 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir5
+0
+1
+0 3 5 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir6
+0
+1
+0 3 6 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir7
+0
+1
+0 3 7 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir8
+0
+1
+0 3 8 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir1 dir9
+0
+1
+0 3 9 0
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir1
+0
+1
+0 3 0 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir2
+0
+1
+0 3 2 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir3
+0
+1
+0 3 3 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir4
+0
+1
+0 3 4 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir5
+0
+1
+0 3 5 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir6
+0
+1
+0 3 6 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir7
+0
+1
+0 3 7 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir8
+0
+1
+0 3 8 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir10 dir9
+0
+1
+0 3 9 1
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir1
+0
+1
+0 3 0 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir10
+0
+1
+0 3 1 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir3
+0
+1
+0 3 3 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir4
+0
+1
+0 3 4 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir5
+0
+1
+0 3 5 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir6
+0
+1
+0 3 6 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir7
+0
+1
+0 3 7 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir8
+0
+1
+0 3 8 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir2 dir9
+0
+1
+0 3 9 2
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir1
+0
+1
+0 3 0 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir10
+0
+1
+0 3 1 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir2
+0
+1
+0 3 2 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir4
+0
+1
+0 3 4 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir5
+0
+1
+0 3 5 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir6
+0
+1
+0 3 6 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir7
+0
+1
+0 3 7 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir8
+0
+1
+0 3 8 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir3 dir9
+0
+1
+0 3 9 3
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir1
+0
+1
+0 3 0 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir10
+0
+1
+0 3 1 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir2
+0
+1
+0 3 2 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir3
+0
+1
+0 3 3 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir5
+0
+1
+0 3 5 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir6
+0
+1
+0 3 6 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir7
+0
+1
+0 3 7 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir8
+0
+1
+0 3 8 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir4 dir9
+0
+1
+0 3 9 4
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir1
+0
+1
+0 3 0 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir10
+0
+1
+0 3 1 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir2
+0
+1
+0 3 2 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir3
+0
+1
+0 3 3 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir4
+0
+1
+0 3 4 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir6
+0
+1
+0 3 6 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir7
+0
+1
+0 3 7 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir8
+0
+1
+0 3 8 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir5 dir9
+0
+1
+0 3 9 5
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir1
+0
+1
+0 3 0 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir10
+0
+1
+0 3 1 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir2
+0
+1
+0 3 2 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir3
+0
+1
+0 3 3 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir4
+0
+1
+0 3 4 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir5
+0
+1
+0 3 5 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir7
+0
+1
+0 3 7 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir8
+0
+1
+0 3 8 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir6 dir9
+0
+1
+0 3 9 6
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir1
+0
+1
+0 3 0 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir10
+0
+1
+0 3 1 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir2
+0
+1
+0 3 2 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir3
+0
+1
+0 3 3 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir4
+0
+1
+0 3 4 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir5
+0
+1
+0 3 5 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir6
+0
+1
+0 3 6 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir8
+0
+1
+0 3 8 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir7 dir9
+0
+1
+0 3 9 7
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir1
+0
+1
+0 3 0 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir10
+0
+1
+0 3 1 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir2
+0
+1
+0 3 2 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir3
+0
+1
+0 3 3 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir4
+0
+1
+0 3 4 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir5
+0
+1
+0 3 5 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir6
+0
+1
+0 3 6 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir7
+0
+1
+0 3 7 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir8 dir9
+0
+1
+0 3 9 8
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir1
+0
+1
+0 3 0 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir10
+0
+1
+0 3 1 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir2
+0
+1
+0 3 2 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir3
+0
+1
+0 3 3 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir4
+0
+1
+0 3 4 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir5
+0
+1
+0 3 5 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir6
+0
+1
+0 3 6 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir7
+0
+1
+0 3 7 9
+1
+end_operator
+begin_operator
+turn_to sat3 dir9 dir8
+0
+1
+0 3 8 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir10
+0
+1
+0 4 1 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir2
+0
+1
+0 4 2 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir3
+0
+1
+0 4 3 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir4
+0
+1
+0 4 4 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir5
+0
+1
+0 4 5 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir6
+0
+1
+0 4 6 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir7
+0
+1
+0 4 7 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir8
+0
+1
+0 4 8 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir1 dir9
+0
+1
+0 4 9 0
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir1
+0
+1
+0 4 0 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir2
+0
+1
+0 4 2 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir3
+0
+1
+0 4 3 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir4
+0
+1
+0 4 4 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir5
+0
+1
+0 4 5 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir6
+0
+1
+0 4 6 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir7
+0
+1
+0 4 7 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir8
+0
+1
+0 4 8 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir10 dir9
+0
+1
+0 4 9 1
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir1
+0
+1
+0 4 0 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir10
+0
+1
+0 4 1 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir3
+0
+1
+0 4 3 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir4
+0
+1
+0 4 4 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir5
+0
+1
+0 4 5 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir6
+0
+1
+0 4 6 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir7
+0
+1
+0 4 7 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir8
+0
+1
+0 4 8 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir2 dir9
+0
+1
+0 4 9 2
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir1
+0
+1
+0 4 0 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir10
+0
+1
+0 4 1 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir2
+0
+1
+0 4 2 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir4
+0
+1
+0 4 4 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir5
+0
+1
+0 4 5 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir6
+0
+1
+0 4 6 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir7
+0
+1
+0 4 7 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir8
+0
+1
+0 4 8 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir3 dir9
+0
+1
+0 4 9 3
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir1
+0
+1
+0 4 0 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir10
+0
+1
+0 4 1 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir2
+0
+1
+0 4 2 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir3
+0
+1
+0 4 3 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir5
+0
+1
+0 4 5 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir6
+0
+1
+0 4 6 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir7
+0
+1
+0 4 7 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir8
+0
+1
+0 4 8 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir4 dir9
+0
+1
+0 4 9 4
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir1
+0
+1
+0 4 0 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir10
+0
+1
+0 4 1 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir2
+0
+1
+0 4 2 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir3
+0
+1
+0 4 3 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir4
+0
+1
+0 4 4 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir6
+0
+1
+0 4 6 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir7
+0
+1
+0 4 7 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir8
+0
+1
+0 4 8 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir5 dir9
+0
+1
+0 4 9 5
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir1
+0
+1
+0 4 0 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir10
+0
+1
+0 4 1 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir2
+0
+1
+0 4 2 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir3
+0
+1
+0 4 3 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir4
+0
+1
+0 4 4 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir5
+0
+1
+0 4 5 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir7
+0
+1
+0 4 7 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir8
+0
+1
+0 4 8 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir6 dir9
+0
+1
+0 4 9 6
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir1
+0
+1
+0 4 0 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir10
+0
+1
+0 4 1 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir2
+0
+1
+0 4 2 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir3
+0
+1
+0 4 3 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir4
+0
+1
+0 4 4 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir5
+0
+1
+0 4 5 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir6
+0
+1
+0 4 6 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir8
+0
+1
+0 4 8 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir7 dir9
+0
+1
+0 4 9 7
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir1
+0
+1
+0 4 0 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir10
+0
+1
+0 4 1 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir2
+0
+1
+0 4 2 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir3
+0
+1
+0 4 3 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir4
+0
+1
+0 4 4 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir5
+0
+1
+0 4 5 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir6
+0
+1
+0 4 6 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir7
+0
+1
+0 4 7 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir8 dir9
+0
+1
+0 4 9 8
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir1
+0
+1
+0 4 0 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir10
+0
+1
+0 4 1 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir2
+0
+1
+0 4 2 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir3
+0
+1
+0 4 3 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir4
+0
+1
+0 4 4 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir5
+0
+1
+0 4 5 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir6
+0
+1
+0 4 6 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir7
+0
+1
+0 4 7 9
+1
+end_operator
+begin_operator
+turn_to sat4 dir9 dir8
+0
+1
+0 4 8 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir10
+0
+1
+0 5 1 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir2
+0
+1
+0 5 2 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir3
+0
+1
+0 5 3 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir4
+0
+1
+0 5 4 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir5
+0
+1
+0 5 5 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir6
+0
+1
+0 5 6 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir7
+0
+1
+0 5 7 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir8
+0
+1
+0 5 8 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir1 dir9
+0
+1
+0 5 9 0
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir1
+0
+1
+0 5 0 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir2
+0
+1
+0 5 2 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir3
+0
+1
+0 5 3 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir4
+0
+1
+0 5 4 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir5
+0
+1
+0 5 5 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir6
+0
+1
+0 5 6 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir7
+0
+1
+0 5 7 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir8
+0
+1
+0 5 8 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir10 dir9
+0
+1
+0 5 9 1
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir1
+0
+1
+0 5 0 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir10
+0
+1
+0 5 1 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir3
+0
+1
+0 5 3 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir4
+0
+1
+0 5 4 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir5
+0
+1
+0 5 5 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir6
+0
+1
+0 5 6 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir7
+0
+1
+0 5 7 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir8
+0
+1
+0 5 8 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir2 dir9
+0
+1
+0 5 9 2
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir1
+0
+1
+0 5 0 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir10
+0
+1
+0 5 1 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir2
+0
+1
+0 5 2 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir4
+0
+1
+0 5 4 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir5
+0
+1
+0 5 5 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir6
+0
+1
+0 5 6 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir7
+0
+1
+0 5 7 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir8
+0
+1
+0 5 8 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir3 dir9
+0
+1
+0 5 9 3
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir1
+0
+1
+0 5 0 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir10
+0
+1
+0 5 1 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir2
+0
+1
+0 5 2 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir3
+0
+1
+0 5 3 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir5
+0
+1
+0 5 5 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir6
+0
+1
+0 5 6 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir7
+0
+1
+0 5 7 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir8
+0
+1
+0 5 8 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir4 dir9
+0
+1
+0 5 9 4
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir1
+0
+1
+0 5 0 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir10
+0
+1
+0 5 1 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir2
+0
+1
+0 5 2 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir3
+0
+1
+0 5 3 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir4
+0
+1
+0 5 4 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir6
+0
+1
+0 5 6 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir7
+0
+1
+0 5 7 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir8
+0
+1
+0 5 8 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir5 dir9
+0
+1
+0 5 9 5
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir1
+0
+1
+0 5 0 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir10
+0
+1
+0 5 1 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir2
+0
+1
+0 5 2 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir3
+0
+1
+0 5 3 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir4
+0
+1
+0 5 4 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir5
+0
+1
+0 5 5 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir7
+0
+1
+0 5 7 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir8
+0
+1
+0 5 8 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir6 dir9
+0
+1
+0 5 9 6
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir1
+0
+1
+0 5 0 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir10
+0
+1
+0 5 1 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir2
+0
+1
+0 5 2 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir3
+0
+1
+0 5 3 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir4
+0
+1
+0 5 4 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir5
+0
+1
+0 5 5 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir6
+0
+1
+0 5 6 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir8
+0
+1
+0 5 8 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir7 dir9
+0
+1
+0 5 9 7
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir1
+0
+1
+0 5 0 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir10
+0
+1
+0 5 1 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir2
+0
+1
+0 5 2 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir3
+0
+1
+0 5 3 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir4
+0
+1
+0 5 4 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir5
+0
+1
+0 5 5 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir6
+0
+1
+0 5 6 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir7
+0
+1
+0 5 7 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir8 dir9
+0
+1
+0 5 9 8
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir1
+0
+1
+0 5 0 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir10
+0
+1
+0 5 1 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir2
+0
+1
+0 5 2 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir3
+0
+1
+0 5 3 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir4
+0
+1
+0 5 4 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir5
+0
+1
+0 5 5 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir6
+0
+1
+0 5 6 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir7
+0
+1
+0 5 7 9
+1
+end_operator
+begin_operator
+turn_to sat5 dir9 dir8
+0
+1
+0 5 8 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir10
+0
+1
+0 6 1 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir2
+0
+1
+0 6 2 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir3
+0
+1
+0 6 3 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir4
+0
+1
+0 6 4 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir5
+0
+1
+0 6 5 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir6
+0
+1
+0 6 6 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir7
+0
+1
+0 6 7 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir8
+0
+1
+0 6 8 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir1 dir9
+0
+1
+0 6 9 0
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir1
+0
+1
+0 6 0 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir2
+0
+1
+0 6 2 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir3
+0
+1
+0 6 3 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir4
+0
+1
+0 6 4 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir5
+0
+1
+0 6 5 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir6
+0
+1
+0 6 6 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir7
+0
+1
+0 6 7 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir8
+0
+1
+0 6 8 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir10 dir9
+0
+1
+0 6 9 1
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir1
+0
+1
+0 6 0 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir10
+0
+1
+0 6 1 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir3
+0
+1
+0 6 3 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir4
+0
+1
+0 6 4 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir5
+0
+1
+0 6 5 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir6
+0
+1
+0 6 6 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir7
+0
+1
+0 6 7 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir8
+0
+1
+0 6 8 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir2 dir9
+0
+1
+0 6 9 2
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir1
+0
+1
+0 6 0 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir10
+0
+1
+0 6 1 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir2
+0
+1
+0 6 2 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir4
+0
+1
+0 6 4 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir5
+0
+1
+0 6 5 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir6
+0
+1
+0 6 6 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir7
+0
+1
+0 6 7 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir8
+0
+1
+0 6 8 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir3 dir9
+0
+1
+0 6 9 3
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir1
+0
+1
+0 6 0 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir10
+0
+1
+0 6 1 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir2
+0
+1
+0 6 2 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir3
+0
+1
+0 6 3 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir5
+0
+1
+0 6 5 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir6
+0
+1
+0 6 6 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir7
+0
+1
+0 6 7 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir8
+0
+1
+0 6 8 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir4 dir9
+0
+1
+0 6 9 4
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir1
+0
+1
+0 6 0 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir10
+0
+1
+0 6 1 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir2
+0
+1
+0 6 2 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir3
+0
+1
+0 6 3 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir4
+0
+1
+0 6 4 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir6
+0
+1
+0 6 6 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir7
+0
+1
+0 6 7 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir8
+0
+1
+0 6 8 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir5 dir9
+0
+1
+0 6 9 5
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir1
+0
+1
+0 6 0 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir10
+0
+1
+0 6 1 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir2
+0
+1
+0 6 2 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir3
+0
+1
+0 6 3 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir4
+0
+1
+0 6 4 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir5
+0
+1
+0 6 5 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir7
+0
+1
+0 6 7 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir8
+0
+1
+0 6 8 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir6 dir9
+0
+1
+0 6 9 6
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir1
+0
+1
+0 6 0 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir10
+0
+1
+0 6 1 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir2
+0
+1
+0 6 2 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir3
+0
+1
+0 6 3 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir4
+0
+1
+0 6 4 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir5
+0
+1
+0 6 5 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir6
+0
+1
+0 6 6 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir8
+0
+1
+0 6 8 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir7 dir9
+0
+1
+0 6 9 7
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir1
+0
+1
+0 6 0 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir10
+0
+1
+0 6 1 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir2
+0
+1
+0 6 2 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir3
+0
+1
+0 6 3 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir4
+0
+1
+0 6 4 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir5
+0
+1
+0 6 5 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir6
+0
+1
+0 6 6 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir7
+0
+1
+0 6 7 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir8 dir9
+0
+1
+0 6 9 8
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir1
+0
+1
+0 6 0 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir10
+0
+1
+0 6 1 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir2
+0
+1
+0 6 2 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir3
+0
+1
+0 6 3 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir4
+0
+1
+0 6 4 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir5
+0
+1
+0 6 5 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir6
+0
+1
+0 6 6 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir7
+0
+1
+0 6 7 9
+1
+end_operator
+begin_operator
+turn_to sat6 dir9 dir8
+0
+1
+0 6 8 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir10
+0
+1
+0 7 1 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir2
+0
+1
+0 7 2 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir3
+0
+1
+0 7 3 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir4
+0
+1
+0 7 4 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir5
+0
+1
+0 7 5 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir6
+0
+1
+0 7 6 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir7
+0
+1
+0 7 7 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir8
+0
+1
+0 7 8 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir1 dir9
+0
+1
+0 7 9 0
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir1
+0
+1
+0 7 0 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir2
+0
+1
+0 7 2 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir3
+0
+1
+0 7 3 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir4
+0
+1
+0 7 4 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir5
+0
+1
+0 7 5 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir6
+0
+1
+0 7 6 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir7
+0
+1
+0 7 7 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir8
+0
+1
+0 7 8 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir10 dir9
+0
+1
+0 7 9 1
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir1
+0
+1
+0 7 0 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir10
+0
+1
+0 7 1 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir3
+0
+1
+0 7 3 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir4
+0
+1
+0 7 4 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir5
+0
+1
+0 7 5 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir6
+0
+1
+0 7 6 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir7
+0
+1
+0 7 7 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir8
+0
+1
+0 7 8 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir2 dir9
+0
+1
+0 7 9 2
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir1
+0
+1
+0 7 0 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir10
+0
+1
+0 7 1 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir2
+0
+1
+0 7 2 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir4
+0
+1
+0 7 4 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir5
+0
+1
+0 7 5 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir6
+0
+1
+0 7 6 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir7
+0
+1
+0 7 7 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir8
+0
+1
+0 7 8 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir3 dir9
+0
+1
+0 7 9 3
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir1
+0
+1
+0 7 0 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir10
+0
+1
+0 7 1 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir2
+0
+1
+0 7 2 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir3
+0
+1
+0 7 3 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir5
+0
+1
+0 7 5 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir6
+0
+1
+0 7 6 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir7
+0
+1
+0 7 7 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir8
+0
+1
+0 7 8 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir4 dir9
+0
+1
+0 7 9 4
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir1
+0
+1
+0 7 0 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir10
+0
+1
+0 7 1 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir2
+0
+1
+0 7 2 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir3
+0
+1
+0 7 3 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir4
+0
+1
+0 7 4 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir6
+0
+1
+0 7 6 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir7
+0
+1
+0 7 7 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir8
+0
+1
+0 7 8 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir5 dir9
+0
+1
+0 7 9 5
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir1
+0
+1
+0 7 0 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir10
+0
+1
+0 7 1 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir2
+0
+1
+0 7 2 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir3
+0
+1
+0 7 3 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir4
+0
+1
+0 7 4 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir5
+0
+1
+0 7 5 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir7
+0
+1
+0 7 7 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir8
+0
+1
+0 7 8 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir6 dir9
+0
+1
+0 7 9 6
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir1
+0
+1
+0 7 0 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir10
+0
+1
+0 7 1 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir2
+0
+1
+0 7 2 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir3
+0
+1
+0 7 3 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir4
+0
+1
+0 7 4 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir5
+0
+1
+0 7 5 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir6
+0
+1
+0 7 6 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir8
+0
+1
+0 7 8 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir7 dir9
+0
+1
+0 7 9 7
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir1
+0
+1
+0 7 0 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir10
+0
+1
+0 7 1 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir2
+0
+1
+0 7 2 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir3
+0
+1
+0 7 3 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir4
+0
+1
+0 7 4 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir5
+0
+1
+0 7 5 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir6
+0
+1
+0 7 6 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir7
+0
+1
+0 7 7 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir8 dir9
+0
+1
+0 7 9 8
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir1
+0
+1
+0 7 0 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir10
+0
+1
+0 7 1 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir2
+0
+1
+0 7 2 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir3
+0
+1
+0 7 3 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir4
+0
+1
+0 7 4 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir5
+0
+1
+0 7 5 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir6
+0
+1
+0 7 6 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir7
+0
+1
+0 7 7 9
+1
+end_operator
+begin_operator
+turn_to sat7 dir9 dir8
+0
+1
+0 7 8 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir10
+0
+1
+0 8 1 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir2
+0
+1
+0 8 2 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir3
+0
+1
+0 8 3 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir4
+0
+1
+0 8 4 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir5
+0
+1
+0 8 5 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir6
+0
+1
+0 8 6 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir7
+0
+1
+0 8 7 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir8
+0
+1
+0 8 8 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir1 dir9
+0
+1
+0 8 9 0
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir1
+0
+1
+0 8 0 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir2
+0
+1
+0 8 2 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir3
+0
+1
+0 8 3 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir4
+0
+1
+0 8 4 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir5
+0
+1
+0 8 5 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir6
+0
+1
+0 8 6 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir7
+0
+1
+0 8 7 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir8
+0
+1
+0 8 8 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir10 dir9
+0
+1
+0 8 9 1
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir1
+0
+1
+0 8 0 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir10
+0
+1
+0 8 1 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir3
+0
+1
+0 8 3 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir4
+0
+1
+0 8 4 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir5
+0
+1
+0 8 5 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir6
+0
+1
+0 8 6 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir7
+0
+1
+0 8 7 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir8
+0
+1
+0 8 8 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir2 dir9
+0
+1
+0 8 9 2
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir1
+0
+1
+0 8 0 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir10
+0
+1
+0 8 1 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir2
+0
+1
+0 8 2 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir4
+0
+1
+0 8 4 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir5
+0
+1
+0 8 5 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir6
+0
+1
+0 8 6 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir7
+0
+1
+0 8 7 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir8
+0
+1
+0 8 8 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir3 dir9
+0
+1
+0 8 9 3
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir1
+0
+1
+0 8 0 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir10
+0
+1
+0 8 1 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir2
+0
+1
+0 8 2 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir3
+0
+1
+0 8 3 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir5
+0
+1
+0 8 5 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir6
+0
+1
+0 8 6 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir7
+0
+1
+0 8 7 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir8
+0
+1
+0 8 8 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir4 dir9
+0
+1
+0 8 9 4
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir1
+0
+1
+0 8 0 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir10
+0
+1
+0 8 1 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir2
+0
+1
+0 8 2 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir3
+0
+1
+0 8 3 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir4
+0
+1
+0 8 4 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir6
+0
+1
+0 8 6 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir7
+0
+1
+0 8 7 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir8
+0
+1
+0 8 8 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir5 dir9
+0
+1
+0 8 9 5
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir1
+0
+1
+0 8 0 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir10
+0
+1
+0 8 1 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir2
+0
+1
+0 8 2 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir3
+0
+1
+0 8 3 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir4
+0
+1
+0 8 4 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir5
+0
+1
+0 8 5 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir7
+0
+1
+0 8 7 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir8
+0
+1
+0 8 8 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir6 dir9
+0
+1
+0 8 9 6
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir1
+0
+1
+0 8 0 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir10
+0
+1
+0 8 1 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir2
+0
+1
+0 8 2 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir3
+0
+1
+0 8 3 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir4
+0
+1
+0 8 4 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir5
+0
+1
+0 8 5 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir6
+0
+1
+0 8 6 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir8
+0
+1
+0 8 8 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir7 dir9
+0
+1
+0 8 9 7
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir1
+0
+1
+0 8 0 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir10
+0
+1
+0 8 1 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir2
+0
+1
+0 8 2 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir3
+0
+1
+0 8 3 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir4
+0
+1
+0 8 4 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir5
+0
+1
+0 8 5 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir6
+0
+1
+0 8 6 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir7
+0
+1
+0 8 7 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir8 dir9
+0
+1
+0 8 9 8
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir1
+0
+1
+0 8 0 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir10
+0
+1
+0 8 1 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir2
+0
+1
+0 8 2 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir3
+0
+1
+0 8 3 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir4
+0
+1
+0 8 4 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir5
+0
+1
+0 8 5 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir6
+0
+1
+0 8 6 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir7
+0
+1
+0 8 7 9
+1
+end_operator
+begin_operator
+turn_to sat8 dir9 dir8
+0
+1
+0 8 8 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir10
+0
+1
+0 9 1 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir2
+0
+1
+0 9 2 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir3
+0
+1
+0 9 3 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir4
+0
+1
+0 9 4 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir5
+0
+1
+0 9 5 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir6
+0
+1
+0 9 6 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir7
+0
+1
+0 9 7 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir8
+0
+1
+0 9 8 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir1 dir9
+0
+1
+0 9 9 0
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir1
+0
+1
+0 9 0 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir2
+0
+1
+0 9 2 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir3
+0
+1
+0 9 3 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir4
+0
+1
+0 9 4 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir5
+0
+1
+0 9 5 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir6
+0
+1
+0 9 6 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir7
+0
+1
+0 9 7 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir8
+0
+1
+0 9 8 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir10 dir9
+0
+1
+0 9 9 1
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir1
+0
+1
+0 9 0 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir10
+0
+1
+0 9 1 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir3
+0
+1
+0 9 3 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir4
+0
+1
+0 9 4 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir5
+0
+1
+0 9 5 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir6
+0
+1
+0 9 6 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir7
+0
+1
+0 9 7 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir8
+0
+1
+0 9 8 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir2 dir9
+0
+1
+0 9 9 2
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir1
+0
+1
+0 9 0 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir10
+0
+1
+0 9 1 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir2
+0
+1
+0 9 2 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir4
+0
+1
+0 9 4 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir5
+0
+1
+0 9 5 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir6
+0
+1
+0 9 6 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir7
+0
+1
+0 9 7 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir8
+0
+1
+0 9 8 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir3 dir9
+0
+1
+0 9 9 3
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir1
+0
+1
+0 9 0 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir10
+0
+1
+0 9 1 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir2
+0
+1
+0 9 2 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir3
+0
+1
+0 9 3 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir5
+0
+1
+0 9 5 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir6
+0
+1
+0 9 6 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir7
+0
+1
+0 9 7 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir8
+0
+1
+0 9 8 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir4 dir9
+0
+1
+0 9 9 4
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir1
+0
+1
+0 9 0 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir10
+0
+1
+0 9 1 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir2
+0
+1
+0 9 2 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir3
+0
+1
+0 9 3 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir4
+0
+1
+0 9 4 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir6
+0
+1
+0 9 6 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir7
+0
+1
+0 9 7 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir8
+0
+1
+0 9 8 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir5 dir9
+0
+1
+0 9 9 5
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir1
+0
+1
+0 9 0 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir10
+0
+1
+0 9 1 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir2
+0
+1
+0 9 2 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir3
+0
+1
+0 9 3 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir4
+0
+1
+0 9 4 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir5
+0
+1
+0 9 5 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir7
+0
+1
+0 9 7 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir8
+0
+1
+0 9 8 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir6 dir9
+0
+1
+0 9 9 6
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir1
+0
+1
+0 9 0 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir10
+0
+1
+0 9 1 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir2
+0
+1
+0 9 2 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir3
+0
+1
+0 9 3 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir4
+0
+1
+0 9 4 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir5
+0
+1
+0 9 5 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir6
+0
+1
+0 9 6 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir8
+0
+1
+0 9 8 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir7 dir9
+0
+1
+0 9 9 7
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir1
+0
+1
+0 9 0 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir10
+0
+1
+0 9 1 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir2
+0
+1
+0 9 2 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir3
+0
+1
+0 9 3 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir4
+0
+1
+0 9 4 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir5
+0
+1
+0 9 5 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir6
+0
+1
+0 9 6 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir7
+0
+1
+0 9 7 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir8 dir9
+0
+1
+0 9 9 8
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir1
+0
+1
+0 9 0 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir10
+0
+1
+0 9 1 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir2
+0
+1
+0 9 2 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir3
+0
+1
+0 9 3 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir4
+0
+1
+0 9 4 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir5
+0
+1
+0 9 5 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir6
+0
+1
+0 9 6 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir7
+0
+1
+0 9 7 9
+1
+end_operator
+begin_operator
+turn_to sat9 dir9 dir8
+0
+1
+0 9 8 9
+1
+end_operator
+0
+begin_SG
+switch 42
+check 0
+switch 6
+check 0
+switch 38
+check 0
+check 1
+177
+check 0
+check 0
+check 0
+switch 38
+check 0
+check 2
+179
+180
+check 0
+check 0
+switch 38
+check 0
+check 1
+184
+check 0
+check 0
+switch 38
+check 0
+check 2
+187
+188
+check 0
+check 0
+switch 38
+check 0
+check 1
+191
+check 0
+check 0
+check 0
+switch 38
+check 0
+check 1
+195
+check 0
+check 0
+switch 38
+check 0
+check 1
+198
+check 0
+check 0
+switch 38
+check 0
+check 1
+200
+check 0
+check 0
+check 0
+check 0
+switch 55
+check 0
+switch 9
+check 0
+switch 54
+check 0
+check 1
+254
+check 0
+check 0
+check 0
+switch 54
+check 0
+check 3
+255
+256
+257
+check 0
+check 0
+switch 54
+check 0
+check 2
+258
+259
+check 0
+check 0
+switch 54
+check 0
+check 2
+260
+261
+check 0
+check 0
+switch 54
+check 0
+check 2
+262
+263
+check 0
+check 0
+switch 54
+check 0
+check 1
+264
+check 0
+check 0
+switch 54
+check 0
+check 2
+265
+266
+check 0
+check 0
+switch 54
+check 0
+check 1
+267
+check 0
+check 0
+switch 54
+check 0
+check 1
+268
+check 0
+check 0
+check 0
+check 0
+switch 31
+check 0
+switch 3
+check 0
+check 0
+check 0
+switch 27
+check 0
+check 1
+139
+check 0
+check 0
+switch 27
+check 0
+check 1
+142
+check 0
+check 0
+switch 27
+check 0
+check 1
+145
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 41
+check 0
+switch 6
+check 0
+switch 39
+check 0
+check 1
+178
+check 0
+check 0
+check 0
+switch 39
+check 0
+check 3
+181
+182
+183
+check 0
+check 0
+switch 39
+check 0
+check 2
+185
+186
+check 0
+check 0
+switch 39
+check 0
+check 2
+189
+190
+check 0
+check 0
+switch 39
+check 0
+check 2
+192
+193
+check 0
+check 0
+switch 39
+check 0
+check 1
+194
+check 0
+check 0
+switch 39
+check 0
+check 2
+196
+197
+check 0
+check 0
+switch 39
+check 0
+check 1
+199
+check 0
+check 0
+switch 39
+check 0
+check 1
+201
+check 0
+check 0
+check 0
+check 0
+switch 47
+check 0
+switch 7
+check 0
+switch 43
+check 0
+check 1
+202
+check 0
+check 0
+check 0
+switch 43
+check 0
+check 3
+204
+205
+206
+check 0
+check 0
+switch 43
+check 0
+check 2
+210
+211
+check 0
+check 0
+switch 43
+check 0
+check 2
+214
+215
+check 0
+check 0
+switch 43
+check 0
+check 2
+218
+219
+check 0
+check 0
+switch 43
+check 0
+check 1
+222
+check 0
+check 0
+switch 43
+check 0
+check 2
+224
+225
+check 0
+check 0
+switch 43
+check 0
+check 1
+228
+check 0
+check 0
+switch 43
+check 0
+check 1
+230
+check 0
+check 0
+check 0
+check 0
+switch 26
+check 0
+switch 2
+check 0
+switch 20
+check 0
+check 1
+99
+check 0
+check 0
+check 0
+switch 20
+check 0
+check 2
+102
+103
+check 0
+check 0
+switch 20
+check 0
+check 1
+110
+check 0
+check 0
+switch 20
+check 0
+check 2
+115
+116
+check 0
+check 0
+switch 20
+check 0
+check 1
+121
+check 0
+check 0
+check 0
+switch 20
+check 0
+check 1
+128
+check 0
+check 0
+switch 20
+check 0
+check 1
+133
+check 0
+check 0
+switch 20
+check 0
+check 1
+136
+check 0
+check 0
+check 0
+check 0
+switch 52
+check 0
+switch 8
+check 0
+switch 48
+check 0
+check 1
+232
+check 0
+check 0
+check 0
+switch 48
+check 0
+check 2
+234
+235
+check 0
+check 0
+switch 48
+check 0
+check 1
+238
+check 0
+check 0
+switch 48
+check 0
+check 2
+240
+241
+check 0
+check 0
+switch 48
+check 0
+check 1
+243
+check 0
+check 0
+check 0
+switch 48
+check 0
+check 1
+247
+check 0
+check 0
+switch 48
+check 0
+check 1
+250
+check 0
+check 0
+switch 48
+check 0
+check 1
+252
+check 0
+check 0
+check 0
+check 0
+switch 25
+check 0
+switch 2
+check 0
+switch 21
+check 0
+check 1
+100
+check 0
+check 0
+check 0
+switch 21
+check 0
+check 3
+104
+105
+106
+check 0
+check 0
+switch 21
+check 0
+check 2
+111
+112
+check 0
+check 0
+switch 21
+check 0
+check 2
+117
+118
+check 0
+check 0
+switch 21
+check 0
+check 2
+122
+123
+check 0
+check 0
+switch 21
+check 0
+check 1
+126
+check 0
+check 0
+switch 21
+check 0
+check 2
+129
+130
+check 0
+check 0
+switch 21
+check 0
+check 1
+134
+check 0
+check 0
+switch 21
+check 0
+check 1
+137
+check 0
+check 0
+check 0
+check 0
+switch 19
+check 0
+switch 1
+check 0
+switch 15
+check 0
+check 1
+69
+check 0
+check 0
+check 0
+switch 15
+check 0
+check 3
+71
+72
+73
+check 0
+check 0
+switch 15
+check 0
+check 2
+77
+78
+check 0
+check 0
+switch 15
+check 0
+check 2
+81
+82
+check 0
+check 0
+switch 15
+check 0
+check 2
+85
+86
+check 0
+check 0
+switch 15
+check 0
+check 1
+89
+check 0
+check 0
+switch 15
+check 0
+check 2
+91
+92
+check 0
+check 0
+switch 15
+check 0
+check 1
+95
+check 0
+check 0
+switch 15
+check 0
+check 1
+97
+check 0
+check 0
+check 0
+check 0
+switch 14
+check 0
+switch 0
+check 0
+switch 10
+check 0
+check 1
+54
+check 0
+check 0
+check 0
+switch 10
+check 0
+check 2
+55
+56
+check 0
+check 0
+switch 10
+check 0
+check 1
+58
+check 0
+check 0
+switch 10
+check 0
+check 1
+60
+check 0
+check 0
+switch 10
+check 0
+check 2
+62
+63
+check 0
+check 0
+switch 10
+check 0
+check 1
+64
+check 0
+check 0
+switch 10
+check 0
+check 2
+65
+66
+check 0
+check 0
+switch 10
+check 0
+check 1
+67
+check 0
+check 0
+switch 10
+check 0
+check 1
+68
+check 0
+check 0
+check 0
+check 0
+switch 34
+check 0
+switch 4
+check 0
+switch 33
+check 0
+check 1
+150
+check 0
+check 0
+check 0
+switch 33
+check 0
+check 3
+151
+152
+153
+check 0
+check 0
+switch 33
+check 0
+check 2
+154
+155
+check 0
+check 0
+switch 33
+check 0
+check 2
+156
+157
+check 0
+check 0
+switch 33
+check 0
+check 2
+158
+159
+check 0
+check 0
+switch 33
+check 0
+check 1
+160
+check 0
+check 0
+switch 33
+check 0
+check 2
+161
+162
+check 0
+check 0
+switch 33
+check 0
+check 1
+163
+check 0
+check 0
+switch 33
+check 0
+check 1
+164
+check 0
+check 0
+check 0
+check 0
+switch 24
+check 0
+switch 2
+check 0
+switch 22
+check 0
+check 1
+101
+check 0
+check 0
+check 0
+switch 22
+check 0
+check 3
+107
+108
+109
+check 0
+check 0
+switch 22
+check 0
+check 2
+113
+114
+check 0
+check 0
+switch 22
+check 0
+check 2
+119
+120
+check 0
+check 0
+switch 22
+check 0
+check 2
+124
+125
+check 0
+check 0
+switch 22
+check 0
+check 1
+127
+check 0
+check 0
+switch 22
+check 0
+check 2
+131
+132
+check 0
+check 0
+switch 22
+check 0
+check 1
+135
+check 0
+check 0
+switch 22
+check 0
+check 1
+138
+check 0
+check 0
+check 0
+check 0
+switch 46
+check 0
+switch 7
+check 0
+switch 44
+check 0
+check 1
+203
+check 0
+check 0
+check 0
+switch 44
+check 0
+check 3
+207
+208
+209
+check 0
+check 0
+switch 44
+check 0
+check 2
+212
+213
+check 0
+check 0
+switch 44
+check 0
+check 2
+216
+217
+check 0
+check 0
+switch 44
+check 0
+check 2
+220
+221
+check 0
+check 0
+switch 44
+check 0
+check 1
+223
+check 0
+check 0
+switch 44
+check 0
+check 2
+226
+227
+check 0
+check 0
+switch 44
+check 0
+check 1
+229
+check 0
+check 0
+switch 44
+check 0
+check 1
+231
+check 0
+check 0
+check 0
+check 0
+switch 13
+check 0
+switch 0
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+57
+check 0
+check 0
+switch 11
+check 0
+check 1
+59
+check 0
+check 0
+switch 11
+check 0
+check 1
+61
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 18
+check 0
+switch 1
+check 0
+switch 16
+check 0
+check 1
+70
+check 0
+check 0
+check 0
+switch 16
+check 0
+check 3
+74
+75
+76
+check 0
+check 0
+switch 16
+check 0
+check 2
+79
+80
+check 0
+check 0
+switch 16
+check 0
+check 2
+83
+84
+check 0
+check 0
+switch 16
+check 0
+check 2
+87
+88
+check 0
+check 0
+switch 16
+check 0
+check 1
+90
+check 0
+check 0
+switch 16
+check 0
+check 2
+93
+94
+check 0
+check 0
+switch 16
+check 0
+check 1
+96
+check 0
+check 0
+switch 16
+check 0
+check 1
+98
+check 0
+check 0
+check 0
+check 0
+switch 30
+check 0
+switch 3
+check 0
+check 0
+check 0
+switch 28
+check 0
+check 2
+140
+141
+check 0
+check 0
+switch 28
+check 0
+check 2
+143
+144
+check 0
+check 0
+switch 28
+check 0
+check 1
+146
+check 0
+check 0
+switch 28
+check 0
+check 1
+147
+check 0
+check 0
+switch 28
+check 0
+check 1
+148
+check 0
+check 0
+switch 28
+check 0
+check 1
+149
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 37
+check 0
+switch 5
+check 0
+switch 36
+check 0
+check 1
+165
+check 0
+check 0
+check 0
+switch 36
+check 0
+check 2
+166
+167
+check 0
+check 0
+switch 36
+check 0
+check 1
+168
+check 0
+check 0
+switch 36
+check 0
+check 1
+169
+check 0
+check 0
+switch 36
+check 0
+check 2
+170
+171
+check 0
+check 0
+switch 36
+check 0
+check 1
+172
+check 0
+check 0
+switch 36
+check 0
+check 2
+173
+174
+check 0
+check 0
+switch 36
+check 0
+check 1
+175
+check 0
+check 0
+switch 36
+check 0
+check 1
+176
+check 0
+check 0
+check 0
+check 0
+switch 51
+check 0
+switch 8
+check 0
+switch 49
+check 0
+check 1
+233
+check 0
+check 0
+check 0
+switch 49
+check 0
+check 2
+236
+237
+check 0
+check 0
+switch 49
+check 0
+check 1
+239
+check 0
+check 0
+switch 49
+check 0
+check 1
+242
+check 0
+check 0
+switch 49
+check 0
+check 2
+244
+245
+check 0
+check 0
+switch 49
+check 0
+check 1
+246
+check 0
+check 0
+switch 49
+check 0
+check 2
+248
+249
+check 0
+check 0
+switch 49
+check 0
+check 1
+251
+check 0
+check 0
+switch 49
+check 0
+check 1
+253
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+check 9
+278
+287
+296
+305
+314
+323
+332
+341
+350
+check 9
+269
+288
+297
+306
+315
+324
+333
+342
+351
+switch 1
+check 9
+270
+279
+298
+307
+316
+325
+334
+343
+352
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 10
+check 0
+check 1
+0
+check 0
+check 0
+check 9
+271
+280
+289
+308
+317
+326
+335
+344
+353
+check 9
+272
+281
+290
+299
+318
+327
+336
+345
+354
+check 9
+273
+282
+291
+300
+309
+328
+337
+346
+355
+check 9
+274
+283
+292
+301
+310
+319
+338
+347
+356
+check 9
+275
+284
+293
+302
+311
+320
+329
+348
+357
+check 9
+276
+285
+294
+303
+312
+321
+330
+339
+358
+switch 1
+check 9
+277
+286
+295
+304
+313
+322
+331
+340
+349
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+1
+check 0
+check 0
+switch 1
+check 0
+check 9
+368
+377
+386
+395
+404
+413
+422
+431
+440
+switch 2
+check 9
+359
+378
+387
+396
+405
+414
+423
+432
+441
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 15
+check 0
+check 1
+2
+check 0
+check 0
+check 9
+360
+369
+388
+397
+406
+415
+424
+433
+442
+check 9
+361
+370
+379
+398
+407
+416
+425
+434
+443
+check 9
+362
+371
+380
+389
+408
+417
+426
+435
+444
+check 9
+363
+372
+381
+390
+399
+418
+427
+436
+445
+check 9
+364
+373
+382
+391
+400
+409
+428
+437
+446
+switch 2
+check 9
+365
+374
+383
+392
+401
+410
+419
+438
+447
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 16
+check 0
+check 1
+3
+check 0
+check 0
+check 9
+366
+375
+384
+393
+402
+411
+420
+429
+448
+check 9
+367
+376
+385
+394
+403
+412
+421
+430
+439
+switch 2
+check 0
+check 9
+458
+467
+476
+485
+494
+503
+512
+521
+530
+check 9
+449
+468
+477
+486
+495
+504
+513
+522
+531
+switch 3
+check 9
+450
+459
+478
+487
+496
+505
+514
+523
+532
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 20
+check 0
+check 1
+4
+check 0
+check 0
+check 9
+451
+460
+469
+488
+497
+506
+515
+524
+533
+check 9
+452
+461
+470
+479
+498
+507
+516
+525
+534
+check 9
+453
+462
+471
+480
+489
+508
+517
+526
+535
+check 9
+454
+463
+472
+481
+490
+499
+518
+527
+536
+check 9
+455
+464
+473
+482
+491
+500
+509
+528
+537
+switch 3
+check 9
+456
+465
+474
+483
+492
+501
+510
+519
+538
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 21
+check 0
+check 1
+5
+check 0
+switch 22
+check 0
+check 1
+6
+check 0
+check 0
+check 9
+457
+466
+475
+484
+493
+502
+511
+520
+529
+switch 3
+check 0
+check 9
+548
+557
+566
+575
+584
+593
+602
+611
+620
+check 9
+539
+558
+567
+576
+585
+594
+603
+612
+621
+check 9
+540
+549
+568
+577
+586
+595
+604
+613
+622
+check 9
+541
+550
+559
+578
+587
+596
+605
+614
+623
+check 9
+542
+551
+560
+569
+588
+597
+606
+615
+624
+check 9
+543
+552
+561
+570
+579
+598
+607
+616
+625
+check 9
+544
+553
+562
+571
+580
+589
+608
+617
+626
+switch 4
+check 9
+545
+554
+563
+572
+581
+590
+599
+618
+627
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 28
+check 0
+check 1
+8
+check 0
+check 0
+switch 4
+check 9
+546
+555
+564
+573
+582
+591
+600
+609
+628
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 27
+check 0
+check 1
+7
+check 0
+check 0
+check 9
+547
+556
+565
+574
+583
+592
+601
+610
+619
+switch 4
+check 0
+check 9
+638
+647
+656
+665
+674
+683
+692
+701
+710
+check 9
+629
+648
+657
+666
+675
+684
+693
+702
+711
+check 9
+630
+639
+658
+667
+676
+685
+694
+703
+712
+check 9
+631
+640
+649
+668
+677
+686
+695
+704
+713
+check 9
+632
+641
+650
+659
+678
+687
+696
+705
+714
+switch 5
+check 9
+633
+642
+651
+660
+669
+688
+697
+706
+715
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 33
+check 0
+check 1
+9
+check 0
+check 0
+check 9
+634
+643
+652
+661
+670
+679
+698
+707
+716
+check 9
+635
+644
+653
+662
+671
+680
+689
+708
+717
+check 9
+636
+645
+654
+663
+672
+681
+690
+699
+718
+check 9
+637
+646
+655
+664
+673
+682
+691
+700
+709
+switch 5
+check 0
+check 9
+728
+737
+746
+755
+764
+773
+782
+791
+800
+check 9
+719
+738
+747
+756
+765
+774
+783
+792
+801
+check 9
+720
+729
+748
+757
+766
+775
+784
+793
+802
+switch 6
+check 9
+721
+730
+739
+758
+767
+776
+785
+794
+803
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 36
+check 0
+check 1
+10
+check 0
+check 0
+check 9
+722
+731
+740
+749
+768
+777
+786
+795
+804
+check 9
+723
+732
+741
+750
+759
+778
+787
+796
+805
+check 9
+724
+733
+742
+751
+760
+769
+788
+797
+806
+check 9
+725
+734
+743
+752
+761
+770
+779
+798
+807
+check 9
+726
+735
+744
+753
+762
+771
+780
+789
+808
+check 9
+727
+736
+745
+754
+763
+772
+781
+790
+799
+switch 6
+check 0
+check 9
+818
+827
+836
+845
+854
+863
+872
+881
+890
+check 9
+809
+828
+837
+846
+855
+864
+873
+882
+891
+switch 7
+check 9
+810
+819
+838
+847
+856
+865
+874
+883
+892
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 38
+check 0
+check 1
+11
+check 0
+switch 39
+check 0
+check 1
+12
+check 0
+check 0
+check 9
+811
+820
+829
+848
+857
+866
+875
+884
+893
+check 9
+812
+821
+830
+839
+858
+867
+876
+885
+894
+check 9
+813
+822
+831
+840
+849
+868
+877
+886
+895
+check 9
+814
+823
+832
+841
+850
+859
+878
+887
+896
+check 9
+815
+824
+833
+842
+851
+860
+869
+888
+897
+check 9
+816
+825
+834
+843
+852
+861
+870
+879
+898
+check 9
+817
+826
+835
+844
+853
+862
+871
+880
+889
+switch 7
+check 0
+check 9
+908
+917
+926
+935
+944
+953
+962
+971
+980
+check 9
+899
+918
+927
+936
+945
+954
+963
+972
+981
+check 9
+900
+909
+928
+937
+946
+955
+964
+973
+982
+check 9
+901
+910
+919
+938
+947
+956
+965
+974
+983
+switch 8
+check 9
+902
+911
+920
+929
+948
+957
+966
+975
+984
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 44
+check 0
+check 1
+14
+check 0
+check 0
+check 9
+903
+912
+921
+930
+939
+958
+967
+976
+985
+check 9
+904
+913
+922
+931
+940
+949
+968
+977
+986
+switch 8
+check 9
+905
+914
+923
+932
+941
+950
+959
+978
+987
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 43
+check 0
+check 1
+13
+check 0
+check 0
+check 9
+906
+915
+924
+933
+942
+951
+960
+969
+988
+check 9
+907
+916
+925
+934
+943
+952
+961
+970
+979
+switch 8
+check 0
+check 9
+998
+1007
+1016
+1025
+1034
+1043
+1052
+1061
+1070
+check 9
+989
+1008
+1017
+1026
+1035
+1044
+1053
+1062
+1071
+check 9
+990
+999
+1018
+1027
+1036
+1045
+1054
+1063
+1072
+check 9
+991
+1000
+1009
+1028
+1037
+1046
+1055
+1064
+1073
+check 9
+992
+1001
+1010
+1019
+1038
+1047
+1056
+1065
+1074
+check 9
+993
+1002
+1011
+1020
+1029
+1048
+1057
+1066
+1075
+switch 9
+check 9
+994
+1003
+1012
+1021
+1030
+1039
+1058
+1067
+1076
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 49
+check 0
+check 1
+16
+check 0
+check 0
+check 9
+995
+1004
+1013
+1022
+1031
+1040
+1049
+1068
+1077
+check 9
+996
+1005
+1014
+1023
+1032
+1041
+1050
+1059
+1078
+switch 9
+check 9
+997
+1006
+1015
+1024
+1033
+1042
+1051
+1060
+1069
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 48
+check 0
+check 1
+15
+check 0
+check 0
+switch 9
+check 0
+check 9
+1088
+1097
+1106
+1115
+1124
+1133
+1142
+1151
+1160
+check 9
+1079
+1098
+1107
+1116
+1125
+1134
+1143
+1152
+1161
+check 9
+1080
+1089
+1108
+1117
+1126
+1135
+1144
+1153
+1162
+check 9
+1081
+1090
+1099
+1118
+1127
+1136
+1145
+1154
+1163
+check 9
+1082
+1091
+1100
+1109
+1128
+1137
+1146
+1155
+1164
+switch 12
+check 9
+1083
+1092
+1101
+1110
+1119
+1138
+1147
+1156
+1165
+check 0
+check 0
+switch 54
+check 0
+check 1
+17
+check 0
+check 0
+check 9
+1084
+1093
+1102
+1111
+1120
+1129
+1148
+1157
+1166
+check 9
+1085
+1094
+1103
+1112
+1121
+1130
+1139
+1158
+1167
+check 9
+1086
+1095
+1104
+1113
+1122
+1131
+1140
+1149
+1168
+check 9
+1087
+1096
+1105
+1114
+1123
+1132
+1141
+1150
+1159
+switch 12
+check 0
+check 2
+45
+49
+check 0
+switch 17
+check 0
+check 2
+44
+50
+check 0
+switch 23
+check 0
+check 3
+41
+43
+47
+check 0
+switch 29
+check 0
+check 2
+38
+51
+check 0
+switch 32
+check 0
+check 1
+46
+check 0
+switch 35
+check 0
+check 1
+52
+check 0
+switch 40
+check 0
+check 2
+36
+39
+check 0
+switch 45
+check 0
+check 2
+40
+48
+check 0
+switch 50
+check 0
+check 2
+42
+53
+check 0
+switch 53
+check 0
+check 1
+37
+check 0
+switch 38
+check 0
+check 1
+18
+check 0
+switch 54
+check 0
+check 1
+19
+check 0
+switch 27
+check 0
+check 1
+20
+check 0
+switch 39
+check 0
+check 1
+21
+check 0
+switch 43
+check 0
+check 1
+22
+check 0
+switch 20
+check 0
+check 1
+23
+check 0
+switch 48
+check 0
+check 1
+24
+check 0
+switch 21
+check 0
+check 1
+25
+check 0
+switch 15
+check 0
+check 1
+26
+check 0
+switch 10
+check 0
+check 1
+27
+check 0
+switch 33
+check 0
+check 1
+28
+check 0
+switch 22
+check 0
+check 1
+29
+check 0
+switch 44
+check 0
+check 1
+30
+check 0
+switch 11
+check 0
+check 1
+31
+check 0
+switch 16
+check 0
+check 1
+32
+check 0
+switch 28
+check 0
+check 1
+33
+check 0
+switch 36
+check 0
+check 1
+34
+check 0
+switch 49
+check 0
+check 1
+35
+check 0
+check 0
+end_SG
+begin_DTG
+9
+1
+278
+0
+2
+287
+0
+3
+296
+0
+4
+305
+0
+5
+314
+0
+6
+323
+0
+7
+332
+0
+8
+341
+0
+9
+350
+0
+9
+0
+269
+0
+2
+288
+0
+3
+297
+0
+4
+306
+0
+5
+315
+0
+6
+324
+0
+7
+333
+0
+8
+342
+0
+9
+351
+0
+9
+0
+270
+0
+1
+279
+0
+3
+298
+0
+4
+307
+0
+5
+316
+0
+6
+325
+0
+7
+334
+0
+8
+343
+0
+9
+352
+0
+9
+0
+271
+0
+1
+280
+0
+2
+289
+0
+4
+308
+0
+5
+317
+0
+6
+326
+0
+7
+335
+0
+8
+344
+0
+9
+353
+0
+9
+0
+272
+0
+1
+281
+0
+2
+290
+0
+3
+299
+0
+5
+318
+0
+6
+327
+0
+7
+336
+0
+8
+345
+0
+9
+354
+0
+9
+0
+273
+0
+1
+282
+0
+2
+291
+0
+3
+300
+0
+4
+309
+0
+6
+328
+0
+7
+337
+0
+8
+346
+0
+9
+355
+0
+9
+0
+274
+0
+1
+283
+0
+2
+292
+0
+3
+301
+0
+4
+310
+0
+5
+319
+0
+7
+338
+0
+8
+347
+0
+9
+356
+0
+9
+0
+275
+0
+1
+284
+0
+2
+293
+0
+3
+302
+0
+4
+311
+0
+5
+320
+0
+6
+329
+0
+8
+348
+0
+9
+357
+0
+9
+0
+276
+0
+1
+285
+0
+2
+294
+0
+3
+303
+0
+4
+312
+0
+5
+321
+0
+6
+330
+0
+7
+339
+0
+9
+358
+0
+9
+0
+277
+0
+1
+286
+0
+2
+295
+0
+3
+304
+0
+4
+313
+0
+5
+322
+0
+6
+331
+0
+7
+340
+0
+8
+349
+0
+end_DTG
+begin_DTG
+9
+1
+368
+0
+2
+377
+0
+3
+386
+0
+4
+395
+0
+5
+404
+0
+6
+413
+0
+7
+422
+0
+8
+431
+0
+9
+440
+0
+9
+0
+359
+0
+2
+378
+0
+3
+387
+0
+4
+396
+0
+5
+405
+0
+6
+414
+0
+7
+423
+0
+8
+432
+0
+9
+441
+0
+9
+0
+360
+0
+1
+369
+0
+3
+388
+0
+4
+397
+0
+5
+406
+0
+6
+415
+0
+7
+424
+0
+8
+433
+0
+9
+442
+0
+9
+0
+361
+0
+1
+370
+0
+2
+379
+0
+4
+398
+0
+5
+407
+0
+6
+416
+0
+7
+425
+0
+8
+434
+0
+9
+443
+0
+9
+0
+362
+0
+1
+371
+0
+2
+380
+0
+3
+389
+0
+5
+408
+0
+6
+417
+0
+7
+426
+0
+8
+435
+0
+9
+444
+0
+9
+0
+363
+0
+1
+372
+0
+2
+381
+0
+3
+390
+0
+4
+399
+0
+6
+418
+0
+7
+427
+0
+8
+436
+0
+9
+445
+0
+9
+0
+364
+0
+1
+373
+0
+2
+382
+0
+3
+391
+0
+4
+400
+0
+5
+409
+0
+7
+428
+0
+8
+437
+0
+9
+446
+0
+9
+0
+365
+0
+1
+374
+0
+2
+383
+0
+3
+392
+0
+4
+401
+0
+5
+410
+0
+6
+419
+0
+8
+438
+0
+9
+447
+0
+9
+0
+366
+0
+1
+375
+0
+2
+384
+0
+3
+393
+0
+4
+402
+0
+5
+411
+0
+6
+420
+0
+7
+429
+0
+9
+448
+0
+9
+0
+367
+0
+1
+376
+0
+2
+385
+0
+3
+394
+0
+4
+403
+0
+5
+412
+0
+6
+421
+0
+7
+430
+0
+8
+439
+0
+end_DTG
+begin_DTG
+9
+1
+458
+0
+2
+467
+0
+3
+476
+0
+4
+485
+0
+5
+494
+0
+6
+503
+0
+7
+512
+0
+8
+521
+0
+9
+530
+0
+9
+0
+449
+0
+2
+468
+0
+3
+477
+0
+4
+486
+0
+5
+495
+0
+6
+504
+0
+7
+513
+0
+8
+522
+0
+9
+531
+0
+9
+0
+450
+0
+1
+459
+0
+3
+478
+0
+4
+487
+0
+5
+496
+0
+6
+505
+0
+7
+514
+0
+8
+523
+0
+9
+532
+0
+9
+0
+451
+0
+1
+460
+0
+2
+469
+0
+4
+488
+0
+5
+497
+0
+6
+506
+0
+7
+515
+0
+8
+524
+0
+9
+533
+0
+9
+0
+452
+0
+1
+461
+0
+2
+470
+0
+3
+479
+0
+5
+498
+0
+6
+507
+0
+7
+516
+0
+8
+525
+0
+9
+534
+0
+9
+0
+453
+0
+1
+462
+0
+2
+471
+0
+3
+480
+0
+4
+489
+0
+6
+508
+0
+7
+517
+0
+8
+526
+0
+9
+535
+0
+9
+0
+454
+0
+1
+463
+0
+2
+472
+0
+3
+481
+0
+4
+490
+0
+5
+499
+0
+7
+518
+0
+8
+527
+0
+9
+536
+0
+9
+0
+455
+0
+1
+464
+0
+2
+473
+0
+3
+482
+0
+4
+491
+0
+5
+500
+0
+6
+509
+0
+8
+528
+0
+9
+537
+0
+9
+0
+456
+0
+1
+465
+0
+2
+474
+0
+3
+483
+0
+4
+492
+0
+5
+501
+0
+6
+510
+0
+7
+519
+0
+9
+538
+0
+9
+0
+457
+0
+1
+466
+0
+2
+475
+0
+3
+484
+0
+4
+493
+0
+5
+502
+0
+6
+511
+0
+7
+520
+0
+8
+529
+0
+end_DTG
+begin_DTG
+9
+1
+548
+0
+2
+557
+0
+3
+566
+0
+4
+575
+0
+5
+584
+0
+6
+593
+0
+7
+602
+0
+8
+611
+0
+9
+620
+0
+9
+0
+539
+0
+2
+558
+0
+3
+567
+0
+4
+576
+0
+5
+585
+0
+6
+594
+0
+7
+603
+0
+8
+612
+0
+9
+621
+0
+9
+0
+540
+0
+1
+549
+0
+3
+568
+0
+4
+577
+0
+5
+586
+0
+6
+595
+0
+7
+604
+0
+8
+613
+0
+9
+622
+0
+9
+0
+541
+0
+1
+550
+0
+2
+559
+0
+4
+578
+0
+5
+587
+0
+6
+596
+0
+7
+605
+0
+8
+614
+0
+9
+623
+0
+9
+0
+542
+0
+1
+551
+0
+2
+560
+0
+3
+569
+0
+5
+588
+0
+6
+597
+0
+7
+606
+0
+8
+615
+0
+9
+624
+0
+9
+0
+543
+0
+1
+552
+0
+2
+561
+0
+3
+570
+0
+4
+579
+0
+6
+598
+0
+7
+607
+0
+8
+616
+0
+9
+625
+0
+9
+0
+544
+0
+1
+553
+0
+2
+562
+0
+3
+571
+0
+4
+580
+0
+5
+589
+0
+7
+608
+0
+8
+617
+0
+9
+626
+0
+9
+0
+545
+0
+1
+554
+0
+2
+563
+0
+3
+572
+0
+4
+581
+0
+5
+590
+0
+6
+599
+0
+8
+618
+0
+9
+627
+0
+9
+0
+546
+0
+1
+555
+0
+2
+564
+0
+3
+573
+0
+4
+582
+0
+5
+591
+0
+6
+600
+0
+7
+609
+0
+9
+628
+0
+9
+0
+547
+0
+1
+556
+0
+2
+565
+0
+3
+574
+0
+4
+583
+0
+5
+592
+0
+6
+601
+0
+7
+610
+0
+8
+619
+0
+end_DTG
+begin_DTG
+9
+1
+638
+0
+2
+647
+0
+3
+656
+0
+4
+665
+0
+5
+674
+0
+6
+683
+0
+7
+692
+0
+8
+701
+0
+9
+710
+0
+9
+0
+629
+0
+2
+648
+0
+3
+657
+0
+4
+666
+0
+5
+675
+0
+6
+684
+0
+7
+693
+0
+8
+702
+0
+9
+711
+0
+9
+0
+630
+0
+1
+639
+0
+3
+658
+0
+4
+667
+0
+5
+676
+0
+6
+685
+0
+7
+694
+0
+8
+703
+0
+9
+712
+0
+9
+0
+631
+0
+1
+640
+0
+2
+649
+0
+4
+668
+0
+5
+677
+0
+6
+686
+0
+7
+695
+0
+8
+704
+0
+9
+713
+0
+9
+0
+632
+0
+1
+641
+0
+2
+650
+0
+3
+659
+0
+5
+678
+0
+6
+687
+0
+7
+696
+0
+8
+705
+0
+9
+714
+0
+9
+0
+633
+0
+1
+642
+0
+2
+651
+0
+3
+660
+0
+4
+669
+0
+6
+688
+0
+7
+697
+0
+8
+706
+0
+9
+715
+0
+9
+0
+634
+0
+1
+643
+0
+2
+652
+0
+3
+661
+0
+4
+670
+0
+5
+679
+0
+7
+698
+0
+8
+707
+0
+9
+716
+0
+9
+0
+635
+0
+1
+644
+0
+2
+653
+0
+3
+662
+0
+4
+671
+0
+5
+680
+0
+6
+689
+0
+8
+708
+0
+9
+717
+0
+9
+0
+636
+0
+1
+645
+0
+2
+654
+0
+3
+663
+0
+4
+672
+0
+5
+681
+0
+6
+690
+0
+7
+699
+0
+9
+718
+0
+9
+0
+637
+0
+1
+646
+0
+2
+655
+0
+3
+664
+0
+4
+673
+0
+5
+682
+0
+6
+691
+0
+7
+700
+0
+8
+709
+0
+end_DTG
+begin_DTG
+9
+1
+728
+0
+2
+737
+0
+3
+746
+0
+4
+755
+0
+5
+764
+0
+6
+773
+0
+7
+782
+0
+8
+791
+0
+9
+800
+0
+9
+0
+719
+0
+2
+738
+0
+3
+747
+0
+4
+756
+0
+5
+765
+0
+6
+774
+0
+7
+783
+0
+8
+792
+0
+9
+801
+0
+9
+0
+720
+0
+1
+729
+0
+3
+748
+0
+4
+757
+0
+5
+766
+0
+6
+775
+0
+7
+784
+0
+8
+793
+0
+9
+802
+0
+9
+0
+721
+0
+1
+730
+0
+2
+739
+0
+4
+758
+0
+5
+767
+0
+6
+776
+0
+7
+785
+0
+8
+794
+0
+9
+803
+0
+9
+0
+722
+0
+1
+731
+0
+2
+740
+0
+3
+749
+0
+5
+768
+0
+6
+777
+0
+7
+786
+0
+8
+795
+0
+9
+804
+0
+9
+0
+723
+0
+1
+732
+0
+2
+741
+0
+3
+750
+0
+4
+759
+0
+6
+778
+0
+7
+787
+0
+8
+796
+0
+9
+805
+0
+9
+0
+724
+0
+1
+733
+0
+2
+742
+0
+3
+751
+0
+4
+760
+0
+5
+769
+0
+7
+788
+0
+8
+797
+0
+9
+806
+0
+9
+0
+725
+0
+1
+734
+0
+2
+743
+0
+3
+752
+0
+4
+761
+0
+5
+770
+0
+6
+779
+0
+8
+798
+0
+9
+807
+0
+9
+0
+726
+0
+1
+735
+0
+2
+744
+0
+3
+753
+0
+4
+762
+0
+5
+771
+0
+6
+780
+0
+7
+789
+0
+9
+808
+0
+9
+0
+727
+0
+1
+736
+0
+2
+745
+0
+3
+754
+0
+4
+763
+0
+5
+772
+0
+6
+781
+0
+7
+790
+0
+8
+799
+0
+end_DTG
+begin_DTG
+9
+1
+818
+0
+2
+827
+0
+3
+836
+0
+4
+845
+0
+5
+854
+0
+6
+863
+0
+7
+872
+0
+8
+881
+0
+9
+890
+0
+9
+0
+809
+0
+2
+828
+0
+3
+837
+0
+4
+846
+0
+5
+855
+0
+6
+864
+0
+7
+873
+0
+8
+882
+0
+9
+891
+0
+9
+0
+810
+0
+1
+819
+0
+3
+838
+0
+4
+847
+0
+5
+856
+0
+6
+865
+0
+7
+874
+0
+8
+883
+0
+9
+892
+0
+9
+0
+811
+0
+1
+820
+0
+2
+829
+0
+4
+848
+0
+5
+857
+0
+6
+866
+0
+7
+875
+0
+8
+884
+0
+9
+893
+0
+9
+0
+812
+0
+1
+821
+0
+2
+830
+0
+3
+839
+0
+5
+858
+0
+6
+867
+0
+7
+876
+0
+8
+885
+0
+9
+894
+0
+9
+0
+813
+0
+1
+822
+0
+2
+831
+0
+3
+840
+0
+4
+849
+0
+6
+868
+0
+7
+877
+0
+8
+886
+0
+9
+895
+0
+9
+0
+814
+0
+1
+823
+0
+2
+832
+0
+3
+841
+0
+4
+850
+0
+5
+859
+0
+7
+878
+0
+8
+887
+0
+9
+896
+0
+9
+0
+815
+0
+1
+824
+0
+2
+833
+0
+3
+842
+0
+4
+851
+0
+5
+860
+0
+6
+869
+0
+8
+888
+0
+9
+897
+0
+9
+0
+816
+0
+1
+825
+0
+2
+834
+0
+3
+843
+0
+4
+852
+0
+5
+861
+0
+6
+870
+0
+7
+879
+0
+9
+898
+0
+9
+0
+817
+0
+1
+826
+0
+2
+835
+0
+3
+844
+0
+4
+853
+0
+5
+862
+0
+6
+871
+0
+7
+880
+0
+8
+889
+0
+end_DTG
+begin_DTG
+9
+1
+908
+0
+2
+917
+0
+3
+926
+0
+4
+935
+0
+5
+944
+0
+6
+953
+0
+7
+962
+0
+8
+971
+0
+9
+980
+0
+9
+0
+899
+0
+2
+918
+0
+3
+927
+0
+4
+936
+0
+5
+945
+0
+6
+954
+0
+7
+963
+0
+8
+972
+0
+9
+981
+0
+9
+0
+900
+0
+1
+909
+0
+3
+928
+0
+4
+937
+0
+5
+946
+0
+6
+955
+0
+7
+964
+0
+8
+973
+0
+9
+982
+0
+9
+0
+901
+0
+1
+910
+0
+2
+919
+0
+4
+938
+0
+5
+947
+0
+6
+956
+0
+7
+965
+0
+8
+974
+0
+9
+983
+0
+9
+0
+902
+0
+1
+911
+0
+2
+920
+0
+3
+929
+0
+5
+948
+0
+6
+957
+0
+7
+966
+0
+8
+975
+0
+9
+984
+0
+9
+0
+903
+0
+1
+912
+0
+2
+921
+0
+3
+930
+0
+4
+939
+0
+6
+958
+0
+7
+967
+0
+8
+976
+0
+9
+985
+0
+9
+0
+904
+0
+1
+913
+0
+2
+922
+0
+3
+931
+0
+4
+940
+0
+5
+949
+0
+7
+968
+0
+8
+977
+0
+9
+986
+0
+9
+0
+905
+0
+1
+914
+0
+2
+923
+0
+3
+932
+0
+4
+941
+0
+5
+950
+0
+6
+959
+0
+8
+978
+0
+9
+987
+0
+9
+0
+906
+0
+1
+915
+0
+2
+924
+0
+3
+933
+0
+4
+942
+0
+5
+951
+0
+6
+960
+0
+7
+969
+0
+9
+988
+0
+9
+0
+907
+0
+1
+916
+0
+2
+925
+0
+3
+934
+0
+4
+943
+0
+5
+952
+0
+6
+961
+0
+7
+970
+0
+8
+979
+0
+end_DTG
+begin_DTG
+9
+1
+998
+0
+2
+1007
+0
+3
+1016
+0
+4
+1025
+0
+5
+1034
+0
+6
+1043
+0
+7
+1052
+0
+8
+1061
+0
+9
+1070
+0
+9
+0
+989
+0
+2
+1008
+0
+3
+1017
+0
+4
+1026
+0
+5
+1035
+0
+6
+1044
+0
+7
+1053
+0
+8
+1062
+0
+9
+1071
+0
+9
+0
+990
+0
+1
+999
+0
+3
+1018
+0
+4
+1027
+0
+5
+1036
+0
+6
+1045
+0
+7
+1054
+0
+8
+1063
+0
+9
+1072
+0
+9
+0
+991
+0
+1
+1000
+0
+2
+1009
+0
+4
+1028
+0
+5
+1037
+0
+6
+1046
+0
+7
+1055
+0
+8
+1064
+0
+9
+1073
+0
+9
+0
+992
+0
+1
+1001
+0
+2
+1010
+0
+3
+1019
+0
+5
+1038
+0
+6
+1047
+0
+7
+1056
+0
+8
+1065
+0
+9
+1074
+0
+9
+0
+993
+0
+1
+1002
+0
+2
+1011
+0
+3
+1020
+0
+4
+1029
+0
+6
+1048
+0
+7
+1057
+0
+8
+1066
+0
+9
+1075
+0
+9
+0
+994
+0
+1
+1003
+0
+2
+1012
+0
+3
+1021
+0
+4
+1030
+0
+5
+1039
+0
+7
+1058
+0
+8
+1067
+0
+9
+1076
+0
+9
+0
+995
+0
+1
+1004
+0
+2
+1013
+0
+3
+1022
+0
+4
+1031
+0
+5
+1040
+0
+6
+1049
+0
+8
+1068
+0
+9
+1077
+0
+9
+0
+996
+0
+1
+1005
+0
+2
+1014
+0
+3
+1023
+0
+4
+1032
+0
+5
+1041
+0
+6
+1050
+0
+7
+1059
+0
+9
+1078
+0
+9
+0
+997
+0
+1
+1006
+0
+2
+1015
+0
+3
+1024
+0
+4
+1033
+0
+5
+1042
+0
+6
+1051
+0
+7
+1060
+0
+8
+1069
+0
+end_DTG
+begin_DTG
+9
+1
+1088
+0
+2
+1097
+0
+3
+1106
+0
+4
+1115
+0
+5
+1124
+0
+6
+1133
+0
+7
+1142
+0
+8
+1151
+0
+9
+1160
+0
+9
+0
+1079
+0
+2
+1098
+0
+3
+1107
+0
+4
+1116
+0
+5
+1125
+0
+6
+1134
+0
+7
+1143
+0
+8
+1152
+0
+9
+1161
+0
+9
+0
+1080
+0
+1
+1089
+0
+3
+1108
+0
+4
+1117
+0
+5
+1126
+0
+6
+1135
+0
+7
+1144
+0
+8
+1153
+0
+9
+1162
+0
+9
+0
+1081
+0
+1
+1090
+0
+2
+1099
+0
+4
+1118
+0
+5
+1127
+0
+6
+1136
+0
+7
+1145
+0
+8
+1154
+0
+9
+1163
+0
+9
+0
+1082
+0
+1
+1091
+0
+2
+1100
+0
+3
+1109
+0
+5
+1128
+0
+6
+1137
+0
+7
+1146
+0
+8
+1155
+0
+9
+1164
+0
+9
+0
+1083
+0
+1
+1092
+0
+2
+1101
+0
+3
+1110
+0
+4
+1119
+0
+6
+1138
+0
+7
+1147
+0
+8
+1156
+0
+9
+1165
+0
+9
+0
+1084
+0
+1
+1093
+0
+2
+1102
+0
+3
+1111
+0
+4
+1120
+0
+5
+1129
+0
+7
+1148
+0
+8
+1157
+0
+9
+1166
+0
+9
+0
+1085
+0
+1
+1094
+0
+2
+1103
+0
+3
+1112
+0
+4
+1121
+0
+5
+1130
+0
+6
+1139
+0
+8
+1158
+0
+9
+1167
+0
+9
+0
+1086
+0
+1
+1095
+0
+2
+1104
+0
+3
+1113
+0
+4
+1122
+0
+5
+1131
+0
+6
+1140
+0
+7
+1149
+0
+9
+1168
+0
+9
+0
+1087
+0
+1
+1096
+0
+2
+1105
+0
+3
+1114
+0
+4
+1123
+0
+5
+1132
+0
+6
+1141
+0
+7
+1150
+0
+8
+1159
+0
+end_DTG
+begin_DTG
+1
+1
+27
+0
+1
+0
+45
+1
+12 0
+end_DTG
+begin_DTG
+1
+1
+31
+0
+1
+0
+49
+1
+12 0
+end_DTG
+begin_DTG
+1
+1
+45
+0
+2
+0
+27
+1
+10 0
+0
+31
+1
+11 0
+end_DTG
+begin_DTG
+1
+1
+49
+1
+12 0
+1
+0
+1
+2
+0 9
+11 0
+end_DTG
+begin_DTG
+1
+1
+45
+1
+12 0
+1
+0
+0
+2
+0 2
+10 0
+end_DTG
+begin_DTG
+1
+1
+26
+0
+1
+0
+44
+1
+17 0
+end_DTG
+begin_DTG
+1
+1
+32
+0
+1
+0
+50
+1
+17 0
+end_DTG
+begin_DTG
+1
+1
+44
+0
+2
+0
+26
+1
+15 0
+0
+32
+1
+16 0
+end_DTG
+begin_DTG
+1
+1
+50
+1
+17 0
+1
+0
+3
+2
+1 7
+16 0
+end_DTG
+begin_DTG
+1
+1
+44
+1
+17 0
+1
+0
+2
+2
+1 1
+15 0
+end_DTG
+begin_DTG
+1
+1
+23
+0
+1
+0
+41
+1
+23 0
+end_DTG
+begin_DTG
+1
+1
+25
+0
+1
+0
+43
+1
+23 0
+end_DTG
+begin_DTG
+1
+1
+29
+0
+1
+0
+47
+1
+23 0
+end_DTG
+begin_DTG
+1
+1
+41
+0
+3
+0
+23
+1
+20 0
+0
+25
+1
+21 0
+0
+29
+1
+22 0
+end_DTG
+begin_DTG
+1
+1
+47
+1
+23 0
+1
+0
+6
+2
+2 8
+22 0
+end_DTG
+begin_DTG
+1
+1
+43
+1
+23 0
+1
+0
+5
+2
+2 8
+21 0
+end_DTG
+begin_DTG
+1
+1
+41
+1
+23 0
+1
+0
+4
+2
+2 2
+20 0
+end_DTG
+begin_DTG
+1
+1
+20
+0
+1
+0
+38
+1
+29 0
+end_DTG
+begin_DTG
+1
+1
+33
+0
+1
+0
+51
+1
+29 0
+end_DTG
+begin_DTG
+1
+1
+38
+0
+2
+0
+20
+1
+27 0
+0
+33
+1
+28 0
+end_DTG
+begin_DTG
+1
+1
+51
+1
+29 0
+1
+0
+8
+2
+3 7
+28 0
+end_DTG
+begin_DTG
+1
+1
+38
+1
+29 0
+1
+0
+7
+2
+3 8
+27 0
+end_DTG
+begin_DTG
+1
+1
+46
+0
+1
+0
+28
+1
+33 0
+end_DTG
+begin_DTG
+1
+1
+28
+0
+1
+0
+46
+1
+32 0
+end_DTG
+begin_DTG
+1
+1
+46
+1
+32 0
+1
+0
+9
+2
+4 5
+33 0
+end_DTG
+begin_DTG
+1
+1
+52
+0
+1
+0
+34
+1
+36 0
+end_DTG
+begin_DTG
+1
+1
+34
+0
+1
+0
+52
+1
+35 0
+end_DTG
+begin_DTG
+1
+1
+52
+1
+35 0
+1
+0
+10
+2
+5 3
+36 0
+end_DTG
+begin_DTG
+1
+1
+18
+0
+1
+0
+36
+1
+40 0
+end_DTG
+begin_DTG
+1
+1
+21
+0
+1
+0
+39
+1
+40 0
+end_DTG
+begin_DTG
+1
+1
+36
+0
+2
+0
+18
+1
+38 0
+0
+21
+1
+39 0
+end_DTG
+begin_DTG
+1
+1
+39
+1
+40 0
+1
+0
+12
+2
+6 2
+39 0
+end_DTG
+begin_DTG
+1
+1
+36
+1
+40 0
+1
+0
+11
+2
+6 2
+38 0
+end_DTG
+begin_DTG
+1
+1
+22
+0
+1
+0
+40
+1
+45 0
+end_DTG
+begin_DTG
+1
+1
+30
+0
+1
+0
+48
+1
+45 0
+end_DTG
+begin_DTG
+1
+1
+40
+0
+2
+0
+22
+1
+43 0
+0
+30
+1
+44 0
+end_DTG
+begin_DTG
+1
+1
+48
+1
+45 0
+1
+0
+14
+2
+7 4
+44 0
+end_DTG
+begin_DTG
+1
+1
+40
+1
+45 0
+1
+0
+13
+2
+7 7
+43 0
+end_DTG
+begin_DTG
+1
+1
+24
+0
+1
+0
+42
+1
+50 0
+end_DTG
+begin_DTG
+1
+1
+35
+0
+1
+0
+53
+1
+50 0
+end_DTG
+begin_DTG
+1
+1
+42
+0
+2
+0
+24
+1
+48 0
+0
+35
+1
+49 0
+end_DTG
+begin_DTG
+1
+1
+53
+1
+50 0
+1
+0
+16
+2
+8 6
+49 0
+end_DTG
+begin_DTG
+1
+1
+42
+1
+50 0
+1
+0
+15
+2
+8 9
+48 0
+end_DTG
+begin_DTG
+1
+1
+37
+0
+1
+0
+19
+1
+54 0
+end_DTG
+begin_DTG
+1
+1
+19
+0
+1
+0
+37
+1
+53 0
+end_DTG
+begin_DTG
+1
+1
+37
+1
+53 0
+1
+0
+17
+2
+9 5
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+68
+3
+14 0
+0 9
+10 0
+0
+97
+3
+19 0
+1 9
+15 0
+0
+98
+3
+18 0
+1 9
+16 0
+0
+136
+3
+26 0
+2 9
+20 0
+0
+137
+3
+25 0
+2 9
+21 0
+0
+138
+3
+24 0
+2 9
+22 0
+0
+164
+3
+34 0
+4 9
+33 0
+0
+176
+3
+37 0
+5 9
+36 0
+0
+200
+3
+42 0
+6 9
+38 0
+0
+201
+3
+41 0
+6 9
+39 0
+0
+230
+3
+47 0
+7 9
+43 0
+0
+231
+3
+46 0
+7 9
+44 0
+0
+252
+3
+52 0
+8 9
+48 0
+0
+253
+3
+51 0
+8 9
+49 0
+0
+268
+3
+55 0
+9 9
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+67
+3
+14 0
+0 8
+10 0
+0
+95
+3
+19 0
+1 8
+15 0
+0
+96
+3
+18 0
+1 8
+16 0
+0
+133
+3
+26 0
+2 8
+20 0
+0
+134
+3
+25 0
+2 8
+21 0
+0
+135
+3
+24 0
+2 8
+22 0
+0
+163
+3
+34 0
+4 8
+33 0
+0
+175
+3
+37 0
+5 8
+36 0
+0
+198
+3
+42 0
+6 8
+38 0
+0
+199
+3
+41 0
+6 8
+39 0
+0
+228
+3
+47 0
+7 8
+43 0
+0
+229
+3
+46 0
+7 8
+44 0
+0
+250
+3
+52 0
+8 8
+48 0
+0
+251
+3
+51 0
+8 8
+49 0
+0
+267
+3
+55 0
+9 8
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+66
+3
+14 0
+0 7
+10 0
+0
+92
+3
+19 0
+1 7
+15 0
+0
+94
+3
+18 0
+1 7
+16 0
+0
+128
+3
+26 0
+2 7
+20 0
+0
+130
+3
+25 0
+2 7
+21 0
+0
+132
+3
+24 0
+2 7
+22 0
+0
+162
+3
+34 0
+4 7
+33 0
+0
+174
+3
+37 0
+5 7
+36 0
+0
+195
+3
+42 0
+6 7
+38 0
+0
+197
+3
+41 0
+6 7
+39 0
+0
+225
+3
+47 0
+7 7
+43 0
+0
+227
+3
+46 0
+7 7
+44 0
+0
+247
+3
+52 0
+8 7
+48 0
+0
+249
+3
+51 0
+8 7
+49 0
+0
+266
+3
+55 0
+9 7
+54 0
+end_DTG
+begin_DTG
+0
+13
+0
+65
+3
+14 0
+0 7
+10 0
+0
+91
+3
+19 0
+1 7
+15 0
+0
+93
+3
+18 0
+1 7
+16 0
+0
+129
+3
+25 0
+2 7
+21 0
+0
+131
+3
+24 0
+2 7
+22 0
+0
+149
+3
+30 0
+3 7
+28 0
+0
+161
+3
+34 0
+4 7
+33 0
+0
+173
+3
+37 0
+5 7
+36 0
+0
+196
+3
+41 0
+6 7
+39 0
+0
+224
+3
+47 0
+7 7
+43 0
+0
+226
+3
+46 0
+7 7
+44 0
+0
+248
+3
+51 0
+8 7
+49 0
+0
+265
+3
+55 0
+9 7
+54 0
+end_DTG
+begin_DTG
+0
+13
+0
+64
+3
+14 0
+0 6
+10 0
+0
+89
+3
+19 0
+1 6
+15 0
+0
+90
+3
+18 0
+1 6
+16 0
+0
+126
+3
+25 0
+2 6
+21 0
+0
+127
+3
+24 0
+2 6
+22 0
+0
+148
+3
+30 0
+3 6
+28 0
+0
+160
+3
+34 0
+4 6
+33 0
+0
+172
+3
+37 0
+5 6
+36 0
+0
+194
+3
+41 0
+6 6
+39 0
+0
+222
+3
+47 0
+7 6
+43 0
+0
+223
+3
+46 0
+7 6
+44 0
+0
+246
+3
+51 0
+8 6
+49 0
+0
+264
+3
+55 0
+9 6
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+63
+3
+14 0
+0 5
+10 0
+0
+86
+3
+19 0
+1 5
+15 0
+0
+88
+3
+18 0
+1 5
+16 0
+0
+121
+3
+26 0
+2 5
+20 0
+0
+123
+3
+25 0
+2 5
+21 0
+0
+125
+3
+24 0
+2 5
+22 0
+0
+159
+3
+34 0
+4 5
+33 0
+0
+171
+3
+37 0
+5 5
+36 0
+0
+191
+3
+42 0
+6 5
+38 0
+0
+193
+3
+41 0
+6 5
+39 0
+0
+219
+3
+47 0
+7 5
+43 0
+0
+221
+3
+46 0
+7 5
+44 0
+0
+243
+3
+52 0
+8 5
+48 0
+0
+245
+3
+51 0
+8 5
+49 0
+0
+263
+3
+55 0
+9 5
+54 0
+end_DTG
+begin_DTG
+0
+13
+0
+62
+3
+14 0
+0 5
+10 0
+0
+85
+3
+19 0
+1 5
+15 0
+0
+87
+3
+18 0
+1 5
+16 0
+0
+122
+3
+25 0
+2 5
+21 0
+0
+124
+3
+24 0
+2 5
+22 0
+0
+147
+3
+30 0
+3 5
+28 0
+0
+158
+3
+34 0
+4 5
+33 0
+0
+170
+3
+37 0
+5 5
+36 0
+0
+192
+3
+41 0
+6 5
+39 0
+0
+218
+3
+47 0
+7 5
+43 0
+0
+220
+3
+46 0
+7 5
+44 0
+0
+244
+3
+51 0
+8 5
+49 0
+0
+262
+3
+55 0
+9 5
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+61
+3
+13 0
+0 4
+11 0
+0
+82
+3
+19 0
+1 4
+15 0
+0
+84
+3
+18 0
+1 4
+16 0
+0
+116
+3
+26 0
+2 4
+20 0
+0
+118
+3
+25 0
+2 4
+21 0
+0
+120
+3
+24 0
+2 4
+22 0
+0
+145
+3
+31 0
+3 4
+27 0
+0
+146
+3
+30 0
+3 4
+28 0
+0
+157
+3
+34 0
+4 4
+33 0
+0
+188
+3
+42 0
+6 4
+38 0
+0
+190
+3
+41 0
+6 4
+39 0
+0
+215
+3
+47 0
+7 4
+43 0
+0
+217
+3
+46 0
+7 4
+44 0
+0
+241
+3
+52 0
+8 4
+48 0
+0
+261
+3
+55 0
+9 4
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+60
+3
+14 0
+0 4
+10 0
+0
+81
+3
+19 0
+1 4
+15 0
+0
+83
+3
+18 0
+1 4
+16 0
+0
+115
+3
+26 0
+2 4
+20 0
+0
+117
+3
+25 0
+2 4
+21 0
+0
+119
+3
+24 0
+2 4
+22 0
+0
+156
+3
+34 0
+4 4
+33 0
+0
+169
+3
+37 0
+5 4
+36 0
+0
+187
+3
+42 0
+6 4
+38 0
+0
+189
+3
+41 0
+6 4
+39 0
+0
+214
+3
+47 0
+7 4
+43 0
+0
+216
+3
+46 0
+7 4
+44 0
+0
+240
+3
+52 0
+8 4
+48 0
+0
+242
+3
+51 0
+8 4
+49 0
+0
+260
+3
+55 0
+9 4
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+59
+3
+13 0
+0 3
+11 0
+0
+78
+3
+19 0
+1 3
+15 0
+0
+80
+3
+18 0
+1 3
+16 0
+0
+110
+3
+26 0
+2 3
+20 0
+0
+112
+3
+25 0
+2 3
+21 0
+0
+114
+3
+24 0
+2 3
+22 0
+0
+142
+3
+31 0
+3 3
+27 0
+0
+144
+3
+30 0
+3 3
+28 0
+0
+155
+3
+34 0
+4 3
+33 0
+0
+184
+3
+42 0
+6 3
+38 0
+0
+186
+3
+41 0
+6 3
+39 0
+0
+211
+3
+47 0
+7 3
+43 0
+0
+213
+3
+46 0
+7 3
+44 0
+0
+238
+3
+52 0
+8 3
+48 0
+0
+259
+3
+55 0
+9 3
+54 0
+end_DTG
+begin_DTG
+0
+13
+0
+58
+3
+14 0
+0 3
+10 0
+0
+77
+3
+19 0
+1 3
+15 0
+0
+79
+3
+18 0
+1 3
+16 0
+0
+111
+3
+25 0
+2 3
+21 0
+0
+113
+3
+24 0
+2 3
+22 0
+0
+143
+3
+30 0
+3 3
+28 0
+0
+154
+3
+34 0
+4 3
+33 0
+0
+168
+3
+37 0
+5 3
+36 0
+0
+185
+3
+41 0
+6 3
+39 0
+0
+210
+3
+47 0
+7 3
+43 0
+0
+212
+3
+46 0
+7 3
+44 0
+0
+239
+3
+51 0
+8 3
+49 0
+0
+258
+3
+55 0
+9 3
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+57
+3
+13 0
+0 2
+11 0
+0
+73
+3
+19 0
+1 2
+15 0
+0
+76
+3
+18 0
+1 2
+16 0
+0
+103
+3
+26 0
+2 2
+20 0
+0
+106
+3
+25 0
+2 2
+21 0
+0
+109
+3
+24 0
+2 2
+22 0
+0
+139
+3
+31 0
+3 2
+27 0
+0
+141
+3
+30 0
+3 2
+28 0
+0
+153
+3
+34 0
+4 2
+33 0
+0
+180
+3
+42 0
+6 2
+38 0
+0
+183
+3
+41 0
+6 2
+39 0
+0
+206
+3
+47 0
+7 2
+43 0
+0
+209
+3
+46 0
+7 2
+44 0
+0
+235
+3
+52 0
+8 2
+48 0
+0
+257
+3
+55 0
+9 2
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+56
+3
+14 0
+0 2
+10 0
+0
+72
+3
+19 0
+1 2
+15 0
+0
+75
+3
+18 0
+1 2
+16 0
+0
+102
+3
+26 0
+2 2
+20 0
+0
+105
+3
+25 0
+2 2
+21 0
+0
+108
+3
+24 0
+2 2
+22 0
+0
+152
+3
+34 0
+4 2
+33 0
+0
+167
+3
+37 0
+5 2
+36 0
+0
+179
+3
+42 0
+6 2
+38 0
+0
+182
+3
+41 0
+6 2
+39 0
+0
+205
+3
+47 0
+7 2
+43 0
+0
+208
+3
+46 0
+7 2
+44 0
+0
+234
+3
+52 0
+8 2
+48 0
+0
+237
+3
+51 0
+8 2
+49 0
+0
+256
+3
+55 0
+9 2
+54 0
+end_DTG
+begin_DTG
+0
+13
+0
+55
+3
+14 0
+0 2
+10 0
+0
+71
+3
+19 0
+1 2
+15 0
+0
+74
+3
+18 0
+1 2
+16 0
+0
+104
+3
+25 0
+2 2
+21 0
+0
+107
+3
+24 0
+2 2
+22 0
+0
+140
+3
+30 0
+3 2
+28 0
+0
+151
+3
+34 0
+4 2
+33 0
+0
+166
+3
+37 0
+5 2
+36 0
+0
+181
+3
+41 0
+6 2
+39 0
+0
+204
+3
+47 0
+7 2
+43 0
+0
+207
+3
+46 0
+7 2
+44 0
+0
+236
+3
+51 0
+8 2
+49 0
+0
+255
+3
+55 0
+9 2
+54 0
+end_DTG
+begin_DTG
+0
+15
+0
+54
+3
+14 0
+0 0
+10 0
+0
+69
+3
+19 0
+1 0
+15 0
+0
+70
+3
+18 0
+1 0
+16 0
+0
+99
+3
+26 0
+2 0
+20 0
+0
+100
+3
+25 0
+2 0
+21 0
+0
+101
+3
+24 0
+2 0
+22 0
+0
+150
+3
+34 0
+4 0
+33 0
+0
+165
+3
+37 0
+5 0
+36 0
+0
+177
+3
+42 0
+6 0
+38 0
+0
+178
+3
+41 0
+6 0
+39 0
+0
+202
+3
+47 0
+7 0
+43 0
+0
+203
+3
+46 0
+7 0
+44 0
+0
+232
+3
+52 0
+8 0
+48 0
+0
+233
+3
+51 0
+8 0
+49 0
+0
+254
+3
+55 0
+9 0
+54 0
+end_DTG
+begin_CG
+17
+14 1
+13 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+17
+19 1
+18 1
+70 2
+69 2
+68 2
+67 2
+66 2
+65 2
+64 2
+63 2
+62 2
+61 2
+60 2
+59 2
+58 2
+57 2
+56 2
+18
+26 1
+25 1
+24 1
+70 3
+69 2
+68 3
+67 3
+66 2
+65 3
+64 3
+63 3
+62 2
+61 3
+60 2
+59 2
+58 3
+57 3
+56 3
+10
+31 1
+30 1
+69 1
+67 2
+66 1
+65 2
+63 2
+62 1
+60 1
+59 1
+16
+34 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+13
+37 1
+70 1
+69 1
+68 1
+66 1
+64 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+17
+42 1
+41 1
+70 2
+69 1
+68 2
+67 2
+66 1
+65 2
+64 2
+63 2
+62 1
+61 2
+60 1
+59 1
+58 2
+57 2
+56 2
+17
+47 1
+46 1
+70 2
+69 2
+68 2
+67 2
+66 2
+65 2
+64 2
+63 2
+62 2
+61 2
+60 2
+59 2
+58 2
+57 2
+56 2
+17
+52 1
+51 1
+70 2
+69 1
+68 2
+67 1
+66 1
+65 1
+64 2
+63 1
+62 1
+61 2
+60 1
+59 1
+58 2
+57 2
+56 2
+16
+55 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+14
+14 1
+70 1
+69 1
+68 1
+66 1
+64 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+12 1
+5
+13 1
+67 1
+65 1
+63 1
+12 1
+4
+14 1
+13 1
+10 1
+11 1
+3
+67 1
+65 1
+63 1
+12
+70 1
+69 1
+68 1
+66 1
+64 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+17
+19 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+17 1
+17
+18 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+17 1
+4
+19 1
+18 1
+15 1
+16 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+12
+26 1
+70 1
+68 1
+67 1
+65 1
+64 1
+63 1
+61 1
+58 1
+57 1
+56 1
+23 1
+17
+25 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+23 1
+17
+24 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+23 1
+6
+26 1
+25 1
+24 1
+20 1
+21 1
+22 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+10
+70 1
+68 1
+67 1
+65 1
+64 1
+63 1
+61 1
+58 1
+57 1
+56 1
+5
+31 1
+67 1
+65 1
+63 1
+29 1
+10
+30 1
+69 1
+67 1
+66 1
+65 1
+63 1
+62 1
+60 1
+59 1
+29 1
+4
+31 1
+30 1
+27 1
+28 1
+8
+69 1
+67 1
+66 1
+65 1
+63 1
+62 1
+60 1
+59 1
+3
+67 1
+65 1
+63 1
+2
+34 1
+33 1
+17
+34 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+32 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+2
+37 1
+36 1
+14
+37 1
+70 1
+69 1
+68 1
+66 1
+64 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+35 1
+12
+70 1
+69 1
+68 1
+66 1
+64 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+12
+42 1
+70 1
+68 1
+67 1
+65 1
+64 1
+63 1
+61 1
+58 1
+57 1
+56 1
+40 1
+17
+41 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+40 1
+4
+42 1
+41 1
+38 1
+39 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+10
+70 1
+68 1
+67 1
+65 1
+64 1
+63 1
+61 1
+58 1
+57 1
+56 1
+17
+47 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+45 1
+17
+46 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+45 1
+4
+47 1
+46 1
+43 1
+44 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+12
+52 1
+70 1
+68 1
+67 1
+65 1
+64 1
+63 1
+61 1
+58 1
+57 1
+56 1
+50 1
+14
+51 1
+70 1
+69 1
+68 1
+66 1
+64 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+50 1
+4
+52 1
+51 1
+48 1
+49 1
+12
+70 1
+69 1
+68 1
+66 1
+64 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+10
+70 1
+68 1
+67 1
+65 1
+64 1
+63 1
+61 1
+58 1
+57 1
+56 1
+2
+55 1
+54 1
+17
+55 1
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+53 1
+15
+70 1
+69 1
+68 1
+67 1
+66 1
+65 1
+64 1
+63 1
+62 1
+61 1
+60 1
+59 1
+58 1
+57 1
+56 1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+end_CG

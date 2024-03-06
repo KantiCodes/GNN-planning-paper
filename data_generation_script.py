@@ -7,8 +7,8 @@ import tempfile
 
 ABSOLUTE_SYMBOLIC_PATH = os.path.abspath(os.path.join("fast-downward-symbolic-optimal-actions", "fast-downward.py"))
 ABSOLUTE_SCORPION_PATH = os.path.abspath(os.path.join("scorpion", "fast-downward.py"))
-ABSOLUTE_INPUT_PATH = os.path.abspath(os.path.join("data", "benchmarks", "blocksworld", "training", "easy"))
-ABSOLUTE_OUTPUT_PATH = os.path.abspath(os.path.join("data", "preprocessed", "blocksworld", "training", "easy"))
+ABSOLUTE_INPUT_PATH = os.path.abspath(os.path.join("data", "benchmarks", "satellite", "training", "easy"))
+ABSOLUTE_OUTPUT_PATH = os.path.abspath(os.path.join("data", "preprocessed", "satellite", "training", "easy"))
 
 BENCHMARKS_DIR = os.path.abspath(os.path.join("data", "benchmarks"))
 
@@ -40,7 +40,7 @@ def process_file(input_problem_file, input_domain_file, output_directory):
         # Define the command to execute on each file
         # Generate features from scorpion
         command_features = ["python", ABSOLUTE_SCORPION_PATH,  "--translate", "--find-relaxed-plan", "--find-simple-landmarks", f"{temp_domain_file}", f"{temp_problem_file}",]
-        command_planner = ["python", ABSOLUTE_SYMBOLIC_PATH, "--overall-time-limit", "2400", f"{temp_domain_file}", f"{temp_problem_file}", "--search", "sbd(store_operators_in_optimal_plan=true, cost_type=1)"]
+        command_planner = ["python", ABSOLUTE_SYMBOLIC_PATH, "--overall-time-limit", "2000", f"{temp_domain_file}", f"{temp_problem_file}", "--search", "sbd(store_operators_in_optimal_plan=true, cost_type=1)"]
         # Execute the command using subprocess
         try:
             subprocess.run(command_features, stdout=subprocess.DEVNULL)
@@ -74,7 +74,7 @@ def process_directory(input_directory, output_directory):
     with Pool(processes=2) as pool:
         # Create a temporary directory for each process
         # Map the process_file function to the pool
-        pool.starmap(process_file, zip(files, [BLOCKSWORLD_DOMAIN]*len(files), [output_directory]*len(files)))
+        pool.starmap(process_file, zip(files, [SATELLITE_DOMAIN]*len(files), [output_directory]*len(files)))
 
 if __name__ == "__main__":
 
