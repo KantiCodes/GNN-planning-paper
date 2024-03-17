@@ -99,6 +99,7 @@ class DynamicGNN(torch.nn.Module):
         self.output = self.conv_type.to_message_passing_layer(
             self.out_channels, **self.conv_specific_kwargs
         )
+
         # except TypeError as e:
         #     raise ValueError(
         #         "Model specific kwargs:"
@@ -121,12 +122,12 @@ class DynamicGNN(torch.nn.Module):
                 batch_norm_layer = getattr(self, f"batch_norm{i}")
                 x = batch_norm_layer(x)
 
-
-
         x = self.output(x, edge_index)
         x = x.sigmoid()
         # x = getattr(F, self.classfication_function.value)(x)  # TODO we need to add parametrization for classification function. It is already parametrized in ModelSetting
         return x
+    
+
     
 
 

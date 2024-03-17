@@ -19,6 +19,7 @@ ROVERS_DOMAIN = os.path.abspath(os.path.join(BENCHMARKS_DIR, "rovers", "domain.p
 TRANSPORT_DOMAIN = os.path.abspath(os.path.join(BENCHMARKS_DIR, "transport", "domain.pddl"))
 FLOORTILE_DOMAIN = os.path.abspath(os.path.join(BENCHMARKS_DIR, "floortile", "domain.pddl"))
 
+
 from datetime import datetime
 import time
 
@@ -69,7 +70,7 @@ def process_file(input_problem_file, input_domain_file, output_directory):
 def process_directory(input_directory, output_directory):
     # Get a list of all files in the directory
     files = [os.path.join(input_directory, file) for file in os.listdir(input_directory) if os.path.isfile(os.path.join(input_directory, file))]
-
+    domain = 
     # Use multiprocessing pool to parallelize the execution
     with Pool(processes=2) as pool:
         # Create a temporary directory for each process

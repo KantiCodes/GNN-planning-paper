@@ -9,17 +9,21 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 
 class EEvalMetric(str, ReprStrEnum):
     F1 = "f1"
-
+    MY_SUPER_FUNCTION = "my_super_function"
 
     def to_function(self):
         match self:
             case EEvalMetric.F1:
                 return binary_f1_score
-            
+            case EEvalMetric.MY_SUPER_FUNCTION:
+                return my_super_function
+
+eval_metrics = EEvalMetric("f1").to_function()      
 
 class ELossFunction(str, ReprStrEnum):
     BCE = "BCE"
@@ -93,6 +97,8 @@ def compute_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_
     weights[batch["operator"].y == 0] = neg_weight
     weights[batch["operator"].y == 1] = pos_weight
 
+    # print(batch.x_dict)
+    # input("wait")
     out = model(batch.x_dict, batch.edge_index_dict)
     # BCEWithLogitsLoss = torch.nn.BCEWithLogitsLoss()
     loss = loss_function(out["operator"], batch["operator"].y, weight=weights)
@@ -206,16 +212,16 @@ def evaluate_and_return_confusion(model: torch.nn.Module, data):
 #     else:
 #         fig.savefig("results.png")
 
-def make_and_save_confusion_matrix(predictions, true_labels, file_name):
+def make_and_save_confusion_matrix(predictions, true_labels, file_name, threshold):
     # Create a new figure
     plt.figure()
 
-    changed_data = (predictions >= 0.5).numpy().astype(int)
+    changed_data = (predictions >= threshold).astype(int)
 
     import sklearn.metrics
     confusion_matrix = sklearn.metrics.ConfusionMatrixDisplay(
         confusion_matrix=sklearn.metrics.confusion_matrix(
-            true_labels.numpy(), changed_data
+            true_labels, changed_data
         ),
     ).plot()
 
@@ -223,3 +229,20 @@ def make_and_save_confusion_matrix(predictions, true_labels, file_name):
     plt.ylabel("True Label")
     plt.savefig(file_name)
     plt.close()  # Close the figure to avoid affecting global plt state
+    # os.remove(file_name)
+
+def make_and_save_roc_auc(tpr, fpr, auc, file_name):
+    plt.figure()
+
+    plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.2f)' % auc)
+
+    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title('Receiver operating characteristic')
+    plt.legend(loc="lower right")
+    plt.savefig(file_name)
+    plt.close()
+    # os.remove(file_name)  # Close the figure to avoid affecting global plt state
