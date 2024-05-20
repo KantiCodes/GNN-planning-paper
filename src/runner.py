@@ -9,6 +9,7 @@ import random
 from training_case import TrainingCase
 import argparse
 
+random.seed(42)
 
 
 Path = str

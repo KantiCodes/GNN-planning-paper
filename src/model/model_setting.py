@@ -58,9 +58,9 @@ class ModelSetting(BaseModel):
         settings_list = []
         for _ in range(num_settings):
             settings = cls(
-                lr=random.uniform(0.0001, 0.1),
-                layers_num=random.randint(1, 5),
-                hidden_size=random.choice([4, 8, 16, 32]),
+                lr=random.choice([0.01, 0.001, 0.001]),
+                layers_num=random.choice([4, 8, 16]),
+                hidden_size=random.choice([4, 8, 16]),
                 optimizer=random.choice(list(EOptimizer)),
                 conv_type=random.choice(list(EConvolution)),
                 activation_function=random.choice(list(EActivationFunction)),
@@ -70,7 +70,7 @@ class ModelSetting(BaseModel):
                 conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
                 loss_function=random.choice(list(ELossFunction)),
                 eval_metric=random.choice(list(EEvalMetric)),
-                batch_size=random.choice([4,8]),
+                batch_size=random.choice([16, 32, 64]),
                 model_settings_path=os.path.join("model-settings", os.urandom(16).hex() + ".json"),
                 use_class_weights=random.choice([True, False]),
             )
