@@ -19,9 +19,10 @@ class Runner:
 
     def __init__(
         self,
+        graph_data: Path,
         directory_with_jsons: Optional[Path] = None,
         random_settings_number: Optional[int] = None,
-        data_directory_path: Optional[Path] = None):
+    ):
         self.directory_with_jsons = directory_with_jsons
         # TODO make this a parameter
         if not directory_with_jsons and not random_settings_number:
@@ -36,7 +37,7 @@ class Runner:
             self.model_settings = self._create_model_settings_from_path(directory_with_jsons)
 
         all_instances = [
-            os.path.join(data_directory_path, x) for x in os.listdir(data_directory_path)
+            os.path.join(graph_data, x) for x in os.listdir(graph_data)
         ]
         # Shuffle the instances
         random.shuffle(all_instances)
@@ -84,12 +85,14 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=(
             "For instance to run with specified config run: \n"
             "python src/runner.py "
-            "--directory-with-jsons model-settings "
-            "--data-directory-path data/preprocessed/blocksworld_graph/training/easy "
-            "or python src/runner.py "
-            "--random-settings-number 5 "
-            "--data-directory-path data/preprocessed/blocksworld_graph/training/easy" 
+            "data/preprocessed/blocksworld_graph/training/easy --directory-with-jsons model-settings "
+            "or python src/runner.py data/preprocessed/blocksworld_graph/training/easy --random-settings-number 5"
         ))
+    parser.add_argument(
+        "data",
+        type=str,
+        help="The directory with the graph data",
+    )
     parser.add_argument(
         "--directory-with-jsons",
         type=str,
@@ -100,17 +103,13 @@ if __name__ == "__main__":
         type=int,
         help="The number of random settings to generate",
     )
-    parser.add_argument(
-        "--data-directory-path",
-        type=str,
-        help="The directory with the data",
-    )
+
 
     args = parser.parse_args()
 
     runner = Runner(
+        graph_data=args.data,
         directory_with_jsons=args.directory_with_jsons,
         random_settings_number=args.random_settings_number,
-        data_directory_path=args.data_directory_path
     )
     runner.run()

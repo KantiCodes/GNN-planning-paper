@@ -14,14 +14,12 @@ import os
 
 class EEvalMetric(str, ReprStrEnum):
     F1 = "f1"
-    MY_SUPER_FUNCTION = "my_super_function"
 
     def to_function(self):
         match self:
             case EEvalMetric.F1:
                 return binary_f1_score
-            case EEvalMetric.MY_SUPER_FUNCTION:
-                return my_super_function
+
 
 eval_metrics = EEvalMetric("f1").to_function()      
 

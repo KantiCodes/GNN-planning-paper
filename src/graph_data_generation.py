@@ -26,16 +26,14 @@ def generate_graphs(domain_task_dir, output_dir, use_relaxed_plan, use_simple_la
         try:
             path_sas_file = sas_file_path(path_run_dir)
         except FileNotFoundError:
-            print(f"Removing run dir: {path_run_dir} because no sas file found")
-            shutil.rmtree(path_run_dir)
+            print(f"Skipping run dir: {path_run_dir} because no sas file found")
             continue
 
         try:
             path_good_actions = good_actions_path(path_run_dir)
 
         except (FileNotFoundError, ValueError):
-            print(f"Removing run dir: {path_run_dir} because no good actions found or plan solved in initial state")
-            shutil.rmtree(path_run_dir)
+            print(f"Skipping run dir: {path_run_dir} because no good actions found or plan solved in initial state")
             continue
 
         path_relaxed_plan = None

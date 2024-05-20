@@ -10,8 +10,8 @@ import mlflow.pytorch
 from sklearn import metrics
 
 
-FILE_NAME_CONF_RECALL_1 = "cf_matrix-recall1.png"  # represents true ration 1 with threshold
-FILE_NAME_CONF_DEFAULT =  "cf_matrix.png"  # represents true ration 1 with threshold
+FILE_NAME_CONF_RECALL_1 = "cf_matrix-recall1.png"
+FILE_NAME_CONF_DEFAULT =  "cf_matrix.png"
 FILE_NAME_ROC_AUC = "roc_auc.png"
 
 
@@ -50,14 +50,14 @@ class TrainingCase:
     def compute(self):
         experiment_description = "Test run of the runner with multiple settings"
 
-        mlflow.set_tracking_uri("http://127.0.0.1:5000")
+        mlflow.set_tracking_uri("http://127.0.0.1:8080")
         gnn_experiment = mlflow.set_experiment(
             experiment_name="Hyperparameters experiment blocksworld"
         )
         params = self.model_setting.model_dump()
         mlflow.pytorch.autolog()
 
-        with mlflow.start_run(run_name=str(datetime.now())) as run:
+        with mlflow.start_run():
             mlflow.log_params(params)
             mlflow.log_artifact(self.model_setting.model_settings_path)
             print(f"Training using pos_weight: {self.model_handler.pos_weight} and neg_weight: {self.model_handler.neg_weight}")
@@ -124,11 +124,9 @@ class TrainingCase:
                 file_name = FILE_NAME_CONF_DEFAULT,
                 threshold=0.5,  # TODO keep it in once place as parameter
             )
-        mlflow.log_artifacts(
-                FILE_NAME_CONF_DEFAULT,
-                FILE_NAME_CONF_RECALL_1,
-                FILE_NAME_ROC_AUC,
-            )
+            mlflow.log_artifact(FILE_NAME_CONF_DEFAULT)
+            mlflow.log_artifact(FILE_NAME_CONF_RECALL_1)
+            # mlflow.log_artifact(FILE_NAME_ROC_AUC)
             
 
 

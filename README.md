@@ -1,6 +1,13 @@
 # GNN-planning-paper
 Repository for the XYZ link paper
 
+## How to run on autoscale-learning
+https://github.com/alvaro-torralba/autoscale-learning/tree/main
+
+First generate graph data
+`python src/graph_data_generation.py autoscale-data-small/satellite/good-operators-unit autoscale-data-small-preprocessed/satellite`
+
+
 
 # Readme from old repo
 1. You need to run search on all of the files to generate the data for instance using  both relaxed plan a
