@@ -1,0 +1,192 @@
+begin_variable
+var0
+-1
+16
+Atom at(package-1, city-1-loc-1)
+Atom at(package-1, city-1-loc-2)
+Atom at(package-1, city-1-loc-3)
+Atom at(package-1, city-1-loc-4)
+Atom at(package-1, city-2-loc-1)
+Atom at(package-1, city-2-loc-2)
+Atom at(package-1, city-2-loc-3)
+Atom at(package-1, city-2-loc-4)
+Atom at(package-1, city-3-loc-1)
+Atom at(package-1, city-3-loc-2)
+Atom at(package-1, city-3-loc-3)
+Atom at(package-1, city-3-loc-4)
+Atom in(package-1, truck-1)
+Atom in(package-1, truck-2)
+Atom in(package-1, truck-3)
+Atom in(package-1, truck-4)
+end_variable
+begin_variable
+var1
+-1
+16
+Atom at(package-2, city-1-loc-1)
+Atom at(package-2, city-1-loc-2)
+Atom at(package-2, city-1-loc-3)
+Atom at(package-2, city-1-loc-4)
+Atom at(package-2, city-2-loc-1)
+Atom at(package-2, city-2-loc-2)
+Atom at(package-2, city-2-loc-3)
+Atom at(package-2, city-2-loc-4)
+Atom at(package-2, city-3-loc-1)
+Atom at(package-2, city-3-loc-2)
+Atom at(package-2, city-3-loc-3)
+Atom at(package-2, city-3-loc-4)
+Atom in(package-2, truck-1)
+Atom in(package-2, truck-2)
+Atom in(package-2, truck-3)
+Atom in(package-2, truck-4)
+end_variable
+begin_variable
+var2
+-1
+16
+Atom at(package-3, city-1-loc-1)
+Atom at(package-3, city-1-loc-2)
+Atom at(package-3, city-1-loc-3)
+Atom at(package-3, city-1-loc-4)
+Atom at(package-3, city-2-loc-1)
+Atom at(package-3, city-2-loc-2)
+Atom at(package-3, city-2-loc-3)
+Atom at(package-3, city-2-loc-4)
+Atom at(package-3, city-3-loc-1)
+Atom at(package-3, city-3-loc-2)
+Atom at(package-3, city-3-loc-3)
+Atom at(package-3, city-3-loc-4)
+Atom in(package-3, truck-1)
+Atom in(package-3, truck-2)
+Atom in(package-3, truck-3)
+Atom in(package-3, truck-4)
+end_variable
+begin_variable
+var3
+-1
+16
+Atom at(package-4, city-1-loc-1)
+Atom at(package-4, city-1-loc-2)
+Atom at(package-4, city-1-loc-3)
+Atom at(package-4, city-1-loc-4)
+Atom at(package-4, city-2-loc-1)
+Atom at(package-4, city-2-loc-2)
+Atom at(package-4, city-2-loc-3)
+Atom at(package-4, city-2-loc-4)
+Atom at(package-4, city-3-loc-1)
+Atom at(package-4, city-3-loc-2)
+Atom at(package-4, city-3-loc-3)
+Atom at(package-4, city-3-loc-4)
+Atom in(package-4, truck-1)
+Atom in(package-4, truck-2)
+Atom in(package-4, truck-3)
+Atom in(package-4, truck-4)
+end_variable
+begin_variable
+var4
+-1
+12
+Atom at(truck-1, city-1-loc-1)
+Atom at(truck-1, city-1-loc-2)
+Atom at(truck-1, city-1-loc-3)
+Atom at(truck-1, city-1-loc-4)
+Atom at(truck-1, city-2-loc-1)
+Atom at(truck-1, city-2-loc-2)
+Atom at(truck-1, city-2-loc-3)
+Atom at(truck-1, city-2-loc-4)
+Atom at(truck-1, city-3-loc-1)
+Atom at(truck-1, city-3-loc-2)
+Atom at(truck-1, city-3-loc-3)
+Atom at(truck-1, city-3-loc-4)
+end_variable
+begin_variable
+var5
+-1
+12
+Atom at(truck-2, city-1-loc-1)
+Atom at(truck-2, city-1-loc-2)
+Atom at(truck-2, city-1-loc-3)
+Atom at(truck-2, city-1-loc-4)
+Atom at(truck-2, city-2-loc-1)
+Atom at(truck-2, city-2-loc-2)
+Atom at(truck-2, city-2-loc-3)
+Atom at(truck-2, city-2-loc-4)
+Atom at(truck-2, city-3-loc-1)
+Atom at(truck-2, city-3-loc-2)
+Atom at(truck-2, city-3-loc-3)
+Atom at(truck-2, city-3-loc-4)
+end_variable
+begin_variable
+var6
+-1
+12
+Atom at(truck-3, city-1-loc-1)
+Atom at(truck-3, city-1-loc-2)
+Atom at(truck-3, city-1-loc-3)
+Atom at(truck-3, city-1-loc-4)
+Atom at(truck-3, city-2-loc-1)
+Atom at(truck-3, city-2-loc-2)
+Atom at(truck-3, city-2-loc-3)
+Atom at(truck-3, city-2-loc-4)
+Atom at(truck-3, city-3-loc-1)
+Atom at(truck-3, city-3-loc-2)
+Atom at(truck-3, city-3-loc-3)
+Atom at(truck-3, city-3-loc-4)
+end_variable
+begin_variable
+var7
+-1
+12
+Atom at(truck-4, city-1-loc-1)
+Atom at(truck-4, city-1-loc-2)
+Atom at(truck-4, city-1-loc-3)
+Atom at(truck-4, city-1-loc-4)
+Atom at(truck-4, city-2-loc-1)
+Atom at(truck-4, city-2-loc-2)
+Atom at(truck-4, city-2-loc-3)
+Atom at(truck-4, city-2-loc-4)
+Atom at(truck-4, city-3-loc-1)
+Atom at(truck-4, city-3-loc-2)
+Atom at(truck-4, city-3-loc-3)
+Atom at(truck-4, city-3-loc-4)
+end_variable
+begin_variable
+var8
+-1
+5
+Atom capacity(truck-1, capacity-0)
+Atom capacity(truck-1, capacity-1)
+Atom capacity(truck-1, capacity-2)
+Atom capacity(truck-1, capacity-3)
+Atom capacity(truck-1, capacity-4)
+end_variable
+begin_variable
+var9
+-1
+5
+Atom capacity(truck-2, capacity-0)
+Atom capacity(truck-2, capacity-1)
+Atom capacity(truck-2, capacity-2)
+Atom capacity(truck-2, capacity-3)
+Atom capacity(truck-2, capacity-4)
+end_variable
+begin_variable
+var10
+-1
+5
+Atom capacity(truck-3, capacity-0)
+Atom capacity(truck-3, capacity-1)
+Atom capacity(truck-3, capacity-2)
+Atom capacity(truck-3, capacity-3)
+Atom capacity(truck-3, capacity-4)
+end_variable
+begin_variable
+var11
+-1
+5
+Atom capacity(truck-4, capacity-0)
+Atom capacity(truck-4, capacity-1)
+Atom capacity(truck-4, capacity-2)
+Atom capacity(truck-4, capacity-3)
+Atom capacity(truck-4, capacity-4)
+end_variable

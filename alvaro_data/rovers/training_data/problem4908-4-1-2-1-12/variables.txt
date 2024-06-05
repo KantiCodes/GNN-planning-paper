@@ -1,0 +1,280 @@
+begin_variable
+var0
+-1
+12
+Atom at(rover0, waypoint0)
+Atom at(rover0, waypoint1)
+Atom at(rover0, waypoint10)
+Atom at(rover0, waypoint11)
+Atom at(rover0, waypoint2)
+Atom at(rover0, waypoint3)
+Atom at(rover0, waypoint4)
+Atom at(rover0, waypoint5)
+Atom at(rover0, waypoint6)
+Atom at(rover0, waypoint7)
+Atom at(rover0, waypoint8)
+Atom at(rover0, waypoint9)
+end_variable
+begin_variable
+var1
+-1
+12
+Atom at(rover1, waypoint0)
+Atom at(rover1, waypoint1)
+Atom at(rover1, waypoint10)
+Atom at(rover1, waypoint11)
+Atom at(rover1, waypoint2)
+Atom at(rover1, waypoint3)
+Atom at(rover1, waypoint4)
+Atom at(rover1, waypoint5)
+Atom at(rover1, waypoint6)
+Atom at(rover1, waypoint7)
+Atom at(rover1, waypoint8)
+Atom at(rover1, waypoint9)
+end_variable
+begin_variable
+var2
+-1
+12
+Atom at(rover2, waypoint0)
+Atom at(rover2, waypoint1)
+Atom at(rover2, waypoint10)
+Atom at(rover2, waypoint11)
+Atom at(rover2, waypoint2)
+Atom at(rover2, waypoint3)
+Atom at(rover2, waypoint4)
+Atom at(rover2, waypoint5)
+Atom at(rover2, waypoint6)
+Atom at(rover2, waypoint7)
+Atom at(rover2, waypoint8)
+Atom at(rover2, waypoint9)
+end_variable
+begin_variable
+var3
+-1
+11
+Atom at(rover3, waypoint0)
+Atom at(rover3, waypoint1)
+Atom at(rover3, waypoint10)
+Atom at(rover3, waypoint11)
+Atom at(rover3, waypoint2)
+Atom at(rover3, waypoint3)
+Atom at(rover3, waypoint4)
+Atom at(rover3, waypoint5)
+Atom at(rover3, waypoint6)
+Atom at(rover3, waypoint8)
+Atom at(rover3, waypoint9)
+end_variable
+begin_variable
+var4
+-1
+4
+Atom at_rock_sample(waypoint0)
+Atom have_rock_analysis(rover1, waypoint0)
+Atom have_rock_analysis(rover2, waypoint0)
+Atom have_rock_analysis(rover3, waypoint0)
+end_variable
+begin_variable
+var5
+-1
+4
+Atom at_rock_sample(waypoint11)
+Atom have_rock_analysis(rover1, waypoint11)
+Atom have_rock_analysis(rover2, waypoint11)
+Atom have_rock_analysis(rover3, waypoint11)
+end_variable
+begin_variable
+var6
+-1
+4
+Atom at_rock_sample(waypoint2)
+Atom have_rock_analysis(rover1, waypoint2)
+Atom have_rock_analysis(rover2, waypoint2)
+Atom have_rock_analysis(rover3, waypoint2)
+end_variable
+begin_variable
+var7
+-1
+4
+Atom at_rock_sample(waypoint8)
+Atom have_rock_analysis(rover1, waypoint8)
+Atom have_rock_analysis(rover2, waypoint8)
+Atom have_rock_analysis(rover3, waypoint8)
+end_variable
+begin_variable
+var8
+-1
+4
+Atom at_rock_sample(waypoint9)
+Atom have_rock_analysis(rover1, waypoint9)
+Atom have_rock_analysis(rover2, waypoint9)
+Atom have_rock_analysis(rover3, waypoint9)
+end_variable
+begin_variable
+var9
+-1
+2
+Atom calibrated(camera0, rover3)
+NegatedAtom calibrated(camera0, rover3)
+end_variable
+begin_variable
+var10
+-1
+2
+Atom calibrated(camera1, rover0)
+NegatedAtom calibrated(camera1, rover0)
+end_variable
+begin_variable
+var11
+-1
+2
+Atom calibrated(camera2, rover1)
+NegatedAtom calibrated(camera2, rover1)
+end_variable
+begin_variable
+var12
+-1
+2
+Atom calibrated(camera3, rover2)
+NegatedAtom calibrated(camera3, rover2)
+end_variable
+begin_variable
+var13
+-1
+2
+Atom communicated_image_data(objective0, colour)
+NegatedAtom communicated_image_data(objective0, colour)
+end_variable
+begin_variable
+var14
+-1
+2
+Atom communicated_image_data(objective0, high_res)
+NegatedAtom communicated_image_data(objective0, high_res)
+end_variable
+begin_variable
+var15
+-1
+2
+Atom communicated_image_data(objective0, low_res)
+NegatedAtom communicated_image_data(objective0, low_res)
+end_variable
+begin_variable
+var16
+-1
+2
+Atom communicated_rock_data(waypoint0)
+NegatedAtom communicated_rock_data(waypoint0)
+end_variable
+begin_variable
+var17
+-1
+2
+Atom communicated_rock_data(waypoint11)
+NegatedAtom communicated_rock_data(waypoint11)
+end_variable
+begin_variable
+var18
+-1
+2
+Atom communicated_rock_data(waypoint2)
+NegatedAtom communicated_rock_data(waypoint2)
+end_variable
+begin_variable
+var19
+-1
+2
+Atom communicated_rock_data(waypoint8)
+NegatedAtom communicated_rock_data(waypoint8)
+end_variable
+begin_variable
+var20
+-1
+2
+Atom communicated_rock_data(waypoint9)
+NegatedAtom communicated_rock_data(waypoint9)
+end_variable
+begin_variable
+var21
+-1
+2
+Atom empty(rover1store)
+Atom full(rover1store)
+end_variable
+begin_variable
+var22
+-1
+2
+Atom empty(rover2store)
+Atom full(rover2store)
+end_variable
+begin_variable
+var23
+-1
+2
+Atom empty(rover3store)
+Atom full(rover3store)
+end_variable
+begin_variable
+var24
+-1
+2
+Atom have_image(rover0, objective0, colour)
+NegatedAtom have_image(rover0, objective0, colour)
+end_variable
+begin_variable
+var25
+-1
+2
+Atom have_image(rover0, objective0, high_res)
+NegatedAtom have_image(rover0, objective0, high_res)
+end_variable
+begin_variable
+var26
+-1
+2
+Atom have_image(rover0, objective0, low_res)
+NegatedAtom have_image(rover0, objective0, low_res)
+end_variable
+begin_variable
+var27
+-1
+2
+Atom have_image(rover1, objective0, colour)
+NegatedAtom have_image(rover1, objective0, colour)
+end_variable
+begin_variable
+var28
+-1
+2
+Atom have_image(rover1, objective0, low_res)
+NegatedAtom have_image(rover1, objective0, low_res)
+end_variable
+begin_variable
+var29
+-1
+2
+Atom have_image(rover2, objective0, high_res)
+NegatedAtom have_image(rover2, objective0, high_res)
+end_variable
+begin_variable
+var30
+-1
+2
+Atom have_image(rover2, objective0, low_res)
+NegatedAtom have_image(rover2, objective0, low_res)
+end_variable
+begin_variable
+var31
+-1
+2
+Atom have_image(rover3, objective0, colour)
+NegatedAtom have_image(rover3, objective0, colour)
+end_variable
+begin_variable
+var32
+-1
+2
+Atom have_image(rover3, objective0, high_res)
+NegatedAtom have_image(rover3, objective0, high_res)
+end_variable

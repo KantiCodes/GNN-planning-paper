@@ -1,0 +1,1136 @@
+begin_operator
+calibrate rover0 camera0 objective0 waypoint0
+1
+0 0
+1
+0 1 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera0 objective0 waypoint1
+1
+0 1
+1
+0 1 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera0 objective0 waypoint2
+1
+0 3
+1
+0 1 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera0 objective0 waypoint5
+1
+0 6
+1
+0 1 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera0 objective0 waypoint6
+1
+0 7
+1
+0 1 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera0 objective0 waypoint7
+1
+0 8
+1
+0 1 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera1 objective0 waypoint0
+1
+0 0
+1
+0 2 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera1 objective0 waypoint1
+1
+0 1
+1
+0 2 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera1 objective0 waypoint2
+1
+0 3
+1
+0 2 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera1 objective0 waypoint5
+1
+0 6
+1
+0 2 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera1 objective0 waypoint6
+1
+0 7
+1
+0 2 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera1 objective0 waypoint7
+1
+0 8
+1
+0 2 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera2 objective0 waypoint0
+1
+0 0
+1
+0 3 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera2 objective0 waypoint1
+1
+0 1
+1
+0 3 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera2 objective0 waypoint2
+1
+0 3
+1
+0 3 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera2 objective0 waypoint5
+1
+0 6
+1
+0 3 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera2 objective0 waypoint6
+1
+0 7
+1
+0 3 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera2 objective0 waypoint7
+1
+0 8
+1
+0 3 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera3 objective0 waypoint0
+1
+0 0
+1
+0 4 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera3 objective0 waypoint1
+1
+0 1
+1
+0 4 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera3 objective0 waypoint2
+1
+0 3
+1
+0 4 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera3 objective0 waypoint5
+1
+0 6
+1
+0 4 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera3 objective0 waypoint6
+1
+0 7
+1
+0 4 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera3 objective0 waypoint7
+1
+0 8
+1
+0 4 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera4 objective0 waypoint0
+1
+0 0
+1
+0 5 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera4 objective0 waypoint1
+1
+0 1
+1
+0 5 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera4 objective0 waypoint2
+1
+0 3
+1
+0 5 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera4 objective0 waypoint5
+1
+0 6
+1
+0 5 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera4 objective0 waypoint6
+1
+0 7
+1
+0 5 -1 0
+1
+end_operator
+begin_operator
+calibrate rover0 camera4 objective0 waypoint7
+1
+0 8
+1
+0 5 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 colour waypoint1 waypoint4
+2
+0 1
+9 0
+1
+0 6 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 colour waypoint10 waypoint4
+2
+0 2
+9 0
+1
+0 6 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 colour waypoint3 waypoint4
+2
+0 4
+9 0
+1
+0 6 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 colour waypoint5 waypoint4
+2
+0 6
+9 0
+1
+0 6 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 colour waypoint8 waypoint4
+2
+0 9
+9 0
+1
+0 6 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 colour waypoint9 waypoint4
+2
+0 10
+9 0
+1
+0 6 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 high_res waypoint1 waypoint4
+2
+0 1
+10 0
+1
+0 7 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 high_res waypoint10 waypoint4
+2
+0 2
+10 0
+1
+0 7 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 high_res waypoint3 waypoint4
+2
+0 4
+10 0
+1
+0 7 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 high_res waypoint5 waypoint4
+2
+0 6
+10 0
+1
+0 7 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 high_res waypoint8 waypoint4
+2
+0 9
+10 0
+1
+0 7 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 high_res waypoint9 waypoint4
+2
+0 10
+10 0
+1
+0 7 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 low_res waypoint1 waypoint4
+2
+0 1
+11 0
+1
+0 8 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 low_res waypoint10 waypoint4
+2
+0 2
+11 0
+1
+0 8 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 low_res waypoint3 waypoint4
+2
+0 4
+11 0
+1
+0 8 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 low_res waypoint5 waypoint4
+2
+0 6
+11 0
+1
+0 8 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 low_res waypoint8 waypoint4
+2
+0 9
+11 0
+1
+0 8 -1 0
+1
+end_operator
+begin_operator
+communicate_image_data rover0 general objective0 low_res waypoint9 waypoint4
+2
+0 10
+11 0
+1
+0 8 -1 0
+1
+end_operator
+begin_operator
+navigate rover0 waypoint0 waypoint1
+0
+1
+0 0 0 1
+1
+end_operator
+begin_operator
+navigate rover0 waypoint0 waypoint10
+0
+1
+0 0 0 2
+1
+end_operator
+begin_operator
+navigate rover0 waypoint0 waypoint7
+0
+1
+0 0 0 8
+1
+end_operator
+begin_operator
+navigate rover0 waypoint0 waypoint9
+0
+1
+0 0 0 10
+1
+end_operator
+begin_operator
+navigate rover0 waypoint1 waypoint0
+0
+1
+0 0 1 0
+1
+end_operator
+begin_operator
+navigate rover0 waypoint10 waypoint0
+0
+1
+0 0 2 0
+1
+end_operator
+begin_operator
+navigate rover0 waypoint2 waypoint8
+0
+1
+0 0 3 9
+1
+end_operator
+begin_operator
+navigate rover0 waypoint3 waypoint9
+0
+1
+0 0 4 10
+1
+end_operator
+begin_operator
+navigate rover0 waypoint4 waypoint5
+0
+1
+0 0 5 6
+1
+end_operator
+begin_operator
+navigate rover0 waypoint4 waypoint9
+0
+1
+0 0 5 10
+1
+end_operator
+begin_operator
+navigate rover0 waypoint5 waypoint4
+0
+1
+0 0 6 5
+1
+end_operator
+begin_operator
+navigate rover0 waypoint6 waypoint9
+0
+1
+0 0 7 10
+1
+end_operator
+begin_operator
+navigate rover0 waypoint7 waypoint0
+0
+1
+0 0 8 0
+1
+end_operator
+begin_operator
+navigate rover0 waypoint8 waypoint2
+0
+1
+0 0 9 3
+1
+end_operator
+begin_operator
+navigate rover0 waypoint8 waypoint9
+0
+1
+0 0 9 10
+1
+end_operator
+begin_operator
+navigate rover0 waypoint9 waypoint0
+0
+1
+0 0 10 0
+1
+end_operator
+begin_operator
+navigate rover0 waypoint9 waypoint3
+0
+1
+0 0 10 4
+1
+end_operator
+begin_operator
+navigate rover0 waypoint9 waypoint4
+0
+1
+0 0 10 5
+1
+end_operator
+begin_operator
+navigate rover0 waypoint9 waypoint6
+0
+1
+0 0 10 7
+1
+end_operator
+begin_operator
+navigate rover0 waypoint9 waypoint8
+0
+1
+0 0 10 9
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera0 high_res
+1
+0 0
+2
+0 1 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera0 low_res
+1
+0 0
+2
+0 1 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera1 high_res
+1
+0 0
+2
+0 2 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera1 low_res
+1
+0 0
+2
+0 2 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera2 high_res
+1
+0 0
+2
+0 3 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera2 low_res
+1
+0 0
+2
+0 3 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera3 colour
+1
+0 0
+2
+0 4 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera3 high_res
+1
+0 0
+2
+0 4 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera4 colour
+1
+0 0
+2
+0 5 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera4 high_res
+1
+0 0
+2
+0 5 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint0 objective0 camera4 low_res
+1
+0 0
+2
+0 5 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera0 high_res
+1
+0 1
+2
+0 1 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera0 low_res
+1
+0 1
+2
+0 1 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera1 high_res
+1
+0 1
+2
+0 2 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera1 low_res
+1
+0 1
+2
+0 2 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera2 high_res
+1
+0 1
+2
+0 3 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera2 low_res
+1
+0 1
+2
+0 3 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera3 colour
+1
+0 1
+2
+0 4 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera3 high_res
+1
+0 1
+2
+0 4 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera4 colour
+1
+0 1
+2
+0 5 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera4 high_res
+1
+0 1
+2
+0 5 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint1 objective0 camera4 low_res
+1
+0 1
+2
+0 5 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera0 high_res
+1
+0 3
+2
+0 1 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera0 low_res
+1
+0 3
+2
+0 1 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera1 high_res
+1
+0 3
+2
+0 2 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera1 low_res
+1
+0 3
+2
+0 2 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera2 high_res
+1
+0 3
+2
+0 3 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera2 low_res
+1
+0 3
+2
+0 3 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera3 colour
+1
+0 3
+2
+0 4 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera3 high_res
+1
+0 3
+2
+0 4 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera4 colour
+1
+0 3
+2
+0 5 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera4 high_res
+1
+0 3
+2
+0 5 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint2 objective0 camera4 low_res
+1
+0 3
+2
+0 5 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera0 high_res
+1
+0 6
+2
+0 1 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera0 low_res
+1
+0 6
+2
+0 1 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera1 high_res
+1
+0 6
+2
+0 2 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera1 low_res
+1
+0 6
+2
+0 2 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera2 high_res
+1
+0 6
+2
+0 3 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera2 low_res
+1
+0 6
+2
+0 3 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera3 colour
+1
+0 6
+2
+0 4 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera3 high_res
+1
+0 6
+2
+0 4 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera4 colour
+1
+0 6
+2
+0 5 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera4 high_res
+1
+0 6
+2
+0 5 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint5 objective0 camera4 low_res
+1
+0 6
+2
+0 5 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera0 high_res
+1
+0 7
+2
+0 1 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera0 low_res
+1
+0 7
+2
+0 1 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera1 high_res
+1
+0 7
+2
+0 2 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera1 low_res
+1
+0 7
+2
+0 2 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera2 high_res
+1
+0 7
+2
+0 3 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera2 low_res
+1
+0 7
+2
+0 3 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera3 colour
+1
+0 7
+2
+0 4 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera3 high_res
+1
+0 7
+2
+0 4 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera4 colour
+1
+0 7
+2
+0 5 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera4 high_res
+1
+0 7
+2
+0 5 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint6 objective0 camera4 low_res
+1
+0 7
+2
+0 5 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera0 high_res
+1
+0 8
+2
+0 1 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera0 low_res
+1
+0 8
+2
+0 1 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera1 high_res
+1
+0 8
+2
+0 2 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera1 low_res
+1
+0 8
+2
+0 2 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera2 high_res
+1
+0 8
+2
+0 3 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera2 low_res
+1
+0 8
+2
+0 3 0 1
+0 11 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera3 colour
+1
+0 8
+2
+0 4 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera3 high_res
+1
+0 8
+2
+0 4 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera4 colour
+1
+0 8
+2
+0 5 0 1
+0 9 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera4 high_res
+1
+0 8
+2
+0 5 0 1
+0 10 -1 0
+1
+end_operator
+begin_operator
+take_image rover0 waypoint7 objective0 camera4 low_res
+1
+0 8
+2
+0 5 0 1
+0 11 -1 0
+1
+end_operator
