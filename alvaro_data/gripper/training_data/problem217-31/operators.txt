@@ -1,0 +1,2246 @@
+begin_operator
+drop ball1 rooma left
+1
+31 0
+2
+0 0 -1 0
+0 32 0 31
+1
+end_operator
+begin_operator
+drop ball1 rooma right
+1
+31 0
+2
+0 0 -1 0
+0 33 0 31
+1
+end_operator
+begin_operator
+drop ball1 roomb left
+1
+31 1
+2
+0 0 -1 1
+0 32 0 31
+1
+end_operator
+begin_operator
+drop ball1 roomb right
+1
+31 1
+2
+0 0 -1 1
+0 33 0 31
+1
+end_operator
+begin_operator
+drop ball10 rooma left
+1
+31 0
+2
+0 1 -1 0
+0 32 1 31
+1
+end_operator
+begin_operator
+drop ball10 rooma right
+1
+31 0
+2
+0 1 -1 0
+0 33 1 31
+1
+end_operator
+begin_operator
+drop ball10 roomb left
+1
+31 1
+2
+0 1 -1 1
+0 32 1 31
+1
+end_operator
+begin_operator
+drop ball10 roomb right
+1
+31 1
+2
+0 1 -1 1
+0 33 1 31
+1
+end_operator
+begin_operator
+drop ball11 rooma left
+1
+31 0
+2
+0 2 -1 0
+0 32 2 31
+1
+end_operator
+begin_operator
+drop ball11 rooma right
+1
+31 0
+2
+0 2 -1 0
+0 33 2 31
+1
+end_operator
+begin_operator
+drop ball11 roomb left
+1
+31 1
+2
+0 2 -1 1
+0 32 2 31
+1
+end_operator
+begin_operator
+drop ball11 roomb right
+1
+31 1
+2
+0 2 -1 1
+0 33 2 31
+1
+end_operator
+begin_operator
+drop ball12 rooma left
+1
+31 0
+2
+0 3 -1 0
+0 32 3 31
+1
+end_operator
+begin_operator
+drop ball12 rooma right
+1
+31 0
+2
+0 3 -1 0
+0 33 3 31
+1
+end_operator
+begin_operator
+drop ball12 roomb left
+1
+31 1
+2
+0 3 -1 1
+0 32 3 31
+1
+end_operator
+begin_operator
+drop ball12 roomb right
+1
+31 1
+2
+0 3 -1 1
+0 33 3 31
+1
+end_operator
+begin_operator
+drop ball13 rooma left
+1
+31 0
+2
+0 4 -1 0
+0 32 4 31
+1
+end_operator
+begin_operator
+drop ball13 rooma right
+1
+31 0
+2
+0 4 -1 0
+0 33 4 31
+1
+end_operator
+begin_operator
+drop ball13 roomb left
+1
+31 1
+2
+0 4 -1 1
+0 32 4 31
+1
+end_operator
+begin_operator
+drop ball13 roomb right
+1
+31 1
+2
+0 4 -1 1
+0 33 4 31
+1
+end_operator
+begin_operator
+drop ball14 rooma left
+1
+31 0
+2
+0 5 -1 0
+0 32 5 31
+1
+end_operator
+begin_operator
+drop ball14 rooma right
+1
+31 0
+2
+0 5 -1 0
+0 33 5 31
+1
+end_operator
+begin_operator
+drop ball14 roomb left
+1
+31 1
+2
+0 5 -1 1
+0 32 5 31
+1
+end_operator
+begin_operator
+drop ball14 roomb right
+1
+31 1
+2
+0 5 -1 1
+0 33 5 31
+1
+end_operator
+begin_operator
+drop ball15 rooma left
+1
+31 0
+2
+0 6 -1 0
+0 32 6 31
+1
+end_operator
+begin_operator
+drop ball15 rooma right
+1
+31 0
+2
+0 6 -1 0
+0 33 6 31
+1
+end_operator
+begin_operator
+drop ball15 roomb left
+1
+31 1
+2
+0 6 -1 1
+0 32 6 31
+1
+end_operator
+begin_operator
+drop ball15 roomb right
+1
+31 1
+2
+0 6 -1 1
+0 33 6 31
+1
+end_operator
+begin_operator
+drop ball16 rooma left
+1
+31 0
+2
+0 7 -1 0
+0 32 7 31
+1
+end_operator
+begin_operator
+drop ball16 rooma right
+1
+31 0
+2
+0 7 -1 0
+0 33 7 31
+1
+end_operator
+begin_operator
+drop ball16 roomb left
+1
+31 1
+2
+0 7 -1 1
+0 32 7 31
+1
+end_operator
+begin_operator
+drop ball16 roomb right
+1
+31 1
+2
+0 7 -1 1
+0 33 7 31
+1
+end_operator
+begin_operator
+drop ball17 rooma left
+1
+31 0
+2
+0 8 -1 0
+0 32 8 31
+1
+end_operator
+begin_operator
+drop ball17 rooma right
+1
+31 0
+2
+0 8 -1 0
+0 33 8 31
+1
+end_operator
+begin_operator
+drop ball17 roomb left
+1
+31 1
+2
+0 8 -1 1
+0 32 8 31
+1
+end_operator
+begin_operator
+drop ball17 roomb right
+1
+31 1
+2
+0 8 -1 1
+0 33 8 31
+1
+end_operator
+begin_operator
+drop ball18 rooma left
+1
+31 0
+2
+0 9 -1 0
+0 32 9 31
+1
+end_operator
+begin_operator
+drop ball18 rooma right
+1
+31 0
+2
+0 9 -1 0
+0 33 9 31
+1
+end_operator
+begin_operator
+drop ball18 roomb left
+1
+31 1
+2
+0 9 -1 1
+0 32 9 31
+1
+end_operator
+begin_operator
+drop ball18 roomb right
+1
+31 1
+2
+0 9 -1 1
+0 33 9 31
+1
+end_operator
+begin_operator
+drop ball19 rooma left
+1
+31 0
+2
+0 10 -1 0
+0 32 10 31
+1
+end_operator
+begin_operator
+drop ball19 rooma right
+1
+31 0
+2
+0 10 -1 0
+0 33 10 31
+1
+end_operator
+begin_operator
+drop ball19 roomb left
+1
+31 1
+2
+0 10 -1 1
+0 32 10 31
+1
+end_operator
+begin_operator
+drop ball19 roomb right
+1
+31 1
+2
+0 10 -1 1
+0 33 10 31
+1
+end_operator
+begin_operator
+drop ball2 rooma left
+1
+31 0
+2
+0 11 -1 0
+0 32 11 31
+1
+end_operator
+begin_operator
+drop ball2 rooma right
+1
+31 0
+2
+0 11 -1 0
+0 33 11 31
+1
+end_operator
+begin_operator
+drop ball2 roomb left
+1
+31 1
+2
+0 11 -1 1
+0 32 11 31
+1
+end_operator
+begin_operator
+drop ball2 roomb right
+1
+31 1
+2
+0 11 -1 1
+0 33 11 31
+1
+end_operator
+begin_operator
+drop ball20 rooma left
+1
+31 0
+2
+0 12 -1 0
+0 32 12 31
+1
+end_operator
+begin_operator
+drop ball20 rooma right
+1
+31 0
+2
+0 12 -1 0
+0 33 12 31
+1
+end_operator
+begin_operator
+drop ball20 roomb left
+1
+31 1
+2
+0 12 -1 1
+0 32 12 31
+1
+end_operator
+begin_operator
+drop ball20 roomb right
+1
+31 1
+2
+0 12 -1 1
+0 33 12 31
+1
+end_operator
+begin_operator
+drop ball21 rooma left
+1
+31 0
+2
+0 13 -1 0
+0 32 13 31
+1
+end_operator
+begin_operator
+drop ball21 rooma right
+1
+31 0
+2
+0 13 -1 0
+0 33 13 31
+1
+end_operator
+begin_operator
+drop ball21 roomb left
+1
+31 1
+2
+0 13 -1 1
+0 32 13 31
+1
+end_operator
+begin_operator
+drop ball21 roomb right
+1
+31 1
+2
+0 13 -1 1
+0 33 13 31
+1
+end_operator
+begin_operator
+drop ball22 rooma left
+1
+31 0
+2
+0 14 -1 0
+0 32 14 31
+1
+end_operator
+begin_operator
+drop ball22 rooma right
+1
+31 0
+2
+0 14 -1 0
+0 33 14 31
+1
+end_operator
+begin_operator
+drop ball22 roomb left
+1
+31 1
+2
+0 14 -1 1
+0 32 14 31
+1
+end_operator
+begin_operator
+drop ball22 roomb right
+1
+31 1
+2
+0 14 -1 1
+0 33 14 31
+1
+end_operator
+begin_operator
+drop ball23 rooma left
+1
+31 0
+2
+0 15 -1 0
+0 32 15 31
+1
+end_operator
+begin_operator
+drop ball23 rooma right
+1
+31 0
+2
+0 15 -1 0
+0 33 15 31
+1
+end_operator
+begin_operator
+drop ball23 roomb left
+1
+31 1
+2
+0 15 -1 1
+0 32 15 31
+1
+end_operator
+begin_operator
+drop ball23 roomb right
+1
+31 1
+2
+0 15 -1 1
+0 33 15 31
+1
+end_operator
+begin_operator
+drop ball24 rooma left
+1
+31 0
+2
+0 16 -1 0
+0 32 16 31
+1
+end_operator
+begin_operator
+drop ball24 rooma right
+1
+31 0
+2
+0 16 -1 0
+0 33 16 31
+1
+end_operator
+begin_operator
+drop ball24 roomb left
+1
+31 1
+2
+0 16 -1 1
+0 32 16 31
+1
+end_operator
+begin_operator
+drop ball24 roomb right
+1
+31 1
+2
+0 16 -1 1
+0 33 16 31
+1
+end_operator
+begin_operator
+drop ball25 rooma left
+1
+31 0
+2
+0 17 -1 0
+0 32 17 31
+1
+end_operator
+begin_operator
+drop ball25 rooma right
+1
+31 0
+2
+0 17 -1 0
+0 33 17 31
+1
+end_operator
+begin_operator
+drop ball25 roomb left
+1
+31 1
+2
+0 17 -1 1
+0 32 17 31
+1
+end_operator
+begin_operator
+drop ball25 roomb right
+1
+31 1
+2
+0 17 -1 1
+0 33 17 31
+1
+end_operator
+begin_operator
+drop ball26 rooma left
+1
+31 0
+2
+0 18 -1 0
+0 32 18 31
+1
+end_operator
+begin_operator
+drop ball26 rooma right
+1
+31 0
+2
+0 18 -1 0
+0 33 18 31
+1
+end_operator
+begin_operator
+drop ball26 roomb left
+1
+31 1
+2
+0 18 -1 1
+0 32 18 31
+1
+end_operator
+begin_operator
+drop ball26 roomb right
+1
+31 1
+2
+0 18 -1 1
+0 33 18 31
+1
+end_operator
+begin_operator
+drop ball27 rooma left
+1
+31 0
+2
+0 19 -1 0
+0 32 19 31
+1
+end_operator
+begin_operator
+drop ball27 rooma right
+1
+31 0
+2
+0 19 -1 0
+0 33 19 31
+1
+end_operator
+begin_operator
+drop ball27 roomb left
+1
+31 1
+2
+0 19 -1 1
+0 32 19 31
+1
+end_operator
+begin_operator
+drop ball27 roomb right
+1
+31 1
+2
+0 19 -1 1
+0 33 19 31
+1
+end_operator
+begin_operator
+drop ball28 rooma left
+1
+31 0
+2
+0 20 -1 0
+0 32 20 31
+1
+end_operator
+begin_operator
+drop ball28 rooma right
+1
+31 0
+2
+0 20 -1 0
+0 33 20 31
+1
+end_operator
+begin_operator
+drop ball28 roomb left
+1
+31 1
+2
+0 20 -1 1
+0 32 20 31
+1
+end_operator
+begin_operator
+drop ball28 roomb right
+1
+31 1
+2
+0 20 -1 1
+0 33 20 31
+1
+end_operator
+begin_operator
+drop ball29 rooma left
+1
+31 0
+2
+0 21 -1 0
+0 32 21 31
+1
+end_operator
+begin_operator
+drop ball29 rooma right
+1
+31 0
+2
+0 21 -1 0
+0 33 21 31
+1
+end_operator
+begin_operator
+drop ball29 roomb left
+1
+31 1
+2
+0 21 -1 1
+0 32 21 31
+1
+end_operator
+begin_operator
+drop ball29 roomb right
+1
+31 1
+2
+0 21 -1 1
+0 33 21 31
+1
+end_operator
+begin_operator
+drop ball3 rooma left
+1
+31 0
+2
+0 22 -1 0
+0 32 22 31
+1
+end_operator
+begin_operator
+drop ball3 rooma right
+1
+31 0
+2
+0 22 -1 0
+0 33 22 31
+1
+end_operator
+begin_operator
+drop ball3 roomb left
+1
+31 1
+2
+0 22 -1 1
+0 32 22 31
+1
+end_operator
+begin_operator
+drop ball3 roomb right
+1
+31 1
+2
+0 22 -1 1
+0 33 22 31
+1
+end_operator
+begin_operator
+drop ball30 rooma left
+1
+31 0
+2
+0 23 -1 0
+0 32 23 31
+1
+end_operator
+begin_operator
+drop ball30 rooma right
+1
+31 0
+2
+0 23 -1 0
+0 33 23 31
+1
+end_operator
+begin_operator
+drop ball30 roomb left
+1
+31 1
+2
+0 23 -1 1
+0 32 23 31
+1
+end_operator
+begin_operator
+drop ball30 roomb right
+1
+31 1
+2
+0 23 -1 1
+0 33 23 31
+1
+end_operator
+begin_operator
+drop ball31 rooma left
+1
+31 0
+2
+0 24 -1 0
+0 32 24 31
+1
+end_operator
+begin_operator
+drop ball31 rooma right
+1
+31 0
+2
+0 24 -1 0
+0 33 24 31
+1
+end_operator
+begin_operator
+drop ball31 roomb left
+1
+31 1
+2
+0 24 -1 1
+0 32 24 31
+1
+end_operator
+begin_operator
+drop ball31 roomb right
+1
+31 1
+2
+0 24 -1 1
+0 33 24 31
+1
+end_operator
+begin_operator
+drop ball4 rooma left
+1
+31 0
+2
+0 25 -1 0
+0 32 25 31
+1
+end_operator
+begin_operator
+drop ball4 rooma right
+1
+31 0
+2
+0 25 -1 0
+0 33 25 31
+1
+end_operator
+begin_operator
+drop ball4 roomb left
+1
+31 1
+2
+0 25 -1 1
+0 32 25 31
+1
+end_operator
+begin_operator
+drop ball4 roomb right
+1
+31 1
+2
+0 25 -1 1
+0 33 25 31
+1
+end_operator
+begin_operator
+drop ball5 rooma left
+1
+31 0
+2
+0 26 -1 0
+0 32 26 31
+1
+end_operator
+begin_operator
+drop ball5 rooma right
+1
+31 0
+2
+0 26 -1 0
+0 33 26 31
+1
+end_operator
+begin_operator
+drop ball5 roomb left
+1
+31 1
+2
+0 26 -1 1
+0 32 26 31
+1
+end_operator
+begin_operator
+drop ball5 roomb right
+1
+31 1
+2
+0 26 -1 1
+0 33 26 31
+1
+end_operator
+begin_operator
+drop ball6 rooma left
+1
+31 0
+2
+0 27 -1 0
+0 32 27 31
+1
+end_operator
+begin_operator
+drop ball6 rooma right
+1
+31 0
+2
+0 27 -1 0
+0 33 27 31
+1
+end_operator
+begin_operator
+drop ball6 roomb left
+1
+31 1
+2
+0 27 -1 1
+0 32 27 31
+1
+end_operator
+begin_operator
+drop ball6 roomb right
+1
+31 1
+2
+0 27 -1 1
+0 33 27 31
+1
+end_operator
+begin_operator
+drop ball7 rooma left
+1
+31 0
+2
+0 28 -1 0
+0 32 28 31
+1
+end_operator
+begin_operator
+drop ball7 rooma right
+1
+31 0
+2
+0 28 -1 0
+0 33 28 31
+1
+end_operator
+begin_operator
+drop ball7 roomb left
+1
+31 1
+2
+0 28 -1 1
+0 32 28 31
+1
+end_operator
+begin_operator
+drop ball7 roomb right
+1
+31 1
+2
+0 28 -1 1
+0 33 28 31
+1
+end_operator
+begin_operator
+drop ball8 rooma left
+1
+31 0
+2
+0 29 -1 0
+0 32 29 31
+1
+end_operator
+begin_operator
+drop ball8 rooma right
+1
+31 0
+2
+0 29 -1 0
+0 33 29 31
+1
+end_operator
+begin_operator
+drop ball8 roomb left
+1
+31 1
+2
+0 29 -1 1
+0 32 29 31
+1
+end_operator
+begin_operator
+drop ball8 roomb right
+1
+31 1
+2
+0 29 -1 1
+0 33 29 31
+1
+end_operator
+begin_operator
+drop ball9 rooma left
+1
+31 0
+2
+0 30 -1 0
+0 32 30 31
+1
+end_operator
+begin_operator
+drop ball9 rooma right
+1
+31 0
+2
+0 30 -1 0
+0 33 30 31
+1
+end_operator
+begin_operator
+drop ball9 roomb left
+1
+31 1
+2
+0 30 -1 1
+0 32 30 31
+1
+end_operator
+begin_operator
+drop ball9 roomb right
+1
+31 1
+2
+0 30 -1 1
+0 33 30 31
+1
+end_operator
+begin_operator
+move rooma roomb
+0
+1
+0 31 0 1
+1
+end_operator
+begin_operator
+move roomb rooma
+0
+1
+0 31 1 0
+1
+end_operator
+begin_operator
+pick ball1 rooma left
+1
+31 0
+2
+0 0 0 2
+0 32 31 0
+1
+end_operator
+begin_operator
+pick ball1 rooma right
+1
+31 0
+2
+0 0 0 2
+0 33 31 0
+1
+end_operator
+begin_operator
+pick ball1 roomb left
+1
+31 1
+2
+0 0 1 2
+0 32 31 0
+1
+end_operator
+begin_operator
+pick ball1 roomb right
+1
+31 1
+2
+0 0 1 2
+0 33 31 0
+1
+end_operator
+begin_operator
+pick ball10 rooma left
+1
+31 0
+2
+0 1 0 2
+0 32 31 1
+1
+end_operator
+begin_operator
+pick ball10 rooma right
+1
+31 0
+2
+0 1 0 2
+0 33 31 1
+1
+end_operator
+begin_operator
+pick ball10 roomb left
+1
+31 1
+2
+0 1 1 2
+0 32 31 1
+1
+end_operator
+begin_operator
+pick ball10 roomb right
+1
+31 1
+2
+0 1 1 2
+0 33 31 1
+1
+end_operator
+begin_operator
+pick ball11 rooma left
+1
+31 0
+2
+0 2 0 2
+0 32 31 2
+1
+end_operator
+begin_operator
+pick ball11 rooma right
+1
+31 0
+2
+0 2 0 2
+0 33 31 2
+1
+end_operator
+begin_operator
+pick ball11 roomb left
+1
+31 1
+2
+0 2 1 2
+0 32 31 2
+1
+end_operator
+begin_operator
+pick ball11 roomb right
+1
+31 1
+2
+0 2 1 2
+0 33 31 2
+1
+end_operator
+begin_operator
+pick ball12 rooma left
+1
+31 0
+2
+0 3 0 2
+0 32 31 3
+1
+end_operator
+begin_operator
+pick ball12 rooma right
+1
+31 0
+2
+0 3 0 2
+0 33 31 3
+1
+end_operator
+begin_operator
+pick ball12 roomb left
+1
+31 1
+2
+0 3 1 2
+0 32 31 3
+1
+end_operator
+begin_operator
+pick ball12 roomb right
+1
+31 1
+2
+0 3 1 2
+0 33 31 3
+1
+end_operator
+begin_operator
+pick ball13 rooma left
+1
+31 0
+2
+0 4 0 2
+0 32 31 4
+1
+end_operator
+begin_operator
+pick ball13 rooma right
+1
+31 0
+2
+0 4 0 2
+0 33 31 4
+1
+end_operator
+begin_operator
+pick ball13 roomb left
+1
+31 1
+2
+0 4 1 2
+0 32 31 4
+1
+end_operator
+begin_operator
+pick ball13 roomb right
+1
+31 1
+2
+0 4 1 2
+0 33 31 4
+1
+end_operator
+begin_operator
+pick ball14 rooma left
+1
+31 0
+2
+0 5 0 2
+0 32 31 5
+1
+end_operator
+begin_operator
+pick ball14 rooma right
+1
+31 0
+2
+0 5 0 2
+0 33 31 5
+1
+end_operator
+begin_operator
+pick ball14 roomb left
+1
+31 1
+2
+0 5 1 2
+0 32 31 5
+1
+end_operator
+begin_operator
+pick ball14 roomb right
+1
+31 1
+2
+0 5 1 2
+0 33 31 5
+1
+end_operator
+begin_operator
+pick ball15 rooma left
+1
+31 0
+2
+0 6 0 2
+0 32 31 6
+1
+end_operator
+begin_operator
+pick ball15 rooma right
+1
+31 0
+2
+0 6 0 2
+0 33 31 6
+1
+end_operator
+begin_operator
+pick ball15 roomb left
+1
+31 1
+2
+0 6 1 2
+0 32 31 6
+1
+end_operator
+begin_operator
+pick ball15 roomb right
+1
+31 1
+2
+0 6 1 2
+0 33 31 6
+1
+end_operator
+begin_operator
+pick ball16 rooma left
+1
+31 0
+2
+0 7 0 2
+0 32 31 7
+1
+end_operator
+begin_operator
+pick ball16 rooma right
+1
+31 0
+2
+0 7 0 2
+0 33 31 7
+1
+end_operator
+begin_operator
+pick ball16 roomb left
+1
+31 1
+2
+0 7 1 2
+0 32 31 7
+1
+end_operator
+begin_operator
+pick ball16 roomb right
+1
+31 1
+2
+0 7 1 2
+0 33 31 7
+1
+end_operator
+begin_operator
+pick ball17 rooma left
+1
+31 0
+2
+0 8 0 2
+0 32 31 8
+1
+end_operator
+begin_operator
+pick ball17 rooma right
+1
+31 0
+2
+0 8 0 2
+0 33 31 8
+1
+end_operator
+begin_operator
+pick ball17 roomb left
+1
+31 1
+2
+0 8 1 2
+0 32 31 8
+1
+end_operator
+begin_operator
+pick ball17 roomb right
+1
+31 1
+2
+0 8 1 2
+0 33 31 8
+1
+end_operator
+begin_operator
+pick ball18 rooma left
+1
+31 0
+2
+0 9 0 2
+0 32 31 9
+1
+end_operator
+begin_operator
+pick ball18 rooma right
+1
+31 0
+2
+0 9 0 2
+0 33 31 9
+1
+end_operator
+begin_operator
+pick ball18 roomb left
+1
+31 1
+2
+0 9 1 2
+0 32 31 9
+1
+end_operator
+begin_operator
+pick ball18 roomb right
+1
+31 1
+2
+0 9 1 2
+0 33 31 9
+1
+end_operator
+begin_operator
+pick ball19 rooma left
+1
+31 0
+2
+0 10 0 2
+0 32 31 10
+1
+end_operator
+begin_operator
+pick ball19 rooma right
+1
+31 0
+2
+0 10 0 2
+0 33 31 10
+1
+end_operator
+begin_operator
+pick ball19 roomb left
+1
+31 1
+2
+0 10 1 2
+0 32 31 10
+1
+end_operator
+begin_operator
+pick ball19 roomb right
+1
+31 1
+2
+0 10 1 2
+0 33 31 10
+1
+end_operator
+begin_operator
+pick ball2 rooma left
+1
+31 0
+2
+0 11 0 2
+0 32 31 11
+1
+end_operator
+begin_operator
+pick ball2 rooma right
+1
+31 0
+2
+0 11 0 2
+0 33 31 11
+1
+end_operator
+begin_operator
+pick ball2 roomb left
+1
+31 1
+2
+0 11 1 2
+0 32 31 11
+1
+end_operator
+begin_operator
+pick ball2 roomb right
+1
+31 1
+2
+0 11 1 2
+0 33 31 11
+1
+end_operator
+begin_operator
+pick ball20 rooma left
+1
+31 0
+2
+0 12 0 2
+0 32 31 12
+1
+end_operator
+begin_operator
+pick ball20 rooma right
+1
+31 0
+2
+0 12 0 2
+0 33 31 12
+1
+end_operator
+begin_operator
+pick ball20 roomb left
+1
+31 1
+2
+0 12 1 2
+0 32 31 12
+1
+end_operator
+begin_operator
+pick ball20 roomb right
+1
+31 1
+2
+0 12 1 2
+0 33 31 12
+1
+end_operator
+begin_operator
+pick ball21 rooma left
+1
+31 0
+2
+0 13 0 2
+0 32 31 13
+1
+end_operator
+begin_operator
+pick ball21 rooma right
+1
+31 0
+2
+0 13 0 2
+0 33 31 13
+1
+end_operator
+begin_operator
+pick ball21 roomb left
+1
+31 1
+2
+0 13 1 2
+0 32 31 13
+1
+end_operator
+begin_operator
+pick ball21 roomb right
+1
+31 1
+2
+0 13 1 2
+0 33 31 13
+1
+end_operator
+begin_operator
+pick ball22 rooma left
+1
+31 0
+2
+0 14 0 2
+0 32 31 14
+1
+end_operator
+begin_operator
+pick ball22 rooma right
+1
+31 0
+2
+0 14 0 2
+0 33 31 14
+1
+end_operator
+begin_operator
+pick ball22 roomb left
+1
+31 1
+2
+0 14 1 2
+0 32 31 14
+1
+end_operator
+begin_operator
+pick ball22 roomb right
+1
+31 1
+2
+0 14 1 2
+0 33 31 14
+1
+end_operator
+begin_operator
+pick ball23 rooma left
+1
+31 0
+2
+0 15 0 2
+0 32 31 15
+1
+end_operator
+begin_operator
+pick ball23 rooma right
+1
+31 0
+2
+0 15 0 2
+0 33 31 15
+1
+end_operator
+begin_operator
+pick ball23 roomb left
+1
+31 1
+2
+0 15 1 2
+0 32 31 15
+1
+end_operator
+begin_operator
+pick ball23 roomb right
+1
+31 1
+2
+0 15 1 2
+0 33 31 15
+1
+end_operator
+begin_operator
+pick ball24 rooma left
+1
+31 0
+2
+0 16 0 2
+0 32 31 16
+1
+end_operator
+begin_operator
+pick ball24 rooma right
+1
+31 0
+2
+0 16 0 2
+0 33 31 16
+1
+end_operator
+begin_operator
+pick ball24 roomb left
+1
+31 1
+2
+0 16 1 2
+0 32 31 16
+1
+end_operator
+begin_operator
+pick ball24 roomb right
+1
+31 1
+2
+0 16 1 2
+0 33 31 16
+1
+end_operator
+begin_operator
+pick ball25 rooma left
+1
+31 0
+2
+0 17 0 2
+0 32 31 17
+1
+end_operator
+begin_operator
+pick ball25 rooma right
+1
+31 0
+2
+0 17 0 2
+0 33 31 17
+1
+end_operator
+begin_operator
+pick ball25 roomb left
+1
+31 1
+2
+0 17 1 2
+0 32 31 17
+1
+end_operator
+begin_operator
+pick ball25 roomb right
+1
+31 1
+2
+0 17 1 2
+0 33 31 17
+1
+end_operator
+begin_operator
+pick ball26 rooma left
+1
+31 0
+2
+0 18 0 2
+0 32 31 18
+1
+end_operator
+begin_operator
+pick ball26 rooma right
+1
+31 0
+2
+0 18 0 2
+0 33 31 18
+1
+end_operator
+begin_operator
+pick ball26 roomb left
+1
+31 1
+2
+0 18 1 2
+0 32 31 18
+1
+end_operator
+begin_operator
+pick ball26 roomb right
+1
+31 1
+2
+0 18 1 2
+0 33 31 18
+1
+end_operator
+begin_operator
+pick ball27 rooma left
+1
+31 0
+2
+0 19 0 2
+0 32 31 19
+1
+end_operator
+begin_operator
+pick ball27 rooma right
+1
+31 0
+2
+0 19 0 2
+0 33 31 19
+1
+end_operator
+begin_operator
+pick ball27 roomb left
+1
+31 1
+2
+0 19 1 2
+0 32 31 19
+1
+end_operator
+begin_operator
+pick ball27 roomb right
+1
+31 1
+2
+0 19 1 2
+0 33 31 19
+1
+end_operator
+begin_operator
+pick ball28 rooma left
+1
+31 0
+2
+0 20 0 2
+0 32 31 20
+1
+end_operator
+begin_operator
+pick ball28 rooma right
+1
+31 0
+2
+0 20 0 2
+0 33 31 20
+1
+end_operator
+begin_operator
+pick ball28 roomb left
+1
+31 1
+2
+0 20 1 2
+0 32 31 20
+1
+end_operator
+begin_operator
+pick ball28 roomb right
+1
+31 1
+2
+0 20 1 2
+0 33 31 20
+1
+end_operator
+begin_operator
+pick ball29 rooma left
+1
+31 0
+2
+0 21 0 2
+0 32 31 21
+1
+end_operator
+begin_operator
+pick ball29 rooma right
+1
+31 0
+2
+0 21 0 2
+0 33 31 21
+1
+end_operator
+begin_operator
+pick ball29 roomb left
+1
+31 1
+2
+0 21 1 2
+0 32 31 21
+1
+end_operator
+begin_operator
+pick ball29 roomb right
+1
+31 1
+2
+0 21 1 2
+0 33 31 21
+1
+end_operator
+begin_operator
+pick ball3 rooma left
+1
+31 0
+2
+0 22 0 2
+0 32 31 22
+1
+end_operator
+begin_operator
+pick ball3 rooma right
+1
+31 0
+2
+0 22 0 2
+0 33 31 22
+1
+end_operator
+begin_operator
+pick ball3 roomb left
+1
+31 1
+2
+0 22 1 2
+0 32 31 22
+1
+end_operator
+begin_operator
+pick ball3 roomb right
+1
+31 1
+2
+0 22 1 2
+0 33 31 22
+1
+end_operator
+begin_operator
+pick ball30 rooma left
+1
+31 0
+2
+0 23 0 2
+0 32 31 23
+1
+end_operator
+begin_operator
+pick ball30 rooma right
+1
+31 0
+2
+0 23 0 2
+0 33 31 23
+1
+end_operator
+begin_operator
+pick ball30 roomb left
+1
+31 1
+2
+0 23 1 2
+0 32 31 23
+1
+end_operator
+begin_operator
+pick ball30 roomb right
+1
+31 1
+2
+0 23 1 2
+0 33 31 23
+1
+end_operator
+begin_operator
+pick ball31 rooma left
+1
+31 0
+2
+0 24 0 2
+0 32 31 24
+1
+end_operator
+begin_operator
+pick ball31 rooma right
+1
+31 0
+2
+0 24 0 2
+0 33 31 24
+1
+end_operator
+begin_operator
+pick ball31 roomb left
+1
+31 1
+2
+0 24 1 2
+0 32 31 24
+1
+end_operator
+begin_operator
+pick ball31 roomb right
+1
+31 1
+2
+0 24 1 2
+0 33 31 24
+1
+end_operator
+begin_operator
+pick ball4 rooma left
+1
+31 0
+2
+0 25 0 2
+0 32 31 25
+1
+end_operator
+begin_operator
+pick ball4 rooma right
+1
+31 0
+2
+0 25 0 2
+0 33 31 25
+1
+end_operator
+begin_operator
+pick ball4 roomb left
+1
+31 1
+2
+0 25 1 2
+0 32 31 25
+1
+end_operator
+begin_operator
+pick ball4 roomb right
+1
+31 1
+2
+0 25 1 2
+0 33 31 25
+1
+end_operator
+begin_operator
+pick ball5 rooma left
+1
+31 0
+2
+0 26 0 2
+0 32 31 26
+1
+end_operator
+begin_operator
+pick ball5 rooma right
+1
+31 0
+2
+0 26 0 2
+0 33 31 26
+1
+end_operator
+begin_operator
+pick ball5 roomb left
+1
+31 1
+2
+0 26 1 2
+0 32 31 26
+1
+end_operator
+begin_operator
+pick ball5 roomb right
+1
+31 1
+2
+0 26 1 2
+0 33 31 26
+1
+end_operator
+begin_operator
+pick ball6 rooma left
+1
+31 0
+2
+0 27 0 2
+0 32 31 27
+1
+end_operator
+begin_operator
+pick ball6 rooma right
+1
+31 0
+2
+0 27 0 2
+0 33 31 27
+1
+end_operator
+begin_operator
+pick ball6 roomb left
+1
+31 1
+2
+0 27 1 2
+0 32 31 27
+1
+end_operator
+begin_operator
+pick ball6 roomb right
+1
+31 1
+2
+0 27 1 2
+0 33 31 27
+1
+end_operator
+begin_operator
+pick ball7 rooma left
+1
+31 0
+2
+0 28 0 2
+0 32 31 28
+1
+end_operator
+begin_operator
+pick ball7 rooma right
+1
+31 0
+2
+0 28 0 2
+0 33 31 28
+1
+end_operator
+begin_operator
+pick ball7 roomb left
+1
+31 1
+2
+0 28 1 2
+0 32 31 28
+1
+end_operator
+begin_operator
+pick ball7 roomb right
+1
+31 1
+2
+0 28 1 2
+0 33 31 28
+1
+end_operator
+begin_operator
+pick ball8 rooma left
+1
+31 0
+2
+0 29 0 2
+0 32 31 29
+1
+end_operator
+begin_operator
+pick ball8 rooma right
+1
+31 0
+2
+0 29 0 2
+0 33 31 29
+1
+end_operator
+begin_operator
+pick ball8 roomb left
+1
+31 1
+2
+0 29 1 2
+0 32 31 29
+1
+end_operator
+begin_operator
+pick ball8 roomb right
+1
+31 1
+2
+0 29 1 2
+0 33 31 29
+1
+end_operator
+begin_operator
+pick ball9 rooma left
+1
+31 0
+2
+0 30 0 2
+0 32 31 30
+1
+end_operator
+begin_operator
+pick ball9 rooma right
+1
+31 0
+2
+0 30 0 2
+0 33 31 30
+1
+end_operator
+begin_operator
+pick ball9 roomb left
+1
+31 1
+2
+0 30 1 2
+0 32 31 30
+1
+end_operator
+begin_operator
+pick ball9 roomb right
+1
+31 1
+2
+0 30 1 2
+0 33 31 30
+1
+end_operator

@@ -1,0 +1,288 @@
+begin_variable
+var0
+-1
+4
+Atom clear(tile_0-1)
+Atom painted(tile_0-1, black)
+Atom painted(tile_0-1, white)
+<none of those>
+end_variable
+begin_variable
+var1
+-1
+4
+Atom clear(tile_0-2)
+Atom painted(tile_0-2, black)
+Atom painted(tile_0-2, white)
+<none of those>
+end_variable
+begin_variable
+var2
+-1
+4
+Atom clear(tile_0-3)
+Atom painted(tile_0-3, black)
+Atom painted(tile_0-3, white)
+<none of those>
+end_variable
+begin_variable
+var3
+-1
+4
+Atom clear(tile_0-4)
+Atom painted(tile_0-4, black)
+Atom painted(tile_0-4, white)
+<none of those>
+end_variable
+begin_variable
+var4
+-1
+4
+Atom clear(tile_1-1)
+Atom painted(tile_1-1, black)
+Atom painted(tile_1-1, white)
+<none of those>
+end_variable
+begin_variable
+var5
+-1
+4
+Atom clear(tile_1-2)
+Atom painted(tile_1-2, black)
+Atom painted(tile_1-2, white)
+<none of those>
+end_variable
+begin_variable
+var6
+-1
+4
+Atom clear(tile_1-3)
+Atom painted(tile_1-3, black)
+Atom painted(tile_1-3, white)
+<none of those>
+end_variable
+begin_variable
+var7
+-1
+4
+Atom clear(tile_1-4)
+Atom painted(tile_1-4, black)
+Atom painted(tile_1-4, white)
+<none of those>
+end_variable
+begin_variable
+var8
+-1
+4
+Atom clear(tile_2-1)
+Atom painted(tile_2-1, black)
+Atom painted(tile_2-1, white)
+<none of those>
+end_variable
+begin_variable
+var9
+-1
+4
+Atom clear(tile_2-2)
+Atom painted(tile_2-2, black)
+Atom painted(tile_2-2, white)
+<none of those>
+end_variable
+begin_variable
+var10
+-1
+4
+Atom clear(tile_2-3)
+Atom painted(tile_2-3, black)
+Atom painted(tile_2-3, white)
+<none of those>
+end_variable
+begin_variable
+var11
+-1
+4
+Atom clear(tile_2-4)
+Atom painted(tile_2-4, black)
+Atom painted(tile_2-4, white)
+<none of those>
+end_variable
+begin_variable
+var12
+-1
+4
+Atom clear(tile_3-1)
+Atom painted(tile_3-1, black)
+Atom painted(tile_3-1, white)
+<none of those>
+end_variable
+begin_variable
+var13
+-1
+4
+Atom clear(tile_3-2)
+Atom painted(tile_3-2, black)
+Atom painted(tile_3-2, white)
+<none of those>
+end_variable
+begin_variable
+var14
+-1
+4
+Atom clear(tile_3-3)
+Atom painted(tile_3-3, black)
+Atom painted(tile_3-3, white)
+<none of those>
+end_variable
+begin_variable
+var15
+-1
+4
+Atom clear(tile_3-4)
+Atom painted(tile_3-4, black)
+Atom painted(tile_3-4, white)
+<none of those>
+end_variable
+begin_variable
+var16
+-1
+4
+Atom clear(tile_4-1)
+Atom painted(tile_4-1, black)
+Atom painted(tile_4-1, white)
+<none of those>
+end_variable
+begin_variable
+var17
+-1
+4
+Atom clear(tile_4-2)
+Atom painted(tile_4-2, black)
+Atom painted(tile_4-2, white)
+<none of those>
+end_variable
+begin_variable
+var18
+-1
+4
+Atom clear(tile_4-3)
+Atom painted(tile_4-3, black)
+Atom painted(tile_4-3, white)
+<none of those>
+end_variable
+begin_variable
+var19
+-1
+4
+Atom clear(tile_4-4)
+Atom painted(tile_4-4, black)
+Atom painted(tile_4-4, white)
+<none of those>
+end_variable
+begin_variable
+var20
+-1
+4
+Atom clear(tile_5-1)
+Atom painted(tile_5-1, black)
+Atom painted(tile_5-1, white)
+<none of those>
+end_variable
+begin_variable
+var21
+-1
+4
+Atom clear(tile_5-2)
+Atom painted(tile_5-2, black)
+Atom painted(tile_5-2, white)
+<none of those>
+end_variable
+begin_variable
+var22
+-1
+4
+Atom clear(tile_5-3)
+Atom painted(tile_5-3, black)
+Atom painted(tile_5-3, white)
+<none of those>
+end_variable
+begin_variable
+var23
+-1
+4
+Atom clear(tile_5-4)
+Atom painted(tile_5-4, black)
+Atom painted(tile_5-4, white)
+<none of those>
+end_variable
+begin_variable
+var24
+-1
+24
+Atom robot-at(robot1, tile_0-1)
+Atom robot-at(robot1, tile_0-2)
+Atom robot-at(robot1, tile_0-3)
+Atom robot-at(robot1, tile_0-4)
+Atom robot-at(robot1, tile_1-1)
+Atom robot-at(robot1, tile_1-2)
+Atom robot-at(robot1, tile_1-3)
+Atom robot-at(robot1, tile_1-4)
+Atom robot-at(robot1, tile_2-1)
+Atom robot-at(robot1, tile_2-2)
+Atom robot-at(robot1, tile_2-3)
+Atom robot-at(robot1, tile_2-4)
+Atom robot-at(robot1, tile_3-1)
+Atom robot-at(robot1, tile_3-2)
+Atom robot-at(robot1, tile_3-3)
+Atom robot-at(robot1, tile_3-4)
+Atom robot-at(robot1, tile_4-1)
+Atom robot-at(robot1, tile_4-2)
+Atom robot-at(robot1, tile_4-3)
+Atom robot-at(robot1, tile_4-4)
+Atom robot-at(robot1, tile_5-1)
+Atom robot-at(robot1, tile_5-2)
+Atom robot-at(robot1, tile_5-3)
+Atom robot-at(robot1, tile_5-4)
+end_variable
+begin_variable
+var25
+-1
+24
+Atom robot-at(robot2, tile_0-1)
+Atom robot-at(robot2, tile_0-2)
+Atom robot-at(robot2, tile_0-3)
+Atom robot-at(robot2, tile_0-4)
+Atom robot-at(robot2, tile_1-1)
+Atom robot-at(robot2, tile_1-2)
+Atom robot-at(robot2, tile_1-3)
+Atom robot-at(robot2, tile_1-4)
+Atom robot-at(robot2, tile_2-1)
+Atom robot-at(robot2, tile_2-2)
+Atom robot-at(robot2, tile_2-3)
+Atom robot-at(robot2, tile_2-4)
+Atom robot-at(robot2, tile_3-1)
+Atom robot-at(robot2, tile_3-2)
+Atom robot-at(robot2, tile_3-3)
+Atom robot-at(robot2, tile_3-4)
+Atom robot-at(robot2, tile_4-1)
+Atom robot-at(robot2, tile_4-2)
+Atom robot-at(robot2, tile_4-3)
+Atom robot-at(robot2, tile_4-4)
+Atom robot-at(robot2, tile_5-1)
+Atom robot-at(robot2, tile_5-2)
+Atom robot-at(robot2, tile_5-3)
+Atom robot-at(robot2, tile_5-4)
+end_variable
+begin_variable
+var26
+-1
+2
+Atom robot-has(robot1, black)
+Atom robot-has(robot1, white)
+end_variable
+begin_variable
+var27
+-1
+2
+Atom robot-has(robot2, black)
+Atom robot-has(robot2, white)
+end_variable
