@@ -1,3 +1,4 @@
+import enum
 import os
 from typing import Literal
 import mlflow
@@ -14,6 +15,24 @@ FILE_NAME_CONF_RECALL_1 = "cf_matrix-recall1.png"
 FILE_NAME_CONF_DEFAULT =  "cf_matrix.png"
 FILE_NAME_ROC_AUC = "roc_auc.png"
 
+class EDomain(enum.Enum):
+
+    BARMAN = "barman"
+    BLOCKSWORLD = "blocksworld"
+    DEPOTS = "depots"
+    ELEVATORS = "elevators"
+    FLOORTILE = "floortile"
+    GRIPPER = "gripper"
+    LOGISTICS = "logistics"
+    ROVERS = "rovers"
+    # SATELLITE = "satellite"
+    TRANSPORT = "transport"
+
+    def __repr__(self) -> str:
+        return self.__str__()
+    
+    def __str__(self) -> str:
+        return self.value
 
 class TrainingCase:
     model_settings_path: str
@@ -21,8 +40,10 @@ class TrainingCase:
     num_epochs: int
     batch_size: int
     result_dict: dict
+    domain: EDomain
 
-    def __init__(self, model_setting: ModelSetting, training_instances: list, test_instances: list, val_instances: list = None):
+    def __init__(self, domain: EDomain, model_setting: ModelSetting, training_instances: list, test_instances: list, val_instances: list = None):
+        self.domain = domain
         self.model_setting = model_setting
         self.val_instances = None
         self.training_instaces = training_instances
@@ -52,12 +73,13 @@ class TrainingCase:
 
         mlflow.set_tracking_uri("http://127.0.0.1:8080")
         gnn_experiment = mlflow.set_experiment(
-            experiment_name="Hyperparameters experiment blocksworld"
+            experiment_name="RayTuneHyper"
         )
         params = self.model_setting.model_dump()
         mlflow.pytorch.autolog()
 
         with mlflow.start_run():
+            mlflow.set_tag("domain", str(self.domain))
             mlflow.log_params(params)
             mlflow.log_artifact(self.model_setting.model_settings_path)
             print(f"Training using pos_weight: {self.model_handler.pos_weight} and neg_weight: {self.model_handler.neg_weight}")

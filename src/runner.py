@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, TYPE_CHECKING
 import warnings
 from sklearn.exceptions import UndefinedMetricWarning
 warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
@@ -9,7 +9,12 @@ import random
 from training_case import TrainingCase
 import argparse
 
+if TYPE_CHECKING:
+    from training_case import EDomain
+
 random.seed(42)
+
+GRAPH_DATA_PATH = "alvaro_data"
 
 
 Path = str
@@ -20,10 +25,12 @@ class Runner:
 
     def __init__(
         self,
+        domain: EDomain,
         graph_data: Path,
         directory_with_jsons: Optional[Path] = None,
         random_settings_number: Optional[int] = None,
     ):
+        self.domain = domain
         self.directory_with_jsons = directory_with_jsons
         # TODO make this a parameter
         if not directory_with_jsons and not random_settings_number:
@@ -64,10 +71,12 @@ class Runner:
         for model_setting in self.model_settings:
             training_cases.append(
                 TrainingCase(
-                    model_setting,
+                    domain=self.domain,
+                    model_setting=model_setting,
                     training_instances=self.training_instances,
                     test_instances=self.test_instances,
-                    val_instances=self.val_instances)
+                    val_instances=self.val_instances
+                    )
             )
     
         return training_cases
@@ -90,9 +99,9 @@ if __name__ == "__main__":
             "or python src/runner.py data/preprocessed/blocksworld_graph/training/easy --random-settings-number 5"
         ))
     parser.add_argument(
-        "data",
+        "domain",
         type=str,
-        help="The directory with the graph data",
+        help="The domain to run the experiments on",
     )
     parser.add_argument(
         "--directory-with-jsons",
@@ -105,12 +114,15 @@ if __name__ == "__main__":
         help="The number of random settings to generate",
     )
 
-
     args = parser.parse_args()
+    domain = args.domain
+    graph_data_path = os.path.join(GRAPH_DATA_PATH, domain, "training_data")
 
     runner = Runner(
-        graph_data=args.data,
+        domain=domain,
+        graph_data=graph_data_path,
         directory_with_jsons=args.directory_with_jsons,
         random_settings_number=args.random_settings_number,
     )
     runner.run()
+
