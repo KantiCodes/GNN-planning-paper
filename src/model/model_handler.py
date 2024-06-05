@@ -36,6 +36,7 @@ METADATA = (
 
 
 class ModelHandler:
+    class_record_value = 0
     def __init__(
         self,
         *,
@@ -46,6 +47,9 @@ class ModelHandler:
         pos_weight,
         neg_weight,
     ):  # TODO hyperparameter on aggr
+        if self.class_record_value != 0:
+            raise ValueError("Only one instance of ModelHandler is allowed")
+        self.class_record_value = 1
         self.model = to_hetero(
             init_model, metadata=METADATA, aggr="sum"
         )
