@@ -78,12 +78,13 @@ class ModelHandler:
     def load_model(self, model_path: str) -> None:
         self.model.load_state_dict(torch.load(model_path))
 
-    def train(self, train_loader: torch.utils.data.DataLoader):
+    def train(self, train_loader: torch.utils.data.DataLoader, device: torch.DeviceObjType):
         self.model.train()
 
         batch_results_list: list[Results] = []
 
         for batch in train_loader:
+            batch = batch.to(device)
             self.optimizer.zero_grad()
             results = compute_results(
                 batch, self.model, self.pos_weight, self.neg_weight, self.loss_function, self.eval_metric
@@ -107,9 +108,10 @@ class ModelHandler:
         return action_predictions
 
     @torch.no_grad()
-    def test(self, data_loader: torch.utils.data.DataLoader) -> Results:
+    def test(self, data_loader: torch.utils.data.DataLoader, device) -> Results:
         self.model.eval()
         test_batch = next(iter(data_loader))
+        test_batch = test_batch.to(device)
 
         return compute_results(
             test_batch,

@@ -1,8 +1,10 @@
 from typing import Optional, TYPE_CHECKING
 import warnings
-from model.architectures import EConvolution
+from model.architectures import EActivationFunction, EConvolution
 from model.training import EOptimizer
 from sklearn.exceptions import UndefinedMetricWarning
+
+from model.metrics import EEvalMetric, ELossFunction
 warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 from model.model_setting import ModelSetting
@@ -33,7 +35,7 @@ from ray.tune.schedulers import AsyncHyperBandScheduler
 # Change these values if you want the training to run quicker or slower.
 EPOCH_SIZE = 512
 TEST_SIZE = 256
-ROOT_FOLDER = "/Users/bartoszlachowicz/projects/GNN-planning-paper"
+ROOT_FOLDER = os.path.abspath(".")
 
 if TYPE_CHECKING:
     from training_case import EDomain
@@ -51,12 +53,21 @@ RUN_CONFIG=train.RunConfig(
 )
 
 
+# Default one from our random_settings_explicit_function
 PARAM_SPACE = {
+        # "lr": tune.loguniform(0.01, 0.1),
         "lr": tune.sample_from(lambda _: random.choice([0.01, 0.001, 0.001])),
         "layers_num": tune.sample_from(lambda _: random.choice([4, 8, 16])),
         "hidden_size": tune.sample_from(lambda _: random.choice([4, 8, 16])),
         "optimizer": tune.sample_from(lambda _: random.choice(list(EOptimizer))),
         "conv_type": tune.sample_from(lambda _: random.choice(list(EConvolution))),
+        "activation_function": tune.sample_from(lambda _: random.choice(list(EActivationFunction))),
+        "classification_function": tune.sample_from(lambda _: random.choice(list(EActivationFunction))),
+        "batch_size": tune.sample_from(lambda _: random.choice([16, 32, 64])),
+        "use_class_weights": tune.sample_from(lambda _: random.choice([True, False])),
+        "use_batch_norm": tune.sample_from(lambda _: random.choice([True, False])),
+        "loss_function": tune.sample_from(lambda _: random.choice(list(ELossFunction))),
+        "eval_metric": tune.sample_from(lambda _: random.choice(list(EEvalMetric))),
 }
 
 
@@ -106,9 +117,6 @@ class Runner:
             self.run_hyper()
 
 
-
-
-
     def _run(self, config: dict): 
         # training_cases = self.get_trainig_cases()
         config["model_settings_path"] = os.path.join(ROOT_FOLDER, "model-settings", os.urandom(16).hex() + ".json")
@@ -153,12 +161,12 @@ class Runner:
         sched = AsyncHyperBandScheduler()
         # resources_per_trial = {"cpu": 2, "gpu": int(args.cuda)}  # set this for GPUs
         tuner = tune.Tuner(
-            tune.with_resources(self._run, resources={"cpu": 2}),
+            tune.with_resources(self._run, resources={"CPU": 6, "GPU": 0.5}),
             tune_config=tune.TuneConfig(
                 metric="puo",
                 mode="max",
                 scheduler=sched,
-                num_samples=10,
+                num_samples=100,
             ),
             run_config=RUN_CONFIG,
             param_space=PARAM_SPACE,
@@ -236,5 +244,4 @@ if __name__ == "__main__":
         random_settings_number=args.random_settings_number,
         hyper_parameters=args.hyper_parameters
     )
-    runner.run()
 

@@ -31,18 +31,6 @@ FILE_NAME_CONF_RECALL_1 = "cf_matrix-recall1.png"
 FILE_NAME_CONF_DEFAULT =  "cf_matrix.png"
 FILE_NAME_ROC_AUC = "roc_auc.png"
 
-RUN_CONFIG=train.RunConfig(
-    name="exp",
-    stop={
-        "mean_accuracy": 0.98,
-        "training_iteration": 100,
-    },
-)
-PARAM_SPACE={
-    "lr": tune.loguniform(1e-4, 1e-2),
-    "momentum": tune.uniform(0.1, 0.9),
-}
-
 
 class EDomain(enum.Enum):
 
@@ -98,10 +86,11 @@ class TrainingCase:
         )
 
     def compute(self):
-        experiment_description = "Test run of the runner with multiple settings"
+        device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+        model = self.model_handler.model.to(device)
 
         mlflow.set_tracking_uri("http://127.0.0.1:8080")
-        gnn_experiment = mlflow.set_experiment(
+        mlflow.set_experiment(
             experiment_name="RayTuneHyper test"
         )
         params = self.model_setting.model_dump()
@@ -117,31 +106,38 @@ class TrainingCase:
                 this_epoch_metrics = {}
                 val_metrics_dict = {}  # Convenience for the if statement
                 # Average over batches
-                epoch_train_results: Results = self.model_handler.train(self.train_loader)
+                epoch_train_results: Results = self.model_handler.train(self.train_loader, device)
                 train_metrics_dict = TrainingCase.create_metrics_dict("train", epoch_train_results)
 
-                epoch_test_results = self.model_handler.test(self.test_loader)
+                epoch_test_results = self.model_handler.test(self.test_loader, device)
                 test_metrics_dict = TrainingCase.create_metrics_dict("test", epoch_test_results)
 
                 if self.val_instances:
-                    epoch_val_results = self.model_handler.test(self.val_loader)
+                    epoch_val_results = self.model_handler.test(self.val_loader, device)
                     val_metrics_dict = TrainingCase.create_metrics_dict("val", epoch_val_results)
+
+                ### MOVE THIS SOMEWHERE ELSE
+                test_set = next(iter(self.test_loader))
+                test_set = test_set.to(device)
+                y_pred_test = model(test_set.x_dict, test_set.edge_index_dict)["operator"].cpu().squeeze().detach().numpy()
+
+
+                y_true_test = test_set["operator"].cpu().y.squeeze()
+                test_puo, test_auc, test_threshold_recall_1 = self.get_puo_auc_threshold(
+                        y_true=y_true_test, preds=y_pred_test
+                    )
+                
+                #### Move this somewhere else
 
                 this_epoch_metrics.update(train_metrics_dict)
                 this_epoch_metrics.update(test_metrics_dict)
                 this_epoch_metrics.update(val_metrics_dict)
 
+                this_epoch_metrics["puo"] = test_puo
+
+                
+
                 mlflow.log_metrics(metrics=this_epoch_metrics, step=epoch)
-                import copy
-
-                test_set = next(iter(self.test_loader))
-                y_pred_test = self.model_handler.model(test_set.x_dict, test_set.edge_index_dict)["operator"].squeeze().detach().numpy()
-
-
-                y_true_test = test_set["operator"].y.squeeze() 
-                test_puo, test_auc, test_threshold_recall_1 = self.get_puo_auc_threshold(
-                        y_true=y_true_test, preds=y_pred_test
-                    )
 
                 train.report({"puo": test_puo, "loss": test_metrics_dict["test_loss"]})
 
@@ -160,10 +156,11 @@ class TrainingCase:
             #     os.remove(self.model_setting.model_settings_path)
 
             test_set = next(iter(self.test_loader))
-            y_pred_test = self.model_handler.model(test_set.x_dict, test_set.edge_index_dict)["operator"].squeeze().detach().numpy()
+            test_set = test_set.to(device)
+            y_pred_test = self.model_handler.model(test_set.x_dict, test_set.edge_index_dict)["operator"].cpu().squeeze().detach().numpy()
 
 
-            y_true_test = test_set["operator"].y.squeeze() 
+            y_true_test = test_set["operator"].cpu().y.squeeze() 
             test_puo, test_auc, test_threshold_recall_1 = self.get_puo_auc_threshold(
                     y_true=y_true_test, preds=y_pred_test
                 )

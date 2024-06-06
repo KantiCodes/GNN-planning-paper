@@ -7,6 +7,7 @@ from .model_handler import ModelHandler
 from torch.optim import Optimizer, Adam, RMSprop, Adagrad
 from model import ReprStrEnum
 from . import data_loading
+import time
 
 if TYPE_CHECKING:
     from pathlib import Path
@@ -70,7 +71,8 @@ def get_model_handler(
     this_model_path = os.path.join(
         models_dir, model_settings.model_settings_path.split("/")[-1].split(".")[0]
     )
-
+    print("Build loaders")
+    start = time.time()
     train_set = data_loading.build_data_set(problem_instances=train_instances)
     test_set = []
     val_set = []
@@ -92,6 +94,7 @@ def get_model_handler(
     train_loader, test_loader, val_loader = data_loading.create_loaders(
         train_set, test_set, val_set=val_set, batch_size=model_settings.batch_size
     )
+    print(f"Built loaders, took: {time.time() - start}")
 
     # initialize model with random weights
     init_model = architectures.DynamicGNN(

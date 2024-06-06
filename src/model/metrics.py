@@ -104,7 +104,7 @@ def compute_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_
     original = batch["operator"].y.squeeze()
     preds = out["operator"].squeeze()
     (precision_false, precision_true), (recall_false, recall_true), (f1_score_false, f1_score_true), (orginal_number_of_false, orignal_number_of_true) = precision_recall_fscore_support(
-        original, (preds >= 0.5).type(torch.int), average=None
+        original.cpu(), (preds.cpu() >= 0.5).type(torch.int), average=None
     )
     return Results(
         loss=loss,
