@@ -62,7 +62,7 @@ def run_gnn_preprocessor(sas_path, output_dir, model_path, threshold, retries=No
         activation_functions=[model_setting.activation_function],
         conv_specific_kwargs=model_setting.conv_type_specific_kwargs,
         use_batch_norm=model_setting.use_batch_norm,
-        standardize_input_using_batch_norm=model_setting.standardize_input_using_batch_norm,
+        # standardize_input_using_batch_norm=model_setting.standardize_input_using_batch_norm,
     )
     init_model = Architecture()
     # TODO KURWA

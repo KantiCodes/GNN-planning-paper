@@ -23,7 +23,6 @@ class ModelSetting(BaseModel):
         EActivationFunction.SIGMOID
     )
     use_batch_norm: bool = False
-    # standardize_input_using_batch_norm: bool = False
     conv_type_specific_kwargs: dict = {}
 
     loss_function: ELossFunction = ELossFunction.BCE
@@ -66,7 +65,6 @@ class ModelSetting(BaseModel):
                 activation_function=random.choice(list(EActivationFunction)),
                 classification_function=random.choice(list(EActivationFunction)),
                 use_batch_norm=random.choice([True, False]),
-                standardize_input_using_batch_norm=random.choice([True, False]),
                 conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
                 loss_function=random.choice(list(ELossFunction)),
                 eval_metric=random.choice(list(EEvalMetric)),
@@ -91,7 +89,6 @@ class ModelSetting(BaseModel):
                 activation_function=random.choice(list(EActivationFunction)),
                 classification_function=random.choice(list(EActivationFunction)),
                 use_batch_norm=random.choice([True, False]),
-                standardize_input_using_batch_norm=random.choice([True, False]),
                 conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
                 loss_function=random.choice(list(ELossFunction)),
                 eval_metric=random.choice(list(EEvalMetric)),
@@ -100,3 +97,4 @@ class ModelSetting(BaseModel):
             settings_list.append(settings)
         return settings_list
 
+ModelSetting.model_config["protected_namespaces"] = ()
