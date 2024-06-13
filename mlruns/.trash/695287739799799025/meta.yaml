@@ -1,6 +1,7 @@
 artifact_location: mlflow-artifacts:/695287739799799025
 creation_time: 1717579749512
 experiment_id: '695287739799799025'
-last_update_time: 1717579749512
-lifecycle_stage: active
+last_update_time: 1718315839451
+lifecycle_stage: deleted
 name: RayTuneHyper
+tags: {}
