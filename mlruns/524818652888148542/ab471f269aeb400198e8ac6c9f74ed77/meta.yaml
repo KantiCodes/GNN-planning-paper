@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ab471f269aeb400198e8ac6c9f74ed77/artifacts
+end_time: 1717631170881
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ab471f269aeb400198e8ac6c9f74ed77
+run_name: crawling-gull-396
+run_uuid: ab471f269aeb400198e8ac6c9f74ed77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631169114
+status: 4
+tags: []
+user_id: bartek

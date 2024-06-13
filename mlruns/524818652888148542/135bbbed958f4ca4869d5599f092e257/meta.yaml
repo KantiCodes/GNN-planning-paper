@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/135bbbed958f4ca4869d5599f092e257/artifacts
+end_time: 1717719832493
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 135bbbed958f4ca4869d5599f092e257
+run_name: wise-bear-986
+run_uuid: 135bbbed958f4ca4869d5599f092e257
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717719808149
+status: 4
+tags: []
+user_id: bartek

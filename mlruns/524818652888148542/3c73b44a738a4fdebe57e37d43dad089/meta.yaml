@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/3c73b44a738a4fdebe57e37d43dad089/artifacts
+end_time: 1717708744776
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 3c73b44a738a4fdebe57e37d43dad089
+run_name: traveling-flea-56
+run_uuid: 3c73b44a738a4fdebe57e37d43dad089
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708743173
+status: 4
+tags: []
+user_id: bartek

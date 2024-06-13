@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/450f229ad6244f50a28986f6c95a44fb/artifacts
+end_time: 1717656354001
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 450f229ad6244f50a28986f6c95a44fb
+run_name: flawless-rook-847
+run_uuid: 450f229ad6244f50a28986f6c95a44fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656341615
+status: 4
+tags: []
+user_id: bartek

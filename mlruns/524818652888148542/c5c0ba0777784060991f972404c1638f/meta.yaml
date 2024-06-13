@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/c5c0ba0777784060991f972404c1638f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: c5c0ba0777784060991f972404c1638f
+run_name: worried-yak-10
+run_uuid: c5c0ba0777784060991f972404c1638f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708155185
+status: 1
+tags: []
+user_id: bartek

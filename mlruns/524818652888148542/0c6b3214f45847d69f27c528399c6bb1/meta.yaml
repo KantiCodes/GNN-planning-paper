@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/0c6b3214f45847d69f27c528399c6bb1/artifacts
+end_time: 1717628754025
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 0c6b3214f45847d69f27c528399c6bb1
+run_name: sneaky-stork-423
+run_uuid: 0c6b3214f45847d69f27c528399c6bb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717628750318
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/00c93045904544fea19b06bf2f3f3fb7/artifacts
+end_time: 1717695094246
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 00c93045904544fea19b06bf2f3f3fb7
+run_name: unleashed-rook-309
+run_uuid: 00c93045904544fea19b06bf2f3f3fb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695093707
+status: 4
+tags: []
+user_id: bartek

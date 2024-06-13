@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/2884044b8d5e4519814ccf5f6d429e08/artifacts
+end_time: 1717709026900
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 2884044b8d5e4519814ccf5f6d429e08
+run_name: bittersweet-pig-271
+run_uuid: 2884044b8d5e4519814ccf5f6d429e08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717709016861
+status: 4
+tags: []
+user_id: bartek

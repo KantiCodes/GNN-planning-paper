@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/c3fe4bfda98847dfb03be73e95a9629e/artifacts
+end_time: 1717707764001
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: c3fe4bfda98847dfb03be73e95a9629e
+run_name: thoughtful-cub-326
+run_uuid: c3fe4bfda98847dfb03be73e95a9629e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707762119
+status: 4
+tags: []
+user_id: bartek

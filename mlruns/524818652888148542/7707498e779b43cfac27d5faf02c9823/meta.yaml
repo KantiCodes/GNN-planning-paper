@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/7707498e779b43cfac27d5faf02c9823/artifacts
+end_time: 1717629064804
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 7707498e779b43cfac27d5faf02c9823
+run_name: industrious-ray-391
+run_uuid: 7707498e779b43cfac27d5faf02c9823
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717628940792
+status: 4
+tags: []
+user_id: bartek

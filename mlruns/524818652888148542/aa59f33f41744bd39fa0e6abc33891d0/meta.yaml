@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/aa59f33f41744bd39fa0e6abc33891d0/artifacts
+end_time: 1717695052542
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: aa59f33f41744bd39fa0e6abc33891d0
+run_name: unleashed-kite-184
+run_uuid: aa59f33f41744bd39fa0e6abc33891d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695052013
+status: 4
+tags: []
+user_id: bartek

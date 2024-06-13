@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/85783c994700453b9d605b33bd7b6300/artifacts
+end_time: 1717628045493
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 85783c994700453b9d605b33bd7b6300
+run_name: sedate-yak-369
+run_uuid: 85783c994700453b9d605b33bd7b6300
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717628045196
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,16 @@
+{
+    "lr": 0.01,
+    "layers_num": 4,
+    "hidden_size": 4,
+    "optimizer": "Adam",
+    "conv_type": "GATConv",
+    "activation_function": "sigmoid",
+    "classification_function": "sigmoid",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 16,
+    "use_class_weights": false,
+    "model_settings_path": "/home/bartek/Projects/GNN-planning-paper/model-settings/80d6bdc474e424d0e1eb05fbe21bdafc.json"
+}

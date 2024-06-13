@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/5b2c5e467e434a889374f77524c05a69/artifacts
+end_time: 1717708810460
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 5b2c5e467e434a889374f77524c05a69
+run_name: salty-swan-505
+run_uuid: 5b2c5e467e434a889374f77524c05a69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708807704
+status: 4
+tags: []
+user_id: bartek

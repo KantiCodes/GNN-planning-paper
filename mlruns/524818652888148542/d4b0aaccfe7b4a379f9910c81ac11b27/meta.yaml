@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/d4b0aaccfe7b4a379f9910c81ac11b27/artifacts
+end_time: 1717632001903
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: d4b0aaccfe7b4a379f9910c81ac11b27
+run_name: casual-kite-260
+run_uuid: d4b0aaccfe7b4a379f9910c81ac11b27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632000806
+status: 4
+tags: []
+user_id: bartek

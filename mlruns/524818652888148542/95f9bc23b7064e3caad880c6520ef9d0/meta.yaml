@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/95f9bc23b7064e3caad880c6520ef9d0/artifacts
+end_time: 1717718919528
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 95f9bc23b7064e3caad880c6520ef9d0
+run_name: skittish-ox-316
+run_uuid: 95f9bc23b7064e3caad880c6520ef9d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717718914568
+status: 4
+tags: []
+user_id: bartek

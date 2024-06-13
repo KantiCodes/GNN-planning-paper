@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ae5c759df9e741ebbdcacf22bc882a8b/artifacts
+end_time: 1717714213815
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ae5c759df9e741ebbdcacf22bc882a8b
+run_name: bittersweet-stag-674
+run_uuid: ae5c759df9e741ebbdcacf22bc882a8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717714142339
+status: 4
+tags: []
+user_id: bartek

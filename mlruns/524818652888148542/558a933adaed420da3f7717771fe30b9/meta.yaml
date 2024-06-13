@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/558a933adaed420da3f7717771fe30b9/artifacts
+end_time: 1717631774135
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 558a933adaed420da3f7717771fe30b9
+run_name: polite-sloth-263
+run_uuid: 558a933adaed420da3f7717771fe30b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631772945
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/53791f618bb34faeb9bd5b18c22d9f28/artifacts
+end_time: 1717694699426
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 53791f618bb34faeb9bd5b18c22d9f28
+run_name: exultant-kite-906
+run_uuid: 53791f618bb34faeb9bd5b18c22d9f28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694698632
+status: 4
+tags: []
+user_id: bartek

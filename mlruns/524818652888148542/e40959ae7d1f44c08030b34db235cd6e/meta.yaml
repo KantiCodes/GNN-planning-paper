@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e40959ae7d1f44c08030b34db235cd6e/artifacts
+end_time: 1717656628247
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e40959ae7d1f44c08030b34db235cd6e
+run_name: luxuriant-donkey-970
+run_uuid: e40959ae7d1f44c08030b34db235cd6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656626933
+status: 4
+tags: []
+user_id: bartek

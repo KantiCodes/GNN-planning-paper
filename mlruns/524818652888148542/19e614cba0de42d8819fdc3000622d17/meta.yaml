@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/19e614cba0de42d8819fdc3000622d17/artifacts
+end_time: 1717720014285
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 19e614cba0de42d8819fdc3000622d17
+run_name: worried-hound-573
+run_uuid: 19e614cba0de42d8819fdc3000622d17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720005930
+status: 4
+tags: []
+user_id: bartek

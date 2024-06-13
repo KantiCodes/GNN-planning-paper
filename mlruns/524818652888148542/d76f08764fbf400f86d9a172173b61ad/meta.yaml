@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/d76f08764fbf400f86d9a172173b61ad/artifacts
+end_time: 1717631781595
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: d76f08764fbf400f86d9a172173b61ad
+run_name: popular-mouse-958
+run_uuid: d76f08764fbf400f86d9a172173b61ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631780087
+status: 4
+tags: []
+user_id: bartek

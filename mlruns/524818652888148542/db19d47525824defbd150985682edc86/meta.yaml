@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/db19d47525824defbd150985682edc86/artifacts
+end_time: 1717631671682
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: db19d47525824defbd150985682edc86
+run_name: big-cow-556
+run_uuid: db19d47525824defbd150985682edc86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631670159
+status: 4
+tags: []
+user_id: bartek

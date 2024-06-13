@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/7ba1df69d3d343b28f3f3559befe2e28/artifacts
+end_time: 1717631282250
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 7ba1df69d3d343b28f3f3559befe2e28
+run_name: puzzled-moth-762
+run_uuid: 7ba1df69d3d343b28f3f3559befe2e28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631260609
+status: 4
+tags: []
+user_id: bartek

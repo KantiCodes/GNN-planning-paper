@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/25b0585726324c879304139229140d1f/artifacts
+end_time: 1717720692723
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 25b0585726324c879304139229140d1f
+run_name: receptive-carp-615
+run_uuid: 25b0585726324c879304139229140d1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720683764
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/b48bc5488ce1427db4fd4f7a2e24a6c6/artifacts
+end_time: 1717708476526
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: b48bc5488ce1427db4fd4f7a2e24a6c6
+run_name: powerful-snipe-974
+run_uuid: b48bc5488ce1427db4fd4f7a2e24a6c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708473380
+status: 4
+tags: []
+user_id: bartek

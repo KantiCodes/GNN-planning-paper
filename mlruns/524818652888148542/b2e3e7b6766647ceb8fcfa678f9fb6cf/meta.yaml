@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/b2e3e7b6766647ceb8fcfa678f9fb6cf/artifacts
+end_time: 1717718197540
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: b2e3e7b6766647ceb8fcfa678f9fb6cf
+run_name: invincible-duck-405
+run_uuid: b2e3e7b6766647ceb8fcfa678f9fb6cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717718188083
+status: 4
+tags: []
+user_id: bartek

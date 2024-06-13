@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/44a50bde4d8e4f969c9c69e9d72583e3/artifacts
+end_time: 1717656046162
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 44a50bde4d8e4f969c9c69e9d72583e3
+run_name: receptive-ram-614
+run_uuid: 44a50bde4d8e4f969c9c69e9d72583e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656041035
+status: 4
+tags: []
+user_id: bartek

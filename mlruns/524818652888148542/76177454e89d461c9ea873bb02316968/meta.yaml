@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/76177454e89d461c9ea873bb02316968/artifacts
+end_time: 1717720112249
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 76177454e89d461c9ea873bb02316968
+run_name: honorable-goose-872
+run_uuid: 76177454e89d461c9ea873bb02316968
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720081813
+status: 4
+tags: []
+user_id: bartek

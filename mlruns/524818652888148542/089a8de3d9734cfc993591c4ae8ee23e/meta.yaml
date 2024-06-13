@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/089a8de3d9734cfc993591c4ae8ee23e/artifacts
+end_time: 1717656259204
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 089a8de3d9734cfc993591c4ae8ee23e
+run_name: mysterious-foal-393
+run_uuid: 089a8de3d9734cfc993591c4ae8ee23e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656258020
+status: 4
+tags: []
+user_id: bartek

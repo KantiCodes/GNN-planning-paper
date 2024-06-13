@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/5cf333b23da74183a57c1ca17d769ca3/artifacts
+end_time: 1717707756013
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 5cf333b23da74183a57c1ca17d769ca3
+run_name: big-grouse-483
+run_uuid: 5cf333b23da74183a57c1ca17d769ca3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707754230
+status: 4
+tags: []
+user_id: bartek

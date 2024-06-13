@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/fdef46a233684437b3eedbd37101382a/artifacts
+end_time: 1717695369570
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: fdef46a233684437b3eedbd37101382a
+run_name: beautiful-bird-370
+run_uuid: fdef46a233684437b3eedbd37101382a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695368844
+status: 4
+tags: []
+user_id: bartek

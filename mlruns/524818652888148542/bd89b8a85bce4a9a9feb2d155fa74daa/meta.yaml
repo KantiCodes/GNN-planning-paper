@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/bd89b8a85bce4a9a9feb2d155fa74daa/artifacts
+end_time: 1717708528239
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: bd89b8a85bce4a9a9feb2d155fa74daa
+run_name: redolent-grouse-184
+run_uuid: bd89b8a85bce4a9a9feb2d155fa74daa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708525840
+status: 4
+tags: []
+user_id: bartek

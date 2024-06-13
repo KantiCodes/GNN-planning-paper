@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e6c248bd4a2a4bd5935fcc67e8346ff6/artifacts
+end_time: 1717631433875
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e6c248bd4a2a4bd5935fcc67e8346ff6
+run_name: delightful-whale-71
+run_uuid: e6c248bd4a2a4bd5935fcc67e8346ff6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631431639
+status: 4
+tags: []
+user_id: bartek

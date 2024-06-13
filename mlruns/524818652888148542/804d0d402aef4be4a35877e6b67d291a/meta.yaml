@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/804d0d402aef4be4a35877e6b67d291a/artifacts
+end_time: 1717631605006
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 804d0d402aef4be4a35877e6b67d291a
+run_name: dapper-chimp-210
+run_uuid: 804d0d402aef4be4a35877e6b67d291a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631470519
+status: 3
+tags: []
+user_id: bartek

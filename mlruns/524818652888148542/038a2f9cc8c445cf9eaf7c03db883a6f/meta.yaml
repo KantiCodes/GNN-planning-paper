@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/038a2f9cc8c445cf9eaf7c03db883a6f/artifacts
+end_time: 1717656627280
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 038a2f9cc8c445cf9eaf7c03db883a6f
+run_name: shivering-carp-420
+run_uuid: 038a2f9cc8c445cf9eaf7c03db883a6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656625204
+status: 4
+tags: []
+user_id: bartek

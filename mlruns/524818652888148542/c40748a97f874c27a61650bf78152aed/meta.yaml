@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/c40748a97f874c27a61650bf78152aed/artifacts
+end_time: 1717694975779
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: c40748a97f874c27a61650bf78152aed
+run_name: rogue-hare-962
+run_uuid: c40748a97f874c27a61650bf78152aed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694973613
+status: 4
+tags: []
+user_id: bartek

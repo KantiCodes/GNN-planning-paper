@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/551c217a30b0473ba86b6922a22a0af3/artifacts
+end_time: 1717631194700
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 551c217a30b0473ba86b6922a22a0af3
+run_name: handsome-steed-530
+run_uuid: 551c217a30b0473ba86b6922a22a0af3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631181009
+status: 3
+tags: []
+user_id: bartek

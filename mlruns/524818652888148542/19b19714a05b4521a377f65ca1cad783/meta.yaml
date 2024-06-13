@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/19b19714a05b4521a377f65ca1cad783/artifacts
+end_time: 1717708263916
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 19b19714a05b4521a377f65ca1cad783
+run_name: glamorous-steed-981
+run_uuid: 19b19714a05b4521a377f65ca1cad783
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708261717
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e5a26136c1564c2e8ff54a4f06a57ab0/artifacts
+end_time: 1717695209442
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e5a26136c1564c2e8ff54a4f06a57ab0
+run_name: resilient-fawn-578
+run_uuid: e5a26136c1564c2e8ff54a4f06a57ab0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695207760
+status: 4
+tags: []
+user_id: bartek

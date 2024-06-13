@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/3f971fe43a9246bca06d7bbce411078a/artifacts
+end_time: 1717708375848
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 3f971fe43a9246bca06d7bbce411078a
+run_name: receptive-seal-72
+run_uuid: 3f971fe43a9246bca06d7bbce411078a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708367818
+status: 4
+tags: []
+user_id: bartek

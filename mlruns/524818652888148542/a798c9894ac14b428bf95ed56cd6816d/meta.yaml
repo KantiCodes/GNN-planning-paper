@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a798c9894ac14b428bf95ed56cd6816d/artifacts
+end_time: 1717656072174
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a798c9894ac14b428bf95ed56cd6816d
+run_name: languid-robin-379
+run_uuid: a798c9894ac14b428bf95ed56cd6816d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656071005
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/75b2b42bd79d4628bd6bba4b8151668d/artifacts
+end_time: 1717708487811
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 75b2b42bd79d4628bd6bba4b8151668d
+run_name: spiffy-cat-332
+run_uuid: 75b2b42bd79d4628bd6bba4b8151668d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708484662
+status: 4
+tags: []
+user_id: bartek

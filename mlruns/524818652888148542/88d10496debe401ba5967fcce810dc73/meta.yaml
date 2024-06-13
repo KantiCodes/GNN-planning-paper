@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/88d10496debe401ba5967fcce810dc73/artifacts
+end_time: 1717717820938
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 88d10496debe401ba5967fcce810dc73
+run_name: carefree-mule-337
+run_uuid: 88d10496debe401ba5967fcce810dc73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717717815755
+status: 4
+tags: []
+user_id: bartek

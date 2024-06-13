@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/5812163abd7e4cda9093e03162d449ed/artifacts
+end_time: 1717630010004
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 5812163abd7e4cda9093e03162d449ed
+run_name: placid-goat-603
+run_uuid: 5812163abd7e4cda9093e03162d449ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717629999145
+status: 4
+tags: []
+user_id: bartek

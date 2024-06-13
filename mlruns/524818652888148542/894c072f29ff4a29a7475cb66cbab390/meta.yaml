@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/894c072f29ff4a29a7475cb66cbab390/artifacts
+end_time: 1717655931487
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 894c072f29ff4a29a7475cb66cbab390
+run_name: ambitious-loon-151
+run_uuid: 894c072f29ff4a29a7475cb66cbab390
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655925320
+status: 4
+tags: []
+user_id: bartek

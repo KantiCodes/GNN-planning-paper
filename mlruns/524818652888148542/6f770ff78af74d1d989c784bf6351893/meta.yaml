@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6f770ff78af74d1d989c784bf6351893/artifacts
+end_time: 1717717937060
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6f770ff78af74d1d989c784bf6351893
+run_name: delicate-ram-341
+run_uuid: 6f770ff78af74d1d989c784bf6351893
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717717931349
+status: 4
+tags: []
+user_id: bartek

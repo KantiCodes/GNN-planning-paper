@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/b4e7e429dc86449b83ebf33a221f8a40/artifacts
+end_time: 1717631410992
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: b4e7e429dc86449b83ebf33a221f8a40
+run_name: beautiful-crab-796
+run_uuid: b4e7e429dc86449b83ebf33a221f8a40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631408904
+status: 4
+tags: []
+user_id: bartek

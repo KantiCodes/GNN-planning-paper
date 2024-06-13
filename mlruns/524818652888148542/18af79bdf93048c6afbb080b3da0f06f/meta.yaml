@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/18af79bdf93048c6afbb080b3da0f06f/artifacts
+end_time: 1717631629621
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 18af79bdf93048c6afbb080b3da0f06f
+run_name: melodic-bear-315
+run_uuid: 18af79bdf93048c6afbb080b3da0f06f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631628196
+status: 4
+tags: []
+user_id: bartek

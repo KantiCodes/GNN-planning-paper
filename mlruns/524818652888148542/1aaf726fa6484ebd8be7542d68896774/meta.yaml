@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/1aaf726fa6484ebd8be7542d68896774/artifacts
+end_time: 1717656333992
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 1aaf726fa6484ebd8be7542d68896774
+run_name: burly-cub-543
+run_uuid: 1aaf726fa6484ebd8be7542d68896774
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656330265
+status: 4
+tags: []
+user_id: bartek

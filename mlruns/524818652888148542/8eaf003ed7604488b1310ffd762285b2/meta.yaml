@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/8eaf003ed7604488b1310ffd762285b2/artifacts
+end_time: 1717707672400
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 8eaf003ed7604488b1310ffd762285b2
+run_name: wise-flea-915
+run_uuid: 8eaf003ed7604488b1310ffd762285b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707641518
+status: 4
+tags: []
+user_id: bartek

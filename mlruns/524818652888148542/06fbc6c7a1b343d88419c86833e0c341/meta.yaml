@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/06fbc6c7a1b343d88419c86833e0c341/artifacts
+end_time: 1717708244361
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 06fbc6c7a1b343d88419c86833e0c341
+run_name: victorious-dove-915
+run_uuid: 06fbc6c7a1b343d88419c86833e0c341
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708241855
+status: 4
+tags: []
+user_id: bartek

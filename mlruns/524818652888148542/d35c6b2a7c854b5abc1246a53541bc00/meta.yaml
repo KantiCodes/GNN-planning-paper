@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/d35c6b2a7c854b5abc1246a53541bc00/artifacts
+end_time: 1717630505260
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: d35c6b2a7c854b5abc1246a53541bc00
+run_name: respected-panda-503
+run_uuid: d35c6b2a7c854b5abc1246a53541bc00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717630441548
+status: 3
+tags: []
+user_id: bartek

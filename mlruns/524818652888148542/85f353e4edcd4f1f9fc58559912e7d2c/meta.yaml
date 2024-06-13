@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/85f353e4edcd4f1f9fc58559912e7d2c/artifacts
+end_time: 1717656200002
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 85f353e4edcd4f1f9fc58559912e7d2c
+run_name: delicate-calf-12
+run_uuid: 85f353e4edcd4f1f9fc58559912e7d2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656126270
+status: 3
+tags: []
+user_id: bartek

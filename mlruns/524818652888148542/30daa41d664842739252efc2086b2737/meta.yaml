@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/30daa41d664842739252efc2086b2737/artifacts
+end_time: 1717717561376
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 30daa41d664842739252efc2086b2737
+run_name: brawny-calf-269
+run_uuid: 30daa41d664842739252efc2086b2737
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717717551295
+status: 4
+tags: []
+user_id: bartek

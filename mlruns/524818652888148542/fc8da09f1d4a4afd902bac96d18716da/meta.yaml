@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/fc8da09f1d4a4afd902bac96d18716da/artifacts
+end_time: 1717719135614
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: fc8da09f1d4a4afd902bac96d18716da
+run_name: bustling-slug-974
+run_uuid: fc8da09f1d4a4afd902bac96d18716da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717719127155
+status: 4
+tags: []
+user_id: bartek

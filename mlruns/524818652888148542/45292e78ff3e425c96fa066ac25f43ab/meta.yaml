@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/45292e78ff3e425c96fa066ac25f43ab/artifacts
+end_time: 1717695321910
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 45292e78ff3e425c96fa066ac25f43ab
+run_name: nimble-crow-641
+run_uuid: 45292e78ff3e425c96fa066ac25f43ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695319671
+status: 4
+tags: []
+user_id: bartek

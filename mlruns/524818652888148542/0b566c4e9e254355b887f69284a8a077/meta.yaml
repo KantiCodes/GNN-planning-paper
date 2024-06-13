@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/0b566c4e9e254355b887f69284a8a077/artifacts
+end_time: 1717631946860
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 0b566c4e9e254355b887f69284a8a077
+run_name: big-toad-580
+run_uuid: 0b566c4e9e254355b887f69284a8a077
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631936781
+status: 4
+tags: []
+user_id: bartek

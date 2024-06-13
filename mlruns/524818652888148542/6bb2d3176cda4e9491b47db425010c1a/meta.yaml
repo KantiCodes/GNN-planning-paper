@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6bb2d3176cda4e9491b47db425010c1a/artifacts
+end_time: 1717695097545
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6bb2d3176cda4e9491b47db425010c1a
+run_name: gifted-bass-690
+run_uuid: 6bb2d3176cda4e9491b47db425010c1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695096716
+status: 4
+tags: []
+user_id: bartek

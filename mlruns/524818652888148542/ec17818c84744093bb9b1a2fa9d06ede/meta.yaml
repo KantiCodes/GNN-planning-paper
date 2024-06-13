@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ec17818c84744093bb9b1a2fa9d06ede/artifacts
+end_time: 1717631904664
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ec17818c84744093bb9b1a2fa9d06ede
+run_name: delicate-asp-250
+run_uuid: ec17818c84744093bb9b1a2fa9d06ede
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631903164
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/4ebd8fab876b45d693d87d51863721f8/artifacts
+end_time: 1717713436256
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 4ebd8fab876b45d693d87d51863721f8
+run_name: blushing-bug-689
+run_uuid: 4ebd8fab876b45d693d87d51863721f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717712659931
+status: 3
+tags: []
+user_id: bartek

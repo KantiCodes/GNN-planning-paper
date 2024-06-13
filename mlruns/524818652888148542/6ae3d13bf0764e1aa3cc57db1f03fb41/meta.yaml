@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6ae3d13bf0764e1aa3cc57db1f03fb41/artifacts
+end_time: 1717708768077
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6ae3d13bf0764e1aa3cc57db1f03fb41
+run_name: chill-bee-410
+run_uuid: 6ae3d13bf0764e1aa3cc57db1f03fb41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708766262
+status: 4
+tags: []
+user_id: bartek

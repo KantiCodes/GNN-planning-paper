@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/cdd379437aa244fab133c43c6a1ac67b/artifacts
+end_time: 1717632384393
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: cdd379437aa244fab133c43c6a1ac67b
+run_name: victorious-crab-176
+run_uuid: cdd379437aa244fab133c43c6a1ac67b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632382642
+status: 4
+tags: []
+user_id: bartek

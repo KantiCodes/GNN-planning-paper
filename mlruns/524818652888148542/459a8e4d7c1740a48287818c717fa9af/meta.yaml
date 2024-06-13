@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/459a8e4d7c1740a48287818c717fa9af/artifacts
+end_time: 1717712799793
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 459a8e4d7c1740a48287818c717fa9af
+run_name: nebulous-mink-892
+run_uuid: 459a8e4d7c1740a48287818c717fa9af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717712659946
+status: 4
+tags: []
+user_id: bartek

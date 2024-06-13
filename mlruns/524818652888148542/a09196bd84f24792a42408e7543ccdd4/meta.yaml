@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a09196bd84f24792a42408e7543ccdd4/artifacts
+end_time: 1717632244508
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a09196bd84f24792a42408e7543ccdd4
+run_name: whimsical-skunk-306
+run_uuid: a09196bd84f24792a42408e7543ccdd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632243695
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/cc97e978120e4d68a79f74e54b28a221/artifacts
+end_time: 1717718975988
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: cc97e978120e4d68a79f74e54b28a221
+run_name: capable-horse-891
+run_uuid: cc97e978120e4d68a79f74e54b28a221
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717718968458
+status: 4
+tags: []
+user_id: bartek

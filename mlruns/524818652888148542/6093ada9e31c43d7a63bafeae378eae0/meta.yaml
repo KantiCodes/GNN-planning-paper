@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6093ada9e31c43d7a63bafeae378eae0/artifacts
+end_time: 1717708083007
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6093ada9e31c43d7a63bafeae378eae0
+run_name: grandiose-mule-598
+run_uuid: 6093ada9e31c43d7a63bafeae378eae0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708078883
+status: 4
+tags: []
+user_id: bartek

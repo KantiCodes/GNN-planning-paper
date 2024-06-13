@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ae8537fa56da48d78598274eaa9d9f36/artifacts
+end_time: 1717707745163
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ae8537fa56da48d78598274eaa9d9f36
+run_name: masked-mink-45
+run_uuid: ae8537fa56da48d78598274eaa9d9f36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707613913
+status: 3
+tags: []
+user_id: bartek

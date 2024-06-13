@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/5f890cc4dfae4f7399cdc8384805162d/artifacts
+end_time: 1717631978011
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 5f890cc4dfae4f7399cdc8384805162d
+run_name: sincere-shad-471
+run_uuid: 5f890cc4dfae4f7399cdc8384805162d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631976999
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/24d12cfde96241e69029e93d6bd182c2/artifacts
+end_time: 1717631472661
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 24d12cfde96241e69029e93d6bd182c2
+run_name: adaptable-bat-870
+run_uuid: 24d12cfde96241e69029e93d6bd182c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631470710
+status: 4
+tags: []
+user_id: bartek

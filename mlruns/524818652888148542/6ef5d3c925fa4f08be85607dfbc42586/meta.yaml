@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6ef5d3c925fa4f08be85607dfbc42586/artifacts
+end_time: 1717631174365
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6ef5d3c925fa4f08be85607dfbc42586
+run_name: intelligent-asp-484
+run_uuid: 6ef5d3c925fa4f08be85607dfbc42586
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631156381
+status: 3
+tags: []
+user_id: bartek

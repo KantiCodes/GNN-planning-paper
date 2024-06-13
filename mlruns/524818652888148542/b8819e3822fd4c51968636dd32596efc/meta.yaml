@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/b8819e3822fd4c51968636dd32596efc/artifacts
+end_time: 1717631617087
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: b8819e3822fd4c51968636dd32596efc
+run_name: beautiful-goat-609
+run_uuid: b8819e3822fd4c51968636dd32596efc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631616057
+status: 4
+tags: []
+user_id: bartek

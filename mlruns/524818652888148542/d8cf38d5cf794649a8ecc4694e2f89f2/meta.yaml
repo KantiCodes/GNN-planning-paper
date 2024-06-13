@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/d8cf38d5cf794649a8ecc4694e2f89f2/artifacts
+end_time: 1717711137342
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: d8cf38d5cf794649a8ecc4694e2f89f2
+run_name: shivering-tern-627
+run_uuid: d8cf38d5cf794649a8ecc4694e2f89f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717711126626
+status: 4
+tags: []
+user_id: bartek

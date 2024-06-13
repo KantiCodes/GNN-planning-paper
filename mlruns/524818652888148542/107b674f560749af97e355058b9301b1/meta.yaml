@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/107b674f560749af97e355058b9301b1/artifacts
+end_time: 1717718636664
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 107b674f560749af97e355058b9301b1
+run_name: mercurial-frog-299
+run_uuid: 107b674f560749af97e355058b9301b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717718601788
+status: 4
+tags: []
+user_id: bartek

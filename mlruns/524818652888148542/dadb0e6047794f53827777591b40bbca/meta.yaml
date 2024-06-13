@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/dadb0e6047794f53827777591b40bbca/artifacts
+end_time: 1717714390667
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: dadb0e6047794f53827777591b40bbca
+run_name: painted-doe-397
+run_uuid: dadb0e6047794f53827777591b40bbca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717714380238
+status: 4
+tags: []
+user_id: bartek

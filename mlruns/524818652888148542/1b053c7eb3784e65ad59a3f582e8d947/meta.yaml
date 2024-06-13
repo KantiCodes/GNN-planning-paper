@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/1b053c7eb3784e65ad59a3f582e8d947/artifacts
+end_time: 1717627853811
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 1b053c7eb3784e65ad59a3f582e8d947
+run_name: popular-toad-799
+run_uuid: 1b053c7eb3784e65ad59a3f582e8d947
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717627853521
+status: 4
+tags: []
+user_id: bartek

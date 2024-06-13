@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/8b1b2c1ab35f45f5a35476720fc1064b/artifacts
+end_time: 1717711330765
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 8b1b2c1ab35f45f5a35476720fc1064b
+run_name: glamorous-asp-714
+run_uuid: 8b1b2c1ab35f45f5a35476720fc1064b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717711230012
+status: 4
+tags: []
+user_id: bartek

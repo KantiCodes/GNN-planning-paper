@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/3ea0c8aaa1af4cc08fbffda441283e18/artifacts
+end_time: 1717630312137
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 3ea0c8aaa1af4cc08fbffda441283e18
+run_name: nervous-mink-758
+run_uuid: 3ea0c8aaa1af4cc08fbffda441283e18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717630078478
+status: 4
+tags: []
+user_id: bartek

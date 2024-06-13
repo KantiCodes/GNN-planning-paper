@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a32b386ede934ba8981f387d6f9b2d7a/artifacts
+end_time: 1717632458087
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a32b386ede934ba8981f387d6f9b2d7a
+run_name: likeable-horse-750
+run_uuid: a32b386ede934ba8981f387d6f9b2d7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632456730
+status: 4
+tags: []
+user_id: bartek

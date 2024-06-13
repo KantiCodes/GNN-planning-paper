@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/86fa13761f404c2ab49b068a52c23468/artifacts
+end_time: 1717629620396
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 86fa13761f404c2ab49b068a52c23468
+run_name: adorable-yak-684
+run_uuid: 86fa13761f404c2ab49b068a52c23468
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717629503176
+status: 4
+tags: []
+user_id: bartek

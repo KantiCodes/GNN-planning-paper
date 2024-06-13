@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/16a67f0f55d1439d81cf36f8e87c3dcd/artifacts
+end_time: 1717656286663
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 16a67f0f55d1439d81cf36f8e87c3dcd
+run_name: merciful-gnu-785
+run_uuid: 16a67f0f55d1439d81cf36f8e87c3dcd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656284593
+status: 4
+tags: []
+user_id: bartek

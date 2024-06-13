@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/cb21ec7aca0b4d699b1bc7db220799b3/artifacts
+end_time: 1717715486944
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: cb21ec7aca0b4d699b1bc7db220799b3
+run_name: orderly-deer-744
+run_uuid: cb21ec7aca0b4d699b1bc7db220799b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717715478137
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/341b25ac2fad464ebcd15dd570bb1e82/artifacts
+end_time: 1717718397980
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 341b25ac2fad464ebcd15dd570bb1e82
+run_name: kindly-sloth-325
+run_uuid: 341b25ac2fad464ebcd15dd570bb1e82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717718381000
+status: 4
+tags: []
+user_id: bartek

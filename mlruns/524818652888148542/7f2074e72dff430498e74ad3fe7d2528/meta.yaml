@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/7f2074e72dff430498e74ad3fe7d2528/artifacts
+end_time: 1717627737938
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 7f2074e72dff430498e74ad3fe7d2528
+run_name: dashing-snipe-804
+run_uuid: 7f2074e72dff430498e74ad3fe7d2528
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717627737609
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/259002f1bba042b29c07651b1eb2e109/artifacts
+end_time: 1717708998405
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 259002f1bba042b29c07651b1eb2e109
+run_name: thundering-cod-443
+run_uuid: 259002f1bba042b29c07651b1eb2e109
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708967576
+status: 4
+tags: []
+user_id: bartek

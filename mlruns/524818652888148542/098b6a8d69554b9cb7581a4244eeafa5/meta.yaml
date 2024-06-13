@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/098b6a8d69554b9cb7581a4244eeafa5/artifacts
+end_time: 1717630066350
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 098b6a8d69554b9cb7581a4244eeafa5
+run_name: silent-lark-645
+run_uuid: 098b6a8d69554b9cb7581a4244eeafa5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717630035212
+status: 4
+tags: []
+user_id: bartek

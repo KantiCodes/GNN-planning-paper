@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/014c87e2e33f41bf9a1a10ca75229504/artifacts
+end_time: 1717632233433
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 014c87e2e33f41bf9a1a10ca75229504
+run_name: calm-moth-996
+run_uuid: 014c87e2e33f41bf9a1a10ca75229504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632232231
+status: 4
+tags: []
+user_id: bartek

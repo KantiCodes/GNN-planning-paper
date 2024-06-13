@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a24689cd53154414be5674fe890dbfd9/artifacts
+end_time: 1717717645210
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a24689cd53154414be5674fe890dbfd9
+run_name: smiling-dolphin-103
+run_uuid: a24689cd53154414be5674fe890dbfd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717715629724
+status: 4
+tags: []
+user_id: bartek

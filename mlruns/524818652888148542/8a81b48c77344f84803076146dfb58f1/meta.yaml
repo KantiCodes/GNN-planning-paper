@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/8a81b48c77344f84803076146dfb58f1/artifacts
+end_time: 1717631012552
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 8a81b48c77344f84803076146dfb58f1
+run_name: gaudy-pug-141
+run_uuid: 8a81b48c77344f84803076146dfb58f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717630995214
+status: 4
+tags: []
+user_id: bartek

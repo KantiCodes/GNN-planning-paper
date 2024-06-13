@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a781dc5835b94c5fbc7b48a67218a616/artifacts
+end_time: 1717631382821
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a781dc5835b94c5fbc7b48a67218a616
+run_name: kindly-lamb-183
+run_uuid: a781dc5835b94c5fbc7b48a67218a616
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631381980
+status: 4
+tags: []
+user_id: bartek

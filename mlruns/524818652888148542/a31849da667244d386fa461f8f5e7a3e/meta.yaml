@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a31849da667244d386fa461f8f5e7a3e/artifacts
+end_time: 1717712580561
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a31849da667244d386fa461f8f5e7a3e
+run_name: mysterious-cat-616
+run_uuid: a31849da667244d386fa461f8f5e7a3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717711775738
+status: 3
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6aa69478309a470081b07fe577a76388/artifacts
+end_time: 1717720508681
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6aa69478309a470081b07fe577a76388
+run_name: luminous-snail-261
+run_uuid: 6aa69478309a470081b07fe577a76388
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720486330
+status: 4
+tags: []
+user_id: bartek

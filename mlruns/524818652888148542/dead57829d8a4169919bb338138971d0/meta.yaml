@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/dead57829d8a4169919bb338138971d0/artifacts
+end_time: 1717656669346
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: dead57829d8a4169919bb338138971d0
+run_name: abundant-kite-572
+run_uuid: dead57829d8a4169919bb338138971d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656667148
+status: 4
+tags: []
+user_id: bartek

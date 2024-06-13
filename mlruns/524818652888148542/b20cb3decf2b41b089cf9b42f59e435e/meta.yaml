@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/b20cb3decf2b41b089cf9b42f59e435e/artifacts
+end_time: 1717708345621
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: b20cb3decf2b41b089cf9b42f59e435e
+run_name: grandiose-trout-520
+run_uuid: b20cb3decf2b41b089cf9b42f59e435e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708333932
+status: 4
+tags: []
+user_id: bartek

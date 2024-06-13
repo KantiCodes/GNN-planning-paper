@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/1df2150314f94f19a16576e8fdcf0841/artifacts
+end_time: 1717656613264
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 1df2150314f94f19a16576e8fdcf0841
+run_name: masked-hen-159
+run_uuid: 1df2150314f94f19a16576e8fdcf0841
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656611150
+status: 4
+tags: []
+user_id: bartek

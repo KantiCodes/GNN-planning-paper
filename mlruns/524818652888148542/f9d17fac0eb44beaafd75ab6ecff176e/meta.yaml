@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/f9d17fac0eb44beaafd75ab6ecff176e/artifacts
+end_time: 1717631915731
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: f9d17fac0eb44beaafd75ab6ecff176e
+run_name: nebulous-worm-379
+run_uuid: f9d17fac0eb44beaafd75ab6ecff176e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631914367
+status: 4
+tags: []
+user_id: bartek

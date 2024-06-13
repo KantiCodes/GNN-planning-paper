@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/d20887ac0b034520a55133c56286a11e/artifacts
+end_time: 1717707946927
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: d20887ac0b034520a55133c56286a11e
+run_name: overjoyed-carp-103
+run_uuid: d20887ac0b034520a55133c56286a11e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707944832
+status: 4
+tags: []
+user_id: bartek

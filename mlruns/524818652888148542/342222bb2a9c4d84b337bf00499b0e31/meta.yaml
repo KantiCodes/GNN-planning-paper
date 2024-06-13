@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/342222bb2a9c4d84b337bf00499b0e31/artifacts
+end_time: 1717711845736
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 342222bb2a9c4d84b337bf00499b0e31
+run_name: puzzled-ant-852
+run_uuid: 342222bb2a9c4d84b337bf00499b0e31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717711841551
+status: 4
+tags: []
+user_id: bartek

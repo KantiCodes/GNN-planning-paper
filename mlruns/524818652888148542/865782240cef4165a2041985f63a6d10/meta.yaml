@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/865782240cef4165a2041985f63a6d10/artifacts
+end_time: 1717656072963
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 865782240cef4165a2041985f63a6d10
+run_name: puzzled-gull-989
+run_uuid: 865782240cef4165a2041985f63a6d10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656065371
+status: 4
+tags: []
+user_id: bartek

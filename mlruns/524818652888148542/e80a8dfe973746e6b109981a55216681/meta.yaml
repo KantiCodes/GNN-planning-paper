@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e80a8dfe973746e6b109981a55216681/artifacts
+end_time: 1717709098951
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e80a8dfe973746e6b109981a55216681
+run_name: sedate-eel-264
+run_uuid: e80a8dfe973746e6b109981a55216681
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717709093245
+status: 4
+tags: []
+user_id: bartek

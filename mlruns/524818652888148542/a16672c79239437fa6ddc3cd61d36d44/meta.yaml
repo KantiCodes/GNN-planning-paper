@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a16672c79239437fa6ddc3cd61d36d44/artifacts
+end_time: 1717709064214
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a16672c79239437fa6ddc3cd61d36d44
+run_name: unruly-croc-921
+run_uuid: a16672c79239437fa6ddc3cd61d36d44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717709060856
+status: 4
+tags: []
+user_id: bartek

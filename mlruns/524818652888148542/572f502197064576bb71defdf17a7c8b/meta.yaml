@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/572f502197064576bb71defdf17a7c8b/artifacts
+end_time: 1717719597982
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 572f502197064576bb71defdf17a7c8b
+run_name: bright-finch-795
+run_uuid: 572f502197064576bb71defdf17a7c8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717719590157
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/85499764166b40d3bc4a98e6d9814976/artifacts
+end_time: 1717656317569
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 85499764166b40d3bc4a98e6d9814976
+run_name: flawless-sponge-856
+run_uuid: 85499764166b40d3bc4a98e6d9814976
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656298109
+status: 4
+tags: []
+user_id: bartek

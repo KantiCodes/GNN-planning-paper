@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/14099a5046414a29be8bebc1b5b7702c/artifacts
+end_time: 1717656283604
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 14099a5046414a29be8bebc1b5b7702c
+run_name: selective-moose-435
+run_uuid: 14099a5046414a29be8bebc1b5b7702c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656281344
+status: 4
+tags: []
+user_id: bartek

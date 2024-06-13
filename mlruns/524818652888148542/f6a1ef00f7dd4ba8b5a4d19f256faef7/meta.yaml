@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/f6a1ef00f7dd4ba8b5a4d19f256faef7/artifacts
+end_time: 1717656090781
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: f6a1ef00f7dd4ba8b5a4d19f256faef7
+run_name: rebellious-finch-226
+run_uuid: f6a1ef00f7dd4ba8b5a4d19f256faef7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656084136
+status: 4
+tags: []
+user_id: bartek

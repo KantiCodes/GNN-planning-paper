@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/16e1c838b0474babb70b448b7f7b8af5/artifacts
+end_time: 1717719331247
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 16e1c838b0474babb70b448b7f7b8af5
+run_name: flawless-duck-616
+run_uuid: 16e1c838b0474babb70b448b7f7b8af5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717719301149
+status: 4
+tags: []
+user_id: bartek

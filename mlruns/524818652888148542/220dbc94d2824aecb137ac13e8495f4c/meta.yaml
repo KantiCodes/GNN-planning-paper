@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/220dbc94d2824aecb137ac13e8495f4c/artifacts
+end_time: 1717707794829
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 220dbc94d2824aecb137ac13e8495f4c
+run_name: capricious-crow-283
+run_uuid: 220dbc94d2824aecb137ac13e8495f4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707781806
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/4f90f9c2a5204b2aa51622c9fc3f6a0a/artifacts
+end_time: 1717708276380
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 4f90f9c2a5204b2aa51622c9fc3f6a0a
+run_name: thoughtful-kite-137
+run_uuid: 4f90f9c2a5204b2aa51622c9fc3f6a0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708273233
+status: 4
+tags: []
+user_id: bartek

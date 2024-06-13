@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/dd583f2602be42cab94acddbe08f66d3/artifacts
+end_time: 1717631067361
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: dd583f2602be42cab94acddbe08f66d3
+run_name: bright-dove-547
+run_uuid: dd583f2602be42cab94acddbe08f66d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631054584
+status: 3
+tags: []
+user_id: bartek

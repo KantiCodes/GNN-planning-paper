@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/fdc38dc62748496d9d01f4603201b3cb/artifacts
+end_time: 1717694760372
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: fdc38dc62748496d9d01f4603201b3cb
+run_name: sassy-quail-273
+run_uuid: fdc38dc62748496d9d01f4603201b3cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694759513
+status: 4
+tags: []
+user_id: bartek

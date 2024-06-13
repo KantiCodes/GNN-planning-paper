@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/078b94e4b68947a2bec30d55ebbc81b9/artifacts
+end_time: 1717656561704
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 078b94e4b68947a2bec30d55ebbc81b9
+run_name: loud-bat-727
+run_uuid: 078b94e4b68947a2bec30d55ebbc81b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656560186
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a02212ef78524a1bb31d8ca8d8486c24/artifacts
+end_time: 1717719763553
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a02212ef78524a1bb31d8ca8d8486c24
+run_name: handsome-crab-712
+run_uuid: a02212ef78524a1bb31d8ca8d8486c24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717719756644
+status: 4
+tags: []
+user_id: bartek

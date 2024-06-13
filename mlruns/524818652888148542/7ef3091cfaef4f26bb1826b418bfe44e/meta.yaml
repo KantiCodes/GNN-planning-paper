@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/7ef3091cfaef4f26bb1826b418bfe44e/artifacts
+end_time: 1717721467930
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 7ef3091cfaef4f26bb1826b418bfe44e
+run_name: capable-stag-336
+run_uuid: 7ef3091cfaef4f26bb1826b418bfe44e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720667170
+status: 3
+tags: []
+user_id: bartek

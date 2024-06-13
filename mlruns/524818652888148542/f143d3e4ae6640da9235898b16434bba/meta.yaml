@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/f143d3e4ae6640da9235898b16434bba/artifacts
+end_time: 1717632275563
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: f143d3e4ae6640da9235898b16434bba
+run_name: honorable-steed-504
+run_uuid: f143d3e4ae6640da9235898b16434bba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632274220
+status: 4
+tags: []
+user_id: bartek

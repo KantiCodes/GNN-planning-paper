@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/2c3a1c22cf424c1b9e19227e3c3c80de/artifacts
+end_time: 1717629696354
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 2c3a1c22cf424c1b9e19227e3c3c80de
+run_name: peaceful-horse-946
+run_uuid: 2c3a1c22cf424c1b9e19227e3c3c80de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717629692971
+status: 4
+tags: []
+user_id: bartek

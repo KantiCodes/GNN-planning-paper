@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/628d24b2a49a41e983b71c9390f6255f/artifacts
+end_time: 1717695273555
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 628d24b2a49a41e983b71c9390f6255f
+run_name: welcoming-shad-937
+run_uuid: 628d24b2a49a41e983b71c9390f6255f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695272779
+status: 4
+tags: []
+user_id: bartek

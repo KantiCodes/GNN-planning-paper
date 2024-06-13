@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/3b29085aa8ed493f8d58897573df551e/artifacts
+end_time: 1717656026146
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 3b29085aa8ed493f8d58897573df551e
+run_name: redolent-sloth-483
+run_uuid: 3b29085aa8ed493f8d58897573df551e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656022384
+status: 4
+tags: []
+user_id: bartek

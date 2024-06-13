@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/5933da3e66694fdbae6610bcd6b9ddfe/artifacts
+end_time: 1717695183646
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 5933da3e66694fdbae6610bcd6b9ddfe
+run_name: lyrical-horse-193
+run_uuid: 5933da3e66694fdbae6610bcd6b9ddfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695182467
+status: 4
+tags: []
+user_id: bartek

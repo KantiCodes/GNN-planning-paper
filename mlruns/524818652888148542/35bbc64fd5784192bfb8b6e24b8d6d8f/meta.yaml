@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/35bbc64fd5784192bfb8b6e24b8d6d8f/artifacts
+end_time: 1717629590101
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 35bbc64fd5784192bfb8b6e24b8d6d8f
+run_name: funny-carp-322
+run_uuid: 35bbc64fd5784192bfb8b6e24b8d6d8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717629545863
+status: 3
+tags: []
+user_id: bartek

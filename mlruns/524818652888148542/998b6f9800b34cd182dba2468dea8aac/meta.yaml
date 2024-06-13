@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/998b6f9800b34cd182dba2468dea8aac/artifacts
+end_time: 1717632024563
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 998b6f9800b34cd182dba2468dea8aac
+run_name: stately-conch-507
+run_uuid: 998b6f9800b34cd182dba2468dea8aac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632011838
+status: 4
+tags: []
+user_id: bartek

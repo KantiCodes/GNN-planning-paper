@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/7e97cc99507b42778d2801f55762b7e9/artifacts
+end_time: 1717695181118
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 7e97cc99507b42778d2801f55762b7e9
+run_name: omniscient-kit-610
+run_uuid: 7e97cc99507b42778d2801f55762b7e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695180605
+status: 4
+tags: []
+user_id: bartek

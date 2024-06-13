@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/4a4f04e8e9844d91b09730aef8504011/artifacts
+end_time: 1717694846691
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 4a4f04e8e9844d91b09730aef8504011
+run_name: sincere-boar-762
+run_uuid: 4a4f04e8e9844d91b09730aef8504011
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694846130
+status: 4
+tags: []
+user_id: bartek

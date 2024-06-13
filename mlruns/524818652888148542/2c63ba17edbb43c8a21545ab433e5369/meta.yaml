@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/2c63ba17edbb43c8a21545ab433e5369/artifacts
+end_time: 1717656398705
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 2c63ba17edbb43c8a21545ab433e5369
+run_name: luxuriant-gnat-748
+run_uuid: 2c63ba17edbb43c8a21545ab433e5369
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656397419
+status: 4
+tags: []
+user_id: bartek

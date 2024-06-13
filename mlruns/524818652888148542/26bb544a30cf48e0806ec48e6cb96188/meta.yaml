@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/26bb544a30cf48e0806ec48e6cb96188/artifacts
+end_time: 1717631747903
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 26bb544a30cf48e0806ec48e6cb96188
+run_name: amazing-goose-495
+run_uuid: 26bb544a30cf48e0806ec48e6cb96188
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631745588
+status: 4
+tags: []
+user_id: bartek

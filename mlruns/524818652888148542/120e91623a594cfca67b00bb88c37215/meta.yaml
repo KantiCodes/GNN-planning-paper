@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/120e91623a594cfca67b00bb88c37215/artifacts
+end_time: 1717707821070
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 120e91623a594cfca67b00bb88c37215
+run_name: efficient-elk-49
+run_uuid: 120e91623a594cfca67b00bb88c37215
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707811933
+status: 4
+tags: []
+user_id: bartek

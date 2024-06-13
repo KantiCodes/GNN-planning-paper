@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/1961fe36150d417c968f68f25f0c86d4/artifacts
+end_time: 1717694645490
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 1961fe36150d417c968f68f25f0c86d4
+run_name: magnificent-goat-966
+run_uuid: 1961fe36150d417c968f68f25f0c86d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694644007
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/d51127405da3432985e448ab800e46ae/artifacts
+end_time: 1717655866428
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: d51127405da3432985e448ab800e46ae
+run_name: nervous-shrew-876
+run_uuid: d51127405da3432985e448ab800e46ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655835616
+status: 4
+tags: []
+user_id: bartek

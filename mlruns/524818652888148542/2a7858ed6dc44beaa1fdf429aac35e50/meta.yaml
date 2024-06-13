@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/2a7858ed6dc44beaa1fdf429aac35e50/artifacts
+end_time: 1717629663892
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 2a7858ed6dc44beaa1fdf429aac35e50
+run_name: treasured-snake-962
+run_uuid: 2a7858ed6dc44beaa1fdf429aac35e50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717629632942
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/7667e5fe1615469cb783e8f66c66aeb7/artifacts
+end_time: 1717709042798
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 7667e5fe1615469cb783e8f66c66aeb7
+run_name: legendary-frog-914
+run_uuid: 7667e5fe1615469cb783e8f66c66aeb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708881897
+status: 3
+tags: []
+user_id: bartek

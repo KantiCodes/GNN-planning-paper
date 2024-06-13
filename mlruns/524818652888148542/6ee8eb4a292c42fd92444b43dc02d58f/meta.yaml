@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6ee8eb4a292c42fd92444b43dc02d58f/artifacts
+end_time: 1717708256074
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6ee8eb4a292c42fd92444b43dc02d58f
+run_name: respected-stoat-807
+run_uuid: 6ee8eb4a292c42fd92444b43dc02d58f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708252883
+status: 4
+tags: []
+user_id: bartek

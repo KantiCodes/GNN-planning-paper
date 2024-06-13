@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/0592a85fa0194def9db4bf368c1f5df9/artifacts
+end_time: 1717631892137
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 0592a85fa0194def9db4bf368c1f5df9
+run_name: traveling-stag-350
+run_uuid: 0592a85fa0194def9db4bf368c1f5df9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631890253
+status: 4
+tags: []
+user_id: bartek

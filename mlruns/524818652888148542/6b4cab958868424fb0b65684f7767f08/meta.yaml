@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6b4cab958868424fb0b65684f7767f08/artifacts
+end_time: 1717707870824
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6b4cab958868424fb0b65684f7767f08
+run_name: unruly-hound-229
+run_uuid: 6b4cab958868424fb0b65684f7767f08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707863956
+status: 4
+tags: []
+user_id: bartek

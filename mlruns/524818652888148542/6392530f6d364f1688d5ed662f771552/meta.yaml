@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6392530f6d364f1688d5ed662f771552/artifacts
+end_time: 1717655824498
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6392530f6d364f1688d5ed662f771552
+run_name: angry-penguin-354
+run_uuid: 6392530f6d364f1688d5ed662f771552
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655580900
+status: 4
+tags: []
+user_id: bartek

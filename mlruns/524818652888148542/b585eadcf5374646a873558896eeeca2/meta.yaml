@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/b585eadcf5374646a873558896eeeca2/artifacts
+end_time: 1717717705633
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: b585eadcf5374646a873558896eeeca2
+run_name: burly-hen-704
+run_uuid: b585eadcf5374646a873558896eeeca2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717717691062
+status: 4
+tags: []
+user_id: bartek

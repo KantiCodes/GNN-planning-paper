@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/884aea5d0e7c4b7e9510ce291aaf0a75/artifacts
+end_time: 1717695333712
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 884aea5d0e7c4b7e9510ce291aaf0a75
+run_name: thoughtful-tern-71
+run_uuid: 884aea5d0e7c4b7e9510ce291aaf0a75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695330072
+status: 4
+tags: []
+user_id: bartek

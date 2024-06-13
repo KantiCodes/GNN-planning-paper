@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/94eee2ea6196436aad3ea244bbb6cdd7/artifacts
+end_time: 1717694767323
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 94eee2ea6196436aad3ea244bbb6cdd7
+run_name: rebellious-mare-967
+run_uuid: 94eee2ea6196436aad3ea244bbb6cdd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694765886
+status: 4
+tags: []
+user_id: bartek

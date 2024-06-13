@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/fb728d6cfbf442cc98f3feb4e75ff3ed/artifacts
+end_time: 1717656645981
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: fb728d6cfbf442cc98f3feb4e75ff3ed
+run_name: valuable-goat-320
+run_uuid: fb728d6cfbf442cc98f3feb4e75ff3ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656639217
+status: 4
+tags: []
+user_id: bartek

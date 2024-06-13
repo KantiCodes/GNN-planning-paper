@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/f87b7a26b25e4638be9b7f9a7f7a7bde/artifacts
+end_time: 1717631855354
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: f87b7a26b25e4638be9b7f9a7f7a7bde
+run_name: rumbling-whale-115
+run_uuid: f87b7a26b25e4638be9b7f9a7f7a7bde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631854324
+status: 4
+tags: []
+user_id: bartek

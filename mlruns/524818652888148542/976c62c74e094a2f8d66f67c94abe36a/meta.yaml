@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/976c62c74e094a2f8d66f67c94abe36a/artifacts
+end_time: 1717708011898
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 976c62c74e094a2f8d66f67c94abe36a
+run_name: serious-fish-735
+run_uuid: 976c62c74e094a2f8d66f67c94abe36a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708009717
+status: 4
+tags: []
+user_id: bartek

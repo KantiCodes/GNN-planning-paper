@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a6fa3e9b38544c6fa00e5cb60aff25db/artifacts
+end_time: 1717631388259
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a6fa3e9b38544c6fa00e5cb60aff25db
+run_name: marvelous-auk-957
+run_uuid: a6fa3e9b38544c6fa00e5cb60aff25db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631387054
+status: 4
+tags: []
+user_id: bartek

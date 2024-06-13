@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/dcea41f6b1124eb38e0294eef2fdc260/artifacts
+end_time: 1717709074900
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: dcea41f6b1124eb38e0294eef2fdc260
+run_name: selective-koi-821
+run_uuid: dcea41f6b1124eb38e0294eef2fdc260
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717709067178
+status: 4
+tags: []
+user_id: bartek

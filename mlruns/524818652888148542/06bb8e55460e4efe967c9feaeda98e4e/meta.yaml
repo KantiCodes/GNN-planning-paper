@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/06bb8e55460e4efe967c9feaeda98e4e/artifacts
+end_time: 1717631328201
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 06bb8e55460e4efe967c9feaeda98e4e
+run_name: grandiose-quail-856
+run_uuid: 06bb8e55460e4efe967c9feaeda98e4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631326922
+status: 4
+tags: []
+user_id: bartek

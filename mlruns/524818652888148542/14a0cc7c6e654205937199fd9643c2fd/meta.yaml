@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/14a0cc7c6e654205937199fd9643c2fd/artifacts
+end_time: 1717631768895
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 14a0cc7c6e654205937199fd9643c2fd
+run_name: bouncy-rat-66
+run_uuid: 14a0cc7c6e654205937199fd9643c2fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631758887
+status: 4
+tags: []
+user_id: bartek

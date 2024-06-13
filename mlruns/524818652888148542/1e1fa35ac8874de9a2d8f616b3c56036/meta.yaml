@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/1e1fa35ac8874de9a2d8f616b3c56036/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 1e1fa35ac8874de9a2d8f616b3c56036
+run_name: popular-squid-805
+run_uuid: 1e1fa35ac8874de9a2d8f616b3c56036
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717625520733
+status: 1
+tags: []
+user_id: bartek

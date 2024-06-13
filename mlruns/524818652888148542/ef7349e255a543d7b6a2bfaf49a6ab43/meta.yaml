@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ef7349e255a543d7b6a2bfaf49a6ab43/artifacts
+end_time: 1717714327407
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ef7349e255a543d7b6a2bfaf49a6ab43
+run_name: salty-sheep-405
+run_uuid: ef7349e255a543d7b6a2bfaf49a6ab43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717714323153
+status: 4
+tags: []
+user_id: bartek

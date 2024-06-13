@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/205dffada9064cbca75fa7f07deaf152/artifacts
+end_time: 1717708467624
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 205dffada9064cbca75fa7f07deaf152
+run_name: bright-whale-424
+run_uuid: 205dffada9064cbca75fa7f07deaf152
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708362118
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/2d8ceabd1c6b4321a68d18c5f038d6ea/artifacts
+end_time: 1717656040449
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 2d8ceabd1c6b4321a68d18c5f038d6ea
+run_name: sincere-crane-628
+run_uuid: 2d8ceabd1c6b4321a68d18c5f038d6ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656038495
+status: 4
+tags: []
+user_id: bartek

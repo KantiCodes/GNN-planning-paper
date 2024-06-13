@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/9a6a236eb47b49a2a9eeceaf84818ebb/artifacts
+end_time: 1717714007122
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 9a6a236eb47b49a2a9eeceaf84818ebb
+run_name: stately-rat-182
+run_uuid: 9a6a236eb47b49a2a9eeceaf84818ebb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717714002895
+status: 4
+tags: []
+user_id: bartek

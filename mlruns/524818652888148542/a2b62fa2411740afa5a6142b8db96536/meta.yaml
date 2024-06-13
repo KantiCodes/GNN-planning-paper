@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a2b62fa2411740afa5a6142b8db96536/artifacts
+end_time: 1717695173770
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a2b62fa2411740afa5a6142b8db96536
+run_name: bold-wasp-382
+run_uuid: a2b62fa2411740afa5a6142b8db96536
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695114739
+status: 3
+tags: []
+user_id: bartek

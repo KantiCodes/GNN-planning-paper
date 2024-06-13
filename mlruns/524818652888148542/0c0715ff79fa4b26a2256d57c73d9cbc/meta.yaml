@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/0c0715ff79fa4b26a2256d57c73d9cbc/artifacts
+end_time: 1717655822599
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 0c0715ff79fa4b26a2256d57c73d9cbc
+run_name: worried-perch-468
+run_uuid: 0c0715ff79fa4b26a2256d57c73d9cbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655821379
+status: 4
+tags: []
+user_id: bartek

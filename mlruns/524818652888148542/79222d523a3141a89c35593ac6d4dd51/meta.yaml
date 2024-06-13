@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/79222d523a3141a89c35593ac6d4dd51/artifacts
+end_time: 1717632430244
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 79222d523a3141a89c35593ac6d4dd51
+run_name: delicate-yak-581
+run_uuid: 79222d523a3141a89c35593ac6d4dd51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632427113
+status: 4
+tags: []
+user_id: bartek

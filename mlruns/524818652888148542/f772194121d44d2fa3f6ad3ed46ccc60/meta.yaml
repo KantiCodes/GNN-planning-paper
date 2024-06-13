@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/f772194121d44d2fa3f6ad3ed46ccc60/artifacts
+end_time: 1717695040139
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: f772194121d44d2fa3f6ad3ed46ccc60
+run_name: smiling-skink-178
+run_uuid: f772194121d44d2fa3f6ad3ed46ccc60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695038633
+status: 4
+tags: []
+user_id: bartek

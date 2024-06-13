@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6db6534677b145de9b1935851b26cbd2/artifacts
+end_time: 1717711917427
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6db6534677b145de9b1935851b26cbd2
+run_name: awesome-vole-180
+run_uuid: 6db6534677b145de9b1935851b26cbd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717711898407
+status: 4
+tags: []
+user_id: bartek

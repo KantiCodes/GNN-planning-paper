@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/18b47c7ddfc24026bf841136a7530d34/artifacts
+end_time: 1717655750808
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 18b47c7ddfc24026bf841136a7530d34
+run_name: brawny-doe-933
+run_uuid: 18b47c7ddfc24026bf841136a7530d34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655748928
+status: 4
+tags: []
+user_id: bartek

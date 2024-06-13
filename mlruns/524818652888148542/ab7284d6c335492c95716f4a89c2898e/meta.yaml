@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ab7284d6c335492c95716f4a89c2898e/artifacts
+end_time: 1717695059771
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ab7284d6c335492c95716f4a89c2898e
+run_name: nebulous-panda-609
+run_uuid: ab7284d6c335492c95716f4a89c2898e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695058713
+status: 4
+tags: []
+user_id: bartek

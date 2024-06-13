@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e2231f136c004e2ea514cbf1d3e07cc1/artifacts
+end_time: 1717720437352
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e2231f136c004e2ea514cbf1d3e07cc1
+run_name: rogue-snake-116
+run_uuid: e2231f136c004e2ea514cbf1d3e07cc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720422609
+status: 4
+tags: []
+user_id: bartek

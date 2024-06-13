@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/036631d2f23c42e6b4ac11ffe00dbe6e/artifacts
+end_time: 1717632451777
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 036631d2f23c42e6b4ac11ffe00dbe6e
+run_name: big-gull-721
+run_uuid: 036631d2f23c42e6b4ac11ffe00dbe6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632450387
+status: 4
+tags: []
+user_id: bartek

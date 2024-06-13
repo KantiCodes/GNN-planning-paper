@@ -1,0 +1,16 @@
+{
+    "lr": 0.010321820537572872,
+    "layers_num": 32,
+    "hidden_size": 16,
+    "optimizer": "Adam",
+    "conv_type": "GraphConv",
+    "activation_function": "relu",
+    "classification_function": "sigmoid",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 8,
+    "use_class_weights": true,
+    "model_settings_path": "/home/bartek/Projects/GNN-planning-paper/model-settings/b63959c2bbb082bd5cc29b29a7b51836.json"
+}

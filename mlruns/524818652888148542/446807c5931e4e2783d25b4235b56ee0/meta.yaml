@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/446807c5931e4e2783d25b4235b56ee0/artifacts
+end_time: 1717655999886
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 446807c5931e4e2783d25b4235b56ee0
+run_name: persistent-asp-933
+run_uuid: 446807c5931e4e2783d25b4235b56ee0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655998449
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/6bc83cf5048644a0aac1af7dcc888aa5/artifacts
+end_time: 1717708680620
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 6bc83cf5048644a0aac1af7dcc888aa5
+run_name: sassy-hog-101
+run_uuid: 6bc83cf5048644a0aac1af7dcc888aa5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708677880
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/09ec2f3d9438421ab4ac7c931dda676b/artifacts
+end_time: 1717631659966
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 09ec2f3d9438421ab4ac7c931dda676b
+run_name: clumsy-ant-180
+run_uuid: 09ec2f3d9438421ab4ac7c931dda676b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631654552
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/021f105f4e514ac6bc693bf9ffa3c699/artifacts
+end_time: 1717631811959
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 021f105f4e514ac6bc693bf9ffa3c699
+run_name: persistent-yak-354
+run_uuid: 021f105f4e514ac6bc693bf9ffa3c699
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631811097
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/1fbdf9ab048b4427ac8f471c454cb15e/artifacts
+end_time: 1717707716323
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 1fbdf9ab048b4427ac8f471c454cb15e
+run_name: bouncy-yak-126
+run_uuid: 1fbdf9ab048b4427ac8f471c454cb15e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707713840
+status: 4
+tags: []
+user_id: bartek

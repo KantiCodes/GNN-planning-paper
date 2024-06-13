@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a201fb5e48b74fca83f21a4e3850f0ac/artifacts
+end_time: 1717631158539
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a201fb5e48b74fca83f21a4e3850f0ac
+run_name: polite-lynx-593
+run_uuid: a201fb5e48b74fca83f21a4e3850f0ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631156597
+status: 4
+tags: []
+user_id: bartek

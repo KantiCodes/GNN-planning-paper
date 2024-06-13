@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/7d8e554f56ed4ac4808d9410cc39f8bb/artifacts
+end_time: 1717695060941
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 7d8e554f56ed4ac4808d9410cc39f8bb
+run_name: classy-croc-36
+run_uuid: 7d8e554f56ed4ac4808d9410cc39f8bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695060345
+status: 4
+tags: []
+user_id: bartek

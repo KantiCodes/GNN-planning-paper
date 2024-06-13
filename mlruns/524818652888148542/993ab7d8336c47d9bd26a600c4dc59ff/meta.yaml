@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/993ab7d8336c47d9bd26a600c4dc59ff/artifacts
+end_time: 1717708016614
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 993ab7d8336c47d9bd26a600c4dc59ff
+run_name: fearless-auk-795
+run_uuid: 993ab7d8336c47d9bd26a600c4dc59ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708012556
+status: 4
+tags: []
+user_id: bartek

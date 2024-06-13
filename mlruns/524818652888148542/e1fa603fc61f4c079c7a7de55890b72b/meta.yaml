@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e1fa603fc61f4c079c7a7de55890b72b/artifacts
+end_time: 1717694890977
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e1fa603fc61f4c079c7a7de55890b72b
+run_name: luxuriant-sow-851
+run_uuid: e1fa603fc61f4c079c7a7de55890b72b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694865376
+status: 4
+tags: []
+user_id: bartek

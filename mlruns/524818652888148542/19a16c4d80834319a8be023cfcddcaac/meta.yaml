@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/19a16c4d80834319a8be023cfcddcaac/artifacts
+end_time: 1717656661180
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 19a16c4d80834319a8be023cfcddcaac
+run_name: abundant-perch-725
+run_uuid: 19a16c4d80834319a8be023cfcddcaac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656658235
+status: 4
+tags: []
+user_id: bartek

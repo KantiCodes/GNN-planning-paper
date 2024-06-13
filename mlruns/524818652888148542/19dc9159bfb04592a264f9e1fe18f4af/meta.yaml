@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/19dc9159bfb04592a264f9e1fe18f4af/artifacts
+end_time: 1717655896790
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 19dc9159bfb04592a264f9e1fe18f4af
+run_name: respected-finch-265
+run_uuid: 19dc9159bfb04592a264f9e1fe18f4af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655893774
+status: 4
+tags: []
+user_id: bartek

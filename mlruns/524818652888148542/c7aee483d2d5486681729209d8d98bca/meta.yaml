@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/c7aee483d2d5486681729209d8d98bca/artifacts
+end_time: 1717628569312
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: c7aee483d2d5486681729209d8d98bca
+run_name: vaunted-sloth-535
+run_uuid: c7aee483d2d5486681729209d8d98bca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717628564351
+status: 4
+tags: []
+user_id: bartek

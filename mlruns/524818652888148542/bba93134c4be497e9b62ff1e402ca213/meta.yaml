@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/bba93134c4be497e9b62ff1e402ca213/artifacts
+end_time: 1717720618797
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: bba93134c4be497e9b62ff1e402ca213
+run_name: placid-dog-608
+run_uuid: bba93134c4be497e9b62ff1e402ca213
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720617931
+status: 4
+tags: []
+user_id: bartek

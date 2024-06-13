@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/457de5cd410f4908809f8c7a66e13e50/artifacts
+end_time: 1717631293355
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 457de5cd410f4908809f8c7a66e13e50
+run_name: receptive-snail-222
+run_uuid: 457de5cd410f4908809f8c7a66e13e50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631292207
+status: 4
+tags: []
+user_id: bartek

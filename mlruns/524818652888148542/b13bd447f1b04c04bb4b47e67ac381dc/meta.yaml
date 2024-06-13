@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/b13bd447f1b04c04bb4b47e67ac381dc/artifacts
+end_time: 1717631285347
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: b13bd447f1b04c04bb4b47e67ac381dc
+run_name: bright-fly-620
+run_uuid: b13bd447f1b04c04bb4b47e67ac381dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631282837
+status: 4
+tags: []
+user_id: bartek

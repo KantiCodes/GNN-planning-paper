@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/75f2baf90b114da7a8581a6bcfd73f5c/artifacts
+end_time: 1717707737138
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 75f2baf90b114da7a8581a6bcfd73f5c
+run_name: suave-crab-360
+run_uuid: 75f2baf90b114da7a8581a6bcfd73f5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707735296
+status: 4
+tags: []
+user_id: bartek

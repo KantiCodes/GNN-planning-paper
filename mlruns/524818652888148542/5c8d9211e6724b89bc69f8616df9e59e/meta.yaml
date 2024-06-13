@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/5c8d9211e6724b89bc69f8616df9e59e/artifacts
+end_time: 1717707991236
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 5c8d9211e6724b89bc69f8616df9e59e
+run_name: incongruous-snake-98
+run_uuid: 5c8d9211e6724b89bc69f8616df9e59e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707965604
+status: 4
+tags: []
+user_id: bartek

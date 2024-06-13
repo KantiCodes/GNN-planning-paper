@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/f2c749e4dd464518b6b2c691ac6d48a0/artifacts
+end_time: 1717695255475
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: f2c749e4dd464518b6b2c691ac6d48a0
+run_name: traveling-shoat-124
+run_uuid: f2c749e4dd464518b6b2c691ac6d48a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695252999
+status: 4
+tags: []
+user_id: bartek

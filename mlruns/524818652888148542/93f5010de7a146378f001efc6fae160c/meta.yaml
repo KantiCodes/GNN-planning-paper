@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/93f5010de7a146378f001efc6fae160c/artifacts
+end_time: 1717694675628
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 93f5010de7a146378f001efc6fae160c
+run_name: rumbling-frog-156
+run_uuid: 93f5010de7a146378f001efc6fae160c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694511487
+status: 3
+tags: []
+user_id: bartek

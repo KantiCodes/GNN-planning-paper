@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/02dc0da64a234d1ab5437f411064db83/artifacts
+end_time: 1717631958904
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 02dc0da64a234d1ab5437f411064db83
+run_name: exultant-lark-370
+run_uuid: 02dc0da64a234d1ab5437f411064db83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631957663
+status: 4
+tags: []
+user_id: bartek

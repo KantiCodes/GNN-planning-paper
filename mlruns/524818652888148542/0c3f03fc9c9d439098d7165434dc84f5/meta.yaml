@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/0c3f03fc9c9d439098d7165434dc84f5/artifacts
+end_time: 1717720084665
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 0c3f03fc9c9d439098d7165434dc84f5
+run_name: clumsy-eel-402
+run_uuid: 0c3f03fc9c9d439098d7165434dc84f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720062057
+status: 4
+tags: []
+user_id: bartek

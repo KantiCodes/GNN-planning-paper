@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/8660dca59872483baac71218466c3673/artifacts
+end_time: 1717631801387
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 8660dca59872483baac71218466c3673
+run_name: bouncy-grub-290
+run_uuid: 8660dca59872483baac71218466c3673
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631797908
+status: 4
+tags: []
+user_id: bartek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/11c9cfe829ff45b09289dce5fb3fb410/artifacts
+end_time: 1717707945754
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 11c9cfe829ff45b09289dce5fb3fb410
+run_name: bald-hog-998
+run_uuid: 11c9cfe829ff45b09289dce5fb3fb410
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717707937787
+status: 4
+tags: []
+user_id: bartek

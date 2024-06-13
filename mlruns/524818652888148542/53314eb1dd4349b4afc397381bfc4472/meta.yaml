@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/53314eb1dd4349b4afc397381bfc4472/artifacts
+end_time: 1717720034986
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 53314eb1dd4349b4afc397381bfc4472
+run_name: agreeable-hawk-313
+run_uuid: 53314eb1dd4349b4afc397381bfc4472
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717720020076
+status: 4
+tags: []
+user_id: bartek

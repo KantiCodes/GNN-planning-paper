@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ba8ba493df3c49adbddcc017639704eb/artifacts
+end_time: 1717631955714
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ba8ba493df3c49adbddcc017639704eb
+run_name: gaudy-yak-990
+run_uuid: ba8ba493df3c49adbddcc017639704eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631953643
+status: 4
+tags: []
+user_id: bartek

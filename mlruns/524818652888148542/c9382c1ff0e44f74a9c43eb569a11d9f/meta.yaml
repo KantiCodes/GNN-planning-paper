@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/c9382c1ff0e44f74a9c43eb569a11d9f/artifacts
+end_time: 1717694721114
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: c9382c1ff0e44f74a9c43eb569a11d9f
+run_name: unleashed-shark-999
+run_uuid: c9382c1ff0e44f74a9c43eb569a11d9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694716520
+status: 4
+tags: []
+user_id: bartek

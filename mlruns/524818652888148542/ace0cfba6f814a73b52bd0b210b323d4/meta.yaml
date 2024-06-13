@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/ace0cfba6f814a73b52bd0b210b323d4/artifacts
+end_time: 1717632222266
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: ace0cfba6f814a73b52bd0b210b323d4
+run_name: charming-finch-452
+run_uuid: ace0cfba6f814a73b52bd0b210b323d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632117651
+status: 3
+tags: []
+user_id: bartek

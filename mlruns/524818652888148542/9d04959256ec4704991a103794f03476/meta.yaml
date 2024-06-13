@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/9d04959256ec4704991a103794f03476/artifacts
+end_time: 1717695050450
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 9d04959256ec4704991a103794f03476
+run_name: smiling-cod-658
+run_uuid: 9d04959256ec4704991a103794f03476
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695047699
+status: 4
+tags: []
+user_id: bartek

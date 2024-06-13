@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e1dfe5f72bc849129fbba4a6f25eff3d/artifacts
+end_time: 1717656493647
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e1dfe5f72bc849129fbba4a6f25eff3d
+run_name: nosy-eel-838
+run_uuid: e1dfe5f72bc849129fbba4a6f25eff3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656491585
+status: 4
+tags: []
+user_id: bartek

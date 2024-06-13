@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/91962dbd74a24251baaf28b2b7c89471/artifacts
+end_time: 1717627659821
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 91962dbd74a24251baaf28b2b7c89471
+run_name: bald-turtle-838
+run_uuid: 91962dbd74a24251baaf28b2b7c89471
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717627659796
+status: 4
+tags: []
+user_id: bartek

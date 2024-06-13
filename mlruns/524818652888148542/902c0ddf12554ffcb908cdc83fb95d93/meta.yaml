@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/902c0ddf12554ffcb908cdc83fb95d93/artifacts
+end_time: 1717694933849
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 902c0ddf12554ffcb908cdc83fb95d93
+run_name: persistent-smelt-731
+run_uuid: 902c0ddf12554ffcb908cdc83fb95d93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717694932912
+status: 4
+tags: []
+user_id: bartek

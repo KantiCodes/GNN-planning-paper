@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/cf85d0370ee545159be05556bba1ce63/artifacts
+end_time: 1717656601937
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: cf85d0370ee545159be05556bba1ce63
+run_name: gifted-auk-222
+run_uuid: cf85d0370ee545159be05556bba1ce63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656598711
+status: 4
+tags: []
+user_id: bartek

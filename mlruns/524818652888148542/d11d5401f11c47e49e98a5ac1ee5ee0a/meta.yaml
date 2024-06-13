@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/d11d5401f11c47e49e98a5ac1ee5ee0a/artifacts
+end_time: 1717625999510
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: d11d5401f11c47e49e98a5ac1ee5ee0a
+run_name: beautiful-duck-660
+run_uuid: d11d5401f11c47e49e98a5ac1ee5ee0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717625991001
+status: 4
+tags: []
+user_id: bartek

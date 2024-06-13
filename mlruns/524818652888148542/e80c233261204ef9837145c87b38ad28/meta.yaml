@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/e80c233261204ef9837145c87b38ad28/artifacts
+end_time: 1717717500109
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: e80c233261204ef9837145c87b38ad28
+run_name: treasured-doe-635
+run_uuid: e80c233261204ef9837145c87b38ad28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717717491001
+status: 4
+tags: []
+user_id: bartek

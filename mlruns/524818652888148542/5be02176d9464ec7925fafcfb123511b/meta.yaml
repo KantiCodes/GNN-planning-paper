@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/5be02176d9464ec7925fafcfb123511b/artifacts
+end_time: 1717655913656
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 5be02176d9464ec7925fafcfb123511b
+run_name: smiling-rook-173
+run_uuid: 5be02176d9464ec7925fafcfb123511b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655910383
+status: 4
+tags: []
+user_id: bartek

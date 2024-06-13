@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/1dd5a10f18a3464e8d249c40c7ca21ba/artifacts
+end_time: 1717631990015
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 1dd5a10f18a3464e8d249c40c7ca21ba
+run_name: respected-gnat-970
+run_uuid: 1dd5a10f18a3464e8d249c40c7ca21ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631988768
+status: 4
+tags: []
+user_id: bartek

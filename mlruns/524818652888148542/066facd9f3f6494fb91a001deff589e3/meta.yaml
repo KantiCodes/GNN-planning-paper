@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/066facd9f3f6494fb91a001deff589e3/artifacts
+end_time: 1717708853325
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 066facd9f3f6494fb91a001deff589e3
+run_name: magnificent-carp-188
+run_uuid: 066facd9f3f6494fb91a001deff589e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708847543
+status: 4
+tags: []
+user_id: bartek

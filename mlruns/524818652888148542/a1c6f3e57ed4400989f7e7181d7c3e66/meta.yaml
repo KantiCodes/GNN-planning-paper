@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/a1c6f3e57ed4400989f7e7181d7c3e66/artifacts
+end_time: 1717632365350
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: a1c6f3e57ed4400989f7e7181d7c3e66
+run_name: rebellious-goat-188
+run_uuid: a1c6f3e57ed4400989f7e7181d7c3e66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717632364130
+status: 4
+tags: []
+user_id: bartek

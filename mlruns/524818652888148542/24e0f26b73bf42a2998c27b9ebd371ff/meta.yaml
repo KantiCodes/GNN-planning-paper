@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/24e0f26b73bf42a2998c27b9ebd371ff/artifacts
+end_time: 1717631761838
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 24e0f26b73bf42a2998c27b9ebd371ff
+run_name: adaptable-shrew-482
+run_uuid: 24e0f26b73bf42a2998c27b9ebd371ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631760461
+status: 4
+tags: []
+user_id: bartek

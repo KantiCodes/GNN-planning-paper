@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/0ccc142115e146d8b961defdfb39aeec/artifacts
+end_time: 1717655968114
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 0ccc142115e146d8b961defdfb39aeec
+run_name: sassy-deer-260
+run_uuid: 0ccc142115e146d8b961defdfb39aeec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655967251
+status: 4
+tags: []
+user_id: bartek

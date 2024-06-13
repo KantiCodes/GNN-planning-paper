@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/73ee9bad1958483eb6d27dd309a0d2af/artifacts
+end_time: 1717656427239
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 73ee9bad1958483eb6d27dd309a0d2af
+run_name: overjoyed-sponge-427
+run_uuid: 73ee9bad1958483eb6d27dd309a0d2af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656425113
+status: 4
+tags: []
+user_id: bartek

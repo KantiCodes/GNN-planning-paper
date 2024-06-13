@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/3438dd07578a4500840a48c35e287faa/artifacts
+end_time: 1717656010255
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 3438dd07578a4500840a48c35e287faa
+run_name: funny-eel-506
+run_uuid: 3438dd07578a4500840a48c35e287faa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656006485
+status: 4
+tags: []
+user_id: bartek

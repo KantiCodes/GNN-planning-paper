@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/66b32c18e2504092b6e8caea13eeb402/artifacts
+end_time: 1717695224667
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 66b32c18e2504092b6e8caea13eeb402
+run_name: wise-croc-61
+run_uuid: 66b32c18e2504092b6e8caea13eeb402
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717695217713
+status: 4
+tags: []
+user_id: bartek

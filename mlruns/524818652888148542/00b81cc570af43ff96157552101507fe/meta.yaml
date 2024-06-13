@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/00b81cc570af43ff96157552101507fe/artifacts
+end_time: 1717631347117
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 00b81cc570af43ff96157552101507fe
+run_name: skittish-squid-823
+run_uuid: 00b81cc570af43ff96157552101507fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717631342079
+status: 4
+tags: []
+user_id: bartek

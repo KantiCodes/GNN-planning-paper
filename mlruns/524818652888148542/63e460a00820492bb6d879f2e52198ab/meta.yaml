@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/63e460a00820492bb6d879f2e52198ab/artifacts
+end_time: 1717708400010
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 63e460a00820492bb6d879f2e52198ab
+run_name: skittish-skink-815
+run_uuid: 63e460a00820492bb6d879f2e52198ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717708395347
+status: 4
+tags: []
+user_id: bartek

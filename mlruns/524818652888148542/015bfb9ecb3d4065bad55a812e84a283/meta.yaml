@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/015bfb9ecb3d4065bad55a812e84a283/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 015bfb9ecb3d4065bad55a812e84a283
+run_name: shivering-yak-300
+run_uuid: 015bfb9ecb3d4065bad55a812e84a283
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717629828638
+status: 1
+tags: []
+user_id: bartek

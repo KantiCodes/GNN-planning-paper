@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/50f0a74343ff45bb8814a9a12d829c1d/artifacts
+end_time: 1717656398580
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: 50f0a74343ff45bb8814a9a12d829c1d
+run_name: indecisive-hawk-267
+run_uuid: 50f0a74343ff45bb8814a9a12d829c1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717656397308
+status: 4
+tags: []
+user_id: bartek

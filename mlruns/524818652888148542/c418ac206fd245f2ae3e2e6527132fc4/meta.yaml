@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/524818652888148542/c418ac206fd245f2ae3e2e6527132fc4/artifacts
+end_time: 1717655734514
+entry_point_name: ''
+experiment_id: '524818652888148542'
+lifecycle_stage: active
+run_id: c418ac206fd245f2ae3e2e6527132fc4
+run_name: merciful-fawn-533
+run_uuid: c418ac206fd245f2ae3e2e6527132fc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717655629671
+status: 3
+tags: []
+user_id: bartek
