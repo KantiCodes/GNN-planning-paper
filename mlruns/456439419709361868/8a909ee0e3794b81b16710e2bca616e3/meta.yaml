@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/8a909ee0e3794b81b16710e2bca616e3/artifacts
+end_time: 1717407580658
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 8a909ee0e3794b81b16710e2bca616e3
+run_name: dapper-horse-257
+run_uuid: 8a909ee0e3794b81b16710e2bca616e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717360390507
+status: 3
+tags: []
+user_id: bartoszlachowicz

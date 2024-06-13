@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/8d7427bd2d43488ebe4d18dfd3770b5c/artifacts
+end_time: 1717341099348
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: 8d7427bd2d43488ebe4d18dfd3770b5c
+run_name: carefree-fish-149
+run_uuid: 8d7427bd2d43488ebe4d18dfd3770b5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717340752742
+status: 3
+tags: []
+user_id: bartoszlachowicz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/695287739799799025/253ba1e8141748058177e2e025184e10/artifacts
+end_time: 1717580007610
+entry_point_name: ''
+experiment_id: '695287739799799025'
+lifecycle_stage: active
+run_id: 253ba1e8141748058177e2e025184e10
+run_name: ambitious-swan-569
+run_uuid: 253ba1e8141748058177e2e025184e10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717579749765
+status: 4
+tags: []
+user_id: bartoszlachowicz

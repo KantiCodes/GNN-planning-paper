@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/aa563ff2070f4f5582c073e1494aa1d7/artifacts
+end_time: 1717359349347
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: aa563ff2070f4f5582c073e1494aa1d7
+run_name: righteous-grouse-673
+run_uuid: aa563ff2070f4f5582c073e1494aa1d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717358659691
+status: 3
+tags: []
+user_id: bartoszlachowicz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/30591b694d704ec9ab99df7892e1bb14/artifacts
+end_time: 1717255788649
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 30591b694d704ec9ab99df7892e1bb14
+run_name: secretive-ram-959
+run_uuid: 30591b694d704ec9ab99df7892e1bb14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717255640198
+status: 3
+tags: []
+user_id: bartoszlachowicz

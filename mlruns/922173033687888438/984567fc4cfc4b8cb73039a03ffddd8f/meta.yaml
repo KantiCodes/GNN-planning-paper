@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/984567fc4cfc4b8cb73039a03ffddd8f/artifacts
+end_time: 1717340749633
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: 984567fc4cfc4b8cb73039a03ffddd8f
+run_name: charming-calf-289
+run_uuid: 984567fc4cfc4b8cb73039a03ffddd8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717340445767
+status: 3
+tags: []
+user_id: bartoszlachowicz

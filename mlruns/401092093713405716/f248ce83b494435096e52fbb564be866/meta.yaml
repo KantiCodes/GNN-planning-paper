@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/401092093713405716/f248ce83b494435096e52fbb564be866/artifacts
+end_time: 1717335014344
+entry_point_name: ''
+experiment_id: '401092093713405716'
+lifecycle_stage: active
+run_id: f248ce83b494435096e52fbb564be866
+run_name: inquisitive-toad-563
+run_uuid: f248ce83b494435096e52fbb564be866
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717334629913
+status: 3
+tags: []
+user_id: bartoszlachowicz

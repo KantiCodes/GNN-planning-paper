@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/14be78597a3a43339c3771a48b0e8bff/artifacts
+end_time: 1717464372217
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 14be78597a3a43339c3771a48b0e8bff
+run_name: magnificent-mare-681
+run_uuid: 14be78597a3a43339c3771a48b0e8bff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717463896810
+status: 3
+tags: []
+user_id: bartoszlachowicz

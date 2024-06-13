@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/695287739799799025/52a6f79b570445db9fdf57df40ddf237/artifacts
+end_time: 1717580357719
+entry_point_name: ''
+experiment_id: '695287739799799025'
+lifecycle_stage: active
+run_id: 52a6f79b570445db9fdf57df40ddf237
+run_name: receptive-dove-721
+run_uuid: 52a6f79b570445db9fdf57df40ddf237
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717580175108
+status: 4
+tags: []
+user_id: bartoszlachowicz

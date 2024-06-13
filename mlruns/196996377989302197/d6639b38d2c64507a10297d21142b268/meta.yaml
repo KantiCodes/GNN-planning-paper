@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/d6639b38d2c64507a10297d21142b268/artifacts
+end_time: 1717196735785
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: d6639b38d2c64507a10297d21142b268
+run_name: defiant-crab-210
+run_uuid: d6639b38d2c64507a10297d21142b268
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717196408568
+status: 3
+tags: []
+user_id: bartoszlachowicz

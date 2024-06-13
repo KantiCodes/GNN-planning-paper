@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/2355b5f03f6749b592d9d23cba45abc6/artifacts
+deleted_time: 1716228099959
+end_time: 1715018864630
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: deleted
+run_id: 2355b5f03f6749b592d9d23cba45abc6
+run_name: '2024-05-06 20:07:33.425352'
+run_uuid: 2355b5f03f6749b592d9d23cba45abc6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715018853516
+status: 3
+tags: []
+user_id: bartoszlachowicz

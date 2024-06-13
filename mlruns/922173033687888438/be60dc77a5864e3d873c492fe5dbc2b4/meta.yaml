@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/be60dc77a5864e3d873c492fe5dbc2b4/artifacts
+end_time: 1717338006357
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: be60dc77a5864e3d873c492fe5dbc2b4
+run_name: tasteful-bee-837
+run_uuid: be60dc77a5864e3d873c492fe5dbc2b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717337813550
+status: 3
+tags: []
+user_id: bartoszlachowicz

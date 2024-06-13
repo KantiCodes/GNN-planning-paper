@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/423f9dd4a4b743629e9f4108548a1eb2/artifacts
+end_time: 1717454259876
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 423f9dd4a4b743629e9f4108548a1eb2
+run_name: dapper-elk-329
+run_uuid: 423f9dd4a4b743629e9f4108548a1eb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717452929710
+status: 3
+tags: []
+user_id: bartoszlachowicz

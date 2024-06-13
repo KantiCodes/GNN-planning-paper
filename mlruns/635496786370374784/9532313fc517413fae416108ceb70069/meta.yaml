@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/9532313fc517413fae416108ceb70069/artifacts
+end_time: 1717260981243
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 9532313fc517413fae416108ceb70069
+run_name: blushing-shark-319
+run_uuid: 9532313fc517413fae416108ceb70069
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717260825430
+status: 3
+tags: []
+user_id: bartoszlachowicz

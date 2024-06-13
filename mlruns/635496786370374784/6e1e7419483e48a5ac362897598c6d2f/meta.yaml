@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/6e1e7419483e48a5ac362897598c6d2f/artifacts
+end_time: 1717255637719
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 6e1e7419483e48a5ac362897598c6d2f
+run_name: adaptable-toad-721
+run_uuid: 6e1e7419483e48a5ac362897598c6d2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717255578991
+status: 3
+tags: []
+user_id: bartoszlachowicz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/25d0fe7ee2de4603a7347886ec17e83f/artifacts
+end_time: 1717260822775
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 25d0fe7ee2de4603a7347886ec17e83f
+run_name: hilarious-shrew-587
+run_uuid: 25d0fe7ee2de4603a7347886ec17e83f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717260746612
+status: 3
+tags: []
+user_id: bartoszlachowicz

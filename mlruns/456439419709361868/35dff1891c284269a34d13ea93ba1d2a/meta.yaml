@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/35dff1891c284269a34d13ea93ba1d2a/artifacts
+end_time: 1717461789616
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 35dff1891c284269a34d13ea93ba1d2a
+run_name: unequaled-eel-151
+run_uuid: 35dff1891c284269a34d13ea93ba1d2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717461387504
+status: 3
+tags: []
+user_id: bartoszlachowicz

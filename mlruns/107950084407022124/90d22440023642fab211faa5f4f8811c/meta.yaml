@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/107950084407022124/90d22440023642fab211faa5f4f8811c/artifacts
+end_time: 1717618257880
+entry_point_name: ''
+experiment_id: '107950084407022124'
+lifecycle_stage: active
+run_id: 90d22440023642fab211faa5f4f8811c
+run_name: spiffy-perch-850
+run_uuid: 90d22440023642fab211faa5f4f8811c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717617932411
+status: 4
+tags: []
+user_id: bartoszlachowicz

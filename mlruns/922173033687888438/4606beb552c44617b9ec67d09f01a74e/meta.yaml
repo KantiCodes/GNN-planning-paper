@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/4606beb552c44617b9ec67d09f01a74e/artifacts
+end_time: 1717344054141
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: 4606beb552c44617b9ec67d09f01a74e
+run_name: receptive-pug-806
+run_uuid: 4606beb552c44617b9ec67d09f01a74e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717343953544
+status: 3
+tags: []
+user_id: bartoszlachowicz

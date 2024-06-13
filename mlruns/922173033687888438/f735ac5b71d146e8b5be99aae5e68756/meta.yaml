@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/f735ac5b71d146e8b5be99aae5e68756/artifacts
+end_time: 1717343566122
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: f735ac5b71d146e8b5be99aae5e68756
+run_name: rambunctious-owl-788
+run_uuid: f735ac5b71d146e8b5be99aae5e68756
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717343473842
+status: 3
+tags: []
+user_id: bartoszlachowicz

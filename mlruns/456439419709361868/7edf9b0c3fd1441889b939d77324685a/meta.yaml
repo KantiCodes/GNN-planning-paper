@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/7edf9b0c3fd1441889b939d77324685a/artifacts
+end_time: 1717440729532
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 7edf9b0c3fd1441889b939d77324685a
+run_name: funny-calf-128
+run_uuid: 7edf9b0c3fd1441889b939d77324685a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717439566141
+status: 3
+tags: []
+user_id: bartoszlachowicz

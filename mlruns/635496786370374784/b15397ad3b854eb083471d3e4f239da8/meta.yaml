@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/b15397ad3b854eb083471d3e4f239da8/artifacts
+end_time: 1717255576619
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: b15397ad3b854eb083471d3e4f239da8
+run_name: wise-finch-602
+run_uuid: b15397ad3b854eb083471d3e4f239da8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717255468729
+status: 3
+tags: []
+user_id: bartoszlachowicz

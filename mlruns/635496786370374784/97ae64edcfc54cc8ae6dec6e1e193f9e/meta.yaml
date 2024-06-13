@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/97ae64edcfc54cc8ae6dec6e1e193f9e/artifacts
+end_time: 1717257060716
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 97ae64edcfc54cc8ae6dec6e1e193f9e
+run_name: nosy-mouse-566
+run_uuid: 97ae64edcfc54cc8ae6dec6e1e193f9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717256965765
+status: 3
+tags: []
+user_id: bartoszlachowicz

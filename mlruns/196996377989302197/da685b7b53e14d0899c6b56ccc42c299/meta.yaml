@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/da685b7b53e14d0899c6b56ccc42c299/artifacts
+end_time: 1717196856479
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: da685b7b53e14d0899c6b56ccc42c299
+run_name: mysterious-whale-926
+run_uuid: da685b7b53e14d0899c6b56ccc42c299
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717196740654
+status: 3
+tags: []
+user_id: bartoszlachowicz

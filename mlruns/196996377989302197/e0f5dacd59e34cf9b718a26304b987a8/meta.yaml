@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/e0f5dacd59e34cf9b718a26304b987a8/artifacts
+end_time: 1716271307260
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: e0f5dacd59e34cf9b718a26304b987a8
+run_name: languid-bird-958
+run_uuid: e0f5dacd59e34cf9b718a26304b987a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716269556525
+status: 3
+tags: []
+user_id: bartoszlachowicz

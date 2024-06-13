@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/25201d46e2ef4fba85aa2079255efcae/artifacts
+end_time: 1716236037798
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 25201d46e2ef4fba85aa2079255efcae
+run_name: rogue-hare-673
+run_uuid: 25201d46e2ef4fba85aa2079255efcae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716234775036
+status: 3
+tags: []
+user_id: bartoszlachowicz

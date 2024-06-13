@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/c3e7b5ef111a46aeaf4ad90d8a532cf7/artifacts
+end_time: 1716232093951
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: c3e7b5ef111a46aeaf4ad90d8a532cf7
+run_name: spiffy-fish-962
+run_uuid: c3e7b5ef111a46aeaf4ad90d8a532cf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716231777052
+status: 3
+tags: []
+user_id: bartoszlachowicz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/6f526deea303488b81cb0c3a114efb4c/artifacts
+end_time: 1717256502549
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 6f526deea303488b81cb0c3a114efb4c
+run_name: calm-crow-586
+run_uuid: 6f526deea303488b81cb0c3a114efb4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717256134614
+status: 3
+tags: []
+user_id: bartoszlachowicz

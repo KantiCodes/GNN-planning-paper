@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/247144b687194e3e98b67e1ee5e1d23e/artifacts
+end_time: 1717223405107
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 247144b687194e3e98b67e1ee5e1d23e
+run_name: classy-swan-753
+run_uuid: 247144b687194e3e98b67e1ee5e1d23e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717197211622
+status: 3
+tags: []
+user_id: bartoszlachowicz

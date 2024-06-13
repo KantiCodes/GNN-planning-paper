@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/107950084407022124/5d37185a3b5a479b82e3dc9c9b74622a/artifacts
+end_time: 1717617993509
+entry_point_name: ''
+experiment_id: '107950084407022124'
+lifecycle_stage: active
+run_id: 5d37185a3b5a479b82e3dc9c9b74622a
+run_name: delicate-bug-859
+run_uuid: 5d37185a3b5a479b82e3dc9c9b74622a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717617932411
+status: 4
+tags: []
+user_id: bartoszlachowicz

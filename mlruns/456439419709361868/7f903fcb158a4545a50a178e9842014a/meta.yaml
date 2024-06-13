@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/7f903fcb158a4545a50a178e9842014a/artifacts
+end_time: 1717439251313
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 7f903fcb158a4545a50a178e9842014a
+run_name: loud-moth-856
+run_uuid: 7f903fcb158a4545a50a178e9842014a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717437746575
+status: 3
+tags: []
+user_id: bartoszlachowicz

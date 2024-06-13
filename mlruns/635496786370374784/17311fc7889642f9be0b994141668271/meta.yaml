@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/17311fc7889642f9be0b994141668271/artifacts
+end_time: 1717260435644
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 17311fc7889642f9be0b994141668271
+run_name: fun-dog-702
+run_uuid: 17311fc7889642f9be0b994141668271
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717260363161
+status: 3
+tags: []
+user_id: bartoszlachowicz

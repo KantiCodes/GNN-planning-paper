@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/2206de9116614a6486aa10d2cfb075c3/artifacts
+end_time: 1716230022383
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 2206de9116614a6486aa10d2cfb075c3
+run_name: likeable-robin-161
+run_uuid: 2206de9116614a6486aa10d2cfb075c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716229454113
+status: 3
+tags: []
+user_id: bartoszlachowicz

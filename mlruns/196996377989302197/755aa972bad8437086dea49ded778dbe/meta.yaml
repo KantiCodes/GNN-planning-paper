@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/755aa972bad8437086dea49ded778dbe/artifacts
+end_time: 1717175247204
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 755aa972bad8437086dea49ded778dbe
+run_name: mysterious-fish-195
+run_uuid: 755aa972bad8437086dea49ded778dbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717174568507
+status: 3
+tags: []
+user_id: bartoszlachowicz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/39f46bef4519460b9166de4e53b7b498/artifacts
+end_time: 1716239427184
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 39f46bef4519460b9166de4e53b7b498
+run_name: unruly-doe-975
+run_uuid: 39f46bef4519460b9166de4e53b7b498
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716238136983
+status: 3
+tags: []
+user_id: bartoszlachowicz

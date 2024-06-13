@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/ce7f91dbf1b142419ea7bfac59ca2512/artifacts
+end_time: 1717259302452
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: ce7f91dbf1b142419ea7bfac59ca2512
+run_name: judicious-slug-79
+run_uuid: ce7f91dbf1b142419ea7bfac59ca2512
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717259079267
+status: 3
+tags: []
+user_id: bartoszlachowicz

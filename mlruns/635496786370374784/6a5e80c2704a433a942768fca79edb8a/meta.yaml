@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/6a5e80c2704a433a942768fca79edb8a/artifacts
+end_time: 1717257983438
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 6a5e80c2704a433a942768fca79edb8a
+run_name: capricious-shrimp-59
+run_uuid: 6a5e80c2704a433a942768fca79edb8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717257694835
+status: 3
+tags: []
+user_id: bartoszlachowicz

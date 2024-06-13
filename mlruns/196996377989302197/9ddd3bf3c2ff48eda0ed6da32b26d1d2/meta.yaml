@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/9ddd3bf3c2ff48eda0ed6da32b26d1d2/artifacts
+end_time: 1717196011391
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 9ddd3bf3c2ff48eda0ed6da32b26d1d2
+run_name: upbeat-bird-230
+run_uuid: 9ddd3bf3c2ff48eda0ed6da32b26d1d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717195167485
+status: 3
+tags: []
+user_id: bartoszlachowicz

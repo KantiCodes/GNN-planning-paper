@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/4ddcd874698b4c529e54e7aa6a841abc/artifacts
+end_time: 1716238129595
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 4ddcd874698b4c529e54e7aa6a841abc
+run_name: treasured-zebra-564
+run_uuid: 4ddcd874698b4c529e54e7aa6a841abc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716237795653
+status: 3
+tags: []
+user_id: bartoszlachowicz

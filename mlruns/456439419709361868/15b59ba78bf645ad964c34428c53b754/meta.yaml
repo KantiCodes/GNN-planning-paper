@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/15b59ba78bf645ad964c34428c53b754/artifacts
+end_time: 1717452903541
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 15b59ba78bf645ad964c34428c53b754
+run_name: inquisitive-elk-478
+run_uuid: 15b59ba78bf645ad964c34428c53b754
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717452527667
+status: 3
+tags: []
+user_id: bartoszlachowicz

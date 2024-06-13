@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/0fa6d6071b234403a5d281295ade23c6/artifacts
+end_time: 1717437718128
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 0fa6d6071b234403a5d281295ade23c6
+run_name: charming-mouse-733
+run_uuid: 0fa6d6071b234403a5d281295ade23c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717434809465
+status: 3
+tags: []
+user_id: bartoszlachowicz

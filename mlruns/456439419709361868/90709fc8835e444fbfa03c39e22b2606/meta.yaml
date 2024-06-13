@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/90709fc8835e444fbfa03c39e22b2606/artifacts
+end_time: 1717455153668
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 90709fc8835e444fbfa03c39e22b2606
+run_name: fearless-sponge-822
+run_uuid: 90709fc8835e444fbfa03c39e22b2606
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717454287832
+status: 3
+tags: []
+user_id: bartoszlachowicz

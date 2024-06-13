@@ -1,0 +1,16 @@
+{
+    "lr": 0.001,
+    "layers_num": 8,
+    "hidden_size": 8,
+    "optimizer": "RMSprop",
+    "conv_type": "GATConv",
+    "activation_function": "tanh",
+    "classification_function": "sigmoid",
+    "use_batch_norm": true,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 32,
+    "use_class_weights": true,
+    "model_settings_path": "model-settings/d380ab7659341f96c16bb3306a62271c.json"
+}

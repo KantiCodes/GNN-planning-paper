@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/401092093713405716/b4d1101d698d4f96ac0d9a455dbe8da7/artifacts
+end_time: 1717329031667
+entry_point_name: ''
+experiment_id: '401092093713405716'
+lifecycle_stage: active
+run_id: b4d1101d698d4f96ac0d9a455dbe8da7
+run_name: redolent-yak-459
+run_uuid: b4d1101d698d4f96ac0d9a455dbe8da7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717328685369
+status: 3
+tags: []
+user_id: bartoszlachowicz

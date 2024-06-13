@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/3c87c39bad05410bb92191b996fd795b/artifacts
+deleted_time: 1716228099951
+end_time: 1715018992145
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: deleted
+run_id: 3c87c39bad05410bb92191b996fd795b
+run_name: lyrical-asp-509
+run_uuid: 3c87c39bad05410bb92191b996fd795b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715018944990
+status: 3
+tags: []
+user_id: bartoszlachowicz

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/dca9cb68069d4c009fa367669aff0879/artifacts
+end_time: 1717224507615
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: dca9cb68069d4c009fa367669aff0879
+run_name: carefree-yak-588
+run_uuid: dca9cb68069d4c009fa367669aff0879
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717224360630
+status: 3
+tags: []
+user_id: bartoszlachowicz

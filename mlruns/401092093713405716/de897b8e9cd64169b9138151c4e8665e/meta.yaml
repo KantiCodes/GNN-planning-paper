@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/401092093713405716/de897b8e9cd64169b9138151c4e8665e/artifacts
+end_time: 1717331394754
+entry_point_name: ''
+experiment_id: '401092093713405716'
+lifecycle_stage: active
+run_id: de897b8e9cd64169b9138151c4e8665e
+run_name: upbeat-cub-692
+run_uuid: de897b8e9cd64169b9138151c4e8665e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717331257267
+status: 3
+tags: []
+user_id: bartoszlachowicz

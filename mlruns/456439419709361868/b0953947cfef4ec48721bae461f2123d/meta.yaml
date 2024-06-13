@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/b0953947cfef4ec48721bae461f2123d/artifacts
+end_time: 1717449626779
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: b0953947cfef4ec48721bae461f2123d
+run_name: melodic-lynx-473
+run_uuid: b0953947cfef4ec48721bae461f2123d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717448267787
+status: 3
+tags: []
+user_id: bartoszlachowicz

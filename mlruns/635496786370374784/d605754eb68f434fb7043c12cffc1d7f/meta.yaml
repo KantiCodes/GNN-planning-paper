@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/d605754eb68f434fb7043c12cffc1d7f/artifacts
+end_time: 1717260635129
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: d605754eb68f434fb7043c12cffc1d7f
+run_name: illustrious-shad-521
+run_uuid: d605754eb68f434fb7043c12cffc1d7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717260438718
+status: 3
+tags: []
+user_id: bartoszlachowicz

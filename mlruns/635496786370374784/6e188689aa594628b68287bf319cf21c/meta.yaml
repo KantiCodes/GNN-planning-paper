@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/6e188689aa594628b68287bf319cf21c/artifacts
+end_time: 1717257473706
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 6e188689aa594628b68287bf319cf21c
+run_name: intrigued-asp-703
+run_uuid: 6e188689aa594628b68287bf319cf21c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717257065468
+status: 3
+tags: []
+user_id: bartoszlachowicz

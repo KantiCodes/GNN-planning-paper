@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/7b6b73193e7841ca81e05924e60dcedd/artifacts
+end_time: 1717360368994
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 7b6b73193e7841ca81e05924e60dcedd
+run_name: victorious-boar-39
+run_uuid: 7b6b73193e7841ca81e05924e60dcedd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717359374819
+status: 3
+tags: []
+user_id: bartoszlachowicz

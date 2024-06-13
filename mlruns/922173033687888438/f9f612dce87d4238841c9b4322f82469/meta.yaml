@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/f9f612dce87d4238841c9b4322f82469/artifacts
+end_time: 1717341437553
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: f9f612dce87d4238841c9b4322f82469
+run_name: likeable-shark-316
+run_uuid: f9f612dce87d4238841c9b4322f82469
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717341344265
+status: 3
+tags: []
+user_id: bartoszlachowicz

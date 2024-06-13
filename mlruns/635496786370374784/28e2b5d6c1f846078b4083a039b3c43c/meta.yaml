@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/28e2b5d6c1f846078b4083a039b3c43c/artifacts
+end_time: 1717260744028
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 28e2b5d6c1f846078b4083a039b3c43c
+run_name: legendary-loon-793
+run_uuid: 28e2b5d6c1f846078b4083a039b3c43c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717260637732
+status: 3
+tags: []
+user_id: bartoszlachowicz

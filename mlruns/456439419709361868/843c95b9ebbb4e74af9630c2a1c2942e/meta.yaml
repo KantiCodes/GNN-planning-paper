@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/843c95b9ebbb4e74af9630c2a1c2942e/artifacts
+end_time: 1717434779681
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 843c95b9ebbb4e74af9630c2a1c2942e
+run_name: unequaled-swan-703
+run_uuid: 843c95b9ebbb4e74af9630c2a1c2942e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717432124074
+status: 3
+tags: []
+user_id: bartoszlachowicz

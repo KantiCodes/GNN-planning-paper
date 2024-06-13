@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/e0f52c742db74765b9b77290c1993efc/artifacts
+end_time: 1717192869740
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: e0f52c742db74765b9b77290c1993efc
+run_name: receptive-panda-508
+run_uuid: e0f52c742db74765b9b77290c1993efc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717192574592
+status: 3
+tags: []
+user_id: bartoszlachowicz

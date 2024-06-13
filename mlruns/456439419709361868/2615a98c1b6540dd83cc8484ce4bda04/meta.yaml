@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/2615a98c1b6540dd83cc8484ce4bda04/artifacts
+end_time: 1717452501047
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 2615a98c1b6540dd83cc8484ce4bda04
+run_name: salty-newt-799
+run_uuid: 2615a98c1b6540dd83cc8484ce4bda04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717450234174
+status: 3
+tags: []
+user_id: bartoszlachowicz

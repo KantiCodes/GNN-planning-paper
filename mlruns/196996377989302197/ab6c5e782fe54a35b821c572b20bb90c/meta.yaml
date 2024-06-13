@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/ab6c5e782fe54a35b821c572b20bb90c/artifacts
+end_time: 1716233648069
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: ab6c5e782fe54a35b821c572b20bb90c
+run_name: rare-donkey-306
+run_uuid: ab6c5e782fe54a35b821c572b20bb90c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716233339984
+status: 3
+tags: []
+user_id: bartoszlachowicz

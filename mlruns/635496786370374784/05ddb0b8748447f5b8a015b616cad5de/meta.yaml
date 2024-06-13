@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/05ddb0b8748447f5b8a015b616cad5de/artifacts
+end_time: 1717256963280
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 05ddb0b8748447f5b8a015b616cad5de
+run_name: sedate-conch-657
+run_uuid: 05ddb0b8748447f5b8a015b616cad5de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717256806199
+status: 3
+tags: []
+user_id: bartoszlachowicz

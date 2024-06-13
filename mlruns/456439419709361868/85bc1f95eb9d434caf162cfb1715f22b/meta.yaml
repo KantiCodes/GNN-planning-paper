@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/85bc1f95eb9d434caf162cfb1715f22b/artifacts
+end_time: 1717461359893
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 85bc1f95eb9d434caf162cfb1715f22b
+run_name: brawny-hog-365
+run_uuid: 85bc1f95eb9d434caf162cfb1715f22b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717460576978
+status: 3
+tags: []
+user_id: bartoszlachowicz

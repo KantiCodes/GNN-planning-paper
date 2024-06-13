@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/f8b790ba3cfa4b839d93482f20ac3a1f/artifacts
+end_time: 1717441438027
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: f8b790ba3cfa4b839d93482f20ac3a1f
+run_name: thoughtful-auk-128
+run_uuid: f8b790ba3cfa4b839d93482f20ac3a1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717440758513
+status: 3
+tags: []
+user_id: bartoszlachowicz

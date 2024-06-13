@@ -1,0 +1,16 @@
+{
+    "lr": 0.01,
+    "layers_num": 8,
+    "hidden_size": 4,
+    "optimizer": "Adam",
+    "conv_type": "GATConv",
+    "activation_function": "relu",
+    "classification_function": "sigmoid",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 64,
+    "use_class_weights": false,
+    "model_settings_path": "model-settings/e9ba5a89ae9f17b0278dd0c89b7156bd.json"
+}

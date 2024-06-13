@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/518d317dda844c10b46cbd6366d1aaa4/artifacts
+end_time: 1717259076287
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 518d317dda844c10b46cbd6366d1aaa4
+run_name: bemused-zebra-583
+run_uuid: 518d317dda844c10b46cbd6366d1aaa4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717258858660
+status: 3
+tags: []
+user_id: bartoszlachowicz

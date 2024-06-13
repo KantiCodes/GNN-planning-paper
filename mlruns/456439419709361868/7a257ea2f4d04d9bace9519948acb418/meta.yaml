@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/7a257ea2f4d04d9bace9519948acb418/artifacts
+end_time: 1717463875468
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 7a257ea2f4d04d9bace9519948acb418
+run_name: defiant-kite-481
+run_uuid: 7a257ea2f4d04d9bace9519948acb418
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717462987076
+status: 3
+tags: []
+user_id: bartoszlachowicz

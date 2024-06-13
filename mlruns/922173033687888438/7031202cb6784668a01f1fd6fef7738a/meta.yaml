@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/7031202cb6784668a01f1fd6fef7738a/artifacts
+end_time: 1717343819441
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: 7031202cb6784668a01f1fd6fef7738a
+run_name: efficient-croc-495
+run_uuid: 7031202cb6784668a01f1fd6fef7738a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717343568895
+status: 3
+tags: []
+user_id: bartoszlachowicz

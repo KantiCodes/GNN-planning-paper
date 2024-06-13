@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/ed43a17183f441049bd34d82d668929a/artifacts
+end_time: 1717337722772
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: ed43a17183f441049bd34d82d668929a
+run_name: skillful-zebra-227
+run_uuid: ed43a17183f441049bd34d82d668929a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717337579577
+status: 3
+tags: []
+user_id: bartoszlachowicz

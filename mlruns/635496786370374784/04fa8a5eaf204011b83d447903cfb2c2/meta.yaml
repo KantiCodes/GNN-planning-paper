@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/04fa8a5eaf204011b83d447903cfb2c2/artifacts
+end_time: 1717256762629
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 04fa8a5eaf204011b83d447903cfb2c2
+run_name: salty-cat-356
+run_uuid: 04fa8a5eaf204011b83d447903cfb2c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717256504991
+status: 3
+tags: []
+user_id: bartoszlachowicz

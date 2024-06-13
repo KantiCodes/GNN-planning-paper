@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/acc42b3213544806999fb83fe89844a3/artifacts
+end_time: 1717257691969
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: acc42b3213544806999fb83fe89844a3
+run_name: puzzled-worm-550
+run_uuid: acc42b3213544806999fb83fe89844a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717257476870
+status: 3
+tags: []
+user_id: bartoszlachowicz

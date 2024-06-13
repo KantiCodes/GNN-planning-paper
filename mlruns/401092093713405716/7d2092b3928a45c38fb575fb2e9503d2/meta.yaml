@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/401092093713405716/7d2092b3928a45c38fb575fb2e9503d2/artifacts
+end_time: 1717325851721
+entry_point_name: ''
+experiment_id: '401092093713405716'
+lifecycle_stage: active
+run_id: 7d2092b3928a45c38fb575fb2e9503d2
+run_name: angry-hawk-249
+run_uuid: 7d2092b3928a45c38fb575fb2e9503d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717325682509
+status: 3
+tags: []
+user_id: bartoszlachowicz

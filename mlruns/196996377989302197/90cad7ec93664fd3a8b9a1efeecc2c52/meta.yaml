@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/196996377989302197/90cad7ec93664fd3a8b9a1efeecc2c52/artifacts
+end_time: 1716237788273
+entry_point_name: ''
+experiment_id: '196996377989302197'
+lifecycle_stage: active
+run_id: 90cad7ec93664fd3a8b9a1efeecc2c52
+run_name: calm-shoat-403
+run_uuid: 90cad7ec93664fd3a8b9a1efeecc2c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716237219641
+status: 3
+tags: []
+user_id: bartoszlachowicz

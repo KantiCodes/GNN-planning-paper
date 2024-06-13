@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/498ec1e154b0418e9a303a7c0826a206/artifacts
+end_time: 1717457426073
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 498ec1e154b0418e9a303a7c0826a206
+run_name: burly-snake-165
+run_uuid: 498ec1e154b0418e9a303a7c0826a206
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717455613209
+status: 3
+tags: []
+user_id: bartoszlachowicz

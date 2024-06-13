@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/a0647f91b0e04e60a6a1e66cbe454104/artifacts
+end_time: 1717448243525
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: a0647f91b0e04e60a6a1e66cbe454104
+run_name: defiant-cub-151
+run_uuid: a0647f91b0e04e60a6a1e66cbe454104
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717446131875
+status: 3
+tags: []
+user_id: bartoszlachowicz

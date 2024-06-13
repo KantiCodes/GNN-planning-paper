@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/6e63efe59b24432ab34ad1a11a859076/artifacts
+end_time: 1717260194504
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 6e63efe59b24432ab34ad1a11a859076
+run_name: agreeable-zebra-841
+run_uuid: 6e63efe59b24432ab34ad1a11a859076
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717259697843
+status: 3
+tags: []
+user_id: bartoszlachowicz

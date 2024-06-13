@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/107950084407022124/ebb9fccd91f643a7ab351ea93ba9d8ac/artifacts
+end_time: 1717618953944
+entry_point_name: ''
+experiment_id: '107950084407022124'
+lifecycle_stage: active
+run_id: ebb9fccd91f643a7ab351ea93ba9d8ac
+run_name: righteous-moth-463
+run_uuid: ebb9fccd91f643a7ab351ea93ba9d8ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717618300480
+status: 4
+tags: []
+user_id: bartoszlachowicz

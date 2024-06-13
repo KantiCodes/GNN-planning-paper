@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/239cecffba0b47048266f458856c2c8b/artifacts
+end_time: 1717343280421
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: 239cecffba0b47048266f458856c2c8b
+run_name: polite-conch-748
+run_uuid: 239cecffba0b47048266f458856c2c8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717342772620
+status: 3
+tags: []
+user_id: bartoszlachowicz

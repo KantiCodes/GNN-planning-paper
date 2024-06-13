@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/95e5fc1924ef47aaa8476013789d7cb0/artifacts
+end_time: 1717339001101
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: 95e5fc1924ef47aaa8476013789d7cb0
+run_name: mysterious-roo-65
+run_uuid: 95e5fc1924ef47aaa8476013789d7cb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717338515407
+status: 3
+tags: []
+user_id: bartoszlachowicz

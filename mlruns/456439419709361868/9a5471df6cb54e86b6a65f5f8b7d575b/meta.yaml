@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/456439419709361868/9a5471df6cb54e86b6a65f5f8b7d575b/artifacts
+end_time: 1717444310718
+entry_point_name: ''
+experiment_id: '456439419709361868'
+lifecycle_stage: active
+run_id: 9a5471df6cb54e86b6a65f5f8b7d575b
+run_name: treasured-wren-561
+run_uuid: 9a5471df6cb54e86b6a65f5f8b7d575b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717441459838
+status: 3
+tags: []
+user_id: bartoszlachowicz

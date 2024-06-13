@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/cd036afb0e524afbb2293759d29711d6/artifacts
+end_time: 1717258777311
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: cd036afb0e524afbb2293759d29711d6
+run_name: victorious-swan-642
+run_uuid: cd036afb0e524afbb2293759d29711d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717258244700
+status: 3
+tags: []
+user_id: bartoszlachowicz

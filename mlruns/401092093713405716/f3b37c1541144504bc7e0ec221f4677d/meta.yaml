@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/401092093713405716/f3b37c1541144504bc7e0ec221f4677d/artifacts
+end_time: 1717334490501
+entry_point_name: ''
+experiment_id: '401092093713405716'
+lifecycle_stage: active
+run_id: f3b37c1541144504bc7e0ec221f4677d
+run_name: amusing-goose-617
+run_uuid: f3b37c1541144504bc7e0ec221f4677d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717334201733
+status: 3
+tags: []
+user_id: bartoszlachowicz

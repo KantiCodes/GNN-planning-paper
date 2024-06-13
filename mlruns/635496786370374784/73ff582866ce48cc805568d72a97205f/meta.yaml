@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635496786370374784/73ff582866ce48cc805568d72a97205f/artifacts
+end_time: 1717256131511
+entry_point_name: ''
+experiment_id: '635496786370374784'
+lifecycle_stage: active
+run_id: 73ff582866ce48cc805568d72a97205f
+run_name: bold-donkey-761
+run_uuid: 73ff582866ce48cc805568d72a97205f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717255870078
+status: 3
+tags: []
+user_id: bartoszlachowicz

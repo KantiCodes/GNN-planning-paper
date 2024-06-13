@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/922173033687888438/f638cbdbd8804376ad20975abbd65859/artifacts
+end_time: 1717340442458
+entry_point_name: ''
+experiment_id: '922173033687888438'
+lifecycle_stage: active
+run_id: f638cbdbd8804376ad20975abbd65859
+run_name: mysterious-mouse-607
+run_uuid: f638cbdbd8804376ad20975abbd65859
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717339910337
+status: 3
+tags: []
+user_id: bartoszlachowicz
