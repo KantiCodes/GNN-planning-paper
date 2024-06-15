@@ -6,28 +6,21 @@ from sklearn.exceptions import UndefinedMetricWarning
 
 from model.metrics import EEvalMetric, ELossFunction
 
-warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
-warnings.filterwarnings("ignore", category=UserWarning)
+
 from model.model_setting import ModelSetting
 import os
 import random
-from training_case import TrainingCase, compute_hyper
+from training_case import TrainingCase
 import argparse
 
 # Original Code here:
 # https://github.com/pytorch/examples/blob/master/mnist/main.py
 
-import argparse
-import os
-import tempfile
-
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-from filelock import FileLock
 
 import optuna
+
+warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
 
 
 # Change these values if you want the training to run quicker or slower.
@@ -42,43 +35,10 @@ random.seed(42)
 
 GRAPH_DATA_PATH = "alvaro_data"
 
-# RUN_CONFIG = train.RunConfig(
-#     name="exp",
-#     # stop={
-#     #     "mean_accuracy": 0.98,
-#     #     "training_iteration": 100,
-#     # },
-# )
-
-
-# Default one from our random_settings_explicit_function
-# PARAM_SPACE = {
-#     # "lr": tune.loguniform(0.01, 0.1),
-#     "lr": tune.sample_from(lambda _: random.choice([0.01, 0.001, 0.001])),
-#     "layers_num": tune.sample_from(lambda _: random.choice([4, 8, 16])),
-#     "hidden_size": tune.sample_from(lambda _: random.choice([4, 8, 16])),
-#     "optimizer": tune.sample_from(lambda _: random.choice(list(EOptimizer))),
-#     "conv_type": tune.sample_from(lambda _: random.choice(list(EConvolution))),
-#     "activation_function": tune.sample_from(
-#         lambda _: random.choice(list(EActivationFunction))
-#     ),
-#     "classification_function": tune.sample_from(
-#         lambda _: random.choice(list(EActivationFunction))
-#     ),
-#     "batch_size": tune.sample_from(lambda _: random.choice([16, 32, 64])),
-#     "use_class_weights": tune.sample_from(lambda _: random.choice([True, False])),
-#     "use_batch_norm": tune.sample_from(lambda _: random.choice([True, False])),
-#     "loss_function": tune.sample_from(lambda _: random.choice(list(ELossFunction))),
-#     "eval_metric": tune.sample_from(lambda _: random.choice(list(EEvalMetric))),
-# }
-
 Path = str
 
 
 class Runner:
-    # mode_jsons = "running_with_jsons"
-    # mode_run_config = "running_with_config"
-
     def _prepare_data(self, graph_data: Path):
         all_instances = [os.path.join(graph_data, x) for x in os.listdir(graph_data)]
         # Shuffle the instances
@@ -165,27 +125,6 @@ class Runner:
             case.persist()
 
     def run_hyper(self):
-        # sched = AsyncHyperBandScheduler()
-        # # resources_per_trial = {"cpu": 2, "gpu": int(args.cuda)}  # set this for GPUs
-        # algo = AxSearch()
-        # tuner = tune.Tuner(
-        #     # tune.with_resources(self._run, resources={"CPU": 6, "GPU": 0.5}),
-        #     tune.with_resources(self._run, resources={"CPU": 6}),
-        #     tune_config=tune.TuneConfig(
-        #         metric="puo",
-        #         mode="max",
-        #         scheduler=sched,
-        #         num_samples=100,
-        #         search_alg=algo,
-        #     ),
-        #     run_config=RUN_CONFIG,
-        #     param_space=PARAM_SPACE,
-        # )
-        # # Fit will call compute() and input to compute are parameters
-        # results = tuner.fit()
-
-        # assert not results.errors
-
         def objective(trial):
             params = {
                 "lr": trial.suggest_loguniform("lr", 0.01, 0.1),
@@ -217,7 +156,14 @@ class Runner:
             test_puo = self._run(params)
             return test_puo
 
-        study = optuna.create_study(direction="maximize")
+        # Check here for parrallelization. When optuna shares storage it automatically parallelizes. https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/004_distributed.html
+        # Optuna provides different samplers (search algorithms) and pruners (early stopping algorithms).
+        # See here for a full list: https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/003_efficient_optimization_algorithms.html
+        study = optuna.create_study(
+            direction="maximize",
+            sampler=optuna.samplers.TPESampler(seed=42),
+            pruner=optuna.pruners.HyperbandPruner(),
+        )
 
         study.optimize(objective, n_trials=100)
 
