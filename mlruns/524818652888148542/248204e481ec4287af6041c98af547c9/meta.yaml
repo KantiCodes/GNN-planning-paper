@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/248204e481ec4287af6041c98af547c9/artifacts
+deleted_time: 1718532109122
 end_time: 1717710967271
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 248204e481ec4287af6041c98af547c9
 run_name: orderly-stoat-322
 run_uuid: 248204e481ec4287af6041c98af547c9

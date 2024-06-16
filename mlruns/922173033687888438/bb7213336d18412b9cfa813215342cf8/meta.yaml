@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/bb7213336d18412b9cfa813215342cf8/artifacts
+deleted_time: 1718531897048
 end_time: 1717342002337
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bb7213336d18412b9cfa813215342cf8
 run_name: charming-skink-419
 run_uuid: bb7213336d18412b9cfa813215342cf8

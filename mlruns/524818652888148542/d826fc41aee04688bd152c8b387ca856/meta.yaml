@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d826fc41aee04688bd152c8b387ca856/artifacts
+deleted_time: 1718531697459
 end_time: 1717708296591
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d826fc41aee04688bd152c8b387ca856
 run_name: gentle-mouse-764
 run_uuid: d826fc41aee04688bd152c8b387ca856

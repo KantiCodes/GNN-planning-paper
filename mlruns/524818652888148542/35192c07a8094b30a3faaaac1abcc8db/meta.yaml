@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/35192c07a8094b30a3faaaac1abcc8db/artifacts
+deleted_time: 1718532065955
 end_time: 1717631966385
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 35192c07a8094b30a3faaaac1abcc8db
 run_name: bittersweet-bug-319
 run_uuid: 35192c07a8094b30a3faaaac1abcc8db

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/0f9f55de250f4c64987f0068f8adbdcf/artifacts
+deleted_time: 1718532135769
 end_time: 1717694717702
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0f9f55de250f4c64987f0068f8adbdcf
 run_name: unequaled-cod-693
 run_uuid: 0f9f55de250f4c64987f0068f8adbdcf

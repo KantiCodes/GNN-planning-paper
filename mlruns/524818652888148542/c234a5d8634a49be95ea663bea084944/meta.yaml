@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c234a5d8634a49be95ea663bea084944/artifacts
+deleted_time: 1718532007097
 end_time: 1717656296951
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c234a5d8634a49be95ea663bea084944
 run_name: dazzling-gull-376
 run_uuid: c234a5d8634a49be95ea663bea084944

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1de0f911b7f3449eb9645b57308c4c5f/artifacts
+deleted_time: 1718532065992
 end_time: 1717631737430
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1de0f911b7f3449eb9645b57308c4c5f
 run_name: wise-lynx-669
 run_uuid: 1de0f911b7f3449eb9645b57308c4c5f

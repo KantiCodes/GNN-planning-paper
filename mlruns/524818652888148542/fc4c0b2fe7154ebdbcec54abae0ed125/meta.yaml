@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/fc4c0b2fe7154ebdbcec54abae0ed125/artifacts
+deleted_time: 1718531697410
 end_time: 1717695002738
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fc4c0b2fe7154ebdbcec54abae0ed125
 run_name: gifted-roo-587
 run_uuid: fc4c0b2fe7154ebdbcec54abae0ed125

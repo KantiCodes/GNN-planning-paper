@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e434d85764134c74bbba21ad55ddd1cf/artifacts
+deleted_time: 1718531697366
 end_time: 1717718959414
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e434d85764134c74bbba21ad55ddd1cf
 run_name: kindly-hawk-541
 run_uuid: e434d85764134c74bbba21ad55ddd1cf

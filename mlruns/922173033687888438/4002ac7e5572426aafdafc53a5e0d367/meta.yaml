@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/4002ac7e5572426aafdafc53a5e0d367/artifacts
+deleted_time: 1718531897038
 end_time: 1717343950963
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4002ac7e5572426aafdafc53a5e0d367
 run_name: illustrious-bee-291
 run_uuid: 4002ac7e5572426aafdafc53a5e0d367

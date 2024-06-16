@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/00de45cffdb640a180ba2d573c5a664f/artifacts
+deleted_time: 1718531621768
 end_time: 1717708499156
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 00de45cffdb640a180ba2d573c5a664f
 run_name: industrious-koi-781
 run_uuid: 00de45cffdb640a180ba2d573c5a664f

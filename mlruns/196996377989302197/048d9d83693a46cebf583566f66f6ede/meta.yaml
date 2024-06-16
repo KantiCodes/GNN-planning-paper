@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/048d9d83693a46cebf583566f66f6ede/artifacts
+deleted_time: 1718531964061
 end_time: 1717173503545
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 048d9d83693a46cebf583566f66f6ede
 run_name: dazzling-pig-414
 run_uuid: 048d9d83693a46cebf583566f66f6ede

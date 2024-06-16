@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6bce6c9770ce449f8dc9b2558501cb1f/artifacts
+deleted_time: 1718531621849
 end_time: 1717695336657
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6bce6c9770ce449f8dc9b2558501cb1f
 run_name: illustrious-duck-699
 run_uuid: 6bce6c9770ce449f8dc9b2558501cb1f

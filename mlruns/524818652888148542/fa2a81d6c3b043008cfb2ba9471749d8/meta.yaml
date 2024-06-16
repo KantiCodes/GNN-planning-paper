@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/fa2a81d6c3b043008cfb2ba9471749d8/artifacts
+deleted_time: 1718531697455
 end_time: 1717656451222
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fa2a81d6c3b043008cfb2ba9471749d8
 run_name: upbeat-turtle-371
 run_uuid: fa2a81d6c3b043008cfb2ba9471749d8

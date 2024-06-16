@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/7f2e422c786f40fcb1f5eac393e03e15/artifacts
+deleted_time: 1718532029329
 end_time: 1717718867629
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7f2e422c786f40fcb1f5eac393e03e15
 run_name: painted-duck-12
 run_uuid: 7f2e422c786f40fcb1f5eac393e03e15

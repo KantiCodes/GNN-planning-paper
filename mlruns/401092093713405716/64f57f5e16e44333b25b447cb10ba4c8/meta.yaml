@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/64f57f5e16e44333b25b447cb10ba4c8/artifacts
+deleted_time: 1718531910787
 end_time: 1717327970241
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 64f57f5e16e44333b25b447cb10ba4c8
 run_name: brawny-skink-469
 run_uuid: 64f57f5e16e44333b25b447cb10ba4c8

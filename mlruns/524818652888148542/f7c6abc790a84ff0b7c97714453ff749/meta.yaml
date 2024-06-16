@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f7c6abc790a84ff0b7c97714453ff749/artifacts
+deleted_time: 1718531621772
 end_time: 1717707972326
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f7c6abc790a84ff0b7c97714453ff749
 run_name: salty-shad-191
 run_uuid: f7c6abc790a84ff0b7c97714453ff749

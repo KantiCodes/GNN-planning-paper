@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/220a6f271157486091890a6b510801a4/artifacts
+deleted_time: 1718531621859
 end_time: 1717708282927
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 220a6f271157486091890a6b510801a4
 run_name: dapper-bear-544
 run_uuid: 220a6f271157486091890a6b510801a4

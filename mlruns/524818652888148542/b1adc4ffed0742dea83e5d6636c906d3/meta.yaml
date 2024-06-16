@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b1adc4ffed0742dea83e5d6636c906d3/artifacts
+deleted_time: 1718532029337
 end_time: 1717720248349
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b1adc4ffed0742dea83e5d6636c906d3
 run_name: amusing-shrimp-181
 run_uuid: b1adc4ffed0742dea83e5d6636c906d3

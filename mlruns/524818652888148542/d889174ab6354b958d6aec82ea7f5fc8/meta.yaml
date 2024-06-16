@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d889174ab6354b958d6aec82ea7f5fc8/artifacts
+deleted_time: 1718531697378
 end_time: 1717695353057
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d889174ab6354b958d6aec82ea7f5fc8
 run_name: intelligent-gull-323
 run_uuid: d889174ab6354b958d6aec82ea7f5fc8

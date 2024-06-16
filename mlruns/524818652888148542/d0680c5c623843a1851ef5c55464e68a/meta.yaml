@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d0680c5c623843a1851ef5c55464e68a/artifacts
+deleted_time: 1718532065927
 end_time: 1717632253755
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d0680c5c623843a1851ef5c55464e68a
 run_name: carefree-zebra-150
 run_uuid: d0680c5c623843a1851ef5c55464e68a

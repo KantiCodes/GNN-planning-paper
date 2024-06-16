@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ebd686ba2d6a4c1eacdcb36a1f5b6d0c/artifacts
+deleted_time: 1718531697377
 end_time: 1717631101597
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ebd686ba2d6a4c1eacdcb36a1f5b6d0c
 run_name: sincere-fly-836
 run_uuid: ebd686ba2d6a4c1eacdcb36a1f5b6d0c

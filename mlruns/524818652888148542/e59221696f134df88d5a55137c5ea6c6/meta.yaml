@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e59221696f134df88d5a55137c5ea6c6/artifacts
+deleted_time: 1718531621860
 end_time: 1717695078655
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e59221696f134df88d5a55137c5ea6c6
 run_name: merciful-rook-320
 run_uuid: e59221696f134df88d5a55137c5ea6c6

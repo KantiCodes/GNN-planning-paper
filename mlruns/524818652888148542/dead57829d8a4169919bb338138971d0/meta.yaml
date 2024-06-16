@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/dead57829d8a4169919bb338138971d0/artifacts
+deleted_time: 1718531621865
 end_time: 1717656669346
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dead57829d8a4169919bb338138971d0
 run_name: abundant-kite-572
 run_uuid: dead57829d8a4169919bb338138971d0

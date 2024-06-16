@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/998b6f9800b34cd182dba2468dea8aac/artifacts
+deleted_time: 1718532065946
 end_time: 1717632024563
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 998b6f9800b34cd182dba2468dea8aac
 run_name: stately-conch-507
 run_uuid: 998b6f9800b34cd182dba2468dea8aac

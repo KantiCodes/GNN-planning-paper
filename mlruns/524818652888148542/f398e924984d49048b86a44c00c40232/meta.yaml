@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f398e924984d49048b86a44c00c40232/artifacts
+deleted_time: 1718532109172
 end_time: 1717708660347
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f398e924984d49048b86a44c00c40232
 run_name: melodic-goat-423
 run_uuid: f398e924984d49048b86a44c00c40232

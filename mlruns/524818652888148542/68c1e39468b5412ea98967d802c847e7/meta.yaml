@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/68c1e39468b5412ea98967d802c847e7/artifacts
+deleted_time: 1718531697391
 end_time: 1717695352495
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 68c1e39468b5412ea98967d802c847e7
 run_name: peaceful-fox-932
 run_uuid: 68c1e39468b5412ea98967d802c847e7

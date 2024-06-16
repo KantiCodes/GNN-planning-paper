@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/c0133c7aa5b94f789f6cd2ed0fce7f00/artifacts
+deleted_time: 1718531910759
 end_time: 1717328680210
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c0133c7aa5b94f789f6cd2ed0fce7f00
 run_name: gregarious-finch-384
 run_uuid: c0133c7aa5b94f789f6cd2ed0fce7f00

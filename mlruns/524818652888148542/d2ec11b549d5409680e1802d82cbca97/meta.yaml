@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d2ec11b549d5409680e1802d82cbca97/artifacts
+deleted_time: 1718531621801
 end_time: 1717719652259
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d2ec11b549d5409680e1802d82cbca97
 run_name: capable-vole-630
 run_uuid: d2ec11b549d5409680e1802d82cbca97

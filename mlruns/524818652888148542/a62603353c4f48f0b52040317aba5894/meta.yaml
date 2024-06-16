@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a62603353c4f48f0b52040317aba5894/artifacts
+deleted_time: 1718532065892
 end_time: 1717632438628
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a62603353c4f48f0b52040317aba5894
 run_name: capable-doe-707
 run_uuid: a62603353c4f48f0b52040317aba5894

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/160831aef7e745e5967f732fe6c0d0b6/artifacts
+deleted_time: 1718532007108
 end_time: 1717655838129
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 160831aef7e745e5967f732fe6c0d0b6
 run_name: luminous-worm-334
 run_uuid: 160831aef7e745e5967f732fe6c0d0b6

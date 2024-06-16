@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/48e410ea3c7842df8ad0623eed27f60c/artifacts
+deleted_time: 1718531621837
 end_time: 1717655852668
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 48e410ea3c7842df8ad0623eed27f60c
 run_name: blushing-hound-544
 run_uuid: 48e410ea3c7842df8ad0623eed27f60c

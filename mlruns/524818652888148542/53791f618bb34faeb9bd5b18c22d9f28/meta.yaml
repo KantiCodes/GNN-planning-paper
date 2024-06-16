@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/53791f618bb34faeb9bd5b18c22d9f28/artifacts
+deleted_time: 1718531697395
 end_time: 1717694699426
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 53791f618bb34faeb9bd5b18c22d9f28
 run_name: exultant-kite-906
 run_uuid: 53791f618bb34faeb9bd5b18c22d9f28

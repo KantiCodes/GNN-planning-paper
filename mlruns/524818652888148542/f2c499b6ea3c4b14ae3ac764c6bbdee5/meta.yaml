@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f2c499b6ea3c4b14ae3ac764c6bbdee5/artifacts
+deleted_time: 1718532109146
 end_time: 1717707927291
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f2c499b6ea3c4b14ae3ac764c6bbdee5
 run_name: kindly-foal-206
 run_uuid: f2c499b6ea3c4b14ae3ac764c6bbdee5

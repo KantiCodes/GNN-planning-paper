@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c40748a97f874c27a61650bf78152aed/artifacts
+deleted_time: 1718532135764
 end_time: 1717694975779
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c40748a97f874c27a61650bf78152aed
 run_name: rogue-hare-962
 run_uuid: c40748a97f874c27a61650bf78152aed

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f87b7a26b25e4638be9b7f9a7f7a7bde/artifacts
+deleted_time: 1718532065973
 end_time: 1717631855354
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f87b7a26b25e4638be9b7f9a7f7a7bde
 run_name: rumbling-whale-115
 run_uuid: f87b7a26b25e4638be9b7f9a7f7a7bde

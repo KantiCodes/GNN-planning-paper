@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8126e4b0ff88448bb401f41dd0ececa9/artifacts
+deleted_time: 1718532007102
 end_time: 1717656059052
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8126e4b0ff88448bb401f41dd0ececa9
 run_name: monumental-midge-705
 run_uuid: 8126e4b0ff88448bb401f41dd0ececa9

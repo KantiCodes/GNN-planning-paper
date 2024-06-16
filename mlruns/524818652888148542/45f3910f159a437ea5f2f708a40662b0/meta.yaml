@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/45f3910f159a437ea5f2f708a40662b0/artifacts
+deleted_time: 1718531697372
 end_time: 1717715426285
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 45f3910f159a437ea5f2f708a40662b0
 run_name: burly-loon-434
 run_uuid: 45f3910f159a437ea5f2f708a40662b0

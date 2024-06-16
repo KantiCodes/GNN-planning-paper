@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/35bbc64fd5784192bfb8b6e24b8d6d8f/artifacts
+deleted_time: 1718532065881
 end_time: 1717629590101
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 35bbc64fd5784192bfb8b6e24b8d6d8f
 run_name: funny-carp-322
 run_uuid: 35bbc64fd5784192bfb8b6e24b8d6d8f

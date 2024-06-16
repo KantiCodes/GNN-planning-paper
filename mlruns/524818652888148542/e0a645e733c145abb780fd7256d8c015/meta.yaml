@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e0a645e733c145abb780fd7256d8c015/artifacts
+deleted_time: 1718531697337
 end_time: 1717708630880
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e0a645e733c145abb780fd7256d8c015
 run_name: bustling-moose-684
 run_uuid: e0a645e733c145abb780fd7256d8c015

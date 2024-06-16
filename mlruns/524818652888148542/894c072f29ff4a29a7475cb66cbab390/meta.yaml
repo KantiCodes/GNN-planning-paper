@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/894c072f29ff4a29a7475cb66cbab390/artifacts
+deleted_time: 1718531621754
 end_time: 1717655931487
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 894c072f29ff4a29a7475cb66cbab390
 run_name: ambitious-loon-151
 run_uuid: 894c072f29ff4a29a7475cb66cbab390

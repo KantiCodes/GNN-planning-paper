@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/20c7d61a455743938bdf2fecb79e54a9/artifacts
+deleted_time: 1718532109136
 end_time: 1717708726437
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 20c7d61a455743938bdf2fecb79e54a9
 run_name: smiling-bug-892
 run_uuid: 20c7d61a455743938bdf2fecb79e54a9

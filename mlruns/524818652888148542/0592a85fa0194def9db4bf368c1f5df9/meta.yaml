@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/0592a85fa0194def9db4bf368c1f5df9/artifacts
+deleted_time: 1718532065970
 end_time: 1717631892137
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0592a85fa0194def9db4bf368c1f5df9
 run_name: traveling-stag-350
 run_uuid: 0592a85fa0194def9db4bf368c1f5df9

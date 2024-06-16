@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/036631d2f23c42e6b4ac11ffe00dbe6e/artifacts
+deleted_time: 1718532065891
 end_time: 1717632451777
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 036631d2f23c42e6b4ac11ffe00dbe6e
 run_name: big-gull-721
 run_uuid: 036631d2f23c42e6b4ac11ffe00dbe6e

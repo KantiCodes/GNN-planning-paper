@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/08caa44b0ec7450e93e75080b43a0c62/artifacts
+deleted_time: 1718531621747
 end_time: 1717708060388
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 08caa44b0ec7450e93e75080b43a0c62
 run_name: whimsical-goat-480
 run_uuid: 08caa44b0ec7450e93e75080b43a0c62

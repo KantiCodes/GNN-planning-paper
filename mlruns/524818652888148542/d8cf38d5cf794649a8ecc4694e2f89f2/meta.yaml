@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d8cf38d5cf794649a8ecc4694e2f89f2/artifacts
+deleted_time: 1718531621801
 end_time: 1717711137342
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d8cf38d5cf794649a8ecc4694e2f89f2
 run_name: shivering-tern-627
 run_uuid: d8cf38d5cf794649a8ecc4694e2f89f2

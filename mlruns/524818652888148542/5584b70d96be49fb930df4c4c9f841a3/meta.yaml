@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5584b70d96be49fb930df4c4c9f841a3/artifacts
+deleted_time: 1718532065932
 end_time: 1717632107162
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5584b70d96be49fb930df4c4c9f841a3
 run_name: redolent-pig-554
 run_uuid: 5584b70d96be49fb930df4c4c9f841a3

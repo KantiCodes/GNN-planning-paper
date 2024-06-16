@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e5a26136c1564c2e8ff54a4f06a57ab0/artifacts
+deleted_time: 1718531697391
 end_time: 1717695209442
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e5a26136c1564c2e8ff54a4f06a57ab0
 run_name: resilient-fawn-578
 run_uuid: e5a26136c1564c2e8ff54a4f06a57ab0

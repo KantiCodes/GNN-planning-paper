@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/040b7931650b4d6488d8518f5bc68835/artifacts
+deleted_time: 1718532109141
 end_time: 1717708948173
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 040b7931650b4d6488d8518f5bc68835
 run_name: peaceful-flea-271
 run_uuid: 040b7931650b4d6488d8518f5bc68835

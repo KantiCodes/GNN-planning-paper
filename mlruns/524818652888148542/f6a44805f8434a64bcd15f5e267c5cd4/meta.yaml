@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f6a44805f8434a64bcd15f5e267c5cd4/artifacts
+deleted_time: 1718532109199
 end_time: 1717707826936
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f6a44805f8434a64bcd15f5e267c5cd4
 run_name: languid-lark-628
 run_uuid: f6a44805f8434a64bcd15f5e267c5cd4

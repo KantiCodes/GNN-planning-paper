@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b85f51d6e62c4393aeba24848c7f6aaf/artifacts
+deleted_time: 1718531697375
 end_time: 1717631376978
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b85f51d6e62c4393aeba24848c7f6aaf
 run_name: agreeable-skunk-223
 run_uuid: b85f51d6e62c4393aeba24848c7f6aaf

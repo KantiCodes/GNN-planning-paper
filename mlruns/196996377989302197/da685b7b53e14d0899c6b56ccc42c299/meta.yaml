@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/da685b7b53e14d0899c6b56ccc42c299/artifacts
+deleted_time: 1718531964068
 end_time: 1717196856479
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: da685b7b53e14d0899c6b56ccc42c299
 run_name: mysterious-whale-926
 run_uuid: da685b7b53e14d0899c6b56ccc42c299

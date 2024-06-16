@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/2ecdbe11f5474c45b6927ac52ad2035c/artifacts
+deleted_time: 1718532109188
 end_time: 1717708034950
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2ecdbe11f5474c45b6927ac52ad2035c
 run_name: thoughtful-mole-317
 run_uuid: 2ecdbe11f5474c45b6927ac52ad2035c

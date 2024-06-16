@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/02dc0da64a234d1ab5437f411064db83/artifacts
+deleted_time: 1718532065956
 end_time: 1717631958904
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 02dc0da64a234d1ab5437f411064db83
 run_name: exultant-lark-370
 run_uuid: 02dc0da64a234d1ab5437f411064db83

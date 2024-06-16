@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/008e737ba4234f79943649ec1cfbc196/artifacts
+deleted_time: 1718532065914
 end_time: 1717632337667
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 008e737ba4234f79943649ec1cfbc196
 run_name: lyrical-swan-328
 run_uuid: 008e737ba4234f79943649ec1cfbc196

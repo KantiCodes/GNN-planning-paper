@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/735188eeacaa4195930bcb90b53c1e30/artifacts
+deleted_time: 1718532029383
 end_time: 1717718077824
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 735188eeacaa4195930bcb90b53c1e30
 run_name: worried-elk-587
 run_uuid: 735188eeacaa4195930bcb90b53c1e30

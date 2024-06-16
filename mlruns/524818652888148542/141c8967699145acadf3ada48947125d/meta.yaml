@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/141c8967699145acadf3ada48947125d/artifacts
+deleted_time: 1718531621817
 end_time: 1717656465726
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 141c8967699145acadf3ada48947125d
 run_name: beautiful-finch-595
 run_uuid: 141c8967699145acadf3ada48947125d

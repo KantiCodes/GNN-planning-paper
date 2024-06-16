@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/f735ac5b71d146e8b5be99aae5e68756/artifacts
+deleted_time: 1718531897046
 end_time: 1717343566122
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f735ac5b71d146e8b5be99aae5e68756
 run_name: rambunctious-owl-788
 run_uuid: f735ac5b71d146e8b5be99aae5e68756

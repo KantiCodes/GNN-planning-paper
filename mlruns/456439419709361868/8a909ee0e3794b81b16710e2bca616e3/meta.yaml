@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/8a909ee0e3794b81b16710e2bca616e3/artifacts
+deleted_time: 1718531881284
 end_time: 1717407580658
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8a909ee0e3794b81b16710e2bca616e3
 run_name: dapper-horse-257
 run_uuid: 8a909ee0e3794b81b16710e2bca616e3

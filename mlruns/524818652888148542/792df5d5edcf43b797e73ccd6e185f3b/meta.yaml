@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/792df5d5edcf43b797e73ccd6e185f3b/artifacts
+deleted_time: 1718531697408
 end_time: 1717708680969
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 792df5d5edcf43b797e73ccd6e185f3b
 run_name: stylish-zebra-398
 run_uuid: 792df5d5edcf43b797e73ccd6e185f3b

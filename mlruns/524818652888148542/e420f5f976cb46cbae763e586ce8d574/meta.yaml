@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e420f5f976cb46cbae763e586ce8d574/artifacts
+deleted_time: 1718531697462
 end_time: 1717656614412
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e420f5f976cb46cbae763e586ce8d574
 run_name: resilient-squid-194
 run_uuid: e420f5f976cb46cbae763e586ce8d574

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/500cd4e813004d1a94185f3f1de069bd/artifacts
+deleted_time: 1718532135752
 end_time: 1717694794259
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 500cd4e813004d1a94185f3f1de069bd
 run_name: righteous-foal-435
 run_uuid: 500cd4e813004d1a94185f3f1de069bd

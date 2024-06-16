@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/5fb921af1ae0424bb9772bcd621e0451/artifacts
+deleted_time: 1718531881287
 end_time: 1717462960300
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5fb921af1ae0424bb9772bcd621e0451
 run_name: abrasive-grub-414
 run_uuid: 5fb921af1ae0424bb9772bcd621e0451

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/26bd399de9f14724a391b2dd33285f9c/artifacts
+deleted_time: 1718531621850
 end_time: 1717720567993
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 26bd399de9f14724a391b2dd33285f9c
 run_name: awesome-rook-158
 run_uuid: 26bd399de9f14724a391b2dd33285f9c

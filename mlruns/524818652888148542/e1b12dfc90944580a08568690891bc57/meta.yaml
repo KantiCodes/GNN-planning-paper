@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e1b12dfc90944580a08568690891bc57/artifacts
+deleted_time: 1718532029442
 end_time: null
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e1b12dfc90944580a08568690891bc57
 run_name: abrasive-swan-549
 run_uuid: e1b12dfc90944580a08568690891bc57

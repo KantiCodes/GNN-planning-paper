@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1fbdf9ab048b4427ac8f471c454cb15e/artifacts
+deleted_time: 1718531697435
 end_time: 1717707716323
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1fbdf9ab048b4427ac8f471c454cb15e
 run_name: bouncy-yak-126
 run_uuid: 1fbdf9ab048b4427ac8f471c454cb15e

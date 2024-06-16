@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a641e5d7d4c34a3d82a4ec41c03dbf46/artifacts
+deleted_time: 1718531697414
 end_time: 1717655986866
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a641e5d7d4c34a3d82a4ec41c03dbf46
 run_name: serious-mare-354
 run_uuid: a641e5d7d4c34a3d82a4ec41c03dbf46

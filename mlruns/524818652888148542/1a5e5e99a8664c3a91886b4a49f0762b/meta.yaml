@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1a5e5e99a8664c3a91886b4a49f0762b/artifacts
+deleted_time: 1718531697434
 end_time: 1717708789450
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1a5e5e99a8664c3a91886b4a49f0762b
 run_name: merciful-foal-747
 run_uuid: 1a5e5e99a8664c3a91886b4a49f0762b

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6411d78990cb40af8c51ac3f59e81000/artifacts
+deleted_time: 1718531621788
 end_time: 1717656101470
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6411d78990cb40af8c51ac3f59e81000
 run_name: stylish-duck-14
 run_uuid: 6411d78990cb40af8c51ac3f59e81000

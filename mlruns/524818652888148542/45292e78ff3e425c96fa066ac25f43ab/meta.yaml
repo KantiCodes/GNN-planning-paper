@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/45292e78ff3e425c96fa066ac25f43ab/artifacts
+deleted_time: 1718532135775
 end_time: 1717695321910
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 45292e78ff3e425c96fa066ac25f43ab
 run_name: nimble-crow-641
 run_uuid: 45292e78ff3e425c96fa066ac25f43ab

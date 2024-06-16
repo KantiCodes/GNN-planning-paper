@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/92fdd933a7f84a8fb98f3a6d192b3b05/artifacts
+deleted_time: 1718532163077
 end_time: 1717629700139
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 92fdd933a7f84a8fb98f3a6d192b3b05
 run_name: clumsy-sponge-810
 run_uuid: 92fdd933a7f84a8fb98f3a6d192b3b05

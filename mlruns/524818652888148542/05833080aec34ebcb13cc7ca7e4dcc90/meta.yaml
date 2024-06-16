@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/05833080aec34ebcb13cc7ca7e4dcc90/artifacts
+deleted_time: 1718531697337
 end_time: 1717719818652
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 05833080aec34ebcb13cc7ca7e4dcc90
 run_name: placid-hog-796
 run_uuid: 05833080aec34ebcb13cc7ca7e4dcc90

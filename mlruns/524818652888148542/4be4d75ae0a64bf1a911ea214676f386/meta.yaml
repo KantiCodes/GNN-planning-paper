@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/4be4d75ae0a64bf1a911ea214676f386/artifacts
+deleted_time: 1718531621882
 end_time: 1717694681653
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4be4d75ae0a64bf1a911ea214676f386
 run_name: stylish-wren-98
 run_uuid: 4be4d75ae0a64bf1a911ea214676f386

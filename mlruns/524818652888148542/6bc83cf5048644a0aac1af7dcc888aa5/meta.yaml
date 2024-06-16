@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6bc83cf5048644a0aac1af7dcc888aa5/artifacts
+deleted_time: 1718532109122
 end_time: 1717708680620
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6bc83cf5048644a0aac1af7dcc888aa5
 run_name: sassy-hog-101
 run_uuid: 6bc83cf5048644a0aac1af7dcc888aa5

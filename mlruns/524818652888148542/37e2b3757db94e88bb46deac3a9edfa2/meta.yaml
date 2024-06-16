@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/37e2b3757db94e88bb46deac3a9edfa2/artifacts
+deleted_time: 1718531621815
 end_time: 1717695301216
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 37e2b3757db94e88bb46deac3a9edfa2
 run_name: loud-hen-124
 run_uuid: 37e2b3757db94e88bb46deac3a9edfa2

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6aa69478309a470081b07fe577a76388/artifacts
+deleted_time: 1718531697371
 end_time: 1717720508681
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6aa69478309a470081b07fe577a76388
 run_name: luminous-snail-261
 run_uuid: 6aa69478309a470081b07fe577a76388

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/25b0585726324c879304139229140d1f/artifacts
+deleted_time: 1718532029361
 end_time: 1717720692723
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 25b0585726324c879304139229140d1f
 run_name: receptive-carp-615
 run_uuid: 25b0585726324c879304139229140d1f

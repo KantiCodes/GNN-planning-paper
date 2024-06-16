@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/f8b790ba3cfa4b839d93482f20ac3a1f/artifacts
+deleted_time: 1718531881273
 end_time: 1717441438027
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f8b790ba3cfa4b839d93482f20ac3a1f
 run_name: thoughtful-auk-128
 run_uuid: f8b790ba3cfa4b839d93482f20ac3a1f

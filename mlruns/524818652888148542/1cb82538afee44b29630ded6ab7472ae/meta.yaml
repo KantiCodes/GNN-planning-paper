@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1cb82538afee44b29630ded6ab7472ae/artifacts
+deleted_time: 1718532065978
 end_time: 1717631843886
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1cb82538afee44b29630ded6ab7472ae
 run_name: clean-hawk-840
 run_uuid: 1cb82538afee44b29630ded6ab7472ae

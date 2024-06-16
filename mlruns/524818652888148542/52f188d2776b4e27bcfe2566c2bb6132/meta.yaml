@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/52f188d2776b4e27bcfe2566c2bb6132/artifacts
+deleted_time: 1718532163066
 end_time: 1717630582528
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 52f188d2776b4e27bcfe2566c2bb6132
 run_name: gaudy-bug-557
 run_uuid: 52f188d2776b4e27bcfe2566c2bb6132

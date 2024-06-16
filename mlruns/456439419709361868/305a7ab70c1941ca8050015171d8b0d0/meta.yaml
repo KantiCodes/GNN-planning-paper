@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/305a7ab70c1941ca8050015171d8b0d0/artifacts
+deleted_time: 1718531881293
 end_time: 1717358633735
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 305a7ab70c1941ca8050015171d8b0d0
 run_name: monumental-worm-583
 run_uuid: 305a7ab70c1941ca8050015171d8b0d0

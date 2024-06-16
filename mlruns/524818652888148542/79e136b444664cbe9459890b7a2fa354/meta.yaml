@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/79e136b444664cbe9459890b7a2fa354/artifacts
+deleted_time: 1718532029337
 end_time: 1717718486351
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 79e136b444664cbe9459890b7a2fa354
 run_name: efficient-croc-761
 run_uuid: 79e136b444664cbe9459890b7a2fa354

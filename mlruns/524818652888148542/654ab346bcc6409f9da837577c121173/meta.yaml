@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/654ab346bcc6409f9da837577c121173/artifacts
+deleted_time: 1718532135772
 end_time: 1717695345385
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 654ab346bcc6409f9da837577c121173
 run_name: persistent-crane-604
 run_uuid: 654ab346bcc6409f9da837577c121173

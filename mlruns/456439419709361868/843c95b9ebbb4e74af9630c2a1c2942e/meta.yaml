@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/843c95b9ebbb4e74af9630c2a1c2942e/artifacts
+deleted_time: 1718531881296
 end_time: 1717434779681
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 843c95b9ebbb4e74af9630c2a1c2942e
 run_name: unequaled-swan-703
 run_uuid: 843c95b9ebbb4e74af9630c2a1c2942e

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/55b0352a76dd4f5fb6eb6ea4d0ea8daf/artifacts
+deleted_time: 1718531697353
 end_time: 1717710691056
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 55b0352a76dd4f5fb6eb6ea4d0ea8daf
 run_name: merciful-turtle-680
 run_uuid: 55b0352a76dd4f5fb6eb6ea4d0ea8daf

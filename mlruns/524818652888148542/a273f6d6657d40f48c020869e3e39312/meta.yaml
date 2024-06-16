@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a273f6d6657d40f48c020869e3e39312/artifacts
+deleted_time: 1718532135801
 end_time: 1717694837767
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a273f6d6657d40f48c020869e3e39312
 run_name: burly-grub-859
 run_uuid: a273f6d6657d40f48c020869e3e39312

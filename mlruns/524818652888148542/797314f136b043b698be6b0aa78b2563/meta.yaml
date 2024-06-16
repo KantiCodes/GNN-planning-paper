@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/797314f136b043b698be6b0aa78b2563/artifacts
+deleted_time: 1718531621776
 end_time: 1717717769371
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 797314f136b043b698be6b0aa78b2563
 run_name: skittish-bat-637
 run_uuid: 797314f136b043b698be6b0aa78b2563

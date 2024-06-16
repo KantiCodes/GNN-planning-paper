@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/cf85d0370ee545159be05556bba1ce63/artifacts
+deleted_time: 1718531621780
 end_time: 1717656601937
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cf85d0370ee545159be05556bba1ce63
 run_name: gifted-auk-222
 run_uuid: cf85d0370ee545159be05556bba1ce63

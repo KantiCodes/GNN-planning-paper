@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e350e2b03589472682f84d44d9e414a9/artifacts
+deleted_time: 1718532029431
 end_time: null
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e350e2b03589472682f84d44d9e414a9
 run_name: invincible-newt-247
 run_uuid: e350e2b03589472682f84d44d9e414a9

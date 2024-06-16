@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/aedb39ec987b4a27abe66a614e47c6ed/artifacts
+deleted_time: 1718531964076
 end_time: 1716228252189
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: aedb39ec987b4a27abe66a614e47c6ed
 run_name: dapper-stoat-979
 run_uuid: aedb39ec987b4a27abe66a614e47c6ed

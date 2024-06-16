@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e6ff6046507440d69a30a085e459e020/artifacts
+deleted_time: 1718532135759
 end_time: 1717695154491
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e6ff6046507440d69a30a085e459e020
 run_name: unleashed-sloth-373
 run_uuid: e6ff6046507440d69a30a085e459e020

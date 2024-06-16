@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/266106a846014b559cbd43cb9265b491/artifacts
+deleted_time: 1718532065902
 end_time: 1717632407410
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 266106a846014b559cbd43cb9265b491
 run_name: nervous-gnat-290
 run_uuid: 266106a846014b559cbd43cb9265b491

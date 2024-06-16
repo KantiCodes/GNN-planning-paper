@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a798c9894ac14b428bf95ed56cd6816d/artifacts
+deleted_time: 1718532007076
 end_time: 1717656072174
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a798c9894ac14b428bf95ed56cd6816d
 run_name: languid-robin-379
 run_uuid: a798c9894ac14b428bf95ed56cd6816d

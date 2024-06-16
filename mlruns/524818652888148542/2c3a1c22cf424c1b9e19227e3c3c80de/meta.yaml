@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/2c3a1c22cf424c1b9e19227e3c3c80de/artifacts
+deleted_time: 1718532163077
 end_time: 1717629696354
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2c3a1c22cf424c1b9e19227e3c3c80de
 run_name: peaceful-horse-946
 run_uuid: 2c3a1c22cf424c1b9e19227e3c3c80de

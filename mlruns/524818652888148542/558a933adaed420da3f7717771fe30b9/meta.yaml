@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/558a933adaed420da3f7717771fe30b9/artifacts
+deleted_time: 1718532065986
 end_time: 1717631774135
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 558a933adaed420da3f7717771fe30b9
 run_name: polite-sloth-263
 run_uuid: 558a933adaed420da3f7717771fe30b9

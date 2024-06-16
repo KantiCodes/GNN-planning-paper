@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/884aea5d0e7c4b7e9510ce291aaf0a75/artifacts
+deleted_time: 1718531621855
 end_time: 1717695333712
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 884aea5d0e7c4b7e9510ce291aaf0a75
 run_name: thoughtful-tern-71
 run_uuid: 884aea5d0e7c4b7e9510ce291aaf0a75

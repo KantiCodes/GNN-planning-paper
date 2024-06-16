@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/8283356408a448e780c0ddb636f622ed/artifacts
+deleted_time: 1718531964048
 end_time: 1717195163101
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8283356408a448e780c0ddb636f622ed
 run_name: mysterious-goose-271
 run_uuid: 8283356408a448e780c0ddb636f622ed

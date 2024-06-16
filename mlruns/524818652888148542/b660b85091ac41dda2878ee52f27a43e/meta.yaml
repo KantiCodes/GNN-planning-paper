@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b660b85091ac41dda2878ee52f27a43e/artifacts
+deleted_time: 1718532135788
 end_time: 1717695070093
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b660b85091ac41dda2878ee52f27a43e
 run_name: redolent-hound-676
 run_uuid: b660b85091ac41dda2878ee52f27a43e

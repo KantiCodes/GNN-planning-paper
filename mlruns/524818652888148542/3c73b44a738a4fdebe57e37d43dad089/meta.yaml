@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/3c73b44a738a4fdebe57e37d43dad089/artifacts
+deleted_time: 1718532109138
 end_time: 1717708744776
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3c73b44a738a4fdebe57e37d43dad089
 run_name: traveling-flea-56
 run_uuid: 3c73b44a738a4fdebe57e37d43dad089

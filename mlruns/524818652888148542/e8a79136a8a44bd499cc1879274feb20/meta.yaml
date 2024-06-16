@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e8a79136a8a44bd499cc1879274feb20/artifacts
+deleted_time: 1718531621839
 end_time: 1717656533788
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e8a79136a8a44bd499cc1879274feb20
 run_name: angry-ox-180
 run_uuid: e8a79136a8a44bd499cc1879274feb20

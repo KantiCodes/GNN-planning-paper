@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c2123c6ca9e246879443b8b96e70d3f1/artifacts
+deleted_time: 1718532007093
 end_time: 1717656385508
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c2123c6ca9e246879443b8b96e70d3f1
 run_name: youthful-stag-895
 run_uuid: c2123c6ca9e246879443b8b96e70d3f1

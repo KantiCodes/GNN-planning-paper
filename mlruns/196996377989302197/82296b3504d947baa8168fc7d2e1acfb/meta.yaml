@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/82296b3504d947baa8168fc7d2e1acfb/artifacts
+deleted_time: 1718531964095
 end_time: 1717193830121
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 82296b3504d947baa8168fc7d2e1acfb
 run_name: bittersweet-bat-437
 run_uuid: 82296b3504d947baa8168fc7d2e1acfb

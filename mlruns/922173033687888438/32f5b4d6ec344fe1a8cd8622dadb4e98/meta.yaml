@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/32f5b4d6ec344fe1a8cd8622dadb4e98/artifacts
+deleted_time: 1718531897020
 end_time: 1717338117140
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 32f5b4d6ec344fe1a8cd8622dadb4e98
 run_name: treasured-sheep-257
 run_uuid: 32f5b4d6ec344fe1a8cd8622dadb4e98

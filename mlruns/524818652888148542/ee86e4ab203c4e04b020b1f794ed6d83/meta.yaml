@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ee86e4ab203c4e04b020b1f794ed6d83/artifacts
+deleted_time: 1718531621855
 end_time: 1717708040002
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ee86e4ab203c4e04b020b1f794ed6d83
 run_name: exultant-quail-679
 run_uuid: ee86e4ab203c4e04b020b1f794ed6d83

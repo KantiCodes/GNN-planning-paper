@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/14be78597a3a43339c3771a48b0e8bff/artifacts
+deleted_time: 1718531881264
 end_time: 1717464372217
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 14be78597a3a43339c3771a48b0e8bff
 run_name: magnificent-mare-681
 run_uuid: 14be78597a3a43339c3771a48b0e8bff

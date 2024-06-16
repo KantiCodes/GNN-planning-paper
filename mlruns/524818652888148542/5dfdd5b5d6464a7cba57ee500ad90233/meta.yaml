@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5dfdd5b5d6464a7cba57ee500ad90233/artifacts
+deleted_time: 1718532135768
 end_time: 1717695384393
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5dfdd5b5d6464a7cba57ee500ad90233
 run_name: fun-shrike-54
 run_uuid: 5dfdd5b5d6464a7cba57ee500ad90233

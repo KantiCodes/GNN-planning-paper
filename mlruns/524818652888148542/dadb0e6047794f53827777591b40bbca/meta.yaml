@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/dadb0e6047794f53827777591b40bbca/artifacts
+deleted_time: 1718532029370
 end_time: 1717714390667
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dadb0e6047794f53827777591b40bbca
 run_name: painted-doe-397
 run_uuid: dadb0e6047794f53827777591b40bbca

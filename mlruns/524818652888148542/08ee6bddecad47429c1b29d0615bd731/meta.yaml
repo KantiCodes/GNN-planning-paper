@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/08ee6bddecad47429c1b29d0615bd731/artifacts
+deleted_time: 1718532029409
 end_time: 1717718699623
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 08ee6bddecad47429c1b29d0615bd731
 run_name: aged-stork-294
 run_uuid: 08ee6bddecad47429c1b29d0615bd731

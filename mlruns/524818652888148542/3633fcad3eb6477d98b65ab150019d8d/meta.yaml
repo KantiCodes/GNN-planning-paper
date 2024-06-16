@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/3633fcad3eb6477d98b65ab150019d8d/artifacts
+deleted_time: 1718531621878
 end_time: 1717718326784
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3633fcad3eb6477d98b65ab150019d8d
 run_name: gentle-mink-916
 run_uuid: 3633fcad3eb6477d98b65ab150019d8d

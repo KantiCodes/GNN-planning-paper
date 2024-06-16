@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/d06ad35352b84a43a33d4cd1473c1367/artifacts
+deleted_time: 1718531964066
 end_time: 1716269549761
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d06ad35352b84a43a33d4cd1473c1367
 run_name: useful-goat-274
 run_uuid: d06ad35352b84a43a33d4cd1473c1367

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/635496786370374784/7234ac4e8c8d40178bc6f1be21674254/artifacts
+deleted_time: 1718531928038
 end_time: 1717255867684
 entry_point_name: ''
 experiment_id: '635496786370374784'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7234ac4e8c8d40178bc6f1be21674254
 run_name: defiant-dove-853
 run_uuid: 7234ac4e8c8d40178bc6f1be21674254

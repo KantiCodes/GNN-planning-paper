@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/ab6c5e782fe54a35b821c572b20bb90c/artifacts
+deleted_time: 1718531964066
 end_time: 1716233648069
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ab6c5e782fe54a35b821c572b20bb90c
 run_name: rare-donkey-306
 run_uuid: ab6c5e782fe54a35b821c572b20bb90c

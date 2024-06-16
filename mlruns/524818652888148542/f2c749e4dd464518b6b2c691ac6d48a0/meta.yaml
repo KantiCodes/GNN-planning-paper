@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f2c749e4dd464518b6b2c691ac6d48a0/artifacts
+deleted_time: 1718532135752
 end_time: 1717695255475
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f2c749e4dd464518b6b2c691ac6d48a0
 run_name: traveling-shoat-124
 run_uuid: f2c749e4dd464518b6b2c691ac6d48a0

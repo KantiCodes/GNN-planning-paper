@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ab471f269aeb400198e8ac6c9f74ed77/artifacts
+deleted_time: 1718532163060
 end_time: 1717631170881
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ab471f269aeb400198e8ac6c9f74ed77
 run_name: crawling-gull-396
 run_uuid: ab471f269aeb400198e8ac6c9f74ed77

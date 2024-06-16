@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/7ba1df69d3d343b28f3f3559befe2e28/artifacts
+deleted_time: 1718532163045
 end_time: 1717631282250
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7ba1df69d3d343b28f3f3559befe2e28
 run_name: puzzled-moth-762
 run_uuid: 7ba1df69d3d343b28f3f3559befe2e28

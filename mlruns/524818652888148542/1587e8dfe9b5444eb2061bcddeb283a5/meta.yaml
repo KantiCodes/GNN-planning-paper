@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1587e8dfe9b5444eb2061bcddeb283a5/artifacts
+deleted_time: 1718532065970
 end_time: 1717631880079
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1587e8dfe9b5444eb2061bcddeb283a5
 run_name: bedecked-dove-33
 run_uuid: 1587e8dfe9b5444eb2061bcddeb283a5

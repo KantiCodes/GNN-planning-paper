@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/723a0403293e4d14803d0a9b922ab79f/artifacts
+deleted_time: 1718531621756
 end_time: 1717656491134
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 723a0403293e4d14803d0a9b922ab79f
 run_name: awesome-eel-455
 run_uuid: 723a0403293e4d14803d0a9b922ab79f

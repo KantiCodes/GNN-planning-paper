@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/bfc0dd8c6cf140d2b5155b9190753972/artifacts
+deleted_time: 1718531910771
 end_time: 1717335634147
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bfc0dd8c6cf140d2b5155b9190753972
 run_name: delicate-owl-901
 run_uuid: bfc0dd8c6cf140d2b5155b9190753972

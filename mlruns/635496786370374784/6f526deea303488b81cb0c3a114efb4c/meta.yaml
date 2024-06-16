@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/635496786370374784/6f526deea303488b81cb0c3a114efb4c/artifacts
+deleted_time: 1718531928069
 end_time: 1717256502549
 entry_point_name: ''
 experiment_id: '635496786370374784'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6f526deea303488b81cb0c3a114efb4c
 run_name: calm-crow-586
 run_uuid: 6f526deea303488b81cb0c3a114efb4c

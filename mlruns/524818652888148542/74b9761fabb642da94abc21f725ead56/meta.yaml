@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/74b9761fabb642da94abc21f725ead56/artifacts
+deleted_time: 1718532163068
 end_time: 1717630311978
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 74b9761fabb642da94abc21f725ead56
 run_name: righteous-sponge-522
 run_uuid: 74b9761fabb642da94abc21f725ead56

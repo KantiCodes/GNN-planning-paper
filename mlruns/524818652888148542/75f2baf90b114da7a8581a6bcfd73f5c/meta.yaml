@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/75f2baf90b114da7a8581a6bcfd73f5c/artifacts
+deleted_time: 1718531697430
 end_time: 1717707737138
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 75f2baf90b114da7a8581a6bcfd73f5c
 run_name: suave-crab-360
 run_uuid: 75f2baf90b114da7a8581a6bcfd73f5c

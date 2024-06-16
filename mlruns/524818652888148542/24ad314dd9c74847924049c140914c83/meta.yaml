@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/24ad314dd9c74847924049c140914c83/artifacts
+deleted_time: 1718532007092
 end_time: 1717656424563
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 24ad314dd9c74847924049c140914c83
 run_name: learned-bear-503
 run_uuid: 24ad314dd9c74847924049c140914c83

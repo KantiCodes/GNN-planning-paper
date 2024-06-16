@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1dd5a10f18a3464e8d249c40c7ca21ba/artifacts
+deleted_time: 1718532065952
 end_time: 1717631990015
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1dd5a10f18a3464e8d249c40c7ca21ba
 run_name: respected-gnat-970
 run_uuid: 1dd5a10f18a3464e8d249c40c7ca21ba

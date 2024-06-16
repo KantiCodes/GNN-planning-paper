@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/107b674f560749af97e355058b9301b1/artifacts
+deleted_time: 1718532029327
 end_time: 1717718636664
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 107b674f560749af97e355058b9301b1
 run_name: mercurial-frog-299
 run_uuid: 107b674f560749af97e355058b9301b1

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c36d600fb6ce4eedb60d071bebe6e270/artifacts
+deleted_time: 1718532163055
 end_time: 1717631217300
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c36d600fb6ce4eedb60d071bebe6e270
 run_name: merciful-goose-573
 run_uuid: c36d600fb6ce4eedb60d071bebe6e270

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/acdab638d4f644de942455dc4f3b23b1/artifacts
+deleted_time: 1718532109185
 end_time: 1717708202556
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: acdab638d4f644de942455dc4f3b23b1
 run_name: bald-dog-914
 run_uuid: acdab638d4f644de942455dc4f3b23b1

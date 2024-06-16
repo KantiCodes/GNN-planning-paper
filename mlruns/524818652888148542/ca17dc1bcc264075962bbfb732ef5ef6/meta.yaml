@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ca17dc1bcc264075962bbfb732ef5ef6/artifacts
+deleted_time: 1718532163029
 end_time: 1717631394289
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ca17dc1bcc264075962bbfb732ef5ef6
 run_name: kindly-croc-383
 run_uuid: ca17dc1bcc264075962bbfb732ef5ef6

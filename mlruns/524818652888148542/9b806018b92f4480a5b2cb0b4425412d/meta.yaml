@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/9b806018b92f4480a5b2cb0b4425412d/artifacts
+deleted_time: 1718531621807
 end_time: 1717694667225
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9b806018b92f4480a5b2cb0b4425412d
 run_name: polite-skink-832
 run_uuid: 9b806018b92f4480a5b2cb0b4425412d

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/4ebd8fab876b45d693d87d51863721f8/artifacts
+deleted_time: 1718532029387
 end_time: 1717713436256
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4ebd8fab876b45d693d87d51863721f8
 run_name: blushing-bug-689
 run_uuid: 4ebd8fab876b45d693d87d51863721f8

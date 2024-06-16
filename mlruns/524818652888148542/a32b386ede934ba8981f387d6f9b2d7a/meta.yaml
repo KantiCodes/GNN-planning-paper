@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a32b386ede934ba8981f387d6f9b2d7a/artifacts
+deleted_time: 1718532065891
 end_time: 1717632458087
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a32b386ede934ba8981f387d6f9b2d7a
 run_name: likeable-horse-750
 run_uuid: a32b386ede934ba8981f387d6f9b2d7a

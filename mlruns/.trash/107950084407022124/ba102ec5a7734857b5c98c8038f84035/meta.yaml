@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/107950084407022124/ba102ec5a7734857b5c98c8038f84035/artifacts
+deleted_time: 1718531658193
+end_time: null
+entry_point_name: ''
+experiment_id: '107950084407022124'
+lifecycle_stage: deleted
+run_id: ba102ec5a7734857b5c98c8038f84035
+run_name: thundering-bass-550
+run_uuid: ba102ec5a7734857b5c98c8038f84035
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717626170888
+status: 1
+tags: []
+user_id: bartoszlachowicz

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/107950084407022124/67682f6302b24a239f02382a146a5074/artifacts
+deleted_time: 1718531658193
+end_time: null
+entry_point_name: ''
+experiment_id: '107950084407022124'
+lifecycle_stage: deleted
+run_id: 67682f6302b24a239f02382a146a5074
+run_name: mysterious-moose-266
+run_uuid: 67682f6302b24a239f02382a146a5074
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717617787702
+status: 1
+tags: []
+user_id: bartoszlachowicz

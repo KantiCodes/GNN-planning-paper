@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f6a1ef00f7dd4ba8b5a4d19f256faef7/artifacts
+deleted_time: 1718531621878
 end_time: 1717656090781
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f6a1ef00f7dd4ba8b5a4d19f256faef7
 run_name: rebellious-finch-226
 run_uuid: f6a1ef00f7dd4ba8b5a4d19f256faef7

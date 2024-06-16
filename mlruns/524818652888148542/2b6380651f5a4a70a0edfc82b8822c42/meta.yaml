@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/2b6380651f5a4a70a0edfc82b8822c42/artifacts
+deleted_time: 1718532065942
 end_time: 1717632050724
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2b6380651f5a4a70a0edfc82b8822c42
 run_name: handsome-conch-21
 run_uuid: 2b6380651f5a4a70a0edfc82b8822c42

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c868291822b64bf6b28a8c8ef2254e83/artifacts
+deleted_time: 1718532065932
 end_time: 1717632243437
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c868291822b64bf6b28a8c8ef2254e83
 run_name: sassy-robin-318
 run_uuid: c868291822b64bf6b28a8c8ef2254e83

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5f15488d59c848bab0573fe505ef213a/artifacts
+deleted_time: 1718532029427
 end_time: 1717627079294
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5f15488d59c848bab0573fe505ef213a
 run_name: hilarious-hog-923
 run_uuid: 5f15488d59c848bab0573fe505ef213a

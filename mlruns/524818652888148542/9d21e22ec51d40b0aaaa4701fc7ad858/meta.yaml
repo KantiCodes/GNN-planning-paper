@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/9d21e22ec51d40b0aaaa4701fc7ad858/artifacts
+deleted_time: 1718531621829
 end_time: 1717695172748
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9d21e22ec51d40b0aaaa4701fc7ad858
 run_name: amazing-wasp-513
 run_uuid: 9d21e22ec51d40b0aaaa4701fc7ad858

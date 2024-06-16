@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/de312f7fa10c44ddb41ba58e973aad70/artifacts
+deleted_time: 1718532065919
 end_time: 1717632294421
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: de312f7fa10c44ddb41ba58e973aad70
 run_name: efficient-rat-684
 run_uuid: de312f7fa10c44ddb41ba58e973aad70

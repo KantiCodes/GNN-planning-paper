@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/37144e50aa0349aaac3d554b9dfa4ce5/artifacts
+deleted_time: 1718532065911
 end_time: 1717632352074
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 37144e50aa0349aaac3d554b9dfa4ce5
 run_name: selective-fox-302
 run_uuid: 37144e50aa0349aaac3d554b9dfa4ce5

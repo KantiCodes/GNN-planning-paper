@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/09f089fa82e94785a36adce642d8df61/artifacts
+deleted_time: 1718531964094
 end_time: 1717174381953
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 09f089fa82e94785a36adce642d8df61
 run_name: languid-toad-514
 run_uuid: 09f089fa82e94785a36adce642d8df61

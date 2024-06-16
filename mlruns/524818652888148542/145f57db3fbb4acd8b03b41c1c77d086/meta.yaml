@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/145f57db3fbb4acd8b03b41c1c77d086/artifacts
+deleted_time: 1718532135742
 end_time: 1717695141694
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 145f57db3fbb4acd8b03b41c1c77d086
 run_name: worried-ox-991
 run_uuid: 145f57db3fbb4acd8b03b41c1c77d086

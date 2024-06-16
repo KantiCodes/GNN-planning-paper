@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/7a60b12c91984085b75aba0a67e9a21a/artifacts
+deleted_time: 1718532109123
 end_time: 1717708421763
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7a60b12c91984085b75aba0a67e9a21a
 run_name: sincere-hawk-175
 run_uuid: 7a60b12c91984085b75aba0a67e9a21a

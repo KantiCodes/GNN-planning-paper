@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/07889456aebe43d8b7bdb992c1abdd7d/artifacts
+deleted_time: 1718531910758
 end_time: 1717326641506
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 07889456aebe43d8b7bdb992c1abdd7d
 run_name: grandiose-finch-865
 run_uuid: 07889456aebe43d8b7bdb992c1abdd7d

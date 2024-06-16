@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/49258b89bb9d4920a469d4af35e8e4e3/artifacts
+deleted_time: 1718532007118
 end_time: 1717628913753
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 49258b89bb9d4920a469d4af35e8e4e3
 run_name: unleashed-snail-973
 run_uuid: 49258b89bb9d4920a469d4af35e8e4e3

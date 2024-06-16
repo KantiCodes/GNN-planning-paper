@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/1c58ed6e5e534217bb9877a189fe81f8/artifacts
+deleted_time: 1718531910786
 end_time: 1717330449720
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1c58ed6e5e534217bb9877a189fe81f8
 run_name: sneaky-stag-407
 run_uuid: 1c58ed6e5e534217bb9877a189fe81f8

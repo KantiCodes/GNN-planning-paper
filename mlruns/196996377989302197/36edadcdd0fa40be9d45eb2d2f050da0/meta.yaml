@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/36edadcdd0fa40be9d45eb2d2f050da0/artifacts
+deleted_time: 1718531964083
 end_time: 1716232507347
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 36edadcdd0fa40be9d45eb2d2f050da0
 run_name: lyrical-turtle-748
 run_uuid: 36edadcdd0fa40be9d45eb2d2f050da0

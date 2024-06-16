@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/3f86427e024b471e8a1f215e4597e1e4/artifacts
+deleted_time: 1718532007076
 end_time: 1717656369480
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3f86427e024b471e8a1f215e4597e1e4
 run_name: salty-deer-949
 run_uuid: 3f86427e024b471e8a1f215e4597e1e4

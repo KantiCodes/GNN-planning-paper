@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8fd41cee4b6349f19e49362d4f35dc4c/artifacts
+deleted_time: 1718532109183
 end_time: 1717708178370
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8fd41cee4b6349f19e49362d4f35dc4c
 run_name: unleashed-conch-168
 run_uuid: 8fd41cee4b6349f19e49362d4f35dc4c

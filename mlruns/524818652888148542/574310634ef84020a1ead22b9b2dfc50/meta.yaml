@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/574310634ef84020a1ead22b9b2dfc50/artifacts
+deleted_time: 1718531697405
 end_time: 1717719250645
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 574310634ef84020a1ead22b9b2dfc50
 run_name: nebulous-frog-156
 run_uuid: 574310634ef84020a1ead22b9b2dfc50

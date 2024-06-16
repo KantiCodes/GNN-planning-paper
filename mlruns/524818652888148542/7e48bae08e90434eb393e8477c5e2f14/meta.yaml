@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/7e48bae08e90434eb393e8477c5e2f14/artifacts
+deleted_time: 1718531697454
 end_time: 1717656504013
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7e48bae08e90434eb393e8477c5e2f14
 run_name: youthful-robin-19
 run_uuid: 7e48bae08e90434eb393e8477c5e2f14

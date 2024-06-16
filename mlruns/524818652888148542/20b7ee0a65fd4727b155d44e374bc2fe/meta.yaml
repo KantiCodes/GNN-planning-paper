@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/20b7ee0a65fd4727b155d44e374bc2fe/artifacts
+deleted_time: 1718532163044
 end_time: 1717631297466
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 20b7ee0a65fd4727b155d44e374bc2fe
 run_name: wise-sponge-921
 run_uuid: 20b7ee0a65fd4727b155d44e374bc2fe

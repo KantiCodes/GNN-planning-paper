@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/17e1758a88294bdbbfc1920ab9f81313/artifacts
+deleted_time: 1718532065996
 end_time: 1717631692870
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 17e1758a88294bdbbfc1920ab9f81313
 run_name: fearless-shoat-508
 run_uuid: 17e1758a88294bdbbfc1920ab9f81313

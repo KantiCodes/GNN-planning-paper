@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/95e5fc1924ef47aaa8476013789d7cb0/artifacts
+deleted_time: 1718531897062
 end_time: 1717339001101
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 95e5fc1924ef47aaa8476013789d7cb0
 run_name: mysterious-roo-65
 run_uuid: 95e5fc1924ef47aaa8476013789d7cb0

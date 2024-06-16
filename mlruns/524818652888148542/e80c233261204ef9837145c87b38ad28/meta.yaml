@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e80c233261204ef9837145c87b38ad28/artifacts
+deleted_time: 1718532029356
 end_time: 1717717500109
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e80c233261204ef9837145c87b38ad28
 run_name: treasured-doe-635
 run_uuid: e80c233261204ef9837145c87b38ad28

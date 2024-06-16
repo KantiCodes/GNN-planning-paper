@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/89defe86f0cd4e149f163df382d8b829/artifacts
+deleted_time: 1718532135772
 end_time: 1717695343780
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 89defe86f0cd4e149f163df382d8b829
 run_name: painted-goose-38
 run_uuid: 89defe86f0cd4e149f163df382d8b829

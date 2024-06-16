@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/239cecffba0b47048266f458856c2c8b/artifacts
+deleted_time: 1718531897049
 end_time: 1717343280421
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 239cecffba0b47048266f458856c2c8b
 run_name: polite-conch-748
 run_uuid: 239cecffba0b47048266f458856c2c8b

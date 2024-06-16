@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/cd736ba12c254148bd1c67c6fc46fd2a/artifacts
+deleted_time: 1718532163080
 end_time: 1717629666590
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cd736ba12c254148bd1c67c6fc46fd2a
 run_name: honorable-bird-423
 run_uuid: cd736ba12c254148bd1c67c6fc46fd2a

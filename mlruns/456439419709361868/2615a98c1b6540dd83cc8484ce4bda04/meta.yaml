@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/2615a98c1b6540dd83cc8484ce4bda04/artifacts
+deleted_time: 1718531881263
 end_time: 1717452501047
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2615a98c1b6540dd83cc8484ce4bda04
 run_name: salty-newt-799
 run_uuid: 2615a98c1b6540dd83cc8484ce4bda04

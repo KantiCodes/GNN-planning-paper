@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/06fbc6c7a1b343d88419c86833e0c341/artifacts
+deleted_time: 1718531697450
 end_time: 1717708244361
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 06fbc6c7a1b343d88419c86833e0c341
 run_name: victorious-dove-915
 run_uuid: 06fbc6c7a1b343d88419c86833e0c341

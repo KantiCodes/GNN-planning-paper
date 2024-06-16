@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/46cd741086d3457cab1d767f95baee0b/artifacts
+deleted_time: 1718531697456
 end_time: 1717656114931
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 46cd741086d3457cab1d767f95baee0b
 run_name: useful-lamb-693
 run_uuid: 46cd741086d3457cab1d767f95baee0b

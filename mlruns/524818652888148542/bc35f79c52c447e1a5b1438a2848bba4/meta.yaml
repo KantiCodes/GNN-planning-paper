@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/bc35f79c52c447e1a5b1438a2848bba4/artifacts
+deleted_time: 1718532109141
 end_time: 1717708134997
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bc35f79c52c447e1a5b1438a2848bba4
 run_name: gentle-goose-288
 run_uuid: bc35f79c52c447e1a5b1438a2848bba4

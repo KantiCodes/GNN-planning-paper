@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/976c62c74e094a2f8d66f67c94abe36a/artifacts
+deleted_time: 1718532109186
 end_time: 1717708011898
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 976c62c74e094a2f8d66f67c94abe36a
 run_name: serious-fish-735
 run_uuid: 976c62c74e094a2f8d66f67c94abe36a

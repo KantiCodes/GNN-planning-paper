@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/aa943340777b46fcb2b10d287b31f027/artifacts
+deleted_time: 1718532029377
 end_time: 1717713500182
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: aa943340777b46fcb2b10d287b31f027
 run_name: fearless-moose-459
 run_uuid: aa943340777b46fcb2b10d287b31f027

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/19e614cba0de42d8819fdc3000622d17/artifacts
+deleted_time: 1718531697362
 end_time: 1717720014285
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 19e614cba0de42d8819fdc3000622d17
 run_name: worried-hound-573
 run_uuid: 19e614cba0de42d8819fdc3000622d17

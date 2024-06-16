@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6f770ff78af74d1d989c784bf6351893/artifacts
+deleted_time: 1718532029360
 end_time: 1717717937060
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6f770ff78af74d1d989c784bf6351893
 run_name: delicate-ram-341
 run_uuid: 6f770ff78af74d1d989c784bf6351893

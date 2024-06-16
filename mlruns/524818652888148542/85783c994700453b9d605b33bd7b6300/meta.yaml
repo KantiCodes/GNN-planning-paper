@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/85783c994700453b9d605b33bd7b6300/artifacts
+deleted_time: 1718532029419
 end_time: 1717628045493
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 85783c994700453b9d605b33bd7b6300
 run_name: sedate-yak-369
 run_uuid: 85783c994700453b9d605b33bd7b6300

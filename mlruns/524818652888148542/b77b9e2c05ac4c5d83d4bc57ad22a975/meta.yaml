@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b77b9e2c05ac4c5d83d4bc57ad22a975/artifacts
+deleted_time: 1718531621756
 end_time: 1717708454859
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b77b9e2c05ac4c5d83d4bc57ad22a975
 run_name: orderly-horse-432
 run_uuid: b77b9e2c05ac4c5d83d4bc57ad22a975

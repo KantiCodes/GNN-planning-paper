@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/448cbace59c24ab392a05a5f776ded7d/artifacts
+deleted_time: 1718531964071
 end_time: 1716280000097
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 448cbace59c24ab392a05a5f776ded7d
 run_name: rogue-moth-127
 run_uuid: 448cbace59c24ab392a05a5f776ded7d

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5236ddd6165b4d5ea84c80c3cace6b3c/artifacts
+deleted_time: 1718532135744
 end_time: 1717694902490
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5236ddd6165b4d5ea84c80c3cace6b3c
 run_name: likeable-crane-389
 run_uuid: 5236ddd6165b4d5ea84c80c3cace6b3c

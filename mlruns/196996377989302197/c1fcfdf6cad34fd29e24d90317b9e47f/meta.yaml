@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/c1fcfdf6cad34fd29e24d90317b9e47f/artifacts
+deleted_time: 1718531964063
 end_time: 1717224809875
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c1fcfdf6cad34fd29e24d90317b9e47f
 run_name: bemused-shrew-976
 run_uuid: c1fcfdf6cad34fd29e24d90317b9e47f

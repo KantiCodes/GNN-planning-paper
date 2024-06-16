@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/9fe108d14dee43bb8f29347e683c684e/artifacts
+deleted_time: 1718531897054
 end_time: 1717339458848
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9fe108d14dee43bb8f29347e683c684e
 run_name: respected-seal-22
 run_uuid: 9fe108d14dee43bb8f29347e683c684e

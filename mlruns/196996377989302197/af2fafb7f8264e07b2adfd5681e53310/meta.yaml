@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/af2fafb7f8264e07b2adfd5681e53310/artifacts
+deleted_time: 1718531964072
 end_time: 1717174073591
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: af2fafb7f8264e07b2adfd5681e53310
 run_name: agreeable-moth-140
 run_uuid: af2fafb7f8264e07b2adfd5681e53310

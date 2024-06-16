@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e3ff7dbe24744f15970c2642d7db1502/artifacts
+deleted_time: 1718531621823
 end_time: 1717656105475
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e3ff7dbe24744f15970c2642d7db1502
 run_name: clumsy-panda-872
 run_uuid: e3ff7dbe24744f15970c2642d7db1502

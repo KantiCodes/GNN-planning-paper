@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c456c6c8b44c4386a8280268126c88ee/artifacts
+deleted_time: 1718532163054
 end_time: 1717631223642
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c456c6c8b44c4386a8280268126c88ee
 run_name: upset-cow-346
 run_uuid: c456c6c8b44c4386a8280268126c88ee

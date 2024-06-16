@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5b2c5e467e434a889374f77524c05a69/artifacts
+deleted_time: 1718532109163
 end_time: 1717708810460
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5b2c5e467e434a889374f77524c05a69
 run_name: salty-swan-505
 run_uuid: 5b2c5e467e434a889374f77524c05a69

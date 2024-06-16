@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/dbaa8190ab0e4c1d8165214b2fb65cc7/artifacts
+deleted_time: 1718531621790
 end_time: 1717656442324
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dbaa8190ab0e4c1d8165214b2fb65cc7
 run_name: brawny-gull-266
 run_uuid: dbaa8190ab0e4c1d8165214b2fb65cc7

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/db2bafc1486f4bff84957604745b94a3/artifacts
+deleted_time: 1718531621773
 end_time: 1717655766024
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: db2bafc1486f4bff84957604745b94a3
 run_name: receptive-grub-907
 run_uuid: db2bafc1486f4bff84957604745b94a3

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/34937eebbdb34b5e92bcdeadcb807289/artifacts
+deleted_time: 1718531964091
 end_time: 1716229179803
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 34937eebbdb34b5e92bcdeadcb807289
 run_name: loud-moose-428
 run_uuid: 34937eebbdb34b5e92bcdeadcb807289

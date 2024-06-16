@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/10717022ce294d78a937a48d14dbcf67/artifacts
+deleted_time: 1718532163050
 end_time: 1717631235885
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 10717022ce294d78a937a48d14dbcf67
 run_name: sneaky-ape-144
 run_uuid: 10717022ce294d78a937a48d14dbcf67

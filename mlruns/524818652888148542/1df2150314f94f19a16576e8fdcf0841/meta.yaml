@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1df2150314f94f19a16576e8fdcf0841/artifacts
+deleted_time: 1718532007085
 end_time: 1717656613264
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1df2150314f94f19a16576e8fdcf0841
 run_name: masked-hen-159
 run_uuid: 1df2150314f94f19a16576e8fdcf0841

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/08f4edd4407a49a48e44dc2c181b102a/artifacts
+deleted_time: 1718531897019
 end_time: 1717339526839
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 08f4edd4407a49a48e44dc2c181b102a
 run_name: likeable-elk-845
 run_uuid: 08f4edd4407a49a48e44dc2c181b102a

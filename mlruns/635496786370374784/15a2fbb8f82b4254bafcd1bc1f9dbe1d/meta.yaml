@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/635496786370374784/15a2fbb8f82b4254bafcd1bc1f9dbe1d/artifacts
+deleted_time: 1718531928051
 end_time: 1717258163618
 entry_point_name: ''
 experiment_id: '635496786370374784'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 15a2fbb8f82b4254bafcd1bc1f9dbe1d
 run_name: skittish-sow-641
 run_uuid: 15a2fbb8f82b4254bafcd1bc1f9dbe1d

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e59aa772dd1c468d8eabb27e6b9f6adc/artifacts
+deleted_time: 1718532029344
 end_time: 1717718788609
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e59aa772dd1c468d8eabb27e6b9f6adc
 run_name: sneaky-horse-447
 run_uuid: e59aa772dd1c468d8eabb27e6b9f6adc

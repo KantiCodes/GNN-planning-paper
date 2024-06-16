@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/62e6a03269c34f3996698a22d1b35ca5/artifacts
+deleted_time: 1718531621771
 end_time: 1717631036679
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 62e6a03269c34f3996698a22d1b35ca5
 run_name: rare-ram-359
 run_uuid: 62e6a03269c34f3996698a22d1b35ca5

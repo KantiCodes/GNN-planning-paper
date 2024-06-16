@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/bb37d13e6ec841448d10a57f06f121bf/artifacts
+deleted_time: 1718532029397
 end_time: 1717719868321
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bb37d13e6ec841448d10a57f06f121bf
 run_name: funny-roo-118
 run_uuid: bb37d13e6ec841448d10a57f06f121bf

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a09196bd84f24792a42408e7543ccdd4/artifacts
+deleted_time: 1718532065925
 end_time: 1717632244508
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a09196bd84f24792a42408e7543ccdd4
 run_name: whimsical-skunk-306
 run_uuid: a09196bd84f24792a42408e7543ccdd4

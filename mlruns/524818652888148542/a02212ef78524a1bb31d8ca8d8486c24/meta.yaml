@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a02212ef78524a1bb31d8ca8d8486c24/artifacts
+deleted_time: 1718531697412
 end_time: 1717719763553
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a02212ef78524a1bb31d8ca8d8486c24
 run_name: handsome-crab-712
 run_uuid: a02212ef78524a1bb31d8ca8d8486c24

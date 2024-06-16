@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/459a8e4d7c1740a48287818c717fa9af/artifacts
+deleted_time: 1718531621747
 end_time: 1717712799793
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 459a8e4d7c1740a48287818c717fa9af
 run_name: nebulous-mink-892
 run_uuid: 459a8e4d7c1740a48287818c717fa9af

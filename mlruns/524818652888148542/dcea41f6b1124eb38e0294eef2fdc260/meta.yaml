@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/dcea41f6b1124eb38e0294eef2fdc260/artifacts
+deleted_time: 1718531621823
 end_time: 1717709074900
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dcea41f6b1124eb38e0294eef2fdc260
 run_name: selective-koi-821
 run_uuid: dcea41f6b1124eb38e0294eef2fdc260

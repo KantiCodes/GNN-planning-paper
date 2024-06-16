@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5627951a3db74b198fbd430bcc30cedb/artifacts
+deleted_time: 1718531621748
 end_time: 1717656029668
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5627951a3db74b198fbd430bcc30cedb
 run_name: handsome-cub-236
 run_uuid: 5627951a3db74b198fbd430bcc30cedb

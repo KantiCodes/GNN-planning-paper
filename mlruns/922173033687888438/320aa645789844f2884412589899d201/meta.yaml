@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/320aa645789844f2884412589899d201/artifacts
+deleted_time: 1718531897029
 end_time: 1717342464166
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 320aa645789844f2884412589899d201
 run_name: marvelous-loon-958
 run_uuid: 320aa645789844f2884412589899d201

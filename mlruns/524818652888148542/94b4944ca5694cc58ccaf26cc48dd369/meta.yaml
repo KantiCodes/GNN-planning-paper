@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/94b4944ca5694cc58ccaf26cc48dd369/artifacts
+deleted_time: 1718531697432
 end_time: 1717656231201
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 94b4944ca5694cc58ccaf26cc48dd369
 run_name: enthused-hound-998
 run_uuid: 94b4944ca5694cc58ccaf26cc48dd369

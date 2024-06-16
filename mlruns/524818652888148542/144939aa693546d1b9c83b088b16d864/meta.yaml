@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/144939aa693546d1b9c83b088b16d864/artifacts
+deleted_time: 1718532029368
 end_time: 1717717764626
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 144939aa693546d1b9c83b088b16d864
 run_name: rare-flea-90
 run_uuid: 144939aa693546d1b9c83b088b16d864

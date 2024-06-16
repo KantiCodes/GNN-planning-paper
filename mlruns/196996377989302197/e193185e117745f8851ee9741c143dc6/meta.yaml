@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/e193185e117745f8851ee9741c143dc6/artifacts
+deleted_time: 1718531964073
 end_time: 1716231769541
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e193185e117745f8851ee9741c143dc6
 run_name: worried-gnat-720
 run_uuid: e193185e117745f8851ee9741c143dc6

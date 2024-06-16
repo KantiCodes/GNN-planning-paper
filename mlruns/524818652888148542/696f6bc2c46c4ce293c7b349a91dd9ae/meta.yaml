@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/696f6bc2c46c4ce293c7b349a91dd9ae/artifacts
+deleted_time: 1718532065978
 end_time: 1717631853639
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 696f6bc2c46c4ce293c7b349a91dd9ae
 run_name: clumsy-fowl-896
 run_uuid: 696f6bc2c46c4ce293c7b349a91dd9ae

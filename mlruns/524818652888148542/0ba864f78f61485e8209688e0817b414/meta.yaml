@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/0ba864f78f61485e8209688e0817b414/artifacts
+deleted_time: 1718532135802
 end_time: 1717694804785
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0ba864f78f61485e8209688e0817b414
 run_name: placid-goat-943
 run_uuid: 0ba864f78f61485e8209688e0817b414

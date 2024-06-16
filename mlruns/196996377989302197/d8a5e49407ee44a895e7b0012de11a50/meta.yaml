@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/d8a5e49407ee44a895e7b0012de11a50/artifacts
+deleted_time: 1718531964097
 end_time: 1717194233490
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d8a5e49407ee44a895e7b0012de11a50
 run_name: traveling-hen-962
 run_uuid: d8a5e49407ee44a895e7b0012de11a50

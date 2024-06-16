@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/9b9f7f31d4c540feb4fd18dc1362fb3f/artifacts
+deleted_time: 1718532065985
 end_time: 1717631786015
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9b9f7f31d4c540feb4fd18dc1362fb3f
 run_name: likeable-smelt-810
 run_uuid: 9b9f7f31d4c540feb4fd18dc1362fb3f

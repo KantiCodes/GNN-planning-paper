@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/107950084407022124/f0dd82014e3b40d49dd114e00c86c7ec/artifacts
+deleted_time: 1718531658193
+end_time: 1717618597135
+entry_point_name: ''
+experiment_id: '107950084407022124'
+lifecycle_stage: deleted
+run_id: f0dd82014e3b40d49dd114e00c86c7ec
+run_name: smiling-horse-946
+run_uuid: f0dd82014e3b40d49dd114e00c86c7ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717618035437
+status: 4
+tags: []
+user_id: bartoszlachowicz

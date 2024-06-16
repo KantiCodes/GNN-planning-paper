@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/26bb544a30cf48e0806ec48e6cb96188/artifacts
+deleted_time: 1718532065992
 end_time: 1717631747903
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 26bb544a30cf48e0806ec48e6cb96188
 run_name: amazing-goose-495
 run_uuid: 26bb544a30cf48e0806ec48e6cb96188

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/00636f7eef1340f79266e33e671051f4/artifacts
+deleted_time: 1718531697399
 end_time: 1717719572403
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 00636f7eef1340f79266e33e671051f4
 run_name: clumsy-midge-386
 run_uuid: 00636f7eef1340f79266e33e671051f4

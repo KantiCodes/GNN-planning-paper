@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/6b222961c5994aadbff0fb66cdae85e0/artifacts
+deleted_time: 1718531897054
 end_time: 1717342769909
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6b222961c5994aadbff0fb66cdae85e0
 run_name: vaunted-boar-833
 run_uuid: 6b222961c5994aadbff0fb66cdae85e0

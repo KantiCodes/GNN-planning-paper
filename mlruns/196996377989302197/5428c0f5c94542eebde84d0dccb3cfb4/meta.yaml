@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/5428c0f5c94542eebde84d0dccb3cfb4/artifacts
+deleted_time: 1718531964056
 end_time: 1717195007538
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5428c0f5c94542eebde84d0dccb3cfb4
 run_name: spiffy-dove-708
 run_uuid: 5428c0f5c94542eebde84d0dccb3cfb4

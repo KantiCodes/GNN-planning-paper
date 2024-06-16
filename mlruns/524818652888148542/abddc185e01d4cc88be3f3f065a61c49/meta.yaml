@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/abddc185e01d4cc88be3f3f065a61c49/artifacts
+deleted_time: 1718531697450
 end_time: 1717708113598
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: abddc185e01d4cc88be3f3f065a61c49
 run_name: bedecked-yak-469
 run_uuid: abddc185e01d4cc88be3f3f065a61c49

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/14a0cc7c6e654205937199fd9643c2fd/artifacts
+deleted_time: 1718532065987
 end_time: 1717631768895
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 14a0cc7c6e654205937199fd9643c2fd
 run_name: bouncy-rat-66
 run_uuid: 14a0cc7c6e654205937199fd9643c2fd

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/2cb6dd7a52984f189e4cc99837ba240b/artifacts
+deleted_time: 1718531910778
 end_time: 1717326067153
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2cb6dd7a52984f189e4cc99837ba240b
 run_name: intrigued-skink-899
 run_uuid: 2cb6dd7a52984f189e4cc99837ba240b

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5933da3e66694fdbae6610bcd6b9ddfe/artifacts
+deleted_time: 1718531697401
 end_time: 1717695183646
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5933da3e66694fdbae6610bcd6b9ddfe
 run_name: lyrical-horse-193
 run_uuid: 5933da3e66694fdbae6610bcd6b9ddfe

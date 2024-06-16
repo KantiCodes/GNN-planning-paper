@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/cf406c0bcc184914be75d8c89a62c7bb/artifacts
+deleted_time: 1718531910785
 end_time: 1717328592942
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cf406c0bcc184914be75d8c89a62c7bb
 run_name: grandiose-koi-576
 run_uuid: cf406c0bcc184914be75d8c89a62c7bb

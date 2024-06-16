@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/3302dd684a6d487d8b820fbf4b203e65/artifacts
+deleted_time: 1718531621801
 end_time: 1717695104173
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3302dd684a6d487d8b820fbf4b203e65
 run_name: able-stag-548
 run_uuid: 3302dd684a6d487d8b820fbf4b203e65

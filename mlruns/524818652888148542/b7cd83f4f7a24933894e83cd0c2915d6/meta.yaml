@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b7cd83f4f7a24933894e83cd0c2915d6/artifacts
+deleted_time: 1718532029402
 end_time: 1717718650881
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b7cd83f4f7a24933894e83cd0c2915d6
 run_name: debonair-shrike-874
 run_uuid: b7cd83f4f7a24933894e83cd0c2915d6

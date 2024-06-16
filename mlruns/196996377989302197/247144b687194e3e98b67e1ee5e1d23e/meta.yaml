@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/247144b687194e3e98b67e1ee5e1d23e/artifacts
+deleted_time: 1718531964081
 end_time: 1717223405107
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 247144b687194e3e98b67e1ee5e1d23e
 run_name: classy-swan-753
 run_uuid: 247144b687194e3e98b67e1ee5e1d23e

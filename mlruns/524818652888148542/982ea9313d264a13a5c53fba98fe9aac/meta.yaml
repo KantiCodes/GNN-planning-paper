@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/982ea9313d264a13a5c53fba98fe9aac/artifacts
+deleted_time: 1718532029343
 end_time: 1717719910222
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 982ea9313d264a13a5c53fba98fe9aac
 run_name: capricious-hawk-771
 run_uuid: 982ea9313d264a13a5c53fba98fe9aac

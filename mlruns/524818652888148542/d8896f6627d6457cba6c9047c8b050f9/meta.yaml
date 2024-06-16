@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d8896f6627d6457cba6c9047c8b050f9/artifacts
+deleted_time: 1718531621874
 end_time: 1717720759760
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d8896f6627d6457cba6c9047c8b050f9
 run_name: invincible-colt-749
 run_uuid: d8896f6627d6457cba6c9047c8b050f9

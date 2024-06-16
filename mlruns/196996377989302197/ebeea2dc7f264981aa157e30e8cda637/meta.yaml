@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/ebeea2dc7f264981aa157e30e8cda637/artifacts
+deleted_time: 1718531964083
 end_time: 1716232763335
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ebeea2dc7f264981aa157e30e8cda637
 run_name: bittersweet-flea-624
 run_uuid: ebeea2dc7f264981aa157e30e8cda637

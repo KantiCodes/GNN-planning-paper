@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e6c248bd4a2a4bd5935fcc67e8346ff6/artifacts
+deleted_time: 1718532163015
 end_time: 1717631433875
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e6c248bd4a2a4bd5935fcc67e8346ff6
 run_name: delightful-whale-71
 run_uuid: e6c248bd4a2a4bd5935fcc67e8346ff6

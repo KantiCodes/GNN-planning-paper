@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/97f9e289057a4427be81157b37742a00/artifacts
+deleted_time: 1718531964084
 end_time: 1717173938963
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 97f9e289057a4427be81157b37742a00
 run_name: burly-jay-657
 run_uuid: 97f9e289057a4427be81157b37742a00

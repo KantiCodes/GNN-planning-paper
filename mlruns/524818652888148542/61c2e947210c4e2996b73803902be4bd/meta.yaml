@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/61c2e947210c4e2996b73803902be4bd/artifacts
+deleted_time: 1718532065940
 end_time: 1717632045524
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 61c2e947210c4e2996b73803902be4bd
 run_name: abrasive-crow-120
 run_uuid: 61c2e947210c4e2996b73803902be4bd

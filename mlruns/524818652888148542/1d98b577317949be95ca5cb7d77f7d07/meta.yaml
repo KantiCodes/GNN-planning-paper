@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1d98b577317949be95ca5cb7d77f7d07/artifacts
+deleted_time: 1718532065944
 end_time: 1717632034728
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1d98b577317949be95ca5cb7d77f7d07
 run_name: sincere-boar-224
 run_uuid: 1d98b577317949be95ca5cb7d77f7d07

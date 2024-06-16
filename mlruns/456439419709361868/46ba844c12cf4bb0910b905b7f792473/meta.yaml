@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/46ba844c12cf4bb0910b905b7f792473/artifacts
+deleted_time: 1718531881293
 end_time: 1717455585029
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 46ba844c12cf4bb0910b905b7f792473
 run_name: defiant-finch-993
 run_uuid: 46ba844c12cf4bb0910b905b7f792473

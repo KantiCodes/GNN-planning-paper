@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/61a8ace36516474ea8b37003823a7baa/artifacts
+deleted_time: 1718532109163
 end_time: 1717708924953
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 61a8ace36516474ea8b37003823a7baa
 run_name: victorious-flea-639
 run_uuid: 61a8ace36516474ea8b37003823a7baa

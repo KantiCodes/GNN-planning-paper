@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e235e575db4240399772addd04a23f1f/artifacts
+deleted_time: 1718531621812
 end_time: 1717656547709
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e235e575db4240399772addd04a23f1f
 run_name: zealous-stoat-249
 run_uuid: e235e575db4240399772addd04a23f1f

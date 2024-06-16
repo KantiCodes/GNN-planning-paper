@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f9d17fac0eb44beaafd75ab6ecff176e/artifacts
+deleted_time: 1718532065964
 end_time: 1717631915731
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f9d17fac0eb44beaafd75ab6ecff176e
 run_name: nebulous-worm-379
 run_uuid: f9d17fac0eb44beaafd75ab6ecff176e

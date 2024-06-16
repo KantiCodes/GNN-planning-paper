@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b3d43ce3fec448babc57a5c2502bbf46/artifacts
+deleted_time: 1718532065972
 end_time: 1717631868143
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b3d43ce3fec448babc57a5c2502bbf46
 run_name: shivering-stork-860
 run_uuid: b3d43ce3fec448babc57a5c2502bbf46

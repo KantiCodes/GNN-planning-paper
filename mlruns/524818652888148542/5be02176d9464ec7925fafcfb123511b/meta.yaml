@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5be02176d9464ec7925fafcfb123511b/artifacts
+deleted_time: 1718531697400
 end_time: 1717655913656
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5be02176d9464ec7925fafcfb123511b
 run_name: smiling-rook-173
 run_uuid: 5be02176d9464ec7925fafcfb123511b

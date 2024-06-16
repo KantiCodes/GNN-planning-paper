@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/90709fc8835e444fbfa03c39e22b2606/artifacts
+deleted_time: 1718531881292
 end_time: 1717455153668
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 90709fc8835e444fbfa03c39e22b2606
 run_name: fearless-sponge-822
 run_uuid: 90709fc8835e444fbfa03c39e22b2606

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/d1c22f95a98c41e0903e60ae42c9d8f8/artifacts
+deleted_time: 1718531964069
 end_time: 1717223809844
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d1c22f95a98c41e0903e60ae42c9d8f8
 run_name: exultant-swan-669
 run_uuid: d1c22f95a98c41e0903e60ae42c9d8f8

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/36b6194d50d54943a3c0b9ea97718690/artifacts
+deleted_time: 1718532065990
 end_time: 1717631748819
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 36b6194d50d54943a3c0b9ea97718690
 run_name: abrasive-rat-730
 run_uuid: 36b6194d50d54943a3c0b9ea97718690

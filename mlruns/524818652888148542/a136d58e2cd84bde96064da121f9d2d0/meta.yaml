@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a136d58e2cd84bde96064da121f9d2d0/artifacts
+deleted_time: 1718532163036
 end_time: 1717631354397
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a136d58e2cd84bde96064da121f9d2d0
 run_name: redolent-fox-109
 run_uuid: a136d58e2cd84bde96064da121f9d2d0

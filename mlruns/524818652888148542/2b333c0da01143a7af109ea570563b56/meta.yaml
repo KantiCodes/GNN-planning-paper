@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/2b333c0da01143a7af109ea570563b56/artifacts
+deleted_time: 1718532163050
 end_time: 1717631229198
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2b333c0da01143a7af109ea570563b56
 run_name: agreeable-chimp-627
 run_uuid: 2b333c0da01143a7af109ea570563b56

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/015bfb9ecb3d4065bad55a812e84a283/artifacts
+deleted_time: 1718532163076
 end_time: null
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 015bfb9ecb3d4065bad55a812e84a283
 run_name: shivering-yak-300
 run_uuid: 015bfb9ecb3d4065bad55a812e84a283

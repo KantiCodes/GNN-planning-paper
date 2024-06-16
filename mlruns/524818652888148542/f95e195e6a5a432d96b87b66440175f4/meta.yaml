@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f95e195e6a5a432d96b87b66440175f4/artifacts
+deleted_time: 1718532065969
 end_time: 1717631903857
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f95e195e6a5a432d96b87b66440175f4
 run_name: bedecked-bee-704
 run_uuid: f95e195e6a5a432d96b87b66440175f4

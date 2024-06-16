@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/205dffada9064cbca75fa7f07deaf152/artifacts
+deleted_time: 1718531697345
 end_time: 1717708467624
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 205dffada9064cbca75fa7f07deaf152
 run_name: bright-whale-424
 run_uuid: 205dffada9064cbca75fa7f07deaf152

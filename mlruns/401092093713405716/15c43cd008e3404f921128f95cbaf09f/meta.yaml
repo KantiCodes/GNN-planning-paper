@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/15c43cd008e3404f921128f95cbaf09f/artifacts
+deleted_time: 1718531910785
 end_time: 1717332650569
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 15c43cd008e3404f921128f95cbaf09f
 run_name: marvelous-penguin-13
 run_uuid: 15c43cd008e3404f921128f95cbaf09f

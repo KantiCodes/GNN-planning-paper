@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/06bb8e55460e4efe967c9feaeda98e4e/artifacts
+deleted_time: 1718532163040
 end_time: 1717631328201
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 06bb8e55460e4efe967c9feaeda98e4e
 run_name: grandiose-quail-856
 run_uuid: 06bb8e55460e4efe967c9feaeda98e4e

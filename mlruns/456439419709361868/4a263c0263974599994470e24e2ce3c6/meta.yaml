@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/4a263c0263974599994470e24e2ce3c6/artifacts
+deleted_time: 1718531881274
 end_time: 1717450209279
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4a263c0263974599994470e24e2ce3c6
 run_name: orderly-ray-116
 run_uuid: 4a263c0263974599994470e24e2ce3c6

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/50f0a74343ff45bb8814a9a12d829c1d/artifacts
+deleted_time: 1718531621793
 end_time: 1717656398580
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 50f0a74343ff45bb8814a9a12d829c1d
 run_name: indecisive-hawk-267
 run_uuid: 50f0a74343ff45bb8814a9a12d829c1d

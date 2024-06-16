@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/984567fc4cfc4b8cb73039a03ffddd8f/artifacts
+deleted_time: 1718531897057
 end_time: 1717340749633
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 984567fc4cfc4b8cb73039a03ffddd8f
 run_name: charming-calf-289
 run_uuid: 984567fc4cfc4b8cb73039a03ffddd8f

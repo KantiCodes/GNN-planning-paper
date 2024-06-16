@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b585eadcf5374646a873558896eeeca2/artifacts
+deleted_time: 1718531697353
 end_time: 1717717705633
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b585eadcf5374646a873558896eeeca2
 run_name: burly-hen-704
 run_uuid: b585eadcf5374646a873558896eeeca2

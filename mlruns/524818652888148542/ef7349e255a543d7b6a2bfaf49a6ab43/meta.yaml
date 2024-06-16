@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ef7349e255a543d7b6a2bfaf49a6ab43/artifacts
+deleted_time: 1718531697364
 end_time: 1717714327407
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ef7349e255a543d7b6a2bfaf49a6ab43
 run_name: salty-sheep-405
 run_uuid: ef7349e255a543d7b6a2bfaf49a6ab43

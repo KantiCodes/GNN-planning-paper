@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/0cd645d33df0445dac1268cba62a8f46/artifacts
+deleted_time: 1718531964102
 end_time: 1716233332589
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0cd645d33df0445dac1268cba62a8f46
 run_name: dazzling-turtle-142
 run_uuid: 0cd645d33df0445dac1268cba62a8f46

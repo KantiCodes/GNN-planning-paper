@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8b31b52f58f84d9981b2a51f085d0ec3/artifacts
+deleted_time: 1718532065938
 end_time: 1717632091192
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8b31b52f58f84d9981b2a51f085d0ec3
 run_name: amusing-panda-220
 run_uuid: 8b31b52f58f84d9981b2a51f085d0ec3

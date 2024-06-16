@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/24d12cfde96241e69029e93d6bd182c2/artifacts
+deleted_time: 1718532163015
 end_time: 1717631472661
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 24d12cfde96241e69029e93d6bd182c2
 run_name: adaptable-bat-870
 run_uuid: 24d12cfde96241e69029e93d6bd182c2

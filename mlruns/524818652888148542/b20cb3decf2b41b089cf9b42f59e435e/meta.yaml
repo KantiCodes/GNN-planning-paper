@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b20cb3decf2b41b089cf9b42f59e435e/artifacts
+deleted_time: 1718531621738
 end_time: 1717708345621
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b20cb3decf2b41b089cf9b42f59e435e
 run_name: grandiose-trout-520
 run_uuid: b20cb3decf2b41b089cf9b42f59e435e

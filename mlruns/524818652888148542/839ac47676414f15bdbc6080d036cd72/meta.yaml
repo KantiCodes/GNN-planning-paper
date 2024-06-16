@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/839ac47676414f15bdbc6080d036cd72/artifacts
+deleted_time: 1718532029360
 end_time: null
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 839ac47676414f15bdbc6080d036cd72
 run_name: nimble-chimp-655
 run_uuid: 839ac47676414f15bdbc6080d036cd72

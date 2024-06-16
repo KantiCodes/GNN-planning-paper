@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/4779a34b499f48c88e9150afbd89fe03/artifacts
+deleted_time: 1718531964096
 end_time: 1717192488921
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4779a34b499f48c88e9150afbd89fe03
 run_name: caring-sloth-232
 run_uuid: 4779a34b499f48c88e9150afbd89fe03

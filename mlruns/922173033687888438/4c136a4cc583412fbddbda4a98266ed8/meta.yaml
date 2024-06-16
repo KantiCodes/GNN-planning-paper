@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/4c136a4cc583412fbddbda4a98266ed8/artifacts
+deleted_time: 1718531897055
 end_time: 1717342259953
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4c136a4cc583412fbddbda4a98266ed8
 run_name: magnificent-tern-101
 run_uuid: 4c136a4cc583412fbddbda4a98266ed8

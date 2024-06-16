@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/fc31d17b21204b149295455c2cdc2a17/artifacts
+deleted_time: 1718532029441
 end_time: 1717626054694
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fc31d17b21204b149295455c2cdc2a17
 run_name: tasteful-toad-209
 run_uuid: fc31d17b21204b149295455c2cdc2a17

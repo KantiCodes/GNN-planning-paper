@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/4083fafba4374106a5d115eb47049eed/artifacts
+deleted_time: 1718532029350
 end_time: 1717718770296
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4083fafba4374106a5d115eb47049eed
 run_name: illustrious-bug-172
 run_uuid: 4083fafba4374106a5d115eb47049eed

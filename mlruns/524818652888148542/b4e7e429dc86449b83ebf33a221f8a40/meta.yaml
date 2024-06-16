@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b4e7e429dc86449b83ebf33a221f8a40/artifacts
+deleted_time: 1718532163023
 end_time: 1717631410992
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b4e7e429dc86449b83ebf33a221f8a40
 run_name: beautiful-crab-796
 run_uuid: b4e7e429dc86449b83ebf33a221f8a40

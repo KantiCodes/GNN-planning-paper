@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/dba7fca0346f4cf2bc228f8f580a459a/artifacts
+deleted_time: 1718532135750
 end_time: 1717694957122
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dba7fca0346f4cf2bc228f8f580a459a
 run_name: abrasive-eel-743
 run_uuid: dba7fca0346f4cf2bc228f8f580a459a

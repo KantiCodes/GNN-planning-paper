@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/941c303ecc6a473391afa2d378377cbc/artifacts
+deleted_time: 1718532029362
 end_time: 1717714271888
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 941c303ecc6a473391afa2d378377cbc
 run_name: honorable-elk-725
 run_uuid: 941c303ecc6a473391afa2d378377cbc

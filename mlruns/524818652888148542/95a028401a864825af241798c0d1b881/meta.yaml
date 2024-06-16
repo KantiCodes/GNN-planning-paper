@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/95a028401a864825af241798c0d1b881/artifacts
+deleted_time: 1718532135814
 end_time: 1717695316825
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 95a028401a864825af241798c0d1b881
 run_name: debonair-hawk-895
 run_uuid: 95a028401a864825af241798c0d1b881

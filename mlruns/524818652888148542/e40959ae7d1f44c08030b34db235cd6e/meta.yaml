@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e40959ae7d1f44c08030b34db235cd6e/artifacts
+deleted_time: 1718531697386
 end_time: 1717656628247
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e40959ae7d1f44c08030b34db235cd6e
 run_name: luxuriant-donkey-970
 run_uuid: e40959ae7d1f44c08030b34db235cd6e

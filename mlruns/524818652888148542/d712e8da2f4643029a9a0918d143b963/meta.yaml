@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d712e8da2f4643029a9a0918d143b963/artifacts
+deleted_time: 1718531697444
 end_time: 1717695268679
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d712e8da2f4643029a9a0918d143b963
 run_name: luminous-hare-5
 run_uuid: d712e8da2f4643029a9a0918d143b963

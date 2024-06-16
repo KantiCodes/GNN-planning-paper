@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/53c54aee551d45c9b801eac3fdc72d07/artifacts
+deleted_time: 1718532135770
 end_time: 1717695361575
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 53c54aee551d45c9b801eac3fdc72d07
 run_name: amusing-dog-685
 run_uuid: 53c54aee551d45c9b801eac3fdc72d07

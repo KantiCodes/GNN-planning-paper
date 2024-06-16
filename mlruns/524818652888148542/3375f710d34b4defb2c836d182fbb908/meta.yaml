@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/3375f710d34b4defb2c836d182fbb908/artifacts
+deleted_time: 1718532029345
 end_time: 1717720327299
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3375f710d34b4defb2c836d182fbb908
 run_name: placid-grub-365
 run_uuid: 3375f710d34b4defb2c836d182fbb908

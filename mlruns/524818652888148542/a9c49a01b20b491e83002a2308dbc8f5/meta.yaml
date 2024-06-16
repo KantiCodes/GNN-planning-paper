@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a9c49a01b20b491e83002a2308dbc8f5/artifacts
+deleted_time: 1718531621849
 end_time: 1717655970731
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a9c49a01b20b491e83002a2308dbc8f5
 run_name: awesome-conch-484
 run_uuid: a9c49a01b20b491e83002a2308dbc8f5

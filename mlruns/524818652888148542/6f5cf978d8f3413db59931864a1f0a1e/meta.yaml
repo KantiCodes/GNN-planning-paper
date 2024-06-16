@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6f5cf978d8f3413db59931864a1f0a1e/artifacts
+deleted_time: 1718531697400
 end_time: 1717708702870
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6f5cf978d8f3413db59931864a1f0a1e
 run_name: luxuriant-fish-534
 run_uuid: 6f5cf978d8f3413db59931864a1f0a1e

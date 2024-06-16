@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/635496786370374784/21a75f8fed054390b63a3b63a94fb8dd/artifacts
+deleted_time: 1718531928039
 end_time: 1717258855548
 entry_point_name: ''
 experiment_id: '635496786370374784'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 21a75f8fed054390b63a3b63a94fb8dd
 run_name: big-goose-701
 run_uuid: 21a75f8fed054390b63a3b63a94fb8dd

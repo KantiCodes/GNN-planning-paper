@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/3530a5973feb484eb501d0bd2a7000a1/artifacts
+deleted_time: 1718532109154
 end_time: 1717709048960
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3530a5973feb484eb501d0bd2a7000a1
 run_name: popular-duck-625
 run_uuid: 3530a5973feb484eb501d0bd2a7000a1

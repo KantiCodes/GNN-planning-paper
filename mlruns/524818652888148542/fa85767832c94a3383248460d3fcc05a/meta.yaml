@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/fa85767832c94a3383248460d3fcc05a/artifacts
+deleted_time: 1718532029407
 end_time: 1717719090715
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fa85767832c94a3383248460d3fcc05a
 run_name: colorful-ape-61
 run_uuid: fa85767832c94a3383248460d3fcc05a

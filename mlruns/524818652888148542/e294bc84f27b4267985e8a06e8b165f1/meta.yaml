@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e294bc84f27b4267985e8a06e8b165f1/artifacts
+deleted_time: 1718532029410
 end_time: 1717628670742
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e294bc84f27b4267985e8a06e8b165f1
 run_name: secretive-bee-916
 run_uuid: e294bc84f27b4267985e8a06e8b165f1

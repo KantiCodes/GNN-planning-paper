@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b2e3e7b6766647ceb8fcfa678f9fb6cf/artifacts
+deleted_time: 1718531697450
 end_time: 1717718197540
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b2e3e7b6766647ceb8fcfa678f9fb6cf
 run_name: invincible-duck-405
 run_uuid: b2e3e7b6766647ceb8fcfa678f9fb6cf

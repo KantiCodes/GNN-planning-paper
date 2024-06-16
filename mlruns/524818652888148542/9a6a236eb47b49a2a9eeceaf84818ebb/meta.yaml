@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/9a6a236eb47b49a2a9eeceaf84818ebb/artifacts
+deleted_time: 1718532029378
 end_time: 1717714007122
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9a6a236eb47b49a2a9eeceaf84818ebb
 run_name: stately-rat-182
 run_uuid: 9a6a236eb47b49a2a9eeceaf84818ebb

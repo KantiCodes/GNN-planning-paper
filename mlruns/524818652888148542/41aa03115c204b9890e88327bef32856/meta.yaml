@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/41aa03115c204b9890e88327bef32856/artifacts
+deleted_time: 1718531621840
 end_time: 1717656411784
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 41aa03115c204b9890e88327bef32856
 run_name: fun-hog-206
 run_uuid: 41aa03115c204b9890e88327bef32856

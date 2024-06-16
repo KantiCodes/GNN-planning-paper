@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c53806c70d594b208c3bc54759a8ed2d/artifacts
+deleted_time: 1718532007069
 end_time: 1717655870697
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c53806c70d594b208c3bc54759a8ed2d
 run_name: hilarious-turtle-605
 run_uuid: c53806c70d594b208c3bc54759a8ed2d

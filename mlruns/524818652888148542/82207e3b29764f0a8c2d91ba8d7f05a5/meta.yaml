@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/82207e3b29764f0a8c2d91ba8d7f05a5/artifacts
+deleted_time: 1718532007077
 end_time: 1717656520911
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 82207e3b29764f0a8c2d91ba8d7f05a5
 run_name: stately-bass-180
 run_uuid: 82207e3b29764f0a8c2d91ba8d7f05a5

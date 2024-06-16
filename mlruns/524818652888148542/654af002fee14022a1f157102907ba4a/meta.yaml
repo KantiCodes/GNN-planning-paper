@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/654af002fee14022a1f157102907ba4a/artifacts
+deleted_time: 1718532135816
 end_time: 1717695076500
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 654af002fee14022a1f157102907ba4a
 run_name: receptive-snail-707
 run_uuid: 654af002fee14022a1f157102907ba4a

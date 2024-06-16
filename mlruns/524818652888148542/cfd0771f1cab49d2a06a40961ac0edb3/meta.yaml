@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/cfd0771f1cab49d2a06a40961ac0edb3/artifacts
+deleted_time: 1718532135784
 end_time: 1717695107064
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cfd0771f1cab49d2a06a40961ac0edb3
 run_name: invincible-hare-89
 run_uuid: cfd0771f1cab49d2a06a40961ac0edb3

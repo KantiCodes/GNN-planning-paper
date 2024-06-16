@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/7edf9b0c3fd1441889b939d77324685a/artifacts
+deleted_time: 1718531881264
 end_time: 1717440729532
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7edf9b0c3fd1441889b939d77324685a
 run_name: funny-calf-128
 run_uuid: 7edf9b0c3fd1441889b939d77324685a

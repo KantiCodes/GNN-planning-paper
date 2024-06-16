@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/3cb51dd3713747a8a9d95a706ca152b1/artifacts
+deleted_time: 1718532163087
 end_time: 1717629251937
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3cb51dd3713747a8a9d95a706ca152b1
 run_name: intelligent-koi-89
 run_uuid: 3cb51dd3713747a8a9d95a706ca152b1

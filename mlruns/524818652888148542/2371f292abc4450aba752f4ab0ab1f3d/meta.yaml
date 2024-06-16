@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/2371f292abc4450aba752f4ab0ab1f3d/artifacts
+deleted_time: 1718531697439
 end_time: 1717707777548
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2371f292abc4450aba752f4ab0ab1f3d
 run_name: monumental-croc-759
 run_uuid: 2371f292abc4450aba752f4ab0ab1f3d

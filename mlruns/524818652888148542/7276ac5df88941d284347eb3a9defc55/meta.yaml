@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/7276ac5df88941d284347eb3a9defc55/artifacts
+deleted_time: 1718532065968
 end_time: 1717631891580
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7276ac5df88941d284347eb3a9defc55
 run_name: zealous-tern-900
 run_uuid: 7276ac5df88941d284347eb3a9defc55

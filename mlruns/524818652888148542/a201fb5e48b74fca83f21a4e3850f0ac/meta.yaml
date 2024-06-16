@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a201fb5e48b74fca83f21a4e3850f0ac/artifacts
+deleted_time: 1718532163063
 end_time: 1717631158539
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a201fb5e48b74fca83f21a4e3850f0ac
 run_name: polite-lynx-593
 run_uuid: a201fb5e48b74fca83f21a4e3850f0ac

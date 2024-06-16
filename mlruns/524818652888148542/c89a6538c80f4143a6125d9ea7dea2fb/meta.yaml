@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c89a6538c80f4143a6125d9ea7dea2fb/artifacts
+deleted_time: 1718532065998
 end_time: 1717631684242
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c89a6538c80f4143a6125d9ea7dea2fb
 run_name: omniscient-snail-227
 run_uuid: c89a6538c80f4143a6125d9ea7dea2fb

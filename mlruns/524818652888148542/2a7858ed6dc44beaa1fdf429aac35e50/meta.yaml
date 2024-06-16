@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/2a7858ed6dc44beaa1fdf429aac35e50/artifacts
+deleted_time: 1718532163080
 end_time: 1717629663892
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2a7858ed6dc44beaa1fdf429aac35e50
 run_name: treasured-snake-962
 run_uuid: 2a7858ed6dc44beaa1fdf429aac35e50

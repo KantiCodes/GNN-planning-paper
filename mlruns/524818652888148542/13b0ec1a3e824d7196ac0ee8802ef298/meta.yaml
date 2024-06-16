@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/13b0ec1a3e824d7196ac0ee8802ef298/artifacts
+deleted_time: 1718532065959
 end_time: 1717631931159
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 13b0ec1a3e824d7196ac0ee8802ef298
 run_name: gentle-crab-957
 run_uuid: 13b0ec1a3e824d7196ac0ee8802ef298

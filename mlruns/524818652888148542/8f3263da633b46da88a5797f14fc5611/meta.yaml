@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8f3263da633b46da88a5797f14fc5611/artifacts
+deleted_time: 1718532065910
 end_time: 1717632354170
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8f3263da633b46da88a5797f14fc5611
 run_name: rogue-kite-386
 run_uuid: 8f3263da633b46da88a5797f14fc5611

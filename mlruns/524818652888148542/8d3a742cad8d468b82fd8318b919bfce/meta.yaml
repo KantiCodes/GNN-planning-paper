@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8d3a742cad8d468b82fd8318b919bfce/artifacts
+deleted_time: 1718531621787
 end_time: 1717695034449
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8d3a742cad8d468b82fd8318b919bfce
 run_name: delightful-swan-473
 run_uuid: 8d3a742cad8d468b82fd8318b919bfce

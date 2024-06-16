@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/611f9e4001ef4a14832cbe0b3d082d27/artifacts
+deleted_time: 1718531621782
 end_time: 1717695190440
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 611f9e4001ef4a14832cbe0b3d082d27
 run_name: youthful-cod-704
 run_uuid: 611f9e4001ef4a14832cbe0b3d082d27

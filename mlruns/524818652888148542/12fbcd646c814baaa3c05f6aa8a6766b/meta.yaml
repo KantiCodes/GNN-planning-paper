@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/12fbcd646c814baaa3c05f6aa8a6766b/artifacts
+deleted_time: 1718532109162
 end_time: 1717708816780
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 12fbcd646c814baaa3c05f6aa8a6766b
 run_name: calm-stag-771
 run_uuid: 12fbcd646c814baaa3c05f6aa8a6766b

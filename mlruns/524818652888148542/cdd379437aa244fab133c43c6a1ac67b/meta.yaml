@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/cdd379437aa244fab133c43c6a1ac67b/artifacts
+deleted_time: 1718532065905
 end_time: 1717632384393
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cdd379437aa244fab133c43c6a1ac67b
 run_name: victorious-crab-176
 run_uuid: cdd379437aa244fab133c43c6a1ac67b

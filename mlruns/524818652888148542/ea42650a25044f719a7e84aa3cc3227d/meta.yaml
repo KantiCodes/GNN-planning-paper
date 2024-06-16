@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ea42650a25044f719a7e84aa3cc3227d/artifacts
+deleted_time: 1718532029438
 end_time: 1717625991380
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ea42650a25044f719a7e84aa3cc3227d
 run_name: popular-deer-188
 run_uuid: ea42650a25044f719a7e84aa3cc3227d

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/e2d098f1acfa4aaca87aebeb4467ebcb/artifacts
+deleted_time: 1718531910782
 end_time: 1717333420459
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e2d098f1acfa4aaca87aebeb4467ebcb
 run_name: dapper-frog-663
 run_uuid: e2d098f1acfa4aaca87aebeb4467ebcb

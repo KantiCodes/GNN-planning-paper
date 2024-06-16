@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/37d8f11230ac4735bf5e4f9278b6f6e4/artifacts
+deleted_time: 1718532135782
 end_time: 1717695192976
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 37d8f11230ac4735bf5e4f9278b6f6e4
 run_name: mysterious-grub-991
 run_uuid: 37d8f11230ac4735bf5e4f9278b6f6e4

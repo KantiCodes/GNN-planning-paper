@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/fdef46a233684437b3eedbd37101382a/artifacts
+deleted_time: 1718531697411
 end_time: 1717695369570
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fdef46a233684437b3eedbd37101382a
 run_name: beautiful-bird-370
 run_uuid: fdef46a233684437b3eedbd37101382a

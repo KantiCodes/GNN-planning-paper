@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/d807046983fd4a688e14d1dad0dfaacc/artifacts
+deleted_time: 1718531910787
 end_time: 1717326474688
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d807046983fd4a688e14d1dad0dfaacc
 run_name: crawling-smelt-968
 run_uuid: d807046983fd4a688e14d1dad0dfaacc

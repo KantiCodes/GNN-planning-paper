@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e8f5acfd65d747c4be74b04f17709726/artifacts
+deleted_time: 1718531621762
 end_time: 1717708093456
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e8f5acfd65d747c4be74b04f17709726
 run_name: rare-turtle-854
 run_uuid: e8f5acfd65d747c4be74b04f17709726

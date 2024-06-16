@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/551c217a30b0473ba86b6922a22a0af3/artifacts
+deleted_time: 1718531621808
 end_time: 1717631194700
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 551c217a30b0473ba86b6922a22a0af3
 run_name: handsome-steed-530
 run_uuid: 551c217a30b0473ba86b6922a22a0af3

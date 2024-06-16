@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8acbca278c45457481ff0b562dcf5249/artifacts
+deleted_time: 1718531697435
 end_time: 1717656412191
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8acbca278c45457481ff0b562dcf5249
 run_name: salty-calf-197
 run_uuid: 8acbca278c45457481ff0b562dcf5249

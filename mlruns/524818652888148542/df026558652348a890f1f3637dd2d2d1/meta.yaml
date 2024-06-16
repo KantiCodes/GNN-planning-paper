@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/df026558652348a890f1f3637dd2d2d1/artifacts
+deleted_time: 1718532007104
 end_time: 1717656086461
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: df026558652348a890f1f3637dd2d2d1
 run_name: salty-kit-837
 run_uuid: df026558652348a890f1f3637dd2d2d1

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/066facd9f3f6494fb91a001deff589e3/artifacts
+deleted_time: 1718532109162
 end_time: 1717708853325
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 066facd9f3f6494fb91a001deff589e3
 run_name: magnificent-carp-188
 run_uuid: 066facd9f3f6494fb91a001deff589e3

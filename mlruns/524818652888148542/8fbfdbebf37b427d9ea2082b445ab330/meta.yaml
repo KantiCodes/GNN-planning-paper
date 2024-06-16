@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8fbfdbebf37b427d9ea2082b445ab330/artifacts
+deleted_time: 1718532109179
 end_time: 1717708577359
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8fbfdbebf37b427d9ea2082b445ab330
 run_name: worried-fly-641
 run_uuid: 8fbfdbebf37b427d9ea2082b445ab330

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/b4d1101d698d4f96ac0d9a455dbe8da7/artifacts
+deleted_time: 1718531910759
 end_time: 1717329031667
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b4d1101d698d4f96ac0d9a455dbe8da7
 run_name: redolent-yak-459
 run_uuid: b4d1101d698d4f96ac0d9a455dbe8da7

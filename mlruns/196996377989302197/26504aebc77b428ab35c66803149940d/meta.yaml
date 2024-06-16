@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/26504aebc77b428ab35c66803149940d/artifacts
+deleted_time: 1718531964077
 end_time: 1717223678206
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 26504aebc77b428ab35c66803149940d
 run_name: rogue-pug-124
 run_uuid: 26504aebc77b428ab35c66803149940d

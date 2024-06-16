@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/2c63ba17edbb43c8a21545ab433e5369/artifacts
+deleted_time: 1718531697383
 end_time: 1717656398705
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2c63ba17edbb43c8a21545ab433e5369
 run_name: luxuriant-gnat-748
 run_uuid: 2c63ba17edbb43c8a21545ab433e5369

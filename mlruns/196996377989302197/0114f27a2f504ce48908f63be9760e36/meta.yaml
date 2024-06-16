@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/0114f27a2f504ce48908f63be9760e36/artifacts
+deleted_time: 1718531964091
 end_time: 1717194702561
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0114f27a2f504ce48908f63be9760e36
 run_name: dazzling-ox-926
 run_uuid: 0114f27a2f504ce48908f63be9760e36

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/15b59ba78bf645ad964c34428c53b754/artifacts
+deleted_time: 1718531881263
 end_time: 1717452903541
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 15b59ba78bf645ad964c34428c53b754
 run_name: inquisitive-elk-478
 run_uuid: 15b59ba78bf645ad964c34428c53b754

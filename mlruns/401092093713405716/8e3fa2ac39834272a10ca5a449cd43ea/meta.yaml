@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/8e3fa2ac39834272a10ca5a449cd43ea/artifacts
+deleted_time: 1718531910766
 end_time: 1717334197813
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8e3fa2ac39834272a10ca5a449cd43ea
 run_name: classy-hare-818
 run_uuid: 8e3fa2ac39834272a10ca5a449cd43ea

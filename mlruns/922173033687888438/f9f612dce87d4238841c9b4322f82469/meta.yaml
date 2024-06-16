@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/922173033687888438/f9f612dce87d4238841c9b4322f82469/artifacts
+deleted_time: 1718531897028
 end_time: 1717341437553
 entry_point_name: ''
 experiment_id: '922173033687888438'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f9f612dce87d4238841c9b4322f82469
 run_name: likeable-shark-316
 run_uuid: f9f612dce87d4238841c9b4322f82469

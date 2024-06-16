@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/7aeda3a62ca74505a249f96d0fbab8e6/artifacts
+deleted_time: 1718531881298
 end_time: 1717446101493
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7aeda3a62ca74505a249f96d0fbab8e6
 run_name: dazzling-mole-369
 run_uuid: 7aeda3a62ca74505a249f96d0fbab8e6

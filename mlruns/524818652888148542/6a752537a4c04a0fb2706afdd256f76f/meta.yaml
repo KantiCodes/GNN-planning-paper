@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6a752537a4c04a0fb2706afdd256f76f/artifacts
+deleted_time: 1718532109130
 end_time: 1717708060020
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6a752537a4c04a0fb2706afdd256f76f
 run_name: stately-deer-94
 run_uuid: 6a752537a4c04a0fb2706afdd256f76f

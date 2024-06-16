@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/23ffe933402c4223820a6be9b0d1c57c/artifacts
+deleted_time: 1718532163048
 end_time: 1717631248861
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 23ffe933402c4223820a6be9b0d1c57c
 run_name: zealous-shoat-270
 run_uuid: 23ffe933402c4223820a6be9b0d1c57c

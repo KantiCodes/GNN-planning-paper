@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/c6886a3a9fe24e3f8de7bbc95811a5f1/artifacts
+deleted_time: 1718532065904
 end_time: 1717632399248
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c6886a3a9fe24e3f8de7bbc95811a5f1
 run_name: selective-flea-193
 run_uuid: c6886a3a9fe24e3f8de7bbc95811a5f1

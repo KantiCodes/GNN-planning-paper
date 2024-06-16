@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/7e97cc99507b42778d2801f55762b7e9/artifacts
+deleted_time: 1718532135782
 end_time: 1717695181118
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7e97cc99507b42778d2801f55762b7e9
 run_name: omniscient-kit-610
 run_uuid: 7e97cc99507b42778d2801f55762b7e9

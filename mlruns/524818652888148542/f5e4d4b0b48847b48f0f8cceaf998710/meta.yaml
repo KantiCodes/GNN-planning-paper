@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f5e4d4b0b48847b48f0f8cceaf998710/artifacts
+deleted_time: 1718531621738
 end_time: 1717656655843
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f5e4d4b0b48847b48f0f8cceaf998710
 run_name: persistent-moose-719
 run_uuid: f5e4d4b0b48847b48f0f8cceaf998710

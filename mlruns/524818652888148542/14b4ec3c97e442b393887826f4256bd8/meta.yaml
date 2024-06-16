@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/14b4ec3c97e442b393887826f4256bd8/artifacts
+deleted_time: 1718531621886
 end_time: 1717656506638
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 14b4ec3c97e442b393887826f4256bd8
 run_name: efficient-flea-820
 run_uuid: 14b4ec3c97e442b393887826f4256bd8

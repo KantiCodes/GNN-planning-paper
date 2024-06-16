@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a7aa572c600149cd84957f43bdad744d/artifacts
+deleted_time: 1718531697432
 end_time: 1717655957466
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a7aa572c600149cd84957f43bdad744d
 run_name: suave-bug-639
 run_uuid: a7aa572c600149cd84957f43bdad744d

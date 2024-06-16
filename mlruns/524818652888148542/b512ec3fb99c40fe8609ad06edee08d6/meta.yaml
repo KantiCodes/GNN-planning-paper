@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b512ec3fb99c40fe8609ad06edee08d6/artifacts
+deleted_time: 1718531697416
 end_time: 1717656013564
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b512ec3fb99c40fe8609ad06edee08d6
 run_name: useful-quail-158
 run_uuid: b512ec3fb99c40fe8609ad06edee08d6

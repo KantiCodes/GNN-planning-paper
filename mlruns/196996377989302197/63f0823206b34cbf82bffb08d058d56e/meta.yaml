@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/63f0823206b34cbf82bffb08d058d56e/artifacts
+deleted_time: 1718531964087
 end_time: 1716234766121
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 63f0823206b34cbf82bffb08d058d56e
 run_name: bold-rat-764
 run_uuid: 63f0823206b34cbf82bffb08d058d56e

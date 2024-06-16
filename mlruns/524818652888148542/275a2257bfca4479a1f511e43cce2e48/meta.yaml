@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/275a2257bfca4479a1f511e43cce2e48/artifacts
+deleted_time: 1718532109171
 end_time: 1717708705382
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 275a2257bfca4479a1f511e43cce2e48
 run_name: hilarious-hawk-111
 run_uuid: 275a2257bfca4479a1f511e43cce2e48

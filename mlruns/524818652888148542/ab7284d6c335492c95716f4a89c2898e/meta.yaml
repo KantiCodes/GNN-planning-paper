@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ab7284d6c335492c95716f4a89c2898e/artifacts
+deleted_time: 1718531621817
 end_time: 1717695059771
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ab7284d6c335492c95716f4a89c2898e
 run_name: nebulous-panda-609
 run_uuid: ab7284d6c335492c95716f4a89c2898e

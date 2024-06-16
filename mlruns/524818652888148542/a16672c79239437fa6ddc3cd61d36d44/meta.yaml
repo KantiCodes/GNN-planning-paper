@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a16672c79239437fa6ddc3cd61d36d44/artifacts
+deleted_time: 1718531621873
 end_time: 1717709064214
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a16672c79239437fa6ddc3cd61d36d44
 run_name: unruly-croc-921
 run_uuid: a16672c79239437fa6ddc3cd61d36d44

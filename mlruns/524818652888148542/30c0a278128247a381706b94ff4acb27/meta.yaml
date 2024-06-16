@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/30c0a278128247a381706b94ff4acb27/artifacts
+deleted_time: 1718532163080
 end_time: 1717629683087
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 30c0a278128247a381706b94ff4acb27
 run_name: dashing-kite-366
 run_uuid: 30c0a278128247a381706b94ff4acb27

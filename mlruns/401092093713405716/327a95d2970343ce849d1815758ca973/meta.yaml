@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/327a95d2970343ce849d1815758ca973/artifacts
+deleted_time: 1718531910782
 end_time: 1717330041175
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 327a95d2970343ce849d1815758ca973
 run_name: welcoming-lark-717
 run_uuid: 327a95d2970343ce849d1815758ca973

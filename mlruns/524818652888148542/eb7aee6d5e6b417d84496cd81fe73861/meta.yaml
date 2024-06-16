@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/eb7aee6d5e6b417d84496cd81fe73861/artifacts
+deleted_time: 1718532065995
 end_time: 1717631723848
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: eb7aee6d5e6b417d84496cd81fe73861
 run_name: legendary-pig-40
 run_uuid: eb7aee6d5e6b417d84496cd81fe73861

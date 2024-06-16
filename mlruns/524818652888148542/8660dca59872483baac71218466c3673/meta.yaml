@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/8660dca59872483baac71218466c3673/artifacts
+deleted_time: 1718532065982
 end_time: 1717631801387
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8660dca59872483baac71218466c3673
 run_name: bouncy-grub-290
 run_uuid: 8660dca59872483baac71218466c3673

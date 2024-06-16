@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/94a4a51ab3fe4aac93c888ea0a0743d6/artifacts
+deleted_time: 1718531910766
 end_time: 1717335186446
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 94a4a51ab3fe4aac93c888ea0a0743d6
 run_name: unleashed-hound-790
 run_uuid: 94a4a51ab3fe4aac93c888ea0a0743d6

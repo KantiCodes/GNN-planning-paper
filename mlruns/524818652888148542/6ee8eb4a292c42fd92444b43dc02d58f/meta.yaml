@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/6ee8eb4a292c42fd92444b43dc02d58f/artifacts
+deleted_time: 1718532109181
 end_time: 1717708256074
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6ee8eb4a292c42fd92444b43dc02d58f
 run_name: respected-stoat-807
 run_uuid: 6ee8eb4a292c42fd92444b43dc02d58f

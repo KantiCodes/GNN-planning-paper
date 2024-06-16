@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/6db56b3e7b924d95b6b8cb01574a6f9b/artifacts
+deleted_time: 1718531910781
 end_time: 1717330951586
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6db56b3e7b924d95b6b8cb01574a6f9b
 run_name: carefree-newt-374
 run_uuid: 6db56b3e7b924d95b6b8cb01574a6f9b

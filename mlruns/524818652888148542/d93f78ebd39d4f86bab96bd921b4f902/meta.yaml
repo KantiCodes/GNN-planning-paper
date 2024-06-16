@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d93f78ebd39d4f86bab96bd921b4f902/artifacts
+deleted_time: 1718532029357
 end_time: 1717711785238
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d93f78ebd39d4f86bab96bd921b4f902
 run_name: indecisive-yak-109
 run_uuid: d93f78ebd39d4f86bab96bd921b4f902

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/a1c6f3e57ed4400989f7e7181d7c3e66/artifacts
+deleted_time: 1718532065910
 end_time: 1717632365350
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a1c6f3e57ed4400989f7e7181d7c3e66
 run_name: rebellious-goat-188
 run_uuid: a1c6f3e57ed4400989f7e7181d7c3e66

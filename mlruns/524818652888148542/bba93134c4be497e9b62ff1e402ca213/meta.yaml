@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/bba93134c4be497e9b62ff1e402ca213/artifacts
+deleted_time: 1718532029404
 end_time: 1717720618797
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bba93134c4be497e9b62ff1e402ca213
 run_name: placid-dog-608
 run_uuid: bba93134c4be497e9b62ff1e402ca213

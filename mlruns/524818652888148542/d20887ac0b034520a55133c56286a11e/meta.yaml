@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d20887ac0b034520a55133c56286a11e/artifacts
+deleted_time: 1718531621889
 end_time: 1717707946927
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d20887ac0b034520a55133c56286a11e
 run_name: overjoyed-carp-103
 run_uuid: d20887ac0b034520a55133c56286a11e

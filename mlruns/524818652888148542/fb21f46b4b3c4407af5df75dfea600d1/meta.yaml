@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/fb21f46b4b3c4407af5df75dfea600d1/artifacts
+deleted_time: 1718532029355
 end_time: 1717718258855
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fb21f46b4b3c4407af5df75dfea600d1
 run_name: monumental-horse-832
 run_uuid: fb21f46b4b3c4407af5df75dfea600d1

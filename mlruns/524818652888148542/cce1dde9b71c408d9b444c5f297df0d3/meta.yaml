@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/cce1dde9b71c408d9b444c5f297df0d3/artifacts
+deleted_time: 1718532163024
 end_time: 1717631398928
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: cce1dde9b71c408d9b444c5f297df0d3
 run_name: nimble-asp-193
 run_uuid: cce1dde9b71c408d9b444c5f297df0d3

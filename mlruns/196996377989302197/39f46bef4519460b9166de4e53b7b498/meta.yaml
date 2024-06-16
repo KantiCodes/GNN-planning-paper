@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/39f46bef4519460b9166de4e53b7b498/artifacts
+deleted_time: 1718531964100
 end_time: 1716239427184
 entry_point_name: ''
 experiment_id: '196996377989302197'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 39f46bef4519460b9166de4e53b7b498
 run_name: unruly-doe-975
 run_uuid: 39f46bef4519460b9166de4e53b7b498

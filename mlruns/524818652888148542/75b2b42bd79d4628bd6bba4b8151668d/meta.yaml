@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/75b2b42bd79d4628bd6bba4b8151668d/artifacts
+deleted_time: 1718532109176
 end_time: 1717708487811
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 75b2b42bd79d4628bd6bba4b8151668d
 run_name: spiffy-cat-332
 run_uuid: 75b2b42bd79d4628bd6bba4b8151668d

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/1e1fa35ac8874de9a2d8f616b3c56036/artifacts
+deleted_time: 1718532029441
 end_time: null
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1e1fa35ac8874de9a2d8f616b3c56036
 run_name: popular-squid-805
 run_uuid: 1e1fa35ac8874de9a2d8f616b3c56036

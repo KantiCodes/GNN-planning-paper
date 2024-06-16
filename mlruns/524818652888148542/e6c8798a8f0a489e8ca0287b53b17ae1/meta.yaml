@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/e6c8798a8f0a489e8ca0287b53b17ae1/artifacts
+deleted_time: 1718531697440
 end_time: 1717720536310
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e6c8798a8f0a489e8ca0287b53b17ae1
 run_name: bright-auk-83
 run_uuid: e6c8798a8f0a489e8ca0287b53b17ae1

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f522d85691324657b8c41f262101b787/artifacts
+deleted_time: 1718532135798
 end_time: 1717694856730
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f522d85691324657b8c41f262101b787
 run_name: rogue-koi-632
 run_uuid: f522d85691324657b8c41f262101b787

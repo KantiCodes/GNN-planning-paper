@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/b3ce47feb33d4945b2c6a7f9ca5225de/artifacts
+deleted_time: 1718532135794
 end_time: 1717694994151
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b3ce47feb33d4945b2c6a7f9ca5225de
 run_name: melodic-horse-375
 run_uuid: b3ce47feb33d4945b2c6a7f9ca5225de

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/3bcffe2d8aec4f1bb362ac58f93599be/artifacts
+deleted_time: 1718531910766
 end_time: 1717332378898
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3bcffe2d8aec4f1bb362ac58f93599be
 run_name: dazzling-shark-38
 run_uuid: 3bcffe2d8aec4f1bb362ac58f93599be

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/ec91dcd152cb43feb995eed59c21ea1d/artifacts
+deleted_time: 1718531621880
 end_time: 1717708223407
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ec91dcd152cb43feb995eed59c21ea1d
 run_name: honorable-crow-130
 run_uuid: ec91dcd152cb43feb995eed59c21ea1d

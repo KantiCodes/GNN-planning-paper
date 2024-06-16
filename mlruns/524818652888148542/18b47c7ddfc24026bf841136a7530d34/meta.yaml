@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/18b47c7ddfc24026bf841136a7530d34/artifacts
+deleted_time: 1718531621809
 end_time: 1717655750808
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 18b47c7ddfc24026bf841136a7530d34
 run_name: brawny-doe-933
 run_uuid: 18b47c7ddfc24026bf841136a7530d34

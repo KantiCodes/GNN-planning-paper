@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/f772194121d44d2fa3f6ad3ed46ccc60/artifacts
+deleted_time: 1718532135791
 end_time: 1717695040139
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f772194121d44d2fa3f6ad3ed46ccc60
 run_name: smiling-skink-178
 run_uuid: f772194121d44d2fa3f6ad3ed46ccc60

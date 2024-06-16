@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/48f6563bd936414f851c5ba2766d5cf3/artifacts
+deleted_time: 1718531621788
 end_time: 1717694914898
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 48f6563bd936414f851c5ba2766d5cf3
 run_name: bustling-cod-299
 run_uuid: 48f6563bd936414f851c5ba2766d5cf3

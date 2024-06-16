@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/401092093713405716/09fabaf0a42c407cb003ff805e5c63dd/artifacts
+deleted_time: 1718531910771
 end_time: 1717331252872
 entry_point_name: ''
 experiment_id: '401092093713405716'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 09fabaf0a42c407cb003ff805e5c63dd
 run_name: rebellious-mouse-269
 run_uuid: 09fabaf0a42c407cb003ff805e5c63dd

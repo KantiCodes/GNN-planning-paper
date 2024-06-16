@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/5379afb1c4544863b7efff41e718c050/artifacts
+deleted_time: 1718532007098
 end_time: 1717656245781
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5379afb1c4544863b7efff41e718c050
 run_name: fearless-worm-790
 run_uuid: 5379afb1c4544863b7efff41e718c050

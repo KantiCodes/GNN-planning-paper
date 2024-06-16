@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/498ec1e154b0418e9a303a7c0826a206/artifacts
+deleted_time: 1718531881290
 end_time: 1717457426073
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 498ec1e154b0418e9a303a7c0826a206
 run_name: burly-snake-165
 run_uuid: 498ec1e154b0418e9a303a7c0826a206

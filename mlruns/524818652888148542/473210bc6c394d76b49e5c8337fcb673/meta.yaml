@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/473210bc6c394d76b49e5c8337fcb673/artifacts
+deleted_time: 1718532007108
 end_time: 1717655928387
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 473210bc6c394d76b49e5c8337fcb673
 run_name: wise-gnat-313
 run_uuid: 473210bc6c394d76b49e5c8337fcb673

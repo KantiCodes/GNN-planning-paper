@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/70baea1c5515431689c2b64f34081cab/artifacts
+deleted_time: 1718532029374
 end_time: 1717719960063
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 70baea1c5515431689c2b64f34081cab
 run_name: efficient-jay-285
 run_uuid: 70baea1c5515431689c2b64f34081cab

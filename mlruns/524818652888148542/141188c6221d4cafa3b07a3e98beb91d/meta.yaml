@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/141188c6221d4cafa3b07a3e98beb91d/artifacts
+deleted_time: 1718531697358
 end_time: 1717631200519
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 141188c6221d4cafa3b07a3e98beb91d
 run_name: merciful-penguin-177
 run_uuid: 141188c6221d4cafa3b07a3e98beb91d

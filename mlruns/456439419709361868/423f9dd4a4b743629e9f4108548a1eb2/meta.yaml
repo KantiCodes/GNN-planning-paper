@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/456439419709361868/423f9dd4a4b743629e9f4108548a1eb2/artifacts
+deleted_time: 1718531881294
 end_time: 1717454259876
 entry_point_name: ''
 experiment_id: '456439419709361868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 423f9dd4a4b743629e9f4108548a1eb2
 run_name: dapper-elk-329
 run_uuid: 423f9dd4a4b743629e9f4108548a1eb2

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/d4707dec2d77458c86aa8835c9d29c4b/artifacts
+deleted_time: 1718532029375
 end_time: 1717719691289
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d4707dec2d77458c86aa8835c9d29c4b
 run_name: melodic-ram-444
 run_uuid: d4707dec2d77458c86aa8835c9d29c4b

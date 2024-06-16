@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/524818652888148542/94f6bbefb4e74de89222aa0c0c4bb81a/artifacts
+deleted_time: 1718532109121
 end_time: 1717708178610
 entry_point_name: ''
 experiment_id: '524818652888148542'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 94f6bbefb4e74de89222aa0c0c4bb81a
 run_name: omniscient-sloth-724
 run_uuid: 94f6bbefb4e74de89222aa0c0c4bb81a
