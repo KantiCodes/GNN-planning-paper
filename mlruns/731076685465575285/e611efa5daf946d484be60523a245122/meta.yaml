@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/e611efa5daf946d484be60523a245122/artifacts
+end_time: 1717930705141
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: e611efa5daf946d484be60523a245122
+run_name: colorful-rat-184
+run_uuid: e611efa5daf946d484be60523a245122
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930701537
+status: 4
+tags: []
+user_id: piotrgzubicki

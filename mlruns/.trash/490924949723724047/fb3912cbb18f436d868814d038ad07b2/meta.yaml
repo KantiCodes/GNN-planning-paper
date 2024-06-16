@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/490924949723724047/fb3912cbb18f436d868814d038ad07b2/artifacts
+deleted_time: 1717083646799
+end_time: 1717003538486
+entry_point_name: ''
+experiment_id: '490924949723724047'
+lifecycle_stage: deleted
+run_id: fb3912cbb18f436d868814d038ad07b2
+run_name: blushing-deer-242
+run_uuid: fb3912cbb18f436d868814d038ad07b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717003309468
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/181477905716398025/a6c93b8723bc4729b16fe029685a86ea/artifacts
+deleted_time: 1718531752978
+end_time: 1717263419297
+entry_point_name: ''
+experiment_id: '181477905716398025'
+lifecycle_stage: deleted
+run_id: a6c93b8723bc4729b16fe029685a86ea
+run_name: bustling-perch-470
+run_uuid: a6c93b8723bc4729b16fe029685a86ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717263014839
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/93b792205871419ba0bf36993b0155c3/artifacts
+deleted_time: 1718531692588
+end_time: 1717233518442
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: deleted
+run_id: 93b792205871419ba0bf36993b0155c3
+run_name: stately-donkey-997
+run_uuid: 93b792205871419ba0bf36993b0155c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717232736211
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/3d754bde710c4517895a593fe5fc3cc4/artifacts
+end_time: 1717929978585
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 3d754bde710c4517895a593fe5fc3cc4
+run_name: capricious-panda-825
+run_uuid: 3d754bde710c4517895a593fe5fc3cc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929971574
+status: 4
+tags: []
+user_id: piotrgzubicki

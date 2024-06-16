@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/66d059a4833f48a48b23df398031c7d8/artifacts
+deleted_time: 1717088795654
+end_time: 1717086200410
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 66d059a4833f48a48b23df398031c7d8
+run_name: resilient-perch-937
+run_uuid: 66d059a4833f48a48b23df398031c7d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717085765103
+status: 3
+tags: []
+user_id: piotrgzubicki

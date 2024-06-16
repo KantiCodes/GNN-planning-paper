@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/aef198f120e24860b2ff2c31071b35bd/artifacts
+end_time: 1717240569248
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: active
+run_id: aef198f120e24860b2ff2c31071b35bd
+run_name: rumbling-owl-537
+run_uuid: aef198f120e24860b2ff2c31071b35bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717240501002
+status: 3
+tags: []
+user_id: piotrgzubicki

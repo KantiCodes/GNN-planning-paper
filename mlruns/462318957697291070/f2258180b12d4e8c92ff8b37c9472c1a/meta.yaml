@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/f2258180b12d4e8c92ff8b37c9472c1a/artifacts
+deleted_time: 1718531794315
+end_time: 1717530208976
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: f2258180b12d4e8c92ff8b37c9472c1a
+run_name: overjoyed-loon-130
+run_uuid: f2258180b12d4e8c92ff8b37c9472c1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717529915661
+status: 3
+tags: []
+user_id: piotrgzubicki

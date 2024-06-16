@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/4bfc1dc5ab2c4b2bb1213220daf77a02/artifacts
+deleted_time: 1718531775098
+end_time: 1717443945938
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 4bfc1dc5ab2c4b2bb1213220daf77a02
+run_name: smiling-kite-774
+run_uuid: 4bfc1dc5ab2c4b2bb1213220daf77a02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717443667440
+status: 3
+tags: []
+user_id: piotrgzubicki

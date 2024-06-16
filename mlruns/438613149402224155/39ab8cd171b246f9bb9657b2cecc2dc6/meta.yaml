@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/39ab8cd171b246f9bb9657b2cecc2dc6/artifacts
+deleted_time: 1718531804435
+end_time: 1717569513448
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: 39ab8cd171b246f9bb9657b2cecc2dc6
+run_name: placid-conch-662
+run_uuid: 39ab8cd171b246f9bb9657b2cecc2dc6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717568943172
+status: 3
+tags: []
+user_id: piotrgzubicki

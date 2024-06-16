@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/693010337746955662/54e2a6cc0a9c4409b8c1c23bba372648/artifacts
+end_time: 1717095518699
+entry_point_name: ''
+experiment_id: '693010337746955662'
+lifecycle_stage: active
+run_id: 54e2a6cc0a9c4409b8c1c23bba372648
+run_name: wistful-shoat-239
+run_uuid: 54e2a6cc0a9c4409b8c1c23bba372648
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717095432588
+status: 3
+tags: []
+user_id: piotrgzubicki

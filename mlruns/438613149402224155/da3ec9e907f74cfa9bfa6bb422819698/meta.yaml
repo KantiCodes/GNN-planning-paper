@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/da3ec9e907f74cfa9bfa6bb422819698/artifacts
+deleted_time: 1718531804458
+end_time: 1717575154391
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: da3ec9e907f74cfa9bfa6bb422819698
+run_name: dashing-shrimp-226
+run_uuid: da3ec9e907f74cfa9bfa6bb422819698
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717574580430
+status: 3
+tags: []
+user_id: piotrgzubicki

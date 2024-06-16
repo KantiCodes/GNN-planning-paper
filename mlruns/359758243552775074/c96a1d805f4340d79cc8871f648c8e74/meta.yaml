@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/c96a1d805f4340d79cc8871f648c8e74/artifacts
+deleted_time: 1718531711323
+end_time: 1717097855925
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: deleted
+run_id: c96a1d805f4340d79cc8871f648c8e74
+run_name: sneaky-panda-145
+run_uuid: c96a1d805f4340d79cc8871f648c8e74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717097767476
+status: 3
+tags: []
+user_id: piotrgzubicki

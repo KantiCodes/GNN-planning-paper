@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/2af59a4db8dd430ba78476a52b0b810c/artifacts
+deleted_time: 1718531804458
+end_time: 1717574576392
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: 2af59a4db8dd430ba78476a52b0b810c
+run_name: bright-owl-222
+run_uuid: 2af59a4db8dd430ba78476a52b0b810c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717574170915
+status: 3
+tags: []
+user_id: piotrgzubicki

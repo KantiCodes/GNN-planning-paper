@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/dcb53c21b51c4fc99539b5b911d18dca/artifacts
+end_time: 1717929256571
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: dcb53c21b51c4fc99539b5b911d18dca
+run_name: fortunate-stag-280
+run_uuid: dcb53c21b51c4fc99539b5b911d18dca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929236576
+status: 4
+tags: []
+user_id: piotrgzubicki

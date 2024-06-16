@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/229893232930694021/92f889a591cd4c1e86ae2713042aa188/artifacts
+end_time: 1717242298278
+entry_point_name: ''
+experiment_id: '229893232930694021'
+lifecycle_stage: active
+run_id: 92f889a591cd4c1e86ae2713042aa188
+run_name: clumsy-cat-179
+run_uuid: 92f889a591cd4c1e86ae2713042aa188
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717242228458
+status: 3
+tags: []
+user_id: piotrgzubicki

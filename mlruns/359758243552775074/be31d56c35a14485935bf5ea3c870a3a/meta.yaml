@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/be31d56c35a14485935bf5ea3c870a3a/artifacts
+end_time: 1717092613827
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: active
+run_id: be31d56c35a14485935bf5ea3c870a3a
+run_name: burly-mouse-965
+run_uuid: be31d56c35a14485935bf5ea3c870a3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717092364445
+status: 3
+tags: []
+user_id: piotrgzubicki

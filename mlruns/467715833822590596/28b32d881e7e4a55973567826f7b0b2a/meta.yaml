@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467715833822590596/28b32d881e7e4a55973567826f7b0b2a/artifacts
+deleted_time: 1718531743491
+end_time: 1717248066862
+entry_point_name: ''
+experiment_id: '467715833822590596'
+lifecycle_stage: deleted
+run_id: 28b32d881e7e4a55973567826f7b0b2a
+run_name: bedecked-mule-197
+run_uuid: 28b32d881e7e4a55973567826f7b0b2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717247691907
+status: 3
+tags: []
+user_id: piotrgzubicki

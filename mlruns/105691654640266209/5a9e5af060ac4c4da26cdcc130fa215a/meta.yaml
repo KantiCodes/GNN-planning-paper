@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/5a9e5af060ac4c4da26cdcc130fa215a/artifacts
+deleted_time: 1718531784892
+end_time: 1717519383122
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 5a9e5af060ac4c4da26cdcc130fa215a
+run_name: wistful-wasp-51
+run_uuid: 5a9e5af060ac4c4da26cdcc130fa215a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717519007822
+status: 3
+tags: []
+user_id: piotrgzubicki

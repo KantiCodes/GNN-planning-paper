@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/6605fdd0aa034e539c6a74064bd80336/artifacts
+end_time: 1717928549761
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 6605fdd0aa034e539c6a74064bd80336
+run_name: adaptable-perch-891
+run_uuid: 6605fdd0aa034e539c6a74064bd80336
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717928547235
+status: 4
+tags: []
+user_id: piotrgzubicki

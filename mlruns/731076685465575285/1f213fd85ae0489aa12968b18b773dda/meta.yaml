@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/1f213fd85ae0489aa12968b18b773dda/artifacts
+end_time: 1717930793571
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 1f213fd85ae0489aa12968b18b773dda
+run_name: handsome-loon-77
+run_uuid: 1f213fd85ae0489aa12968b18b773dda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930777627
+status: 4
+tags: []
+user_id: piotrgzubicki

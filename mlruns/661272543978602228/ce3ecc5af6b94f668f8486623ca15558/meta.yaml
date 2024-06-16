@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/ce3ecc5af6b94f668f8486623ca15558/artifacts
+deleted_time: 1718531733000
+end_time: 1717240018812
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: deleted
+run_id: ce3ecc5af6b94f668f8486623ca15558
+run_name: intelligent-stoat-81
+run_uuid: ce3ecc5af6b94f668f8486623ca15558
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717239953967
+status: 3
+tags: []
+user_id: piotrgzubicki

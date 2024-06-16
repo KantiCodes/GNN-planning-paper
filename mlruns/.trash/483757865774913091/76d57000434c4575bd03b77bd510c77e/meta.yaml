@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/483757865774913091/76d57000434c4575bd03b77bd510c77e/artifacts
+deleted_time: 1717001865573
+end_time: 1716913767798
+entry_point_name: ''
+experiment_id: '483757865774913091'
+lifecycle_stage: deleted
+run_id: 76d57000434c4575bd03b77bd510c77e
+run_name: rogue-kite-992
+run_uuid: 76d57000434c4575bd03b77bd510c77e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716912911586
+status: 3
+tags: []
+user_id: piotrgzubicki

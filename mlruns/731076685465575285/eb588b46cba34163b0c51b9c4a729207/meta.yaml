@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/eb588b46cba34163b0c51b9c4a729207/artifacts
+end_time: 1717930866321
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: eb588b46cba34163b0c51b9c4a729207
+run_name: selective-wolf-729
+run_uuid: eb588b46cba34163b0c51b9c4a729207
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930864655
+status: 4
+tags: []
+user_id: piotrgzubicki

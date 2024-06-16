@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/a4b0ee37a8844bb196e392481144cfb5/artifacts
+deleted_time: 1718531784883
+end_time: 1717522903445
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: a4b0ee37a8844bb196e392481144cfb5
+run_name: resilient-stoat-885
+run_uuid: a4b0ee37a8844bb196e392481144cfb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717522665848
+status: 3
+tags: []
+user_id: piotrgzubicki

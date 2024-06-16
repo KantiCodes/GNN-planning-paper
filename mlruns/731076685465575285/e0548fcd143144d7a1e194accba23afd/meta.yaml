@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/e0548fcd143144d7a1e194accba23afd/artifacts
+end_time: 1717930547080
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: e0548fcd143144d7a1e194accba23afd
+run_name: gregarious-fish-710
+run_uuid: e0548fcd143144d7a1e194accba23afd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930544317
+status: 4
+tags: []
+user_id: piotrgzubicki

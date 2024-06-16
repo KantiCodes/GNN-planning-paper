@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/6fcbbff673494215973832ee64390b19/artifacts
+deleted_time: 1718531775105
+end_time: 1717446253844
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 6fcbbff673494215973832ee64390b19
+run_name: whimsical-roo-99
+run_uuid: 6fcbbff673494215973832ee64390b19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717446077939
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/a011e6fef5a54f68bfed2d2d00be49c7/artifacts
+deleted_time: 1718531665552
+end_time: 1717096760049
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: deleted
+run_id: a011e6fef5a54f68bfed2d2d00be49c7
+run_name: stylish-asp-433
+run_uuid: a011e6fef5a54f68bfed2d2d00be49c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717096641119
+status: 3
+tags: []
+user_id: piotrgzubicki

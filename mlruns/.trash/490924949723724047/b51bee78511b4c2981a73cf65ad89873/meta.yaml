@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/490924949723724047/b51bee78511b4c2981a73cf65ad89873/artifacts
+deleted_time: 1717083646799
+end_time: 1717002045039
+entry_point_name: ''
+experiment_id: '490924949723724047'
+lifecycle_stage: deleted
+run_id: b51bee78511b4c2981a73cf65ad89873
+run_name: abundant-elk-394
+run_uuid: b51bee78511b4c2981a73cf65ad89873
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717001909968
+status: 3
+tags: []
+user_id: piotrgzubicki

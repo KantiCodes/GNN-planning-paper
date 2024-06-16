@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/c51601c2481b45f2b5aab57a7cda4891/artifacts
+deleted_time: 1718531665533
+end_time: 1717091605312
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: deleted
+run_id: c51601c2481b45f2b5aab57a7cda4891
+run_name: overjoyed-stag-658
+run_uuid: c51601c2481b45f2b5aab57a7cda4891
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717090766968
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/6c38383fc13140839aabb14c10f3082f/artifacts
+deleted_time: 1717088795654
+end_time: 1717087318843
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 6c38383fc13140839aabb14c10f3082f
+run_name: respected-colt-944
+run_uuid: 6c38383fc13140839aabb14c10f3082f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717087201040
+status: 3
+tags: []
+user_id: piotrgzubicki

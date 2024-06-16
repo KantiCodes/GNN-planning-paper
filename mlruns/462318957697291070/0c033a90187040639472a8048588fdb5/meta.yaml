@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/0c033a90187040639472a8048588fdb5/artifacts
+end_time: 1717529910475
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: active
+run_id: 0c033a90187040639472a8048588fdb5
+run_name: angry-seal-149
+run_uuid: 0c033a90187040639472a8048588fdb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717529692025
+status: 3
+tags: []
+user_id: piotrgzubicki

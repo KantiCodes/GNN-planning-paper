@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/490924949723724047/acf42f54675e4f10b9b80d8416b1c8f8/artifacts
+deleted_time: 1717083646799
+end_time: 1717003305024
+entry_point_name: ''
+experiment_id: '490924949723724047'
+lifecycle_stage: deleted
+run_id: acf42f54675e4f10b9b80d8416b1c8f8
+run_name: powerful-fish-855
+run_uuid: acf42f54675e4f10b9b80d8416b1c8f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717002834834
+status: 3
+tags: []
+user_id: piotrgzubicki

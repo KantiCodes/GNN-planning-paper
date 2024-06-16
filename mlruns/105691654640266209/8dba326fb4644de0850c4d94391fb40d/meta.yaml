@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/8dba326fb4644de0850c4d94391fb40d/artifacts
+end_time: 1717520446013
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: active
+run_id: 8dba326fb4644de0850c4d94391fb40d
+run_name: big-wolf-627
+run_uuid: 8dba326fb4644de0850c4d94391fb40d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717520281363
+status: 3
+tags: []
+user_id: piotrgzubicki

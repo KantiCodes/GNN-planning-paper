@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/467715833822590596/9d1ceedef93543a5b53abbcc1fab411f/artifacts
+end_time: 1717248796100
+entry_point_name: ''
+experiment_id: '467715833822590596'
+lifecycle_stage: active
+run_id: 9d1ceedef93543a5b53abbcc1fab411f
+run_name: peaceful-yak-348
+run_uuid: 9d1ceedef93543a5b53abbcc1fab411f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717248333743
+status: 3
+tags: []
+user_id: piotrgzubicki

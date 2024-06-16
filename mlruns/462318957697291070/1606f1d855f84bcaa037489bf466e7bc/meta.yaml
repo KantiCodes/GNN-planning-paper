@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/1606f1d855f84bcaa037489bf466e7bc/artifacts
+deleted_time: 1718531794346
+end_time: 1717533045303
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: 1606f1d855f84bcaa037489bf466e7bc
+run_name: nebulous-lynx-7
+run_uuid: 1606f1d855f84bcaa037489bf466e7bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717532542467
+status: 3
+tags: []
+user_id: piotrgzubicki

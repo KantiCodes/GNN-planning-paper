@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/bf60933fe7c54f319007786c5725ec28/artifacts
+deleted_time: 1718531665546
+end_time: 1717096848102
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: deleted
+run_id: bf60933fe7c54f319007786c5725ec28
+run_name: whimsical-calf-79
+run_uuid: bf60933fe7c54f319007786c5725ec28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717096762200
+status: 3
+tags: []
+user_id: piotrgzubicki

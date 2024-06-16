@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/2db16895959d4c108cd45d588937a3d6/artifacts
+deleted_time: 1718531784890
+end_time: 1717521152025
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 2db16895959d4c108cd45d588937a3d6
+run_name: spiffy-squirrel-63
+run_uuid: 2db16895959d4c108cd45d588937a3d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717520582630
+status: 3
+tags: []
+user_id: piotrgzubicki

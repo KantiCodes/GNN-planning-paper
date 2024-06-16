@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/069e6441609b47f7ad2d210a142d0fa9/artifacts
+deleted_time: 1718531775092
+end_time: 1717445555013
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 069e6441609b47f7ad2d210a142d0fa9
+run_name: upset-fly-790
+run_uuid: 069e6441609b47f7ad2d210a142d0fa9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717445470406
+status: 3
+tags: []
+user_id: piotrgzubicki

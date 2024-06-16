@@ -1,5 +1,9 @@
 artifact_uri: mlflow-artifacts:/196996377989302197/97f9e289057a4427be81157b37742a00/artifacts
+<<<<<<< Updated upstream
 deleted_time: 1718531964084
+=======
+deleted_time: 1718531645286
+>>>>>>> Stashed changes
 end_time: 1717173938963
 entry_point_name: ''
 experiment_id: '196996377989302197'

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/9972b413f6114cb9aee1d14e199b66df/artifacts
+deleted_time: 1718531784884
+end_time: 1717520177049
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 9972b413f6114cb9aee1d14e199b66df
+run_name: peaceful-carp-7
+run_uuid: 9972b413f6114cb9aee1d14e199b66df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717519804517
+status: 3
+tags: []
+user_id: piotrgzubicki

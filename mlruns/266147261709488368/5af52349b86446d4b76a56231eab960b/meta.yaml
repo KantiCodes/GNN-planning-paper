@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/5af52349b86446d4b76a56231eab960b/artifacts
+deleted_time: 1718531775098
+end_time: 1717443989358
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 5af52349b86446d4b76a56231eab960b
+run_name: grandiose-squid-426
+run_uuid: 5af52349b86446d4b76a56231eab960b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717443948008
+status: 3
+tags: []
+user_id: piotrgzubicki

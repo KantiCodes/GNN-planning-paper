@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/383ef62e986044958100d14f01e379b2/artifacts
+deleted_time: 1718531665536
+end_time: 1717090654199
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: deleted
+run_id: 383ef62e986044958100d14f01e379b2
+run_name: hilarious-squid-217
+run_uuid: 383ef62e986044958100d14f01e379b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717090460307
+status: 3
+tags: []
+user_id: piotrgzubicki

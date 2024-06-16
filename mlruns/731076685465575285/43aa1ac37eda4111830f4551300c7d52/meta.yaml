@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/43aa1ac37eda4111830f4551300c7d52/artifacts
+end_time: 1717929426082
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 43aa1ac37eda4111830f4551300c7d52
+run_name: rogue-fowl-951
+run_uuid: 43aa1ac37eda4111830f4551300c7d52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929423717
+status: 4
+tags: []
+user_id: piotrgzubicki

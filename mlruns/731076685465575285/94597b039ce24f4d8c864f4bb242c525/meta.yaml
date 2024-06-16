@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/94597b039ce24f4d8c864f4bb242c525/artifacts
+end_time: 1717928629384
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 94597b039ce24f4d8c864f4bb242c525
+run_name: gifted-elk-314
+run_uuid: 94597b039ce24f4d8c864f4bb242c525
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717928622274
+status: 4
+tags: []
+user_id: piotrgzubicki

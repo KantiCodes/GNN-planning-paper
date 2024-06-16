@@ -1,0 +1,16 @@
+{
+    "lr": 0.001,
+    "layers_num": 8,
+    "hidden_size": 16,
+    "optimizer": "RMSprop",
+    "conv_type": "SAGEConv",
+    "activation_function": "tanh",
+    "classification_function": "tanh",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 16,
+    "use_class_weights": false,
+    "model_settings_path": "/Users/piotrgzubicki/School/paper/GNN-planning-paper/model-settings/c7f4bc8ff3ad3ca1ad8c2ba3f4143c6e.json"
+}

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/693010337746955662/762aa4b4c6d5471fb2da8ca140e7651c/artifacts
+end_time: 1717095578698
+entry_point_name: ''
+experiment_id: '693010337746955662'
+lifecycle_stage: active
+run_id: 762aa4b4c6d5471fb2da8ca140e7651c
+run_name: unleashed-pig-397
+run_uuid: 762aa4b4c6d5471fb2da8ca140e7651c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717095520154
+status: 3
+tags: []
+user_id: piotrgzubicki

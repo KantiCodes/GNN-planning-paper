@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/abb67ce870e542cfa0f72aee3f14a80c/artifacts
+deleted_time: 1718531794331
+end_time: 1717525824944
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: abb67ce870e542cfa0f72aee3f14a80c
+run_name: gaudy-snail-669
+run_uuid: abb67ce870e542cfa0f72aee3f14a80c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717524992638
+status: 3
+tags: []
+user_id: piotrgzubicki

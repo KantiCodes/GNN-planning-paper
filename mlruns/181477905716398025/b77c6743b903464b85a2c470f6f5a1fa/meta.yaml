@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/181477905716398025/b77c6743b903464b85a2c470f6f5a1fa/artifacts
+deleted_time: 1718531752971
+end_time: 1717271698626
+entry_point_name: ''
+experiment_id: '181477905716398025'
+lifecycle_stage: deleted
+run_id: b77c6743b903464b85a2c470f6f5a1fa
+run_name: luxuriant-loon-518
+run_uuid: b77c6743b903464b85a2c470f6f5a1fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717270544264
+status: 3
+tags: []
+user_id: piotrgzubicki

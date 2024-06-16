@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/317347886655567656/7b9c363beab546c4bd925998cada0176/artifacts
+deleted_time: 1718531681188
+end_time: 1717229521283
+entry_point_name: ''
+experiment_id: '317347886655567656'
+lifecycle_stage: deleted
+run_id: 7b9c363beab546c4bd925998cada0176
+run_name: magnificent-cub-124
+run_uuid: 7b9c363beab546c4bd925998cada0176
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717229267263
+status: 3
+tags: []
+user_id: piotrgzubicki

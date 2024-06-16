@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/34b0aa80815a4d83bcde32f24d7be5ec/artifacts
+deleted_time: 1718531775113
+end_time: 1717444985221
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 34b0aa80815a4d83bcde32f24d7be5ec
+run_name: fortunate-chimp-267
+run_uuid: 34b0aa80815a4d83bcde32f24d7be5ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717444692559
+status: 3
+tags: []
+user_id: piotrgzubicki

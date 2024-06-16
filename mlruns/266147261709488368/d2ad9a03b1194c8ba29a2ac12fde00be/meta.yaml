@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/d2ad9a03b1194c8ba29a2ac12fde00be/artifacts
+deleted_time: 1718531775097
+end_time: 1717443284398
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: d2ad9a03b1194c8ba29a2ac12fde00be
+run_name: shivering-doe-750
+run_uuid: d2ad9a03b1194c8ba29a2ac12fde00be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717442976188
+status: 3
+tags: []
+user_id: piotrgzubicki

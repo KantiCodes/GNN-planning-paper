@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/297693513424444692/020f266261c04312ab5596205227e959/artifacts
+deleted_time: 1716909174623
+end_time: 1709658104586
+entry_point_name: ''
+experiment_id: '297693513424444692'
+lifecycle_stage: deleted
+run_id: 020f266261c04312ab5596205227e959
+run_name: '2024-03-05 18:01:40.974410'
+run_uuid: 020f266261c04312ab5596205227e959
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709658100974
+status: 3
+tags: []
+user_id: piotrgzubicki

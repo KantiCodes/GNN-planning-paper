@@ -1,0 +1,16 @@
+{
+    "lr": 0.001,
+    "layers_num": 16,
+    "hidden_size": 8,
+    "optimizer": "Adam",
+    "conv_type": "GraphConv",
+    "activation_function": "relu",
+    "classification_function": "tanh",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 32,
+    "use_class_weights": false,
+    "model_settings_path": "/Users/piotrgzubicki/School/paper/GNN-planning-paper/model-settings/0e09ec1ce5dd2d44326d9e6b7f7853ec.json"
+}

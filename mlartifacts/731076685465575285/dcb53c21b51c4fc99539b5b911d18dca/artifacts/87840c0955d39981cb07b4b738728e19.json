@@ -1,0 +1,16 @@
+{
+    "lr": 0.001,
+    "layers_num": 16,
+    "hidden_size": 16,
+    "optimizer": "RMSprop",
+    "conv_type": "GATConv",
+    "activation_function": "relu",
+    "classification_function": "tanh",
+    "use_batch_norm": true,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 32,
+    "use_class_weights": false,
+    "model_settings_path": "/Users/piotrgzubicki/School/paper/GNN-planning-paper/model-settings/87840c0955d39981cb07b4b738728e19.json"
+}

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/e8b8f3b9cfbd4b948c804dbf2c21be45/artifacts
+deleted_time: 1718531733006
+end_time: 1717239734804
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: deleted
+run_id: e8b8f3b9cfbd4b948c804dbf2c21be45
+run_name: zealous-shad-299
+run_uuid: e8b8f3b9cfbd4b948c804dbf2c21be45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717239641605
+status: 3
+tags: []
+user_id: piotrgzubicki

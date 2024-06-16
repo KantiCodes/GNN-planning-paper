@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/134895f0c74347fbb7884d44be95e07b/artifacts
+end_time: 1717930568089
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 134895f0c74347fbb7884d44be95e07b
+run_name: bedecked-gnu-345
+run_uuid: 134895f0c74347fbb7884d44be95e07b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930563169
+status: 4
+tags: []
+user_id: piotrgzubicki

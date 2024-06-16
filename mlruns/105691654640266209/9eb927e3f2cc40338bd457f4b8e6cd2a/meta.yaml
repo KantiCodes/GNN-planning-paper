@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/9eb927e3f2cc40338bd457f4b8e6cd2a/artifacts
+deleted_time: 1718531784900
+end_time: 1717523219226
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 9eb927e3f2cc40338bd457f4b8e6cd2a
+run_name: flawless-deer-90
+run_uuid: 9eb927e3f2cc40338bd457f4b8e6cd2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717522907158
+status: 3
+tags: []
+user_id: piotrgzubicki

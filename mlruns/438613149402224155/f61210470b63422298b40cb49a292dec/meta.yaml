@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/f61210470b63422298b40cb49a292dec/artifacts
+deleted_time: 1718531804435
+end_time: 1717573813702
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: f61210470b63422298b40cb49a292dec
+run_name: kindly-horse-18
+run_uuid: f61210470b63422298b40cb49a292dec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717573671061
+status: 3
+tags: []
+user_id: piotrgzubicki

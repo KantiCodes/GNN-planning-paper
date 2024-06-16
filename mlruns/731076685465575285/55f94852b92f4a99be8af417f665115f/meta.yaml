@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/55f94852b92f4a99be8af417f665115f/artifacts
+end_time: 1717930537631
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 55f94852b92f4a99be8af417f665115f
+run_name: rebellious-panda-195
+run_uuid: 55f94852b92f4a99be8af417f665115f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930531141
+status: 4
+tags: []
+user_id: piotrgzubicki

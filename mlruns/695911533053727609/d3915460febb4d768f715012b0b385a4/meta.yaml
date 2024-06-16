@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/695911533053727609/d3915460febb4d768f715012b0b385a4/artifacts
+end_time: 1717437684895
+entry_point_name: ''
+experiment_id: '695911533053727609'
+lifecycle_stage: active
+run_id: d3915460febb4d768f715012b0b385a4
+run_name: brawny-foal-113
+run_uuid: d3915460febb4d768f715012b0b385a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717437009361
+status: 3
+tags: []
+user_id: piotrgzubicki

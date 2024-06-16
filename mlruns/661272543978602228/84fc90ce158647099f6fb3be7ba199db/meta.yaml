@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/84fc90ce158647099f6fb3be7ba199db/artifacts
+deleted_time: 1718531733000
+end_time: 1717239952071
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: deleted
+run_id: 84fc90ce158647099f6fb3be7ba199db
+run_name: painted-hen-152
+run_uuid: 84fc90ce158647099f6fb3be7ba199db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717239736550
+status: 3
+tags: []
+user_id: piotrgzubicki

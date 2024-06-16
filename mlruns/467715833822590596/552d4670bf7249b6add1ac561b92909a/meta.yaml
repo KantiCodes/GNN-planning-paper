@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467715833822590596/552d4670bf7249b6add1ac561b92909a/artifacts
+deleted_time: 1718531743491
+end_time: 1717244987341
+entry_point_name: ''
+experiment_id: '467715833822590596'
+lifecycle_stage: deleted
+run_id: 552d4670bf7249b6add1ac561b92909a
+run_name: peaceful-vole-921
+run_uuid: 552d4670bf7249b6add1ac561b92909a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717244568059
+status: 3
+tags: []
+user_id: piotrgzubicki

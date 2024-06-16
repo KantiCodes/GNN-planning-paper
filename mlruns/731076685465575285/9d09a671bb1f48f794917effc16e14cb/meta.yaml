@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/9d09a671bb1f48f794917effc16e14cb/artifacts
+end_time: 1717929990483
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 9d09a671bb1f48f794917effc16e14cb
+run_name: overjoyed-horse-286
+run_uuid: 9d09a671bb1f48f794917effc16e14cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929988419
+status: 4
+tags: []
+user_id: piotrgzubicki

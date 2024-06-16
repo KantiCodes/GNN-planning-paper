@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/211bbddef65e4e078e8ef9e2a0619ac3/artifacts
+deleted_time: 1718531804450
+end_time: 1717570176359
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: 211bbddef65e4e078e8ef9e2a0619ac3
+run_name: delicate-conch-993
+run_uuid: 211bbddef65e4e078e8ef9e2a0619ac3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717569516853
+status: 3
+tags: []
+user_id: piotrgzubicki

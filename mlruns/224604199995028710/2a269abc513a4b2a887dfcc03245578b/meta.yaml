@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/2a269abc513a4b2a887dfcc03245578b/artifacts
+deleted_time: 1718531692592
+end_time: 1717231344056
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: deleted
+run_id: 2a269abc513a4b2a887dfcc03245578b
+run_name: nervous-toad-560
+run_uuid: 2a269abc513a4b2a887dfcc03245578b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717231049049
+status: 3
+tags: []
+user_id: piotrgzubicki

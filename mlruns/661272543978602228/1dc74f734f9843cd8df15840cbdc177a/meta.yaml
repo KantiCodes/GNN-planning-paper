@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/1dc74f734f9843cd8df15840cbdc177a/artifacts
+deleted_time: 1718531733000
+end_time: 1717240499230
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: deleted
+run_id: 1dc74f734f9843cd8df15840cbdc177a
+run_name: secretive-swan-479
+run_uuid: 1dc74f734f9843cd8df15840cbdc177a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717240310370
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/a30e64ad933749cf8d7bae5678a2a389/artifacts
+end_time: 1717931276415
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: a30e64ad933749cf8d7bae5678a2a389
+run_name: tasteful-chimp-675
+run_uuid: a30e64ad933749cf8d7bae5678a2a389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931214371
+status: 4
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/695911533053727609/55890f03ac584ab69ad4fab9cdb66bf7/artifacts
+deleted_time: 1718531762252
+end_time: 1717437001054
+entry_point_name: ''
+experiment_id: '695911533053727609'
+lifecycle_stage: deleted
+run_id: 55890f03ac584ab69ad4fab9cdb66bf7
+run_name: receptive-lark-828
+run_uuid: 55890f03ac584ab69ad4fab9cdb66bf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717436510904
+status: 3
+tags: []
+user_id: piotrgzubicki

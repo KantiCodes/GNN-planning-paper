@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/d35fcfe0dabf4a119aea28f8916b9bea/artifacts
+end_time: 1717930942810
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: d35fcfe0dabf4a119aea28f8916b9bea
+run_name: burly-wasp-286
+run_uuid: d35fcfe0dabf4a119aea28f8916b9bea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930923856
+status: 4
+tags: []
+user_id: piotrgzubicki

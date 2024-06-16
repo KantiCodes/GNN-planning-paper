@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/54d5353866674e93b0cf3c3906f8f683/artifacts
+end_time: 1717097765221
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: active
+run_id: 54d5353866674e93b0cf3c3906f8f683
+run_name: mercurial-lynx-83
+run_uuid: 54d5353866674e93b0cf3c3906f8f683
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717097648520
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/caaa085b6f7e4b568dd96106022aba04/artifacts
+end_time: 1717931456441
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: caaa085b6f7e4b568dd96106022aba04
+run_name: indecisive-ant-33
+run_uuid: caaa085b6f7e4b568dd96106022aba04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931451746
+status: 4
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/693010337746955662/494baee70189494ba0720da4878d6312/artifacts
+deleted_time: 1718531675006
+end_time: 1717094804200
+entry_point_name: ''
+experiment_id: '693010337746955662'
+lifecycle_stage: deleted
+run_id: 494baee70189494ba0720da4878d6312
+run_name: rumbling-perch-478
+run_uuid: 494baee70189494ba0720da4878d6312
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717094763740
+status: 3
+tags: []
+user_id: piotrgzubicki

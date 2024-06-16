@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/4869de4185c84659997723362f535f98/artifacts
+end_time: 1717930990464
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 4869de4185c84659997723362f535f98
+run_name: mysterious-wasp-50
+run_uuid: 4869de4185c84659997723362f535f98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930949985
+status: 4
+tags: []
+user_id: piotrgzubicki

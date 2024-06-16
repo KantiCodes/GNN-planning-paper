@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/7de97a70044f49dfb123e2d06a481ab9/artifacts
+deleted_time: 1718531794316
+end_time: 1717531404869
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: 7de97a70044f49dfb123e2d06a481ab9
+run_name: bouncy-ram-714
+run_uuid: 7de97a70044f49dfb123e2d06a481ab9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717530213841
+status: 3
+tags: []
+user_id: piotrgzubicki

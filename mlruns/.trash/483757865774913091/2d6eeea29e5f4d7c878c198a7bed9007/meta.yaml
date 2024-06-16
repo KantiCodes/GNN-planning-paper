@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/483757865774913091/2d6eeea29e5f4d7c878c198a7bed9007/artifacts
+deleted_time: 1717001865573
+end_time: 1716915651039
+entry_point_name: ''
+experiment_id: '483757865774913091'
+lifecycle_stage: deleted
+run_id: 2d6eeea29e5f4d7c878c198a7bed9007
+run_name: capable-snake-611
+run_uuid: 2d6eeea29e5f4d7c878c198a7bed9007
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716914868968
+status: 3
+tags: []
+user_id: piotrgzubicki

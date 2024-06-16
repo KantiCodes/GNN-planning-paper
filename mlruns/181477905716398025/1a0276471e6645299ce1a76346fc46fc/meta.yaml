@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/181477905716398025/1a0276471e6645299ce1a76346fc46fc/artifacts
+deleted_time: 1718531752978
+end_time: 1717257024178
+entry_point_name: ''
+experiment_id: '181477905716398025'
+lifecycle_stage: deleted
+run_id: 1a0276471e6645299ce1a76346fc46fc
+run_name: bold-sloth-773
+run_uuid: 1a0276471e6645299ce1a76346fc46fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717255828015
+status: 3
+tags: []
+user_id: piotrgzubicki

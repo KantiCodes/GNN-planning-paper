@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/6a6b0fa8cae54503b033e001b78ea19a/artifacts
+deleted_time: 1717088795654
+end_time: 1717085091369
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 6a6b0fa8cae54503b033e001b78ea19a
+run_name: selective-quail-347
+run_uuid: 6a6b0fa8cae54503b033e001b78ea19a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717085025198
+status: 3
+tags: []
+user_id: piotrgzubicki

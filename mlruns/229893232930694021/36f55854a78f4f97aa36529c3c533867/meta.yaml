@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/229893232930694021/36f55854a78f4f97aa36529c3c533867/artifacts
+end_time: 1717241503378
+entry_point_name: ''
+experiment_id: '229893232930694021'
+lifecycle_stage: active
+run_id: 36f55854a78f4f97aa36529c3c533867
+run_name: bittersweet-frog-284
+run_uuid: 36f55854a78f4f97aa36529c3c533867
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717241428740
+status: 3
+tags: []
+user_id: piotrgzubicki

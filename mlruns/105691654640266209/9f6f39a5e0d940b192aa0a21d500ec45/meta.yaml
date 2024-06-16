@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/9f6f39a5e0d940b192aa0a21d500ec45/artifacts
+deleted_time: 1718531784876
+end_time: 1717521247958
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 9f6f39a5e0d940b192aa0a21d500ec45
+run_name: rumbling-fowl-626
+run_uuid: 9f6f39a5e0d940b192aa0a21d500ec45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717521155489
+status: 3
+tags: []
+user_id: piotrgzubicki

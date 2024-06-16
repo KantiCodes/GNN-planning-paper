@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/695911533053727609/62b55ff28d9a425c9e8132cbde030f2f/artifacts
+deleted_time: 1718531762252
+end_time: 1717438305916
+entry_point_name: ''
+experiment_id: '695911533053727609'
+lifecycle_stage: deleted
+run_id: 62b55ff28d9a425c9e8132cbde030f2f
+run_name: overjoyed-finch-899
+run_uuid: 62b55ff28d9a425c9e8132cbde030f2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717437692793
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/b007cdf52e744d278aaeffca0a14c50d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: b007cdf52e744d278aaeffca0a14c50d
+run_name: unique-bat-117
+run_uuid: b007cdf52e744d278aaeffca0a14c50d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717927274846
+status: 1
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/e8b575b9f75248f9aa9ead3ad7e27150/artifacts
+deleted_time: 1718531692577
+end_time: 1717234458491
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: deleted
+run_id: e8b575b9f75248f9aa9ead3ad7e27150
+run_name: painted-worm-155
+run_uuid: e8b575b9f75248f9aa9ead3ad7e27150
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717234041056
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/f87d4bd4928f4386b6dfc045d25a9d09/artifacts
+deleted_time: 1718531692591
+end_time: 1717231044061
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: deleted
+run_id: f87d4bd4928f4386b6dfc045d25a9d09
+run_name: vaunted-fox-834
+run_uuid: f87d4bd4928f4386b6dfc045d25a9d09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717230020054
+status: 3
+tags: []
+user_id: piotrgzubicki

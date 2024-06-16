@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/f3efd56ab5074f3082dd19e2b55baead/artifacts
+end_time: 1717534429034
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: active
+run_id: f3efd56ab5074f3082dd19e2b55baead
+run_name: judicious-owl-817
+run_uuid: f3efd56ab5074f3082dd19e2b55baead
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717533988267
+status: 3
+tags: []
+user_id: piotrgzubicki

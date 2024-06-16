@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/317347886655567656/0cda2bd2f29545debe5a7183504ad74f/artifacts
+deleted_time: 1718531681194
+end_time: 1717227422347
+entry_point_name: ''
+experiment_id: '317347886655567656'
+lifecycle_stage: deleted
+run_id: 0cda2bd2f29545debe5a7183504ad74f
+run_name: capricious-hawk-821
+run_uuid: 0cda2bd2f29545debe5a7183504ad74f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717226792580
+status: 3
+tags: []
+user_id: piotrgzubicki

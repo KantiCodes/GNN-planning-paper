@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/490924949723724047/f13f1920c51b4649ba9c8fe2d00c65e5/artifacts
+deleted_time: 1717083646799
+end_time: 1717002641335
+entry_point_name: ''
+experiment_id: '490924949723724047'
+lifecycle_stage: deleted
+run_id: f13f1920c51b4649ba9c8fe2d00c65e5
+run_name: treasured-foal-609
+run_uuid: f13f1920c51b4649ba9c8fe2d00c65e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717002304003
+status: 3
+tags: []
+user_id: piotrgzubicki

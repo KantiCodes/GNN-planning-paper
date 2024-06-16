@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/3aa25b982b084e5abf71c08d3767f9ef/artifacts
+end_time: 1717240716197
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: active
+run_id: 3aa25b982b084e5abf71c08d3767f9ef
+run_name: fearless-doe-51
+run_uuid: 3aa25b982b084e5abf71c08d3767f9ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717240622294
+status: 3
+tags: []
+user_id: piotrgzubicki

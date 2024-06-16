@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/693010337746955662/6a42ec98003b45a685590592646ae0fb/artifacts
+end_time: 1717095141655
+entry_point_name: ''
+experiment_id: '693010337746955662'
+lifecycle_stage: active
+run_id: 6a42ec98003b45a685590592646ae0fb
+run_name: intrigued-crab-295
+run_uuid: 6a42ec98003b45a685590592646ae0fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717094805735
+status: 3
+tags: []
+user_id: piotrgzubicki

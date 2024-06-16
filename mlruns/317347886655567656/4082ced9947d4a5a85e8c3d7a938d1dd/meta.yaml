@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/317347886655567656/4082ced9947d4a5a85e8c3d7a938d1dd/artifacts
+end_time: 1717227598486
+entry_point_name: ''
+experiment_id: '317347886655567656'
+lifecycle_stage: active
+run_id: 4082ced9947d4a5a85e8c3d7a938d1dd
+run_name: dapper-eel-212
+run_uuid: 4082ced9947d4a5a85e8c3d7a938d1dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717227425762
+status: 3
+tags: []
+user_id: piotrgzubicki

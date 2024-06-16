@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/0ab50df6821c4e0c8d97b44a1bb467c7/artifacts
+deleted_time: 1718531784876
+end_time: 1717522662236
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 0ab50df6821c4e0c8d97b44a1bb467c7
+run_name: silent-bear-671
+run_uuid: 0ab50df6821c4e0c8d97b44a1bb467c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717522427002
+status: 3
+tags: []
+user_id: piotrgzubicki

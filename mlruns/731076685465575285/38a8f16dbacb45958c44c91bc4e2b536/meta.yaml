@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/38a8f16dbacb45958c44c91bc4e2b536/artifacts
+end_time: 1717930904059
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 38a8f16dbacb45958c44c91bc4e2b536
+run_name: legendary-snail-459
+run_uuid: 38a8f16dbacb45958c44c91bc4e2b536
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930896772
+status: 4
+tags: []
+user_id: piotrgzubicki

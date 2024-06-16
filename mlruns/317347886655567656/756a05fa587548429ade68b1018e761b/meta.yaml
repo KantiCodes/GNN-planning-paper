@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/317347886655567656/756a05fa587548429ade68b1018e761b/artifacts
+deleted_time: 1718531699096
+end_time: 1717229263953
+entry_point_name: ''
+experiment_id: '317347886655567656'
+lifecycle_stage: deleted
+run_id: 756a05fa587548429ade68b1018e761b
+run_name: debonair-stork-99
+run_uuid: 756a05fa587548429ade68b1018e761b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717229145670
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/fb874a571bdc4afe8701149f32aff07c/artifacts
+end_time: 1717240308590
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: active
+run_id: fb874a571bdc4afe8701149f32aff07c
+run_name: bouncy-snail-915
+run_uuid: fb874a571bdc4afe8701149f32aff07c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717240099945
+status: 3
+tags: []
+user_id: piotrgzubicki

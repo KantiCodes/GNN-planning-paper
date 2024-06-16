@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/3a8074435abd49188ce0db07f8c16568/artifacts
+end_time: 1717234034139
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: active
+run_id: 3a8074435abd49188ce0db07f8c16568
+run_name: stately-rook-756
+run_uuid: 3a8074435abd49188ce0db07f8c16568
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717233793921
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/17bf14531f594661aca8e11ff6a3a98d/artifacts
+end_time: 1717929349298
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 17bf14531f594661aca8e11ff6a3a98d
+run_name: tasteful-fowl-629
+run_uuid: 17bf14531f594661aca8e11ff6a3a98d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929345358
+status: 4
+tags: []
+user_id: piotrgzubicki

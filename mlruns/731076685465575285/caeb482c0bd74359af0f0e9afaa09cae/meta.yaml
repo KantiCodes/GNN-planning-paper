@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/caeb482c0bd74359af0f0e9afaa09cae/artifacts
+end_time: 1717930023786
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: caeb482c0bd74359af0f0e9afaa09cae
+run_name: serious-doe-412
+run_uuid: caeb482c0bd74359af0f0e9afaa09cae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930018444
+status: 4
+tags: []
+user_id: piotrgzubicki

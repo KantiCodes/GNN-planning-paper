@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/6613327810d94505b500e5dfe78d397a/artifacts
+deleted_time: 1718531692578
+end_time: 1717231625177
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: deleted
+run_id: 6613327810d94505b500e5dfe78d397a
+run_name: amusing-stoat-439
+run_uuid: 6613327810d94505b500e5dfe78d397a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717231348674
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/2ababa7400e24545b3f93a93bf761521/artifacts
+end_time: 1717240620423
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: active
+run_id: 2ababa7400e24545b3f93a93bf761521
+run_name: legendary-midge-436
+run_uuid: 2ababa7400e24545b3f93a93bf761521
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717240571244
+status: 3
+tags: []
+user_id: piotrgzubicki

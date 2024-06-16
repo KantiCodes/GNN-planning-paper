@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467715833822590596/5f17ad4603244aeb9324752c221c72bf/artifacts
+deleted_time: 1718531743502
+end_time: 1717245435228
+entry_point_name: ''
+experiment_id: '467715833822590596'
+lifecycle_stage: deleted
+run_id: 5f17ad4603244aeb9324752c221c72bf
+run_name: big-swan-991
+run_uuid: 5f17ad4603244aeb9324752c221c72bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717245285159
+status: 3
+tags: []
+user_id: piotrgzubicki

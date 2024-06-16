@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467715833822590596/df062fe745cc4d1da7f11a9857e0a93b/artifacts
+deleted_time: 1718531743502
+end_time: 1717243122891
+entry_point_name: ''
+experiment_id: '467715833822590596'
+lifecycle_stage: deleted
+run_id: df062fe745cc4d1da7f11a9857e0a93b
+run_name: tasteful-panda-338
+run_uuid: df062fe745cc4d1da7f11a9857e0a93b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717242689275
+status: 3
+tags: []
+user_id: piotrgzubicki

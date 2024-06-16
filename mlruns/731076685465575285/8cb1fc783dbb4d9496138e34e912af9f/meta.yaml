@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/8cb1fc783dbb4d9496138e34e912af9f/artifacts
+end_time: 1717931358709
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 8cb1fc783dbb4d9496138e34e912af9f
+run_name: smiling-rook-488
+run_uuid: 8cb1fc783dbb4d9496138e34e912af9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931356503
+status: 4
+tags: []
+user_id: piotrgzubicki

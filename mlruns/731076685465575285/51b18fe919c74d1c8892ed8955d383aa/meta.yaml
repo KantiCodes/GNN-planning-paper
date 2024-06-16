@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/51b18fe919c74d1c8892ed8955d383aa/artifacts
+end_time: 1717930757033
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 51b18fe919c74d1c8892ed8955d383aa
+run_name: overjoyed-sheep-41
+run_uuid: 51b18fe919c74d1c8892ed8955d383aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930737093
+status: 4
+tags: []
+user_id: piotrgzubicki

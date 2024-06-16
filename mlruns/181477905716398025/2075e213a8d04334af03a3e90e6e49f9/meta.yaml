@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/181477905716398025/2075e213a8d04334af03a3e90e6e49f9/artifacts
+deleted_time: 1718531752971
+end_time: 1717268919469
+entry_point_name: ''
+experiment_id: '181477905716398025'
+lifecycle_stage: deleted
+run_id: 2075e213a8d04334af03a3e90e6e49f9
+run_name: amazing-crane-814
+run_uuid: 2075e213a8d04334af03a3e90e6e49f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717266745486
+status: 3
+tags: []
+user_id: piotrgzubicki

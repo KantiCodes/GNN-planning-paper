@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/483757865774913091/dba621144ec04767882df85c4655cf2c/artifacts
+deleted_time: 1717001865573
+end_time: 1716912016158
+entry_point_name: ''
+experiment_id: '483757865774913091'
+lifecycle_stage: deleted
+run_id: dba621144ec04767882df85c4655cf2c
+run_name: unleashed-hawk-852
+run_uuid: dba621144ec04767882df85c4655cf2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716911679528
+status: 3
+tags: []
+user_id: piotrgzubicki

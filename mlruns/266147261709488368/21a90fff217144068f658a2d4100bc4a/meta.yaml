@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/21a90fff217144068f658a2d4100bc4a/artifacts
+deleted_time: 1718531775105
+end_time: 1717445469002
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 21a90fff217144068f658a2d4100bc4a
+run_name: adventurous-crab-954
+run_uuid: 21a90fff217144068f658a2d4100bc4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717445281922
+status: 3
+tags: []
+user_id: piotrgzubicki

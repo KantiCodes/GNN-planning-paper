@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/8bc1491f562349c0b2d39d2b9cbdbe24/artifacts
+deleted_time: 1718531775091
+end_time: 1717442449015
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 8bc1491f562349c0b2d39d2b9cbdbe24
+run_name: adaptable-gnat-161
+run_uuid: 8bc1491f562349c0b2d39d2b9cbdbe24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717442400486
+status: 3
+tags: []
+user_id: piotrgzubicki

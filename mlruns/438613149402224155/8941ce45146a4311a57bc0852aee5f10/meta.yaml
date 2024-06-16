@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/8941ce45146a4311a57bc0852aee5f10/artifacts
+deleted_time: 1718531804462
+end_time: 1717571366441
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: 8941ce45146a4311a57bc0852aee5f10
+run_name: amazing-mouse-539
+run_uuid: 8941ce45146a4311a57bc0852aee5f10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717571188318
+status: 3
+tags: []
+user_id: piotrgzubicki

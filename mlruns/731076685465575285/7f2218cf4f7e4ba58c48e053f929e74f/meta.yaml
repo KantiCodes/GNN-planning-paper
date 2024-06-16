@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/7f2218cf4f7e4ba58c48e053f929e74f/artifacts
+end_time: 1717928693353
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 7f2218cf4f7e4ba58c48e053f929e74f
+run_name: worried-asp-907
+run_uuid: 7f2218cf4f7e4ba58c48e053f929e74f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717928685276
+status: 4
+tags: []
+user_id: piotrgzubicki

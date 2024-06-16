@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/317347886655567656/909c954fa42545ffacf4a2d7bc622a66/artifacts
+deleted_time: 1718531681188
+end_time: 1717226789349
+entry_point_name: ''
+experiment_id: '317347886655567656'
+lifecycle_stage: deleted
+run_id: 909c954fa42545ffacf4a2d7bc622a66
+run_name: mercurial-wolf-538
+run_uuid: 909c954fa42545ffacf4a2d7bc622a66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717226526982
+status: 3
+tags: []
+user_id: piotrgzubicki

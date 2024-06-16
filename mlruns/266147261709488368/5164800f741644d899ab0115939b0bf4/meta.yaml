@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/5164800f741644d899ab0115939b0bf4/artifacts
+end_time: 1717444250352
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: active
+run_id: 5164800f741644d899ab0115939b0bf4
+run_name: useful-rat-603
+run_uuid: 5164800f741644d899ab0115939b0bf4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717444162142
+status: 3
+tags: []
+user_id: piotrgzubicki

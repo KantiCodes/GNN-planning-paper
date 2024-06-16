@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/89900aef873340b0bd274d4cda0ad744/artifacts
+deleted_time: 1718531775118
+end_time: 1717442535912
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 89900aef873340b0bd274d4cda0ad744
+run_name: learned-perch-882
+run_uuid: 89900aef873340b0bd274d4cda0ad744
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717442450259
+status: 3
+tags: []
+user_id: piotrgzubicki

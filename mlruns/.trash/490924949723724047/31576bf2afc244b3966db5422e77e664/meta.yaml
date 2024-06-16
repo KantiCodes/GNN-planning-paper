@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/490924949723724047/31576bf2afc244b3966db5422e77e664/artifacts
+deleted_time: 1717083646799
+end_time: 1717004404336
+entry_point_name: ''
+experiment_id: '490924949723724047'
+lifecycle_stage: deleted
+run_id: 31576bf2afc244b3966db5422e77e664
+run_name: serious-calf-868
+run_uuid: 31576bf2afc244b3966db5422e77e664
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717003543346
+status: 3
+tags: []
+user_id: piotrgzubicki

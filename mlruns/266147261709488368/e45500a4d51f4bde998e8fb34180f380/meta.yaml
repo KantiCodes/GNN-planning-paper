@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/e45500a4d51f4bde998e8fb34180f380/artifacts
+deleted_time: 1718531775091
+end_time: 1717446075724
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: e45500a4d51f4bde998e8fb34180f380
+run_name: fortunate-foal-345
+run_uuid: e45500a4d51f4bde998e8fb34180f380
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717446013361
+status: 3
+tags: []
+user_id: piotrgzubicki

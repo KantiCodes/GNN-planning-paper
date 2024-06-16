@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/ab382942f97e4f0ea258858e9495f417/artifacts
+end_time: 1717928676834
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: ab382942f97e4f0ea258858e9495f417
+run_name: enthused-finch-847
+run_uuid: ab382942f97e4f0ea258858e9495f417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717928638618
+status: 4
+tags: []
+user_id: piotrgzubicki

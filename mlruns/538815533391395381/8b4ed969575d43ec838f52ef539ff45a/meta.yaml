@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/538815533391395381/8b4ed969575d43ec838f52ef539ff45a/artifacts
+deleted_time: 1718531815339
+end_time: null
+entry_point_name: ''
+experiment_id: '538815533391395381'
+lifecycle_stage: deleted
+run_id: 8b4ed969575d43ec838f52ef539ff45a
+run_name: receptive-worm-290
+run_uuid: 8b4ed969575d43ec838f52ef539ff45a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718304081129
+status: 1
+tags: []
+user_id: piotrgzubicki

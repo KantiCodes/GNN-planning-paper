@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/ef0a893bf1ee464db540e97b43f843e5/artifacts
+end_time: 1717931192416
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: ef0a893bf1ee464db540e97b43f843e5
+run_name: redolent-moose-182
+run_uuid: ef0a893bf1ee464db540e97b43f843e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931188330
+status: 4
+tags: []
+user_id: piotrgzubicki

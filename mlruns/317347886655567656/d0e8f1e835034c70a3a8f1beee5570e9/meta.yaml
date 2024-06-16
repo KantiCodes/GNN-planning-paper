@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/317347886655567656/d0e8f1e835034c70a3a8f1beee5570e9/artifacts
+deleted_time: 1718531699096
+end_time: 1717227732055
+entry_point_name: ''
+experiment_id: '317347886655567656'
+lifecycle_stage: deleted
+run_id: d0e8f1e835034c70a3a8f1beee5570e9
+run_name: adaptable-calf-927
+run_uuid: d0e8f1e835034c70a3a8f1beee5570e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717227600775
+status: 3
+tags: []
+user_id: piotrgzubicki

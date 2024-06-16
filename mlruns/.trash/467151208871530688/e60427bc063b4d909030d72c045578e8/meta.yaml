@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/e60427bc063b4d909030d72c045578e8/artifacts
+deleted_time: 1717088795654
+end_time: 1717087198100
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: e60427bc063b4d909030d72c045578e8
+run_name: casual-stag-516
+run_uuid: e60427bc063b4d909030d72c045578e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717086866864
+status: 3
+tags: []
+user_id: piotrgzubicki

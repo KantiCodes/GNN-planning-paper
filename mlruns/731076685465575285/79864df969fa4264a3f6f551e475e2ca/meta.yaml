@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/79864df969fa4264a3f6f551e475e2ca/artifacts
+end_time: 1717928613581
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 79864df969fa4264a3f6f551e475e2ca
+run_name: wise-chimp-182
+run_uuid: 79864df969fa4264a3f6f551e475e2ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717928609674
+status: 4
+tags: []
+user_id: piotrgzubicki

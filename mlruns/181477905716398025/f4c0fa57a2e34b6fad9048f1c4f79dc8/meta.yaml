@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/181477905716398025/f4c0fa57a2e34b6fad9048f1c4f79dc8/artifacts
+deleted_time: 1718531752971
+end_time: 1717266712622
+entry_point_name: ''
+experiment_id: '181477905716398025'
+lifecycle_stage: deleted
+run_id: f4c0fa57a2e34b6fad9048f1c4f79dc8
+run_name: luminous-frog-642
+run_uuid: f4c0fa57a2e34b6fad9048f1c4f79dc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717263447005
+status: 3
+tags: []
+user_id: piotrgzubicki

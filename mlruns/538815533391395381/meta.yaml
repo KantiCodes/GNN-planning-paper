@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/538815533391395381
+creation_time: 1718304080958
+experiment_id: '538815533391395381'
+last_update_time: 1718304080958
+lifecycle_stage: active
+name: Optuna test

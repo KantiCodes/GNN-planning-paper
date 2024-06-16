@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/29870f93caec43c99171566d43665076/artifacts
+end_time: 1717930849023
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 29870f93caec43c99171566d43665076
+run_name: bold-bug-51
+run_uuid: 29870f93caec43c99171566d43665076
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930840751
+status: 4
+tags: []
+user_id: piotrgzubicki

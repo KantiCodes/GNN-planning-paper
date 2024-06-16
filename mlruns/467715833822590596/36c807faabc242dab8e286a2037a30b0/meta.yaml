@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467715833822590596/36c807faabc242dab8e286a2037a30b0/artifacts
+deleted_time: 1718531743503
+end_time: 1717244555970
+entry_point_name: ''
+experiment_id: '467715833822590596'
+lifecycle_stage: deleted
+run_id: 36c807faabc242dab8e286a2037a30b0
+run_name: awesome-flea-991
+run_uuid: 36c807faabc242dab8e286a2037a30b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717243134522
+status: 3
+tags: []
+user_id: piotrgzubicki

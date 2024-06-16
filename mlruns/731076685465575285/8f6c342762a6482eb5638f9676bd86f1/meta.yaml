@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/8f6c342762a6482eb5638f9676bd86f1/artifacts
+end_time: 1717930523880
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 8f6c342762a6482eb5638f9676bd86f1
+run_name: dashing-wolf-144
+run_uuid: 8f6c342762a6482eb5638f9676bd86f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930512361
+status: 4
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/8b32938a59a7495d895ab6f27994c344/artifacts
+deleted_time: 1718531804443
+end_time: 1717571185136
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: 8b32938a59a7495d895ab6f27994c344
+run_name: skillful-deer-194
+run_uuid: 8b32938a59a7495d895ab6f27994c344
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717570940275
+status: 3
+tags: []
+user_id: piotrgzubicki

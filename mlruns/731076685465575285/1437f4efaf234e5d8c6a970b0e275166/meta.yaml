@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/1437f4efaf234e5d8c6a970b0e275166/artifacts
+end_time: 1717929269581
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 1437f4efaf234e5d8c6a970b0e275166
+run_name: unruly-panda-662
+run_uuid: 1437f4efaf234e5d8c6a970b0e275166
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929266953
+status: 4
+tags: []
+user_id: piotrgzubicki

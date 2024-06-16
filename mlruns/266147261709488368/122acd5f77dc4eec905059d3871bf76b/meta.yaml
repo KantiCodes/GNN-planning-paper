@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/122acd5f77dc4eec905059d3871bf76b/artifacts
+deleted_time: 1718531775098
+end_time: 1717442720373
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 122acd5f77dc4eec905059d3871bf76b
+run_name: fearless-dolphin-167
+run_uuid: 122acd5f77dc4eec905059d3871bf76b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717442656031
+status: 3
+tags: []
+user_id: piotrgzubicki

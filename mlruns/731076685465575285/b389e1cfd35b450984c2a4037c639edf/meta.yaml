@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/b389e1cfd35b450984c2a4037c639edf/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: b389e1cfd35b450984c2a4037c639edf
+run_name: calm-goose-469
+run_uuid: b389e1cfd35b450984c2a4037c639edf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717928767795
+status: 1
+tags: []
+user_id: piotrgzubicki

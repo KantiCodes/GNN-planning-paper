@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/661272543978602228/6308dc642ce9476cbe7f0da267cae72e/artifacts
+deleted_time: 1718531733000
+end_time: 1717240069069
+entry_point_name: ''
+experiment_id: '661272543978602228'
+lifecycle_stage: deleted
+run_id: 6308dc642ce9476cbe7f0da267cae72e
+run_name: angry-whale-516
+run_uuid: 6308dc642ce9476cbe7f0da267cae72e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717240020607
+status: 3
+tags: []
+user_id: piotrgzubicki

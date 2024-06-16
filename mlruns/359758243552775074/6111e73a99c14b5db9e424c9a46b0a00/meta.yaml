@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/6111e73a99c14b5db9e424c9a46b0a00/artifacts
+end_time: 1717098050463
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: active
+run_id: 6111e73a99c14b5db9e424c9a46b0a00
+run_name: colorful-bat-932
+run_uuid: 6111e73a99c14b5db9e424c9a46b0a00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717097859110
+status: 3
+tags: []
+user_id: piotrgzubicki

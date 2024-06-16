@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/116cc177486b4b7e8ca31ef7ddcfe229/artifacts
+deleted_time: 1718531692579
+end_time: 1717232731422
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: deleted
+run_id: 116cc177486b4b7e8ca31ef7ddcfe229
+run_name: fortunate-grub-236
+run_uuid: 116cc177486b4b7e8ca31ef7ddcfe229
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717231783262
+status: 3
+tags: []
+user_id: piotrgzubicki

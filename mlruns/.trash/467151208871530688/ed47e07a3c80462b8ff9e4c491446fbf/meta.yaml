@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/ed47e07a3c80462b8ff9e4c491446fbf/artifacts
+deleted_time: 1717088795654
+end_time: 1717085761986
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: ed47e07a3c80462b8ff9e4c491446fbf
+run_name: redolent-foal-678
+run_uuid: ed47e07a3c80462b8ff9e4c491446fbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717085585283
+status: 3
+tags: []
+user_id: piotrgzubicki

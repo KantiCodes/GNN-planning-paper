@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/302a4e38594e4c2d8771d382478ad787/artifacts
+deleted_time: 1718531804435
+end_time: 1717576863129
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: 302a4e38594e4c2d8771d382478ad787
+run_name: treasured-goose-584
+run_uuid: 302a4e38594e4c2d8771d382478ad787
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717576634016
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/b79e5e0dcca5461aa552f4c9dd5d65fc/artifacts
+deleted_time: 1718531794342
+end_time: 1717531848891
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: b79e5e0dcca5461aa552f4c9dd5d65fc
+run_name: monumental-bass-98
+run_uuid: b79e5e0dcca5461aa552f4c9dd5d65fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717531409850
+status: 3
+tags: []
+user_id: piotrgzubicki

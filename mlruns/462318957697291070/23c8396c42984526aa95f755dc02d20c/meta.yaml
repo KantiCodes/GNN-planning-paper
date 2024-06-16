@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/23c8396c42984526aa95f755dc02d20c/artifacts
+deleted_time: 1718531794339
+end_time: 1717527482344
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: 23c8396c42984526aa95f755dc02d20c
+run_name: exultant-duck-267
+run_uuid: 23c8396c42984526aa95f755dc02d20c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717526747829
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/347450d9abfe453fb09e0d2cb59e19a8/artifacts
+deleted_time: 1717088795654
+end_time: 1717084290794
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 347450d9abfe453fb09e0d2cb59e19a8
+run_name: bustling-fawn-207
+run_uuid: 347450d9abfe453fb09e0d2cb59e19a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717084225467
+status: 3
+tags: []
+user_id: piotrgzubicki

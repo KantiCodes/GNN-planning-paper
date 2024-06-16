@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/6e122754c9ee4321a45043864979adf6/artifacts
+deleted_time: 1717088795654
+end_time: 1717086412652
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 6e122754c9ee4321a45043864979adf6
+run_name: thundering-wasp-928
+run_uuid: 6e122754c9ee4321a45043864979adf6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717086326171
+status: 3
+tags: []
+user_id: piotrgzubicki

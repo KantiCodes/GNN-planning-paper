@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/483757865774913091/80702b9fd2244fec8af45b524d6503f6/artifacts
+deleted_time: 1717001865573
+end_time: 1716915768910
+entry_point_name: ''
+experiment_id: '483757865774913091'
+lifecycle_stage: deleted
+run_id: 80702b9fd2244fec8af45b524d6503f6
+run_name: gaudy-flea-754
+run_uuid: 80702b9fd2244fec8af45b524d6503f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716915655609
+status: 3
+tags: []
+user_id: piotrgzubicki

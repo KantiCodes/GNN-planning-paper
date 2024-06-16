@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/1501b374f7d640d08d567e7d75ca3b54/artifacts
+end_time: 1717442654671
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: active
+run_id: 1501b374f7d640d08d567e7d75ca3b54
+run_name: brawny-roo-414
+run_uuid: 1501b374f7d640d08d567e7d75ca3b54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717442537243
+status: 3
+tags: []
+user_id: piotrgzubicki

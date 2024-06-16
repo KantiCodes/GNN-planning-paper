@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/f8a419b128fd4186881590bb0e893748/artifacts
+deleted_time: 1718531665553
+end_time: 1717096638916
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: deleted
+run_id: f8a419b128fd4186881590bb0e893748
+run_name: illustrious-mole-555
+run_uuid: f8a419b128fd4186881590bb0e893748
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717096205606
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/7718a28386044861aacc9cbe157d3933/artifacts
+deleted_time: 1717088795654
+end_time: 1717087582704
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 7718a28386044861aacc9cbe157d3933
+run_name: stylish-fly-797
+run_uuid: 7718a28386044861aacc9cbe157d3933
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717087407990
+status: 3
+tags: []
+user_id: piotrgzubicki

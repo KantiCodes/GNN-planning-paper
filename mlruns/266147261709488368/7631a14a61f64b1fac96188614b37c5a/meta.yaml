@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/7631a14a61f64b1fac96188614b37c5a/artifacts
+deleted_time: 1718531775113
+end_time: 1717443665490
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 7631a14a61f64b1fac96188614b37c5a
+run_name: hilarious-cub-716
+run_uuid: 7631a14a61f64b1fac96188614b37c5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717443286351
+status: 3
+tags: []
+user_id: piotrgzubicki

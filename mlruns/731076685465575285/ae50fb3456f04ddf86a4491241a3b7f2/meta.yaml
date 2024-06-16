@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/ae50fb3456f04ddf86a4491241a3b7f2/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: ae50fb3456f04ddf86a4491241a3b7f2
+run_name: popular-owl-240
+run_uuid: ae50fb3456f04ddf86a4491241a3b7f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930279079
+status: 1
+tags: []
+user_id: piotrgzubicki

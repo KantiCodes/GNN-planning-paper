@@ -1,0 +1,16 @@
+{
+    "lr": 0.01,
+    "layers_num": 16,
+    "hidden_size": 4,
+    "optimizer": "RMSprop",
+    "conv_type": "SAGEConv",
+    "activation_function": "relu",
+    "classification_function": "relu",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 16,
+    "use_class_weights": false,
+    "model_settings_path": "model-settings/f8bb506947b5ae04eb7fb32f156f7392.json"
+}

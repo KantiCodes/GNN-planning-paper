@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/fe50997755784e9da5ce599bd204570f/artifacts
+end_time: 1717930038958
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: fe50997755784e9da5ce599bd204570f
+run_name: funny-worm-501
+run_uuid: fe50997755784e9da5ce599bd204570f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930032662
+status: 4
+tags: []
+user_id: piotrgzubicki

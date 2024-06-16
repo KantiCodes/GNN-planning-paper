@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/1b6a6488dcbf4c6a91c32d04391cf2a5/artifacts
+end_time: 1717929335819
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 1b6a6488dcbf4c6a91c32d04391cf2a5
+run_name: traveling-croc-209
+run_uuid: 1b6a6488dcbf4c6a91c32d04391cf2a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929331315
+status: 4
+tags: []
+user_id: piotrgzubicki

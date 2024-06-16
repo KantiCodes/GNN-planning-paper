@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/084c30cfc8c04a21b9a353db1d805060/artifacts
+deleted_time: 1718531775091
+end_time: 1717444160153
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: deleted
+run_id: 084c30cfc8c04a21b9a353db1d805060
+run_name: rumbling-lynx-676
+run_uuid: 084c30cfc8c04a21b9a353db1d805060
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717443991270
+status: 3
+tags: []
+user_id: piotrgzubicki

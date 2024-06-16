@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/c8a32d8df6ca41b180231964c014eb05/artifacts
+deleted_time: 1718531794350
+end_time: 1717528401988
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: c8a32d8df6ca41b180231964c014eb05
+run_name: flawless-seal-551
+run_uuid: c8a32d8df6ca41b180231964c014eb05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717528107597
+status: 3
+tags: []
+user_id: piotrgzubicki

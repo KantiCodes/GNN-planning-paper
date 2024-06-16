@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/181477905716398025/54f0a8fc7959422e8b83ee6ca57b551c/artifacts
+deleted_time: 1718531752979
+end_time: 1717261065005
+entry_point_name: ''
+experiment_id: '181477905716398025'
+lifecycle_stage: deleted
+run_id: 54f0a8fc7959422e8b83ee6ca57b551c
+run_name: skittish-newt-623
+run_uuid: 54f0a8fc7959422e8b83ee6ca57b551c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717257050297
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/979036ec9e074684abfbbae66cc55d4a/artifacts
+end_time: 1717931349979
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 979036ec9e074684abfbbae66cc55d4a
+run_name: luxuriant-mare-108
+run_uuid: 979036ec9e074684abfbbae66cc55d4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931348513
+status: 4
+tags: []
+user_id: piotrgzubicki

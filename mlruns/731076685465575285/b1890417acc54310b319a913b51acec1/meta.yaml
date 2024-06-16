@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/b1890417acc54310b319a913b51acec1/artifacts
+end_time: 1717931444930
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: b1890417acc54310b319a913b51acec1
+run_name: wise-mole-829
+run_uuid: b1890417acc54310b319a913b51acec1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931436714
+status: 4
+tags: []
+user_id: piotrgzubicki

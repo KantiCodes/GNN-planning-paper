@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/cdcd25104b304113b4cf9adb4036fab0/artifacts
+deleted_time: 1718531784901
+end_time: 1717520579392
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: cdcd25104b304113b4cf9adb4036fab0
+run_name: loud-skunk-472
+run_uuid: cdcd25104b304113b4cf9adb4036fab0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717520449369
+status: 3
+tags: []
+user_id: piotrgzubicki

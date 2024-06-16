@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/695911533053727609/5db5e1c5e3b44149804be830ebd4685c/artifacts
+end_time: 1717434981367
+entry_point_name: ''
+experiment_id: '695911533053727609'
+lifecycle_stage: active
+run_id: 5db5e1c5e3b44149804be830ebd4685c
+run_name: languid-squirrel-987
+run_uuid: 5db5e1c5e3b44149804be830ebd4685c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717433320475
+status: 3
+tags: []
+user_id: piotrgzubicki

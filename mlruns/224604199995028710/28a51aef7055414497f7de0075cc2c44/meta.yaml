@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/224604199995028710/28a51aef7055414497f7de0075cc2c44/artifacts
+deleted_time: 1718531692577
+end_time: 1717231778477
+entry_point_name: ''
+experiment_id: '224604199995028710'
+lifecycle_stage: deleted
+run_id: 28a51aef7055414497f7de0075cc2c44
+run_name: victorious-steed-737
+run_uuid: 28a51aef7055414497f7de0075cc2c44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717231632314
+status: 3
+tags: []
+user_id: piotrgzubicki

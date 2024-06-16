@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/ce76dbbd56b94fd4baaa4dc0b536431a/artifacts
+end_time: 1717930889736
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: ce76dbbd56b94fd4baaa4dc0b536431a
+run_name: adaptable-cod-172
+run_uuid: ce76dbbd56b94fd4baaa4dc0b536431a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930884778
+status: 4
+tags: []
+user_id: piotrgzubicki

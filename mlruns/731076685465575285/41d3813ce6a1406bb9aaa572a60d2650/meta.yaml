@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/41d3813ce6a1406bb9aaa572a60d2650/artifacts
+end_time: 1717931133957
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 41d3813ce6a1406bb9aaa572a60d2650
+run_name: nervous-snake-886
+run_uuid: 41d3813ce6a1406bb9aaa572a60d2650
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931105214
+status: 4
+tags: []
+user_id: piotrgzubicki

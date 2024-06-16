@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467715833822590596/4e761c91ac414e08b81a6239d8489cc8/artifacts
+deleted_time: 1718531743491
+end_time: 1717248320848
+entry_point_name: ''
+experiment_id: '467715833822590596'
+lifecycle_stage: deleted
+run_id: 4e761c91ac414e08b81a6239d8489cc8
+run_name: industrious-worm-232
+run_uuid: 4e761c91ac414e08b81a6239d8489cc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717248079816
+status: 3
+tags: []
+user_id: piotrgzubicki

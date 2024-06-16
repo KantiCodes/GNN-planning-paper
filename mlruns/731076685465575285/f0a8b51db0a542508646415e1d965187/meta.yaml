@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/f0a8b51db0a542508646415e1d965187/artifacts
+end_time: 1717931430264
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: f0a8b51db0a542508646415e1d965187
+run_name: luxuriant-jay-236
+run_uuid: f0a8b51db0a542508646415e1d965187
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931421522
+status: 4
+tags: []
+user_id: piotrgzubicki

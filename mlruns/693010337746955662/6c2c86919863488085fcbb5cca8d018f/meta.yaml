@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/693010337746955662/6c2c86919863488085fcbb5cca8d018f/artifacts
+deleted_time: 1718531675006
+end_time: 1717094684875
+entry_point_name: ''
+experiment_id: '693010337746955662'
+lifecycle_stage: deleted
+run_id: 6c2c86919863488085fcbb5cca8d018f
+run_name: angry-panda-967
+run_uuid: 6c2c86919863488085fcbb5cca8d018f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717094581092
+status: 3
+tags: []
+user_id: piotrgzubicki

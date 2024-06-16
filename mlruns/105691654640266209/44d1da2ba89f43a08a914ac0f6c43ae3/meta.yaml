@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/44d1da2ba89f43a08a914ac0f6c43ae3/artifacts
+deleted_time: 1718531784884
+end_time: 1717519801343
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 44d1da2ba89f43a08a914ac0f6c43ae3
+run_name: vaunted-seal-937
+run_uuid: 44d1da2ba89f43a08a914ac0f6c43ae3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717519749704
+status: 3
+tags: []
+user_id: piotrgzubicki

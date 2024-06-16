@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/3077b43f75ba41d583b9f7cb96baade0/artifacts
+end_time: 1717930636419
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 3077b43f75ba41d583b9f7cb96baade0
+run_name: indecisive-fowl-718
+run_uuid: 3077b43f75ba41d583b9f7cb96baade0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930627440
+status: 4
+tags: []
+user_id: piotrgzubicki

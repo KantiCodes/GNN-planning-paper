@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/fe3a6d3832524eada40d8978f1f06bd1/artifacts
+deleted_time: 1718531794317
+end_time: 1717529686314
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: fe3a6d3832524eada40d8978f1f06bd1
+run_name: blushing-squid-902
+run_uuid: fe3a6d3832524eada40d8978f1f06bd1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717528406756
+status: 3
+tags: []
+user_id: piotrgzubicki

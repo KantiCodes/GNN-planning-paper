@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/359758243552775074/f57055836769406fafa435f4d2837c0f/artifacts
+deleted_time: 1718531665531
+end_time: 1717089201988
+entry_point_name: ''
+experiment_id: '359758243552775074'
+lifecycle_stage: deleted
+run_id: f57055836769406fafa435f4d2837c0f
+run_name: capable-robin-258
+run_uuid: f57055836769406fafa435f4d2837c0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717088786002
+status: 3
+tags: []
+user_id: piotrgzubicki

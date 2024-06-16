@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/05b741b023e24aaba24df99beb30d224/artifacts
+end_time: 1717930728267
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 05b741b023e24aaba24df99beb30d224
+run_name: merciful-finch-920
+run_uuid: 05b741b023e24aaba24df99beb30d224
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930711560
+status: 4
+tags: []
+user_id: piotrgzubicki

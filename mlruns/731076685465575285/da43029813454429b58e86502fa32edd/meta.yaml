@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/da43029813454429b58e86502fa32edd/artifacts
+end_time: 1717930877591
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: da43029813454429b58e86502fa32edd
+run_name: worried-panda-981
+run_uuid: da43029813454429b58e86502fa32edd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930872721
+status: 4
+tags: []
+user_id: piotrgzubicki

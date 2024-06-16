@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/317347886655567656/961241154da649f5be8536365231b3a1/artifacts
+deleted_time: 1718531681187
+end_time: 1717228404293
+entry_point_name: ''
+experiment_id: '317347886655567656'
+lifecycle_stage: deleted
+run_id: 961241154da649f5be8536365231b3a1
+run_name: sneaky-lynx-552
+run_uuid: 961241154da649f5be8536365231b3a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717227807303
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/490924949723724047/c8b45437e55a4cdfb02e8b5c727f6e1b/artifacts
+deleted_time: 1717083646799
+end_time: 1717006410862
+entry_point_name: ''
+experiment_id: '490924949723724047'
+lifecycle_stage: deleted
+run_id: c8b45437e55a4cdfb02e8b5c727f6e1b
+run_name: unruly-zebra-104
+run_uuid: c8b45437e55a4cdfb02e8b5c727f6e1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717006300501
+status: 3
+tags: []
+user_id: piotrgzubicki

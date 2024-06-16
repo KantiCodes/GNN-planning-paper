@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/229893232930694021/c8e84306acd34c0589dafbe0a82ef2fa/artifacts
+end_time: 1717241685389
+entry_point_name: ''
+experiment_id: '229893232930694021'
+lifecycle_stage: active
+run_id: c8e84306acd34c0589dafbe0a82ef2fa
+run_name: skillful-elk-316
+run_uuid: c8e84306acd34c0589dafbe0a82ef2fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717241504616
+status: 3
+tags: []
+user_id: piotrgzubicki

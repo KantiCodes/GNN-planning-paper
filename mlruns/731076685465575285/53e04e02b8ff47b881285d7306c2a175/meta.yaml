@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/53e04e02b8ff47b881285d7306c2a175/artifacts
+end_time: 1717929962365
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 53e04e02b8ff47b881285d7306c2a175
+run_name: industrious-fox-460
+run_uuid: 53e04e02b8ff47b881285d7306c2a175
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929959487
+status: 4
+tags: []
+user_id: piotrgzubicki

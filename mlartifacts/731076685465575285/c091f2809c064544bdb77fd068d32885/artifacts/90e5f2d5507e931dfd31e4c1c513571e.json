@@ -1,0 +1,16 @@
+{
+    "lr": 0.001,
+    "layers_num": 8,
+    "hidden_size": 8,
+    "optimizer": "RMSprop",
+    "conv_type": "GraphConv",
+    "activation_function": "relu",
+    "classification_function": "sigmoid",
+    "use_batch_norm": true,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 16,
+    "use_class_weights": false,
+    "model_settings_path": "/Users/piotrgzubicki/School/paper/GNN-planning-paper/model-settings/90e5f2d5507e931dfd31e4c1c513571e.json"
+}

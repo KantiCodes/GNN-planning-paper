@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/181477905716398025/f9be716fa3e14cb7b7d085303ee24f1f/artifacts
+end_time: 1717270516098
+entry_point_name: ''
+experiment_id: '181477905716398025'
+lifecycle_stage: active
+run_id: f9be716fa3e14cb7b7d085303ee24f1f
+run_name: debonair-zebra-613
+run_uuid: f9be716fa3e14cb7b7d085303ee24f1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717269922750
+status: 3
+tags: []
+user_id: piotrgzubicki

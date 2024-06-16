@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/9d946e46f379453787eea1e19849e2e0/artifacts
+deleted_time: 1717088795654
+end_time: 1717084924792
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 9d946e46f379453787eea1e19849e2e0
+run_name: melodic-cod-566
+run_uuid: 9d946e46f379453787eea1e19849e2e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717084635906
+status: 3
+tags: []
+user_id: piotrgzubicki

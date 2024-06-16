@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/467151208871530688
+creation_time: 1717083675421
+experiment_id: '467151208871530688'
+last_update_time: 1717088795654
+lifecycle_stage: deleted
+name: Hyperparameters experiment barman
+tags: {}

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/438613149402224155/74b9447e1bae48dea6cac6c4d2282ec9/artifacts
+deleted_time: 1718531804444
+end_time: 1717573666838
+entry_point_name: ''
+experiment_id: '438613149402224155'
+lifecycle_stage: deleted
+run_id: 74b9447e1bae48dea6cac6c4d2282ec9
+run_name: delightful-quail-78
+run_uuid: 74b9447e1bae48dea6cac6c4d2282ec9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717573356087
+status: 3
+tags: []
+user_id: piotrgzubicki

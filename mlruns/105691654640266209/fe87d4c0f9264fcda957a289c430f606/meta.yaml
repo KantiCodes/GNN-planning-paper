@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/fe87d4c0f9264fcda957a289c430f606/artifacts
+deleted_time: 1718531784884
+end_time: 1717520278076
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: fe87d4c0f9264fcda957a289c430f606
+run_name: amazing-gull-98
+run_uuid: fe87d4c0f9264fcda957a289c430f606
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717520180655
+status: 3
+tags: []
+user_id: piotrgzubicki

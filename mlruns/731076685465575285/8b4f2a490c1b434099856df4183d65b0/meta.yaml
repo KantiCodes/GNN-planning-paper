@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/8b4f2a490c1b434099856df4183d65b0/artifacts
+end_time: 1717931464839
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 8b4f2a490c1b434099856df4183d65b0
+run_name: colorful-koi-629
+run_uuid: 8b4f2a490c1b434099856df4183d65b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931462731
+status: 4
+tags: []
+user_id: piotrgzubicki

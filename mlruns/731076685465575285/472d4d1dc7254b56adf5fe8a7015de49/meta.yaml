@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/472d4d1dc7254b56adf5fe8a7015de49/artifacts
+end_time: 1717929904063
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 472d4d1dc7254b56adf5fe8a7015de49
+run_name: colorful-moose-455
+run_uuid: 472d4d1dc7254b56adf5fe8a7015de49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929902392
+status: 4
+tags: []
+user_id: piotrgzubicki

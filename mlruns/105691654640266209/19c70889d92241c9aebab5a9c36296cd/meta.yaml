@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/19c70889d92241c9aebab5a9c36296cd/artifacts
+deleted_time: 1718531784890
+end_time: 1717522320516
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 19c70889d92241c9aebab5a9c36296cd
+run_name: learned-owl-968
+run_uuid: 19c70889d92241c9aebab5a9c36296cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717522082735
+status: 3
+tags: []
+user_id: piotrgzubicki

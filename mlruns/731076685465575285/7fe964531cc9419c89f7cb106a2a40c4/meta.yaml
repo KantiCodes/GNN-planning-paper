@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/7fe964531cc9419c89f7cb106a2a40c4/artifacts
+end_time: 1717931181169
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 7fe964531cc9419c89f7cb106a2a40c4
+run_name: big-sponge-541
+run_uuid: 7fe964531cc9419c89f7cb106a2a40c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931168413
+status: 4
+tags: []
+user_id: piotrgzubicki

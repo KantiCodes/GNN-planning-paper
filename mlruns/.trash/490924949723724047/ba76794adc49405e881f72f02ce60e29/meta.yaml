@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/490924949723724047/ba76794adc49405e881f72f02ce60e29/artifacts
+deleted_time: 1717083646799
+end_time: 1717002830221
+entry_point_name: ''
+experiment_id: '490924949723724047'
+lifecycle_stage: deleted
+run_id: ba76794adc49405e881f72f02ce60e29
+run_name: exultant-tern-617
+run_uuid: ba76794adc49405e881f72f02ce60e29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717002646045
+status: 3
+tags: []
+user_id: piotrgzubicki

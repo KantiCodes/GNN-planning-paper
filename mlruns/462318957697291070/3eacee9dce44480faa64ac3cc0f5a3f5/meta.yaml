@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/462318957697291070/3eacee9dce44480faa64ac3cc0f5a3f5/artifacts
+deleted_time: 1718531794317
+end_time: 1717526743172
+entry_point_name: ''
+experiment_id: '462318957697291070'
+lifecycle_stage: deleted
+run_id: 3eacee9dce44480faa64ac3cc0f5a3f5
+run_name: delicate-kit-677
+run_uuid: 3eacee9dce44480faa64ac3cc0f5a3f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717526630995
+status: 3
+tags: []
+user_id: piotrgzubicki

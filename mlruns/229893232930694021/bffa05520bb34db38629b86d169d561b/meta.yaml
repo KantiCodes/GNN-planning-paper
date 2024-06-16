@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/229893232930694021/bffa05520bb34db38629b86d169d561b/artifacts
+end_time: 1717242132008
+entry_point_name: ''
+experiment_id: '229893232930694021'
+lifecycle_stage: active
+run_id: bffa05520bb34db38629b86d169d561b
+run_name: nervous-lynx-875
+run_uuid: bffa05520bb34db38629b86d169d561b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717241995037
+status: 3
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/229893232930694021/b9e36ef21ad048f19609836950d68f82/artifacts
+end_time: 1717241741457
+entry_point_name: ''
+experiment_id: '229893232930694021'
+lifecycle_stage: active
+run_id: b9e36ef21ad048f19609836950d68f82
+run_name: nebulous-seal-954
+run_uuid: b9e36ef21ad048f19609836950d68f82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717241686683
+status: 3
+tags: []
+user_id: piotrgzubicki

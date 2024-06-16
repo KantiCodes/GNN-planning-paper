@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/77c443b7b4a24381882786b557852d0d/artifacts
+end_time: 1717930834214
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 77c443b7b4a24381882786b557852d0d
+run_name: amazing-koi-502
+run_uuid: 77c443b7b4a24381882786b557852d0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930829704
+status: 4
+tags: []
+user_id: piotrgzubicki

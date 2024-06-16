@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/d9b0f73ed4864a4b9d0fa661c1d0b18e/artifacts
+end_time: 1717931055381
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: d9b0f73ed4864a4b9d0fa661c1d0b18e
+run_name: carefree-slug-323
+run_uuid: d9b0f73ed4864a4b9d0fa661c1d0b18e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931007076
+status: 4
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/20d3e8e211b2470cb816578e9d6bfd13/artifacts
+end_time: 1717929468700
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 20d3e8e211b2470cb816578e9d6bfd13
+run_name: enchanting-rook-762
+run_uuid: 20d3e8e211b2470cb816578e9d6bfd13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929451558
+status: 4
+tags: []
+user_id: piotrgzubicki

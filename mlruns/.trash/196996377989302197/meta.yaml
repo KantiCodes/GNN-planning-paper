@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/196996377989302197
+creation_time: 1709657140541
+experiment_id: '196996377989302197'
+last_update_time: 1716909176936
+lifecycle_stage: deleted
+name: Hyperparameters experiment blocksworld
+tags: {}

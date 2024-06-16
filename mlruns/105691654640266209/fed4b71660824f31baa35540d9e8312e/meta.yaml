@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/fed4b71660824f31baa35540d9e8312e/artifacts
+deleted_time: 1718531784896
+end_time: 1717519746399
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: fed4b71660824f31baa35540d9e8312e
+run_name: crawling-bass-28
+run_uuid: fed4b71660824f31baa35540d9e8312e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717519386662
+status: 3
+tags: []
+user_id: piotrgzubicki

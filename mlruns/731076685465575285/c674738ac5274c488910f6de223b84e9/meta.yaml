@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/c674738ac5274c488910f6de223b84e9/artifacts
+end_time: 1717929309717
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: c674738ac5274c488910f6de223b84e9
+run_name: big-wasp-198
+run_uuid: c674738ac5274c488910f6de223b84e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717929303426
+status: 4
+tags: []
+user_id: piotrgzubicki

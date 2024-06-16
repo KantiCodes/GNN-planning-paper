@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/266147261709488368/c0fa0b35b47b4137a7c3baa94d40e99a/artifacts
+end_time: 1717442974233
+entry_point_name: ''
+experiment_id: '266147261709488368'
+lifecycle_stage: active
+run_id: c0fa0b35b47b4137a7c3baa94d40e99a
+run_name: omniscient-pug-545
+run_uuid: c0fa0b35b47b4137a7c3baa94d40e99a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717442890475
+status: 3
+tags: []
+user_id: piotrgzubicki

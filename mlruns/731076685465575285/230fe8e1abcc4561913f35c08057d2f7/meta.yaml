@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/230fe8e1abcc4561913f35c08057d2f7/artifacts
+end_time: 1717928537524
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 230fe8e1abcc4561913f35c08057d2f7
+run_name: wise-swan-437
+run_uuid: 230fe8e1abcc4561913f35c08057d2f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717928455240
+status: 4
+tags: []
+user_id: piotrgzubicki

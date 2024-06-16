@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/595797166e7a407484d983ab34d98ec5/artifacts
+end_time: 1717931287524
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 595797166e7a407484d983ab34d98ec5
+run_name: trusting-moth-794
+run_uuid: 595797166e7a407484d983ab34d98ec5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931284963
+status: 4
+tags: []
+user_id: piotrgzubicki

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/46cc2fe34f874ae7a1aa062d356dc12f/artifacts
+end_time: 1717931160264
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 46cc2fe34f874ae7a1aa062d356dc12f
+run_name: bemused-goat-406
+run_uuid: 46cc2fe34f874ae7a1aa062d356dc12f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717931152295
+status: 4
+tags: []
+user_id: piotrgzubicki

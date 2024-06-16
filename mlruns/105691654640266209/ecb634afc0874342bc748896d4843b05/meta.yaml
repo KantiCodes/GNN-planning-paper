@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/ecb634afc0874342bc748896d4843b05/artifacts
+deleted_time: 1718531784876
+end_time: 1717524137315
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: ecb634afc0874342bc748896d4843b05
+run_name: dazzling-crab-632
+run_uuid: ecb634afc0874342bc748896d4843b05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717524007963
+status: 3
+tags: []
+user_id: piotrgzubicki

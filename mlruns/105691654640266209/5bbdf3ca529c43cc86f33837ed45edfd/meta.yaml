@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/105691654640266209/5bbdf3ca529c43cc86f33837ed45edfd/artifacts
+deleted_time: 1718531784876
+end_time: 1717523501059
+entry_point_name: ''
+experiment_id: '105691654640266209'
+lifecycle_stage: deleted
+run_id: 5bbdf3ca529c43cc86f33837ed45edfd
+run_name: upset-bear-969
+run_uuid: 5bbdf3ca529c43cc86f33837ed45edfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717523293982
+status: 3
+tags: []
+user_id: piotrgzubicki

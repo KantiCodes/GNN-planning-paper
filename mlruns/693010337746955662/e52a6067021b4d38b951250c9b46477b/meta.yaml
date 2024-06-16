@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/693010337746955662/e52a6067021b4d38b951250c9b46477b/artifacts
+deleted_time: 1718531705652
+end_time: 1717095707781
+entry_point_name: ''
+experiment_id: '693010337746955662'
+lifecycle_stage: deleted
+run_id: e52a6067021b4d38b951250c9b46477b
+run_name: luminous-seal-300
+run_uuid: e52a6067021b4d38b951250c9b46477b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717095580305
+status: 3
+tags: []
+user_id: piotrgzubicki

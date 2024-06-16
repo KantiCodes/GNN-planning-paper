@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/695911533053727609/4a14212da81f4b9f8a86acb71300af7c/artifacts
+deleted_time: 1718531762253
+end_time: 1717436502554
+entry_point_name: ''
+experiment_id: '695911533053727609'
+lifecycle_stage: deleted
+run_id: 4a14212da81f4b9f8a86acb71300af7c
+run_name: legendary-dog-859
+run_uuid: 4a14212da81f4b9f8a86acb71300af7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717434989539
+status: 3
+tags: []
+user_id: piotrgzubicki

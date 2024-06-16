@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/731076685465575285/0219d3e0f4464af4b9f3b166b975d1bb/artifacts
+end_time: 1717930823425
+entry_point_name: ''
+experiment_id: '731076685465575285'
+lifecycle_stage: active
+run_id: 0219d3e0f4464af4b9f3b166b975d1bb
+run_name: amazing-mare-130
+run_uuid: 0219d3e0f4464af4b9f3b166b975d1bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717930816707
+status: 4
+tags: []
+user_id: piotrgzubicki

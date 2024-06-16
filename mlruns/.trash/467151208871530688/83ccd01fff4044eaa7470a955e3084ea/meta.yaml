@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/467151208871530688/83ccd01fff4044eaa7470a955e3084ea/artifacts
+deleted_time: 1717088795654
+end_time: 1717085234243
+entry_point_name: ''
+experiment_id: '467151208871530688'
+lifecycle_stage: deleted
+run_id: 83ccd01fff4044eaa7470a955e3084ea
+run_name: traveling-lark-998
+run_uuid: 83ccd01fff4044eaa7470a955e3084ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717085093472
+status: 3
+tags: []
+user_id: piotrgzubicki

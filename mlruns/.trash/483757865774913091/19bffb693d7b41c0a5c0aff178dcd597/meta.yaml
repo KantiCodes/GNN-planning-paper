@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/483757865774913091/19bffb693d7b41c0a5c0aff178dcd597/artifacts
+deleted_time: 1717001865573
+end_time: 1716911674970
+entry_point_name: ''
+experiment_id: '483757865774913091'
+lifecycle_stage: deleted
+run_id: 19bffb693d7b41c0a5c0aff178dcd597
+run_name: honorable-ox-159
+run_uuid: 19bffb693d7b41c0a5c0aff178dcd597
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716911421226
+status: 3
+tags: []
+user_id: piotrgzubicki
