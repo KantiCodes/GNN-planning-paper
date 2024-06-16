@@ -12,8 +12,9 @@ from graph_building.__main__ import (
 )
 
 
-
-def generate_graphs(domain_task_dir, output_dir, use_relaxed_plan, use_simple_landmarks):
+def generate_graphs(
+    domain_task_dir, output_dir, use_relaxed_plan, use_simple_landmarks
+):
     runs_dirs = os.listdir(domain_task_dir)
 
     # For all runs inside a task folder
@@ -33,7 +34,9 @@ def generate_graphs(domain_task_dir, output_dir, use_relaxed_plan, use_simple_la
             path_good_actions = good_actions_path(path_run_dir)
 
         except (FileNotFoundError, ValueError):
-            print(f"Skipping run dir: {path_run_dir} because no good actions found or plan solved in initial state")
+            print(
+                f"Skipping run dir: {path_run_dir} because no good actions found or plan solved in initial state"
+            )
             continue
 
         path_relaxed_plan = None
@@ -48,7 +51,9 @@ def generate_graphs(domain_task_dir, output_dir, use_relaxed_plan, use_simple_la
             path_simple_landmarks = simple_landmarks_path(path_run_dir)
             # print('using simple landmarks')
         if path_good_actions is None:
-            print("WE ARE MISSING GOOD ACTIONS AT AND SKIPPING: {}".format(path_run_dir))
+            print(
+                "WE ARE MISSING GOOD ACTIONS AT AND SKIPPING: {}".format(path_run_dir)
+            )
             continue
 
         # Path to the folder where the graph constructs for this run will be saved
@@ -56,29 +61,39 @@ def generate_graphs(domain_task_dir, output_dir, use_relaxed_plan, use_simple_la
         os.makedirs(path_output_run, exist_ok=True)
         # For the later usage we will also copy sas file and good actions file to the output folder
         shutil.copyfile(path_sas_file, os.path.join(path_output_run, "output.sas"))
-        shutil.copyfile(path_good_actions, os.path.join(path_output_run, "good_actions"))
+        shutil.copyfile(
+            path_good_actions, os.path.join(path_output_run, "good_actions")
+        )
 
         pdg_and_nodes(
             sasfile_path=path_sas_file,
             output_dir=path_output_run,
             relaxed_plan_path=path_relaxed_plan,
             simple_landmarks_path=path_simple_landmarks,
-            good_operators_path=path_good_actions
-            )
+            good_operators_path=path_good_actions,
+        )
 
 
 if __name__ == "__main__":
     # Example usage
-    # python src/graph_data_generation.py data/conference/satellite DK/satellite 
+    # python src/graph_data_generation.py data/conference/satellite DK/satellite
     argparser = argparse.ArgumentParser()
-    argparser.add_argument("task_dir",help="path to folder with runs for a specific domain",)
+    argparser.add_argument(
+        "task_dir",
+        help="path to folder with runs for a specific domain",
+    )
     argparser.add_argument("output_dir", help="path to where the graphs will be saved")
-    argparser.add_argument("--relaxed-plan", action="store_true", help="use relaxed plan")
-    argparser.add_argument("--simple-landmarks", action="store_true", help="use simple landmarks")
+    argparser.add_argument(
+        "--relaxed-plan", action="store_true", help="use relaxed plan"
+    )
+    argparser.add_argument(
+        "--simple-landmarks", action="store_true", help="use simple landmarks"
+    )
 
     options = argparser.parse_args()
     domain_task_dir = options.task_dir
     output_dir = options.output_dir
 
-    generate_graphs(domain_task_dir, output_dir, options.relaxed_plan, options.simple_landmarks)
-
+    generate_graphs(
+        domain_task_dir, output_dir, options.relaxed_plan, options.simple_landmarks
+    )

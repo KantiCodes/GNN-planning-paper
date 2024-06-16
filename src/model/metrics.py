@@ -6,7 +6,6 @@ from model import ReprStrEnum
 from torcheval.metrics.functional import binary_f1_score
 
 from sklearn.metrics import confusion_matrix
-import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
@@ -21,7 +20,8 @@ class EEvalMetric(str, ReprStrEnum):
                 return binary_f1_score
 
 
-eval_metrics = EEvalMetric("f1").to_function()      
+eval_metrics = EEvalMetric("f1").to_function()
+
 
 class ELossFunction(str, ReprStrEnum):
     BCE = "BCE"
@@ -30,6 +30,7 @@ class ELossFunction(str, ReprStrEnum):
         match self:
             case ELossFunction.BCE:
                 return F.binary_cross_entropy
+
 
 @dataclass
 class Results:
@@ -54,17 +55,37 @@ class Results:
         return Results(
             loss=torch.mean(torch.tensor([x.loss for x in results])),
             metric=torch.mean(torch.tensor([x.metric for x in results])).item(),
-            precision_false=torch.mean(torch.tensor([x.precision_false for x in results])).item(),
-            precision_true=torch.mean(torch.tensor([x.precision_true for x in results])).item(),
-            recall_false=torch.mean(torch.tensor([x.recall_false for x in results])).item(),
-            recall_true=torch.mean(torch.tensor([x.recall_true for x in results])).item(),
-            f1_score_false=torch.mean(torch.tensor([x.f1_score_false for x in results])).item(),
-            f1_score_true=torch.mean(torch.tensor([x.f1_score_true for x in results])).item(),
+            precision_false=torch.mean(
+                torch.tensor([x.precision_false for x in results])
+            ).item(),
+            precision_true=torch.mean(
+                torch.tensor([x.precision_true for x in results])
+            ).item(),
+            recall_false=torch.mean(
+                torch.tensor([x.recall_false for x in results])
+            ).item(),
+            recall_true=torch.mean(
+                torch.tensor([x.recall_true for x in results])
+            ).item(),
+            f1_score_false=torch.mean(
+                torch.tensor([x.f1_score_false for x in results])
+            ).item(),
+            f1_score_true=torch.mean(
+                torch.tensor([x.f1_score_true for x in results])
+            ).item(),
             # BELOW IS SUM!
-            orginal_number_of_false=sum([x.orginal_number_of_false for x in results]).item(),
-            orignal_number_of_true=sum([x.orignal_number_of_true for x in results]).item(),
-            predicted_number_of_false=sum([x.predicted_number_of_false for x in results]).item(),
-            predicted_number_of_true=sum([x.predicted_number_of_true for x in results]).item(),
+            orginal_number_of_false=sum(
+                [x.orginal_number_of_false for x in results]
+            ).item(),
+            orignal_number_of_true=sum(
+                [x.orignal_number_of_true for x in results]
+            ).item(),
+            predicted_number_of_false=sum(
+                [x.predicted_number_of_false for x in results]
+            ).item(),
+            predicted_number_of_true=sum(
+                [x.predicted_number_of_true for x in results]
+            ).item(),
         )
 
 
@@ -73,23 +94,34 @@ def treshhold_result(data, true_data, treshold):
     # print(F"type of true_data: {type(true_data)}")
     changed_data = (data >= treshold).astype(int)
     recall_positive = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[1][1] * 100
+        precision_recall_fscore_support(true_data, changed_data, average=None)[1][1]
+        * 100
     )
     recall_negative = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[1][0] * 100
+        precision_recall_fscore_support(true_data, changed_data, average=None)[1][0]
+        * 100
     )
 
     accuracy_positive = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[0][1] * 100
+        precision_recall_fscore_support(true_data, changed_data, average=None)[0][1]
+        * 100
     )
     accuracy_negative = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[0][0] * 100
+        precision_recall_fscore_support(true_data, changed_data, average=None)[0][0]
+        * 100
     )
 
     return recall_positive, recall_negative, accuracy_positive, accuracy_negative
 
 
-def compute_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_function, eval_metric,) -> Results:
+def compute_results(
+    batch,
+    model: torch.nn.Module,
+    pos_weight,
+    neg_weight,
+    loss_function,
+    eval_metric,
+) -> Results:
     """returns loss, preds, original"""
     weights = torch.ones_like(batch["operator"].y)
     weights[batch["operator"].y == 0] = neg_weight
@@ -100,10 +132,17 @@ def compute_results(batch, model: torch.nn.Module, pos_weight, neg_weight, loss_
     out = model(batch.x_dict, batch.edge_index_dict)
     # BCEWithLogitsLoss = torch.nn.BCEWithLogitsLoss()
     loss = loss_function(out["operator"], batch["operator"].y, weight=weights)
-    metric_result = eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
+    metric_result = eval_metric(
+        out["operator"].squeeze(), batch["operator"].y.squeeze()
+    )
     original = batch["operator"].y.squeeze()
     preds = out["operator"].squeeze()
-    (precision_false, precision_true), (recall_false, recall_true), (f1_score_false, f1_score_true), (orginal_number_of_false, orignal_number_of_true) = precision_recall_fscore_support(
+    (
+        (precision_false, precision_true),
+        (recall_false, recall_true),
+        (f1_score_false, f1_score_true),
+        (orginal_number_of_false, orignal_number_of_true),
+    ) = precision_recall_fscore_support(
         original.cpu(), (preds.cpu() >= 0.5).type(torch.int), average=None
     )
     return Results(
@@ -210,6 +249,7 @@ def evaluate_and_return_confusion(model: torch.nn.Module, data):
 #     else:
 #         fig.savefig("results.png")
 
+
 def make_and_save_confusion_matrix(predictions, true_labels, file_name, threshold):
     # Create a new figure
     plt.figure()
@@ -217,10 +257,9 @@ def make_and_save_confusion_matrix(predictions, true_labels, file_name, threshol
     changed_data = (predictions >= threshold).astype(int)
 
     import sklearn.metrics
+
     confusion_matrix = sklearn.metrics.ConfusionMatrixDisplay(
-        confusion_matrix=sklearn.metrics.confusion_matrix(
-            true_labels, changed_data
-        ),
+        confusion_matrix=sklearn.metrics.confusion_matrix(true_labels, changed_data),
     ).plot()
 
     plt.xlabel("Predicted Label")
@@ -229,17 +268,18 @@ def make_and_save_confusion_matrix(predictions, true_labels, file_name, threshol
     plt.close()  # Close the figure to avoid affecting global plt state
     # os.remove(file_name)
 
+
 def make_and_save_roc_auc(tpr, fpr, auc, file_name):
     plt.figure()
 
-    plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.2f)' % auc)
+    plt.plot(fpr, tpr, color="darkorange", lw=2, label="ROC curve (area = %0.2f)" % auc)
 
-    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.plot([0, 1], [0, 1], color="navy", lw=2, linestyle="--")
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Receiver operating characteristic')
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title("Receiver operating characteristic")
     plt.legend(loc="lower right")
     plt.savefig(file_name)
     plt.close()
