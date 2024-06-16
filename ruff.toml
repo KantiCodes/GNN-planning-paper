@@ -1,0 +1,38 @@
+exclude = [
+  "tests"
+]
+
+line-length = 120
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf" # always LF! (\n)
+
+[lint]
+# E (pycodestyle) and F (pyflakes) are included in default rules
+extend-select = [
+  "A001",    # builtin-variable-shadowing
+  "A002",    # builtin-argument-shadowing
+  "A003",    # builtin-attribute-shadowing
+  "ARG001",  # unused-function-argument
+  "ARG002",  # unused-method-argument
+  "I001",    # unsorted import statements
+  "I002",    # missing required import
+  "N806",    # non-lowercase-variable-in-function
+  "N807",    # dunder-function-name
+  "PLR1711", # useless return
+  "Q000",    # bad-quotes-inline-string
+  "Q001",    # bad-quotes-multiline-string
+  "RUF013",  # implicit-optional
+  "SIM102",  # collapsible-if
+  "T201",    # print-found
+  "T203",    # pprint-found
+  "UP004",   # useless-object-inheritance
+  "UP006",   # non-pep585-annotation
+  "UP007",   # non-pep604-annotation
+  "UP012",   # unnecessary-encode-utf8
+  "UP028",   # yield-in-for-loop
+  "UP032",   # prefer f-strings
+  "UP038",   # non-pep604-isinstance
+]
