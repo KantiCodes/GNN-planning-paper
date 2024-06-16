@@ -95,9 +95,7 @@ class Runner:
             test_instances=self.test_instances,
             val_instances=self.val_instances,
         )
-        # case.prepare()
         test_puo = case.compute()
-        # case.persist()
         return test_puo
 
     def run_random(self, random_settings_number: int):

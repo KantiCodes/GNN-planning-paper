@@ -154,11 +154,6 @@ class TrainingCase:
 
             mlflow.pytorch.log_model(self.model_handler.model, "models")
 
-            # If training successfully completed we delete the settings file since it
-            # is present in mlflow
-            # if os.path.exists(self.model_setting.model_settings_path):
-            #     os.remove(self.model_setting.model_settings_path)
-
             test_set = next(iter(self.test_loader))
             test_set = test_set.to(device)
             y_pred_test = (
