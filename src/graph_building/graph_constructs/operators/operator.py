@@ -1,8 +1,7 @@
-from typing import TYPE_CHECKING
-from dataclasses import dataclass, field, InitVar
-from typing import ClassVar, Set
-from graph_building.base_types import Effect
-from graph_building.base_types import Precondition
+from dataclasses import InitVar, dataclass, field
+from typing import TYPE_CHECKING, ClassVar, Set
+
+from graph_building.base_types import Effect, Precondition
 from graph_building.graph_constructs.node import Node
 
 if TYPE_CHECKING:
@@ -47,7 +46,6 @@ class Operator(Node):
 
         feature_name.append(cls.__IS_GOOD_FEATURE)
         return feature_name
-
 
     @property
     def base_features(self):

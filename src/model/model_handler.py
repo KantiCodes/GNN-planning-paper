@@ -1,20 +1,15 @@
-import torch
 from typing import TYPE_CHECKING
-from torch_geometric.nn import to_hetero
-from torch_geometric.data import HeteroData
+
+import torch
+from model.metrics import EEvalMetric, ELossFunction, Results, compute_results
 from torch.optim import Optimizer
-from model.metrics import Results, compute_results
-from model.metrics import ELossFunction, EEvalMetric
+from torch_geometric.data import HeteroData
+from torch_geometric.nn import to_hetero
 
 if TYPE_CHECKING:
-    from model.model_setting import ModelSetting
-    from architectures import (
-        EActivationFunction,
-        EConvolution,
-    )
     from metrics import (
-        ELossFunction,
         EEvalMetric,
+        ELossFunction,
     )
 
 
@@ -58,9 +53,7 @@ class ModelHandler:
         self.neg_weight: float = neg_weight
         self.optimizer = None
 
-    def init_optimizer(
-        self, OptimizerClass: type[Optimizer], learning_rate=None
-    ) -> torch.optim.Optimizer:
+    def init_optimizer(self, OptimizerClass: type[Optimizer], learning_rate=None) -> torch.optim.Optimizer:
         if learning_rate is None:
             optimizer = OptimizerClass(self.model.parameters())
         else:
@@ -74,9 +67,7 @@ class ModelHandler:
     def load_model(self, model_path: str) -> None:
         self.model.load_state_dict(torch.load(model_path))
 
-    def train(
-        self, train_loader: torch.utils.data.DataLoader, device: torch.DeviceObjType
-    ):
+    def train(self, train_loader: torch.utils.data.DataLoader, device: torch.DeviceObjType):
         self.model.train()
 
         batch_results_list: list[Results] = []
@@ -102,9 +93,7 @@ class ModelHandler:
     @torch.no_grad()
     def predict(self, hetero_data: HeteroData):
         self.model.eval()
-        return self.model.forward(hetero_data.x_dict, hetero_data.edge_index_dict)[
-            "operator"
-        ]
+        return self.model.forward(hetero_data.x_dict, hetero_data.edge_index_dict)["operator"]
 
     @torch.no_grad()
     def predict_threshold(self, actions_proba, threshold: float):

@@ -1,11 +1,11 @@
-from pathlib import Path
-import torch
 import os
-import numpy as np
-from torch_geometric.loader import DataLoader
-from torch_geometric.data import HeteroData
-import torch_geometric.transforms as T
+from pathlib import Path
+
 import pandas as pd
+import torch
+import torch_geometric.transforms as T
+from torch_geometric.data import HeteroData
+from torch_geometric.loader import DataLoader
 
 
 def calculate_weights(train_set, train_instances: list[Path]):
@@ -18,7 +18,6 @@ def calculate_weights(train_set, train_instances: list[Path]):
 
     pos_weight = 1 / (total_positives / total_samples)
     neg_weight = 1 / (total_negatives / total_samples)
-
 
     return pos_weight, neg_weight
 
@@ -79,12 +78,12 @@ def build_hetero(
     # return hetero_data
     return T.ToUndirected()(hetero_data)
 
+
 def build_data_set(problem_instances):
     """Expects a list of problem directories that have values, variables, operators, and their respective edges"""
     dataset = []
 
     for problem in problem_instances:
-
         # skip files as problem has to be a directory
         if os.path.isfile(problem):
             continue
@@ -96,6 +95,7 @@ def build_data_set(problem_instances):
 
 def create_loader(dataset, batch_size):
     return DataLoader(dataset, batch_size=batch_size, shuffle=True)
+
 
 def create_loaders(train_set, test_set, val_set, batch_size):
     print("Creating loaders")
@@ -111,7 +111,6 @@ def create_loaders(train_set, test_set, val_set, batch_size):
 
     one_batch_test = next(iter(test_loader))
     print(f"Test set size of loader: {len(one_batch_test)}")
-
 
     return train_loader, test_loader, val_loader
 

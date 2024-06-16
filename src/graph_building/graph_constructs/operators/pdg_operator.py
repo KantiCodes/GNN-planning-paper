@@ -1,11 +1,7 @@
-from typing import List, Tuple, TYPE_CHECKING
 from dataclasses import dataclass
+from typing import TYPE_CHECKING, List, Tuple
+
 from graph_building.graph_constructs.operators.operator import Operator
-import logging
-from dataclasses import dataclass
-
-
-from graph_building.graph_constructs.variables.pdg_variable import PdgVariable
 from graph_building.graph_constructs.values.value import Value
 
 if TYPE_CHECKING:
@@ -33,9 +29,7 @@ class PdgOperator(Operator):
         for precondition in self.preconditions:
             var_id, val_id = precondition.variable_id, precondition.value
             variable = all_variables[var_id]
-            assert (
-                variable.values[val_id] == all_values[variable.global_count_from + val_id]
-            ), "Value mismatch"
+            assert variable.values[val_id] == all_values[variable.global_count_from + val_id], "Value mismatch"
             selected_value = variable.values[val_id]
             edge = (selected_value.global_index, self.index, self.is_good)
             edges.append(edge)
@@ -87,8 +81,7 @@ class PdgOperator(Operator):
                 ), "Value mismatch on the precondition"
 
             assert (
-                variable.values[effect_value_id]
-                == all_values[variable.global_count_from + effect_value_id]
+                variable.values[effect_value_id] == all_values[variable.global_count_from + effect_value_id]
             ), "Value mismatch on the effect"
 
             # I have been wondering if we should do a cricular loop here like so:

@@ -1,12 +1,14 @@
 from __future__ import annotations
-import random
-import os
+
 import json
-from typing import Optional, List
-from pydantic import BaseModel
-from model.metrics import EEvalMetric, ELossFunction
+import os
+import random
+from typing import List, Optional
+
 from model.architectures import EActivationFunction, EConvolution
+from model.metrics import EEvalMetric, ELossFunction
 from model.training import EOptimizer
+from pydantic import BaseModel
 
 
 class ModelSetting(BaseModel):
@@ -16,12 +18,8 @@ class ModelSetting(BaseModel):
     # aggr: str  # How to aggregate the neighbours  # currently not used
     optimizer: EOptimizer
     conv_type: EConvolution
-    activation_function: EActivationFunction = (
-        EActivationFunction.RELU
-    )
-    classification_function: EActivationFunction = (
-        EActivationFunction.SIGMOID
-    )
+    activation_function: EActivationFunction = EActivationFunction.RELU
+    classification_function: EActivationFunction = EActivationFunction.SIGMOID
     use_batch_norm: bool = False
     conv_type_specific_kwargs: dict = {}
 
@@ -42,7 +40,7 @@ class ModelSetting(BaseModel):
         if "model_settings_path" not in data:
             data["model_settings_path"] = path
         return ModelSetting(**data)
-    
+
     def model_post_init(self, __context) -> None:
         self.save_to_file_if_not_exists()
 
@@ -52,7 +50,7 @@ class ModelSetting(BaseModel):
                 json.dump(self.dict(), f, indent=4)
 
     @classmethod
-    def generate_random_settings_explicit(cls, num_settings: int) -> List['ModelSetting']:
+    def generate_random_settings_explicit(cls, num_settings: int) -> List["ModelSetting"]:
         """Returns a list of model settings with explicitly specified values"""
         settings_list = []
         for _ in range(num_settings):
@@ -76,7 +74,7 @@ class ModelSetting(BaseModel):
         return settings_list
 
     @classmethod
-    def generate_random_settings_ranges(cls, num_settings: int) -> List['ModelSetting']:
+    def generate_random_settings_ranges(cls, num_settings: int) -> List["ModelSetting"]:
         """Returns a list of model settings where all properties are in some space"""
         settings_list = []
         for _ in range(num_settings):
@@ -92,9 +90,10 @@ class ModelSetting(BaseModel):
                 conv_type_specific_kwargs={},  # You may need to specify values here based on the chosen conv_type
                 loss_function=random.choice(list(ELossFunction)),
                 eval_metric=random.choice(list(EEvalMetric)),
-                batch_size=random.randint(8, 64)
+                batch_size=random.randint(8, 64),
             )
             settings_list.append(settings)
         return settings_list
+
 
 ModelSetting.model_config["protected_namespaces"] = ()

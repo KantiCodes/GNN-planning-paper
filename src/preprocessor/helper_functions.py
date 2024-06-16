@@ -9,11 +9,12 @@ def save_to_workspace(input, file_name):
 
     file_path = os.path.join("workspace", file_name)
     # Write the input file to the workspace
-    with open (file_path, "w") as f:
+    with open(file_path, "w") as f:
         f.write(input.read())
 
+
 def copy_file(source_path, destination_path):
-    if not os.path.dirname(destination_path) == '':
+    if not os.path.dirname(destination_path) == "":
         if not os.path.exists(os.path.dirname(destination_path)):
             os.makedirs(os.path.dirname(destination_path))
 

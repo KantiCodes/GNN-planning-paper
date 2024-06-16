@@ -1,14 +1,11 @@
 from dataclasses import dataclass
+
+import matplotlib.pyplot as plt
 import torch
 import torch.nn.functional as F
-from sklearn.metrics import precision_recall_fscore_support
 from model import ReprStrEnum
+from sklearn.metrics import precision_recall_fscore_support
 from torcheval.metrics.functional import binary_f1_score
-
-from sklearn.metrics import confusion_matrix
-import pandas as pd
-import matplotlib.pyplot as plt
-import os
 
 
 class EEvalMetric(str, ReprStrEnum):
@@ -55,37 +52,17 @@ class Results:
         return Results(
             loss=torch.mean(torch.tensor([x.loss for x in results])),
             metric=torch.mean(torch.tensor([x.metric for x in results])).item(),
-            precision_false=torch.mean(
-                torch.tensor([x.precision_false for x in results])
-            ).item(),
-            precision_true=torch.mean(
-                torch.tensor([x.precision_true for x in results])
-            ).item(),
-            recall_false=torch.mean(
-                torch.tensor([x.recall_false for x in results])
-            ).item(),
-            recall_true=torch.mean(
-                torch.tensor([x.recall_true for x in results])
-            ).item(),
-            f1_score_false=torch.mean(
-                torch.tensor([x.f1_score_false for x in results])
-            ).item(),
-            f1_score_true=torch.mean(
-                torch.tensor([x.f1_score_true for x in results])
-            ).item(),
+            precision_false=torch.mean(torch.tensor([x.precision_false for x in results])).item(),
+            precision_true=torch.mean(torch.tensor([x.precision_true for x in results])).item(),
+            recall_false=torch.mean(torch.tensor([x.recall_false for x in results])).item(),
+            recall_true=torch.mean(torch.tensor([x.recall_true for x in results])).item(),
+            f1_score_false=torch.mean(torch.tensor([x.f1_score_false for x in results])).item(),
+            f1_score_true=torch.mean(torch.tensor([x.f1_score_true for x in results])).item(),
             # BELOW IS SUM!
-            orginal_number_of_false=sum(
-                [x.orginal_number_of_false for x in results]
-            ).item(),
-            orignal_number_of_true=sum(
-                [x.orignal_number_of_true for x in results]
-            ).item(),
-            predicted_number_of_false=sum(
-                [x.predicted_number_of_false for x in results]
-            ).item(),
-            predicted_number_of_true=sum(
-                [x.predicted_number_of_true for x in results]
-            ).item(),
+            orginal_number_of_false=sum([x.orginal_number_of_false for x in results]).item(),
+            orignal_number_of_true=sum([x.orignal_number_of_true for x in results]).item(),
+            predicted_number_of_false=sum([x.predicted_number_of_false for x in results]).item(),
+            predicted_number_of_true=sum([x.predicted_number_of_true for x in results]).item(),
         )
 
 
@@ -93,23 +70,11 @@ def treshhold_result(data, true_data, treshold):
     # print(F"type of data: {type(data)}")
     # print(F"type of true_data: {type(true_data)}")
     changed_data = (data >= treshold).astype(int)
-    recall_positive = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[1][1]
-        * 100
-    )
-    recall_negative = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[1][0]
-        * 100
-    )
+    recall_positive = precision_recall_fscore_support(true_data, changed_data, average=None)[1][1] * 100
+    recall_negative = precision_recall_fscore_support(true_data, changed_data, average=None)[1][0] * 100
 
-    accuracy_positive = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[0][1]
-        * 100
-    )
-    accuracy_negative = (
-        precision_recall_fscore_support(true_data, changed_data, average=None)[0][0]
-        * 100
-    )
+    accuracy_positive = precision_recall_fscore_support(true_data, changed_data, average=None)[0][1] * 100
+    accuracy_negative = precision_recall_fscore_support(true_data, changed_data, average=None)[0][0] * 100
 
     return recall_positive, recall_negative, accuracy_positive, accuracy_negative
 
@@ -132,9 +97,7 @@ def compute_results(
     out = model(batch.x_dict, batch.edge_index_dict)
     # BCEWithLogitsLoss = torch.nn.BCEWithLogitsLoss()
     loss = loss_function(out["operator"], batch["operator"].y, weight=weights)
-    metric_result = eval_metric(
-        out["operator"].squeeze(), batch["operator"].y.squeeze()
-    )
+    metric_result = eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
     original = batch["operator"].y.squeeze()
     preds = out["operator"].squeeze()
     (
@@ -142,9 +105,7 @@ def compute_results(
         (recall_false, recall_true),
         (f1_score_false, f1_score_true),
         (orginal_number_of_false, orignal_number_of_true),
-    ) = precision_recall_fscore_support(
-        original.cpu(), (preds.cpu() >= 0.5).type(torch.int), average=None
-    )
+    ) = precision_recall_fscore_support(original.cpu(), (preds.cpu() >= 0.5).type(torch.int), average=None)
     return Results(
         loss=loss,
         metric=metric_result,

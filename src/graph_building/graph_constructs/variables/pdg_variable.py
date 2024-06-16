@@ -1,13 +1,11 @@
 from dataclasses import dataclass
-from typing import List, Tuple, TYPE_CHECKING
+from typing import TYPE_CHECKING, List, Tuple
+
 from graph_building.graph_constructs.values.value import Value
 from graph_building.graph_constructs.variables.variable import Variable
 
 if TYPE_CHECKING:
-    from graph_building.sas_parsers.sas_parser import (
-        AllValuesDict,
-        AllVariablesDict,
-    )
+    pass
 
 
 @dataclass
@@ -30,7 +28,6 @@ class PdgVariable(Variable):
         edges = []
 
         for local_index, value in enumerate(self.values):
-
             # # Check if the value of the starting count + the local index of the value is the same as the one from global index
             # assert (
             #     value == all_values[variable.global_count_from + local_index]

@@ -1,17 +1,15 @@
 import logging
 import re
 from collections import defaultdict
-from typing import List, Tuple, Set, Dict, Union, TYPE_CHECKING
+from typing import TYPE_CHECKING, Dict, List, Set, Tuple
 
-from graph_building.base_types import Predicate, Effect, Precondition
 from graph_building.base_types import Effect, Precondition
 from graph_building.graph_constructs.operators.operator import Operator
-from graph_building.graph_constructs.variables.variable import Variable
-from graph_building.graph_constructs.values.value import Value
 from graph_building.graph_constructs.operators.pdg_operator import PdgOperator
+from graph_building.graph_constructs.values.value import Value
+from graph_building.graph_constructs.variables.variable import Variable
 
 if TYPE_CHECKING:
-
     from graph_building.graph_constructs.variables.pdg_variable import PdgVariable
 
 
@@ -100,10 +98,10 @@ class SasParser:
             return set()
 
         good_operators: Set[Operator.LineAlias] = set()
-        if(good_operators_path.split("/")[-1] == "good_operators"):
+        if good_operators_path.split("/")[-1] == "good_operators":
             with open(good_operators_path, "r") as file:
                 good_operators = set(file.read().splitlines())
-        elif(good_operators_path.split("/")[-1] == "sas_plan"):
+        elif good_operators_path.split("/")[-1] == "sas_plan":
             with open(good_operators_path, "r") as file:
                 good_operators = file.read().replace("(", "").replace(")", "").splitlines()
                 good_operators = good_operators[:-1]
@@ -121,14 +119,13 @@ class SasParser:
 
             assert len(relaxed_operators) > 0, "Relaxed operators set is empty, yet you specified a path to it"
             return relaxed_operators
-    
 
     @classmethod
-    def simple_landmark_values_to_set(cls, landmarks_values_path) -> set[tuple[var_id,val_id]]:
-            assert landmarks_values_path is not None, "No landmarks values path specified, yet you are trying to use it"
-            with open(landmarks_values_path, "r") as file:
-                landmarks_values = set(file.read().splitlines())
-                return landmarks_values
+    def simple_landmark_values_to_set(cls, landmarks_values_path) -> set[tuple[var_id, val_id]]:
+        assert landmarks_values_path is not None, "No landmarks values path specified, yet you are trying to use it"
+        with open(landmarks_values_path, "r") as file:
+            landmarks_values = set(file.read().splitlines())
+            return landmarks_values
 
     @classmethod
     def parse_preconditions(cls, precondition_lines) -> Set[Precondition]:
@@ -183,9 +180,7 @@ class SasParser:
         operator_line: Operator.LineAlias = operator_lines_list[0].strip()  # Key of the operator
         # _log_operators.debug(f"Operator_key: {repr(operator_line)}")
         separated_lines = operator_lines.split("\n")[2:]
-        precondition_lines, effect_lines = SasParser.split_precondition_and_effect_lines(
-            separated_lines
-        )
+        precondition_lines, effect_lines = SasParser.split_precondition_and_effect_lines(separated_lines)
         preconditions = SasParser.parse_preconditions(precondition_lines)
         # This will also update the preconditions set
         effects = SasParser.parse_effects(effect_lines)
@@ -202,12 +197,11 @@ class SasParser:
     def generate_operators(
         cls,
         operators_text: OperatorsTxtContent,
-        relaxed_operators:  Set[Operator.LineAlias],
+        relaxed_operators: Set[Operator.LineAlias],
         extra_features: dict[str, bool],
         good_operators: Set[Operator.LineAlias] = None,
     ) -> AllOperatorsDict:
         PdgOperator.extra_features = extra_features
-
 
         operators: List[OperatorLines] = re.split("begin_operator", operators_text)[1:]
         all_operators: AllOperatorsDict = {}
@@ -265,9 +259,9 @@ class SasParser:
             # _log_values.debug(f"text: {l}")
             var_id, value_id = l.split(" ")
             landmark_variables[int(var_id)][int(value_id)] = True
-        
+
         # _log_values.debug(f"Landmark variables:\n{landmark_variables}")
         # assert landmark_variables, "Landmark variables are an empty dict, yet you are trying to use them."
         # if not landmark_variables:
-            # _log.warning("LANDMARK VARIALBES ARE EMPTY, ARE YOU SURE THAT THE FILE EXISTS")
+        # _log.warning("LANDMARK VARIALBES ARE EMPTY, ARE YOU SURE THAT THE FILE EXISTS")
         return landmark_variables

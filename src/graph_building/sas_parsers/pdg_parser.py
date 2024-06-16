@@ -1,21 +1,18 @@
-import re
 import logging
-from typing import List, Tuple, Set, Dict
+import re
+from typing import Dict, List, Tuple
 
+from graph_building.graph_constructs.values.value import Value
+from graph_building.graph_constructs.variables.pdg_variable import PdgVariable
 from graph_building.sas_parsers.sas_parser import (
-    SasFileContent,
-    ProblemStateDictionary,
     VARIABLE_VALUE,
-    SasParser,
     AllValuesDict,
     AllVariablesDict,
-    AllOperatorsDict,
+    SasFileContent,
+    SasParser,
     val_id,
-    var_id
+    var_id,
 )
-from graph_building.graph_constructs.variables.pdg_variable import PdgVariable
-from graph_building.graph_constructs.values.value import Value
-from graph_building.base_types import Predicate
 
 _log = logging.getLogger(__name__)
 _log.setLevel(logging.WARNING)
@@ -31,9 +28,7 @@ class PdgParser(SasParser):
         simple_landmarks: dict[var_id, dict[val_id, bool]],
         feature_flags_values: Dict[str, bool],
         feature_flags_variables: Dict[str, bool],
-        
     ) -> Tuple[AllValuesDict, AllVariablesDict]:
-        
         Value.extra_features = feature_flags_values
         PdgVariable.extra_features = feature_flags_variables
 
@@ -43,7 +38,6 @@ class PdgParser(SasParser):
         all_variables: AllVariablesDict = {}
 
         divided_variables_text: List[str] = re.split("begin_variable", variables_text)[1:]
-
 
         global_value_count = 0
         for var_id, variable_lines in enumerate(divided_variables_text):
@@ -92,12 +86,7 @@ class PdgParser(SasParser):
                 #    }
                 is_goal_variable = 1 if var_id in goal_variables else 0
 
-                
-                is_goal_value = (
-                    True
-                    if is_goal_variable and local_value_count == goal_variables[var_id]
-                    else False
-                )
+                is_goal_value = True if is_goal_variable and local_value_count == goal_variables[var_id] else False
                 is_init_value = True if local_value_count == init_variables[var_id] else False
 
                 # Check if the variable exist in the simple landmarks keys

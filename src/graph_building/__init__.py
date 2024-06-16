@@ -1,18 +1,19 @@
+import json
 import logging
 import os
-import json
 from collections import defaultdict
-from typing import Union, Tuple, Set, Dict, TYPE_CHECKING
+from typing import TYPE_CHECKING, Dict, Set, Tuple, Union
+
 from .graph_constructs.operators.pdg_operator import PdgOperator
-from .graph_constructs.variables.pdg_variable import PdgVariable
 from .graph_constructs.values.value import Value
+from .graph_constructs.variables.pdg_variable import PdgVariable
 from .sas_parsers.pdg_parser import PdgParser
 
 if TYPE_CHECKING:
     from .sas_parsers.sas_parser import (
+        AllOperatorsDict,
         AllValuesDict,
         AllVariablesDict,
-        AllOperatorsDict,
     )
 
 SasFileContent = str
@@ -28,11 +29,7 @@ operators_logger = logging.getLogger("graph_building.operators")
 operators_logger.setLevel(logging.WARNING)
 
 
-def pdg_and_nodes(
-        sasfile_path, output_dir, relaxed_plan_path,
-        simple_landmarks_path, good_operators_path
-    ):
-
+def pdg_and_nodes(sasfile_path, output_dir, relaxed_plan_path, simple_landmarks_path, good_operators_path):
     extra_features_flags = {
         "values": defaultdict(lambda: False),
         "variables": defaultdict(lambda: False),
@@ -41,19 +38,17 @@ def pdg_and_nodes(
 
     relaxed_operators = set()
     simple_landmarks_dict = {}
-    
+
     if relaxed_plan_path:
         extra_features_flags["operators"]["is_relaxed"] = True
         relaxed_operators = PdgParser.relaxed_operators_to_set(relaxed_plan_path)
-    
+
     if simple_landmarks_path:
         extra_features_flags["values"]["is_simple_landmark"] = True
         with open(simple_landmarks_path, "r") as file:
             simple_landmarks_text = file.read()
         simple_landmarks_dict = PdgParser.generate_simple_landmarks_dict(simple_landmarks_text)
 
-
-   
     variable_output_path = os.path.join(output_dir, "variables.txt")
     operator_output_path = os.path.join(output_dir, "operators.txt")
 
@@ -82,7 +77,7 @@ def pdg_and_nodes(
         goal_dict,
         simple_landmarks_dict,
         feature_flags_values=extra_features_flags["values"],
-        feature_flags_variables=extra_features_flags["variables"]
+        feature_flags_variables=extra_features_flags["variables"],
     )
     # logger.warning(f"Number of values: {len(all_values)}")
     # logger.warning(f"Number of variables: {len(all_variables)}")
@@ -91,7 +86,7 @@ def pdg_and_nodes(
         relaxed_operators=relaxed_operators,
         good_operators=good_operators,
         extra_features=extra_features_flags["operators"],
-        )
+    )
 
     values_output_path = os.path.join(output_dir, "values.csv")
     variables_output_path = os.path.join(output_dir, "variables.csv")
@@ -147,6 +142,7 @@ def pdg_and_nodes(
     with open(os.path.join(output_dir, "global_operators.json"), "w") as file:
         json.dump(d, file)
 
+
 def build_pdg_graph():
     pass
 
@@ -163,6 +159,7 @@ def save_node(
             features = node.to_csv()
             result.append(f"{features}\n")
         file.writelines(result)
+
 
 def save_edge(edges: Edges, edges_output_path: str, with_label: bool = False):
     csv_header = "source,destination"

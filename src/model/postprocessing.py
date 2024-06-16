@@ -1,9 +1,8 @@
-import re
 import os
+import re
 
-def get_reduced_sasfile(
-    orignal_sasfile_content: str, all_opeartors: dict, action_predictions: list[bool]
-):
+
+def get_reduced_sasfile(orignal_sasfile_content: str, all_opeartors: dict, action_predictions: list[bool]):
     """
     Returns a new sasfile content with only the good actions
 
@@ -62,7 +61,6 @@ def bin_probabilities(actions_probabilities, start_percentage, steps_number, max
 
     out, s = {}, sorted(enumerate(actions_probabilities), key=lambda k: -k[1])
     for p in percentages:
-        ones = set(i for i, _ in s[:round((p / 100) * len(actions_probabilities))])
+        ones = set(i for i, _ in s[: round((p / 100) * len(actions_probabilities))])
         out[p] = [int(i in ones) for i in range(len(actions_probabilities))]
     return out
-

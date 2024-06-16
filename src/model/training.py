@@ -1,16 +1,18 @@
-from __future__ import annotations 
+from __future__ import annotations
+
 import os
+import time
 from typing import TYPE_CHECKING
 
-from . import architectures
-from .model_handler import ModelHandler
-from torch.optim import Optimizer, Adam, RMSprop, Adagrad
 from model import ReprStrEnum
-from . import data_loading
-import time
+from torch.optim import Adagrad, Adam, Optimizer, RMSprop
+
+from . import architectures, data_loading
+from .model_handler import ModelHandler
 
 if TYPE_CHECKING:
     from pathlib import Path
+
     file_path = Path
     from model_setting import ModelSetting
 
@@ -67,10 +69,7 @@ def get_model_handler(
     """
     print(f"Traing using model settings: {model_settings}")
 
-
-    this_model_path = os.path.join(
-        models_dir, model_settings.model_settings_path.split("/")[-1].split(".")[0]
-    )
+    this_model_path = os.path.join(models_dir, model_settings.model_settings_path.split("/")[-1].split(".")[0])
     print("Build loaders")
     start = time.time()
     train_set = data_loading.build_data_set(problem_instances=train_instances)
@@ -113,9 +112,7 @@ def get_model_handler(
         loss_function=model_settings.loss_function,
         eval_metric=model_settings.eval_metric,
     )
-    model_handler.init_optimizer(
-        model_settings.optimizer.to_optim(), learning_rate=model_settings.lr
-    )
+    model_handler.init_optimizer(model_settings.optimizer.to_optim(), learning_rate=model_settings.lr)
 
     return model_handler, train_loader, test_loader, val_loader, this_model_path
 

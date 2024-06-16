@@ -42,9 +42,8 @@ class Value(Node):
         base_features = [self.global_index, self.is_init_value, self.is_goal_value]
         if self.extra_features[self.__IS_SIMPLE_LANDMARK_FEATURE]:
             base_features.append(self.is_simple_landmark)
-        
-        return base_features
 
+        return base_features
 
     @property
     def features(self):

@@ -1,14 +1,13 @@
 import enum
 from typing import Literal
+
 import mlflow
-from model.metrics import Results, make_and_save_confusion_matrix
-
-from model.training import get_model_handler
-from model.model_setting import ModelSetting
 import mlflow.pytorch
-from sklearn import metrics
-
 import torch
+from model.metrics import Results, make_and_save_confusion_matrix
+from model.model_setting import ModelSetting
+from model.training import get_model_handler
+from sklearn import metrics
 
 FILE_NAME_CONF_RECALL_1 = "cf_matrix-recall1.png"
 FILE_NAME_CONF_DEFAULT = "cf_matrix.png"
@@ -73,9 +72,7 @@ class TrainingCase:
             test_instances=self.test_instances,
             model_settings=self.model_setting,
         )
-        device = (
-            torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
-        )
+        device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
         model = self.model_handler.model.to(device)
 
         mlflow.set_tracking_uri("http://127.0.0.1:5000")
@@ -95,38 +92,26 @@ class TrainingCase:
                 this_epoch_metrics = {}
                 val_metrics_dict = {}  # Convenience for the if statement
                 # Average over batches
-                epoch_train_results: Results = self.model_handler.train(
-                    self.train_loader, device
-                )
-                train_metrics_dict = TrainingCase.create_metrics_dict(
-                    "train", epoch_train_results
-                )
+                epoch_train_results: Results = self.model_handler.train(self.train_loader, device)
+                train_metrics_dict = TrainingCase.create_metrics_dict("train", epoch_train_results)
 
                 epoch_test_results = self.model_handler.test(self.test_loader, device)
-                test_metrics_dict = TrainingCase.create_metrics_dict(
-                    "test", epoch_test_results
-                )
+                test_metrics_dict = TrainingCase.create_metrics_dict("test", epoch_test_results)
 
                 if self.val_instances:
                     epoch_val_results = self.model_handler.test(self.val_loader, device)
-                    val_metrics_dict = TrainingCase.create_metrics_dict(
-                        "val", epoch_val_results
-                    )
+                    val_metrics_dict = TrainingCase.create_metrics_dict("val", epoch_val_results)
 
                 ### MOVE THIS SOMEWHERE ELSE
                 test_set = next(iter(self.test_loader))
                 test_set = test_set.to(device)
                 y_pred_test = (
-                    model(test_set.x_dict, test_set.edge_index_dict)["operator"]
-                    .cpu()
-                    .squeeze()
-                    .detach()
-                    .numpy()
+                    model(test_set.x_dict, test_set.edge_index_dict)["operator"].cpu().squeeze().detach().numpy()
                 )
 
                 y_true_test = test_set["operator"].cpu().y.squeeze()
-                test_puo, test_auc, test_threshold_recall_1 = (
-                    self.get_puo_auc_threshold(y_true=y_true_test, preds=y_pred_test)
+                test_puo, test_auc, test_threshold_recall_1 = self.get_puo_auc_threshold(
+                    y_true=y_true_test, preds=y_pred_test
                 )
 
                 #### Move this somewhere else
@@ -144,22 +129,16 @@ class TrainingCase:
                 if epoch % 10 == 0:
                     print(f"Epoch {epoch}:")
                     # Print train loss and metric
-                    print(
-                        f"Train loss: {epoch_train_results.loss}, Train metric: {epoch_train_results.metric}"
-                    )
+                    print(f"Train loss: {epoch_train_results.loss}, Train metric: {epoch_train_results.metric}")
                     # Print test loss and metric
-                    print(
-                        f"Test loss: {epoch_test_results.loss}, Test metric: {epoch_test_results.metric}"
-                    )
+                    print(f"Test loss: {epoch_test_results.loss}, Test metric: {epoch_test_results.metric}")
 
             mlflow.pytorch.log_model(self.model_handler.model, "models")
 
             test_set = next(iter(self.test_loader))
             test_set = test_set.to(device)
             y_pred_test = (
-                self.model_handler.model(test_set.x_dict, test_set.edge_index_dict)[
-                    "operator"
-                ]
+                self.model_handler.model(test_set.x_dict, test_set.edge_index_dict)["operator"]
                 .cpu()
                 .squeeze()
                 .detach()
@@ -201,15 +180,11 @@ class TrainingCase:
         pass
 
     @staticmethod
-    def create_metrics_dict(
-        prefix: Literal["train", "test", "val"], results: Results
-    ) -> dict:
+    def create_metrics_dict(prefix: Literal["train", "test", "val"], results: Results) -> dict:
         """Convencience function to create a dictionary of metrics from a Results object"""
         results.loss = results.loss.item()  # Convert to float
         dictified_results_object = vars(results)
-        dict_of_not_none = {
-            k: v for k, v in dictified_results_object.items() if v is not None
-        }
+        dict_of_not_none = {k: v for k, v in dictified_results_object.items() if v is not None}
         return {f"{prefix}_{k}": v for k, v in dict_of_not_none.items()}
 
     @staticmethod

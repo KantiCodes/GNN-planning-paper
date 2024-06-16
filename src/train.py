@@ -1,10 +1,9 @@
 import argparse
 import os
 import shutil
-import json
 
-from model.training import train_and_save_model, ModelSetting
-from pydantic import BaseModel, Json
+from model.training import ModelSetting, train_and_save_model
+from pydantic import BaseModel
 
 
 def cleanup_directories(dirs):
@@ -35,9 +34,7 @@ class RunSettings(BaseModel):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "train_dir", help="path to folder with training problems with graph data"
-    )
+    parser.add_argument("train_dir", help="path to folder with training problems with graph data")
     parser.add_argument(
         "--test_dir",
         help="path to folder with test problems with graph data",
@@ -50,12 +47,8 @@ if __name__ == "__main__":
     )
     # This is needed to store the models but also to load the models that have already been trained
     parser.add_argument("output_dir", help="path to where models keep being stored")
-    parser.add_argument(
-        "--model-settings", help="path to model settings json", required=True
-    )
-    parser.add_argument(
-        "--num-epochs", help="number of epochs to train", default=100, type=int
-    )
+    parser.add_argument("--model-settings", help="path to model settings json", required=True)
+    parser.add_argument("--num-epochs", help="number of epochs to train", default=100, type=int)
     parser.add_argument("--batch-size", help="batch size", default=8, type=int)
     args = parser.parse_args()
 

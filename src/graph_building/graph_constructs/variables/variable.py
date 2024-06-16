@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from typing import ClassVar
+
 from graph_building.graph_constructs.node import Node
 
 

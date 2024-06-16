@@ -1,23 +1,18 @@
-from typing import Optional, TYPE_CHECKING
-import warnings
-from model.architectures import EActivationFunction, EConvolution
-from model.training import EOptimizer
-from sklearn.exceptions import UndefinedMetricWarning
-
-from model.metrics import EEvalMetric, ELossFunction
-
-
-from model.model_setting import ModelSetting
+import argparse
 import os
 import random
-from training_case import TrainingCase
-import argparse
+import warnings
+from typing import TYPE_CHECKING, Optional
 
 # Original Code here:
 # https://github.com/pytorch/examples/blob/master/mnist/main.py
-
-
 import optuna
+from model.architectures import EActivationFunction, EConvolution
+from model.metrics import EEvalMetric, ELossFunction
+from model.model_setting import ModelSetting
+from model.training import EOptimizer
+from sklearn.exceptions import UndefinedMetricWarning
+from training_case import TrainingCase
 
 warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -60,11 +55,7 @@ class Runner:
         self._prepare_data(graph_data)
 
         # TODO make this a parameter
-        if (
-            not directory_with_jsons
-            and not random_settings_number
-            and not hyper_parameters
-        ):
+        if not directory_with_jsons and not random_settings_number and not hyper_parameters:
             raise ValueError(
                 "You need to provide either a directory with jsons or a number of random settings to generate or hyperp_parameters flag to run."
             )
@@ -84,9 +75,7 @@ class Runner:
 
     def _run(self, config: dict):
         # training_cases = self.get_trainig_cases()
-        config["model_settings_path"] = os.path.join(
-            ROOT_FOLDER, "model-settings", os.urandom(16).hex() + ".json"
-        )
+        config["model_settings_path"] = os.path.join(ROOT_FOLDER, "model-settings", os.urandom(16).hex() + ".json")
 
         case = TrainingCase(
             domain=self.domain,
@@ -99,9 +88,7 @@ class Runner:
         return test_puo
 
     def run_random(self, random_settings_number: int):
-        model_settings = ModelSetting.generate_random_settings_explicit(
-            random_settings_number
-        )
+        model_settings = ModelSetting.generate_random_settings_explicit(random_settings_number)
         training_cases = self.get_trainig_cases(model_settings=model_settings)
 
         for case in training_cases:
@@ -130,25 +117,15 @@ class Runner:
                 "hidden_size": trial.suggest_int("hidden_size", 4, 16),
                 "optimizer": trial.suggest_categorical("optimizer", list(EOptimizer)),
                 "conv_type": trial.suggest_categorical("conv_type", list(EConvolution)),
-                "activation_function": trial.suggest_categorical(
-                    "activation_function", list(EActivationFunction)
-                ),
+                "activation_function": trial.suggest_categorical("activation_function", list(EActivationFunction)),
                 "classification_function": trial.suggest_categorical(
                     "classification_function", list(EActivationFunction)
                 ),
                 "batch_size": trial.suggest_categorical("batch_size", [16, 32, 64]),
-                "use_class_weights": trial.suggest_categorical(
-                    "use_class_weights", [True, False]
-                ),
-                "use_batch_norm": trial.suggest_categorical(
-                    "use_batch_norm", [True, False]
-                ),
-                "loss_function": trial.suggest_categorical(
-                    "loss_function", list(ELossFunction)
-                ),
-                "eval_metric": trial.suggest_categorical(
-                    "eval_metric", list(EEvalMetric)
-                ),
+                "use_class_weights": trial.suggest_categorical("use_class_weights", [True, False]),
+                "use_batch_norm": trial.suggest_categorical("use_batch_norm", [True, False]),
+                "loss_function": trial.suggest_categorical("loss_function", list(ELossFunction)),
+                "eval_metric": trial.suggest_categorical("eval_metric", list(EEvalMetric)),
             }
 
             test_puo = self._run(params)
@@ -186,16 +163,9 @@ class Runner:
 
         return training_cases
 
-    def _create_model_settings_from_path(
-        self, model_settings_dir: Path
-    ) -> list[ModelSetting]:
-        all_settings_path = [
-            os.path.join(model_settings_dir, x) for x in os.listdir(model_settings_dir)
-        ]
-        settings_list = [
-            ModelSetting.from_file(model_settings_path)
-            for model_settings_path in all_settings_path
-        ]
+    def _create_model_settings_from_path(self, model_settings_dir: Path) -> list[ModelSetting]:
+        all_settings_path = [os.path.join(model_settings_dir, x) for x in os.listdir(model_settings_dir)]
+        settings_list = [ModelSetting.from_file(model_settings_path) for model_settings_path in all_settings_path]
         return settings_list
 
 
@@ -232,9 +202,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     domain = args.domain
-    graph_data_path = os.path.abspath(
-        os.path.join(GRAPH_DATA_PATH, domain, "training_data")
-    )
+    graph_data_path = os.path.abspath(os.path.join(GRAPH_DATA_PATH, domain, "training_data"))
 
     runner = Runner(
         domain=domain,

@@ -1,6 +1,6 @@
-import os
 import argparse
 import logging
+import os
 import shutil
 
 from graph_building import pdg_and_nodes
@@ -20,11 +20,13 @@ def relaxed_plan_path(path_run_dir):
     assert os.path.exists(path_relaxed_plan), "No relaxed plan found"
     return path_relaxed_plan
 
+
 def simple_landmarks_path(path_run_dir):
     """Get path to simple landmarks file."""
     path_simple_landmarks = os.path.join(path_run_dir, "simple_landmarks")
     assert os.path.exists(path_simple_landmarks), "No simple landmarks found"
     return path_simple_landmarks
+
 
 def good_actions_path(path_run_dir):
     """Try find good_actions as either good_operators or sas_plan"""
@@ -41,6 +43,7 @@ def good_actions_path(path_run_dir):
         raise ValueError("Problem is most likely solved already")
 
     return path_good_actions
+
 
 def sas_file_path(path_run_dir):
     sas_file_path = os.path.join(path_run_dir, "sas_file.sas")
@@ -60,18 +63,17 @@ def sas_file_path(path_run_dir):
     return sas_file_path
 
 
-
 def main():
     options = argparser.parse_args()
     path_to_dir = options.DIR
     output_dir = path_to_dir
     _log.info("Running on %s with output dir %s", path_to_dir, output_dir)
-    
+
     if options.relaxed_plan:
         relaxed_plan_path_ = relaxed_plan_path(path_to_dir)
     else:
         relaxed_plan_path_ = None
-    
+
     if options.simple_landmarks:
         simple_landmarks_path_ = simple_landmarks_path(path_to_dir)
     else:
@@ -79,15 +81,15 @@ def main():
 
     good_operators_path = good_actions_path(path_to_dir)
 
-
     pdg_and_nodes(
         sasfile_path=sas_file_path,
         output_dir=path_to_dir,
         relaxed_plan_path=relaxed_plan_path_,
         simple_landmarks_path=simple_landmarks_path_,
         good_operators_path=good_operators_path,
-        )
-        
+    )
+
+
 if __name__ == "__main__":
     main()
 
@@ -112,10 +114,9 @@ if __name__ == "__main__":
 #     output_directory = options.output_directory
 
 #     generate_graph_data(graph_type, sas_file, good_operators_file, output_directory)
-    # ppath = "downward-main/useful-actions-dataset-main/satellite/runs/optimal/p226-4-4-3-5-1"
-    # go = os.path.join(ppath, "good_operators")
-    # problem_path = "graph_training_data/satellite/p226-4-4-3-5-1"
-    # sasfile_path = os.path.join(problem_path, "sas_file.sas")
+# ppath = "downward-main/useful-actions-dataset-main/satellite/runs/optimal/p226-4-4-3-5-1"
+# go = os.path.join(ppath, "good_operators")
+# problem_path = "graph_training_data/satellite/p226-4-4-3-5-1"
+# sasfile_path = os.path.join(problem_path, "sas_file.sas")
 
-    # cg_and_nodes(sasfile_path, go, "my_test")
-
+# cg_and_nodes(sasfile_path, go, "my_test")
