@@ -2,19 +2,21 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
 
+import matplotlib
+
+# Use non-interactive backend because plotting and debugging don't go well together
+matplotlib.use("Agg")  # noqa
+from logging import Logger, basicConfig, getLogger
+
 import matplotlib.pyplot as plt
-from sklearn import metrics
+import sklearn.metrics
 import torch
 import torch.nn.functional as F
-from torch_geometric.loader import DataLoader
 from model import ReprStrEnum
-import sklearn.metrics
-
+from sklearn import metrics
 from sklearn.metrics import precision_recall_fscore_support
+from torch_geometric.loader import DataLoader
 from torcheval.metrics.functional import binary_f1_score
-
-import logging
-from logging import Logger, basicConfig, getLogger
 
 logger = getLogger(__name__)
 
@@ -170,19 +172,16 @@ def make_and_save_confusion_matrix(model:torch.nn.Module, loader: DataLoader, fi
     if loader is None:
         logger.warning("%s set loader is None, skipping saving confusion matrix", set_)
         return
-    
     assert len(loader) == 1, "This only works for eval/test sets that have a single batch"
     batch_entire_set = next(iter(loader))
 
     out = model(batch_entire_set.x_dict, batch_entire_set.edge_index_dict)
-    y_pred = out["operator"].squeeze()
+    y_pred:torch.Tensor = out["operator"].squeeze()
     y_true = batch_entire_set["operator"].y.squeeze()
-
-
     # Create a new figure
     plt.figure()
 
-    y_pred_classes = (y_pred >= threshold).astype(int)
+    y_pred_classes = (y_pred >= threshold).type(torch.int)
 
 
     confusion_matrix = sklearn.metrics.ConfusionMatrixDisplay(

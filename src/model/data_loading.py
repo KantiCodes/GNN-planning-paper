@@ -13,7 +13,7 @@ import time
 import pickle
 
 
-logger = logging.getLogger('simple_example')
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 # create console handler and set level to debug

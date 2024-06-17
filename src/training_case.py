@@ -62,7 +62,7 @@ class TrainingCase:
 
 
         # TODO: Where fo we parameterize this?
-        self.num_epochs = 11
+        self.num_epochs = 100
     
 
     def compute(self):
@@ -85,7 +85,7 @@ class TrainingCase:
             print(
                 f"Training using pos_weight: {self.pos_weight} and neg_weight: {self.neg_weight}"
             )
-            for epoch in range(1, self.num_epochs):
+            for epoch in range(1, self.num_epochs+1):
                 print("epoch: ", epoch)
                 this_epoch_metrics = {}
                 val_metrics_dict = {}  # Convenience for the if statement
@@ -123,17 +123,18 @@ class TrainingCase:
             
             make_and_save_confusion_matrix(
                 model=self.model_handler.model,
-                data_loader=self.val_loader,
+                loader=self.val_loader,
                 file_name=FILE_NAME_CONF_RECALL_1,
-                threshold=epoch_test_results.puo_threshold,
+                threshold=epoch_val_results.puo_threshold,
                 set_ = "val"
             )
 
             make_and_save_confusion_matrix(
                 model=self.model_handler.model,
-                true_labels=self.val_loader,
+                loader=self.val_loader,
                 file_name=FILE_NAME_CONF_DEFAULT,
                 threshold=0.5,  # TODO keep it in once place as parameter
+                set_ = "val"
             )
             mlflow.log_artifact(FILE_NAME_CONF_DEFAULT)
             mlflow.log_artifact(FILE_NAME_CONF_RECALL_1)
