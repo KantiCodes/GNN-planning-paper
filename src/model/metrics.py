@@ -102,6 +102,7 @@ def compute_results(
     neg_weight,
     loss_function,
     eval_metric,
+    count_metrics_flags: dict[str, bool],  # whether to calculate certain metrics
 ) -> Results:
     """returns loss, preds, original"""
     weights = torch.ones_like(batch["operator"].y)
@@ -119,7 +120,8 @@ def compute_results(
     y_pred_numpy = y_pred.cpu().squeeze().detach().numpy()
     y_true_numpy = y_true.cpu().squeeze().detach().numpy()
 
-    puo, auc, threshold = puo_auc_threshold(y_pred=y_pred_numpy, y_true=y_true_numpy)
+    puo, auc, threshold = puo_auc_threshold(y_pred=y_pred_numpy, y_true=y_true_numpy, calculate=count_metrics_flags["puo"])
+
     
     metric_result = eval_metric(y_pred.squeeze(), y_true.squeeze())
     (
@@ -149,12 +151,15 @@ def compute_results(
     )
 
 
-def puo_auc_threshold(*, y_pred, y_true):
+def puo_auc_threshold(*, y_pred, y_true, calculate: bool):
     """Get the puo and the threshold for the puo from the roc curve
 
     PUO: https://icaps23.icaps-conference.org/program/workshops/keps/KEPS-23_paper_1243.pdf
     - basically how many false positives we have when we have 100% true positives
     """
+    if not calculate:
+        return None, None, None
+
     fpr, tpr, thresholds = metrics.roc_curve(y_true, y_pred, pos_label=1)
     auc = metrics.auc(fpr, tpr)
 

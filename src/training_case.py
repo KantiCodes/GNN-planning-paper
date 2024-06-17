@@ -90,11 +90,18 @@ class TrainingCase:
                 this_epoch_metrics = {}
                 val_metrics_dict = {}  # Convenience for the if statement
                 # Average over batches
+
+                count_metrics_flags = {
+                    "puo": epoch%10 == 0,
+                }
+
                 epoch_train_results: Results = self.model_handler.train(
-                    self.train_loader, device, pos_weight=self.pos_weight, neg_weight=self.neg_weight
+                    self.train_loader, device, pos_weight=self.pos_weight, neg_weight=self.neg_weight, count_metrics_flags=count_metrics_flags,
                 )
-                epoch_val_results = self.model_handler.test(self.val_loader, device)
-                epoch_test_results = self.model_handler.test(self.test_loader, device)
+                epoch_val_results = self.model_handler.test(self.val_loader, device, count_metrics_flags=count_metrics_flags)
+                epoch_test_results = self.model_handler.test(self.test_loader, device, count_metrics_flags=count_metrics_flags)
+
+
 
                 train_metrics_dict = TrainingCase.create_metrics_dict("train", epoch_train_results)
                 val_metrics_dict = TrainingCase.create_metrics_dict("val", epoch_val_results)
