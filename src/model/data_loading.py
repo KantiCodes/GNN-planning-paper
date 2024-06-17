@@ -1,3 +1,4 @@
+from __future__ import annotations
 import os
 from pathlib import Path
 
@@ -6,12 +7,50 @@ import torch
 import torch_geometric.transforms as T
 from torch_geometric.data import HeteroData
 from torch_geometric.loader import DataLoader
+import logging
+from logging import Logger, basicConfig, getLogger
+import time
+import pickle
 
 
-def calculate_weights(train_set, train_instances: list[Path]):
+logger = logging.getLogger('simple_example')
+logger.setLevel(logging.DEBUG)
+
+# create console handler and set level to debug
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+
+# create formatter
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+# add formatter to ch
+ch.setFormatter(formatter)
+
+# add ch to logger
+logger.addHandler(ch)
+
+
+def load_dataframe(path: Path | str) -> pd.DataFrame:
+    """Loads dataframe either from specified path or from a pickled file with the same name as the csv file."""
+    if isinstance(path, str):
+        path = Path(path)
+    maybe_pick_path = path.with_suffix(".pkl")
+
+    if maybe_pick_path.exists():
+        logger.info("Loading pickled dataframe from: %s", maybe_pick_path)
+        df = pd.read_pickle(maybe_pick_path)
+    
+    else:
+        logger.info("Loading dataframe from: %s", path)
+        df = pd.read_csv(path)
+        df.to_pickle(maybe_pick_path)
+        logger.info("Saved pickled dataframe to: %s", maybe_pick_path)
+    
+    return df
+
+
+def calculate_weights(total_positives, total_negatives, total_samples):
     """Returns"""
-    total_positives, total_negatives, total_samples = dataset_metrics(train_set, train_instances)
-
     assert total_positives > 0
     assert total_negatives > 0
     assert total_positives + total_negatives == total_samples
@@ -79,8 +118,11 @@ def build_hetero(
     return T.ToUndirected()(hetero_data)
 
 
-def build_data_set(problem_instances):
-    """Expects a list of problem directories that have values, variables, operators, and their respective edges"""
+def build_data_set(problem_instances) -> list[HeteroData]:
+    """Expects a list of problem directories that have values, variables, operators, and their respective edges
+    
+    Returns a list of torch_geometric.HeteroData objects where each object represents a single problem instance
+    """
     dataset = []
 
     for problem in problem_instances:
@@ -96,30 +138,77 @@ def build_data_set(problem_instances):
 def create_loader(dataset, batch_size):
     return DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
+class DataSetsHolder:
+    def __init__(self, train_set, val_set, test_set, pos_weight, neg_weight, domain: str):
+        self.train_set = train_set
+        self.val_set = val_set
+        self.test_set = test_set
+        self.pos_weight = pos_weight
+        self.neg_weight = neg_weight
+        self.domain=domain
 
-def create_loaders(train_set, test_set, val_set, batch_size):
-    print("Creating loaders")
-    print(f"Train set size: {len(train_set)}")
-    print(f"Test set size: {len(test_set)}")
-    train_loader = DataLoader(train_set, batch_size)  # TODO hyperparams
-    test_loader = None
-    val_loader = None
-    if test_set != []:
-        test_loader = DataLoader(test_set, batch_size=len(test_set), shuffle=True)
-    if val_set != []:
-        val_loader = DataLoader(val_set, batch_size=len(val_set), shuffle=True)
+        self.to_pickle()
+    
+    def to_pickle(self):
+        import pickle
+        data_domain_path = os.path.join("pickled", self.domain)
+        with open(data_domain_path, "wb") as f:
+            pickle.dump(self, f)
+    
+    def create_loaders(self, batch_size:int) -> tuple[DataLoader, DataLoader, DataLoader|None]:
+        test_loader = None
+        # We shuffled before
+        train_loader = DataLoader(self.train_set, batch_size, shuffle=False)
+        val_loader = DataLoader(self.val_set, batch_size=len(self.val_set), shuffle=False)
+        if self.test_set:
+            test_loader = DataLoader(self.test_set, batch_size=len(self.test_set), shuffle=False)
+            if len(test_loader) != 1:
+                raise ValueError("Something went wrong, test batch size is different than test set size")
 
-    one_batch_test = next(iter(test_loader))
-    print(f"Test set size of loader: {len(one_batch_test)}")
+        if len(val_loader) != 1:
+            raise ValueError("Something went wrong, val batch size is different than val set size")
+        
+        return train_loader, val_loader, test_loader
+    
 
-    return train_loader, test_loader, val_loader
+    @classmethod
+    def from_instances(cls, train_instances, val_instances, test_instances, domain):
+        logger.info("Building loaders")
+
+        start = time.time()
+
+        train_set = build_data_set(train_instances)
+        val_set = build_data_set(val_instances)
+        test_set = build_data_set(test_instances)
+
+        logger.debug(f"Train set size: {len(train_set)}")
+        logger.debug(f"Test set size: {len(test_set)}")
 
 
-def dataset_metrics(dataset, train_instances: list[Path]):
+        total_positives, total_negatives, total_samples = dataset_metrics(train_set)
+        pos_weight, neg_weight = calculate_weights(total_positives, total_negatives, total_samples)
+        
+        logger.debug(f"Built loaders, took: {time.time() - start}")
+
+        return cls(train_set, val_set, test_set, pos_weight, neg_weight, domain)
+    
+    @staticmethod
+    def from_pickle(domain) -> DataSetsHolder:
+        logger.info("Loading pickled data")
+        data_domain_path = os.path.join("pickled", domain)
+        with open(data_domain_path, "rb") as f:
+            return pickle.load(f)
+
+    @staticmethod
+    def domain_pickle_exists(domain):
+        return os.path.exists(os.path.join("pickled", domain))
+
+
+def dataset_metrics(dataset):
     total_positives = 0
     total_negatives = 0
     total_samples = 0
-    for d, file_name in zip(dataset, train_instances):
+    for d in dataset:
         positives = d["operator"].y.count_nonzero()
 
         negatives = d["operator"].y.shape[0] - positives
@@ -131,10 +220,5 @@ def dataset_metrics(dataset, train_instances: list[Path]):
         assert positives + negatives == total
 
     assert total_positives + total_negatives == total_samples
-
-    # global POS_WEIGHT
-    # global NEG_WEIGHT
-    # POS_WEIGHT = 1 / (total_positives / total_samples)
-    # NEG_WEIGHT = 1 / (total_negatives / total_samples)
 
     return total_positives, total_negatives, total_samples
