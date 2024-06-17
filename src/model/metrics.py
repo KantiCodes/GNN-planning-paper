@@ -1,11 +1,22 @@
 from dataclasses import dataclass
+from pathlib import Path
+from typing import Literal
 
 import matplotlib.pyplot as plt
+from sklearn import metrics
 import torch
 import torch.nn.functional as F
+from torch_geometric.loader import DataLoader
 from model import ReprStrEnum
+import sklearn.metrics
+
 from sklearn.metrics import precision_recall_fscore_support
 from torcheval.metrics.functional import binary_f1_score
+
+import logging
+from logging import Logger, basicConfig, getLogger
+
+logger = getLogger(__name__)
 
 
 class EEvalMetric(str, ReprStrEnum):
@@ -45,6 +56,9 @@ class Results:
     orignal_number_of_true: int = None
     predicted_number_of_false: int = None
     predicted_number_of_true: int = None
+    puo: float = None
+    auc: float = None
+    puo_threshold: float = None
 
     @classmethod
     def reduce_list_of_results(cls, results: list["Results"]):
@@ -92,20 +106,28 @@ def compute_results(
     weights[batch["operator"].y == 0] = neg_weight
     weights[batch["operator"].y == 1] = pos_weight
 
-    # print(batch.x_dict)
-    # input("wait")
+    # Predict
     out = model(batch.x_dict, batch.edge_index_dict)
-    # BCEWithLogitsLoss = torch.nn.BCEWithLogitsLoss()
-    loss = loss_function(out["operator"], batch["operator"].y, weight=weights)
-    metric_result = eval_metric(out["operator"].squeeze(), batch["operator"].y.squeeze())
-    original = batch["operator"].y.squeeze()
-    preds = out["operator"].squeeze()
+    y_pred = out["operator"]
+    y_true = batch["operator"].y
+
+    loss = loss_function(y_pred, y_true, weight=weights)
+
+    # TODO: Perhaps we could decide to use only pytorch/sklearn metrics? Is this what we are doing slow?
+    y_pred_numpy = y_pred.cpu().squeeze().detach().numpy()
+    y_true_numpy = y_true.cpu().squeeze().detach().numpy()
+
+    puo, auc, threshold = puo_auc_threshold(y_pred=y_pred_numpy, y_true=y_true_numpy)
+    
+    metric_result = eval_metric(y_pred.squeeze(), y_true.squeeze())
     (
         (precision_false, precision_true),
         (recall_false, recall_true),
         (f1_score_false, f1_score_true),
         (orginal_number_of_false, orignal_number_of_true),
-    ) = precision_recall_fscore_support(original.cpu(), (preds.cpu() >= 0.5).type(torch.int), average=None)
+    ) = precision_recall_fscore_support(y_true_numpy, (y_pred_numpy >= 0.5).astype(int), average=None)
+
+
     return Results(
         loss=loss,
         metric=metric_result,
@@ -117,33 +139,77 @@ def compute_results(
         f1_score_true=f1_score_true,
         orginal_number_of_false=orginal_number_of_false,
         orignal_number_of_true=orignal_number_of_true,
-        predicted_number_of_false=(preds < 0.5).type(torch.int).sum(),
-        predicted_number_of_true=(preds >= 0.5).type(torch.int).sum(),
+        predicted_number_of_false=(y_pred < 0.5).type(torch.int).sum(),
+        predicted_number_of_true=(y_pred >= 0.5).type(torch.int).sum(),
+        puo=puo,
+        auc=auc,
+        puo_threshold=threshold,
     )
 
 
-def evaluate_and_return_confusion(model: torch.nn.Module, data):
-    model.eval()
-    targets = []
-    preds = []
+def puo_auc_threshold(*, y_pred, y_true):
+    """Get the puo and the threshold for the puo from the roc curve
 
-    # TODO we dont know how to use test loader as just a data set instead
-    # of using a batch like dataloader
+    PUO: https://icaps23.icaps-conference.org/program/workshops/keps/KEPS-23_paper_1243.pdf
+    - basically how many false positives we have when we have 100% true positives
+    """
+    fpr, tpr, thresholds = metrics.roc_curve(y_true, y_pred, pos_label=1)
+    auc = metrics.auc(fpr, tpr)
 
-    # for batch in test_loader:
-    #     out = model(batch.x_dict, batch.edge_index_dict)
-    #     target = batch['operator'].y
-    #     pred = out['operator']
-    #     targets.append(target)
-    #     preds.append(pred)
+    puo = 0
+    threshold_found = None
+    for false_ratio, true_ratio, threshold in zip(fpr, tpr, thresholds):
+        if true_ratio == 1.0:
+            puo = 1 - false_ratio
+            threshold_found = threshold
+            break
+    return puo, auc, threshold_found
 
-    out = model(data.x_dict, data.edge_index_dict)
-    target = data["operator"].y
-    pred = out["operator"]
-    targets.append(target)
-    preds.append(pred)
-    return targets, preds
+# TODO: Implement for test set when we have one
+def make_and_save_confusion_matrix(model:torch.nn.Module, loader: DataLoader, file_name:Path, threshold:float, set_: Literal["val", "test"]):
+    if loader is None:
+        logger.warning("%s set loader is None, skipping saving confusion matrix", set_)
+        return
+    
+    assert len(loader) == 1, "This only works for eval/test sets that have a single batch"
+    batch_entire_set = next(iter(loader))
 
+    out = model(batch_entire_set.x_dict, batch_entire_set.edge_index_dict)
+    y_pred = out["operator"].squeeze()
+    y_true = batch_entire_set["operator"].y.squeeze()
+
+
+    # Create a new figure
+    plt.figure()
+
+    y_pred_classes = (y_pred >= threshold).astype(int)
+
+
+    confusion_matrix = sklearn.metrics.ConfusionMatrixDisplay(
+        confusion_matrix=sklearn.metrics.confusion_matrix(y_true, y_pred_classes),
+    ).plot()
+
+    plt.xlabel("Predicted Label")
+    plt.ylabel("True Label")
+    plt.savefig(file_name)
+    plt.close()  # Close the figure to avoid affecting global plt state
+
+
+def make_and_save_roc_auc(tpr, fpr, auc, file_name):
+    plt.figure()
+
+    plt.plot(fpr, tpr, color="darkorange", lw=2, label="ROC curve (area = %0.2f)" % auc)
+
+    plt.plot([0, 1], [0, 1], color="navy", lw=2, linestyle="--")
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title("Receiver operating characteristic")
+    plt.legend(loc="lower right")
+    plt.savefig(file_name)
+    plt.close()
+    # os.remove(file_name)  # Close the figure to avoid affecting global plt state
 
 # def plot_recalls(treshold, result, bar_width):
 #     # bar_width = 0.005
@@ -209,39 +275,3 @@ def evaluate_and_return_confusion(model: torch.nn.Module, data):
 #         fig.savefig(PATH)
 #     else:
 #         fig.savefig("results.png")
-
-
-def make_and_save_confusion_matrix(predictions, true_labels, file_name, threshold):
-    # Create a new figure
-    plt.figure()
-
-    changed_data = (predictions >= threshold).astype(int)
-
-    import sklearn.metrics
-
-    confusion_matrix = sklearn.metrics.ConfusionMatrixDisplay(
-        confusion_matrix=sklearn.metrics.confusion_matrix(true_labels, changed_data),
-    ).plot()
-
-    plt.xlabel("Predicted Label")
-    plt.ylabel("True Label")
-    plt.savefig(file_name)
-    plt.close()  # Close the figure to avoid affecting global plt state
-    # os.remove(file_name)
-
-
-def make_and_save_roc_auc(tpr, fpr, auc, file_name):
-    plt.figure()
-
-    plt.plot(fpr, tpr, color="darkorange", lw=2, label="ROC curve (area = %0.2f)" % auc)
-
-    plt.plot([0, 1], [0, 1], color="navy", lw=2, linestyle="--")
-    plt.xlim([0.0, 1.0])
-    plt.ylim([0.0, 1.05])
-    plt.xlabel("False Positive Rate")
-    plt.ylabel("True Positive Rate")
-    plt.title("Receiver operating characteristic")
-    plt.legend(loc="lower right")
-    plt.savefig(file_name)
-    plt.close()
-    # os.remove(file_name)  # Close the figure to avoid affecting global plt state

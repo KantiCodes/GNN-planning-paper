@@ -53,9 +53,59 @@ Output folder `autoscale-data-small-preprocessed/satellite` will contain graph r
 - `variables.csv` Variables idx and whether they are in the goal
 
 
-### Then run model training 
+### Then run model training
+`python src/runner.py [domain] --[configuration of parameters]
 #### With predefined model settings
-`python src/runner.py autoscale-data-small-preprocessed/satellite --directory-with-jsons model-settings`
+`python src/runner.py rovers --directory-with-jsons [path to folder where each file is a json of parameters]`
+```json
+{
+    "lr": 0.023688639503640783,
+    "layers_num": 16,
+    "hidden_size": 13,
+    "optimizer": "Adam",
+    "conv_type": "GraphConv",
+    "activation_function": "sigmoid",
+    "classification_function": "relu",
+    "use_batch_norm": false,
+    "conv_type_specific_kwargs": {},
+    "loss_function": "BCE",
+    "eval_metric": "f1",
+    "batch_size": 64,
+    "use_class_weights": true,
+    "model_settings_path": "/Users/bartoszlachowicz/projects/GNN-planning-paper/model-settings/709a84f238703d6a83a6fd0d81d66f3e.json"
+}
+```
 
 #### With random settings generator
-`python src/runner.py autoscale-data-small-preprocessed/satellite --random-settings-number 5`
+`python src/runner.py rovers --random-settings-number 5`
+
+#### With hyper parameters tunning
+`python src/runner.py rovers --hyper-parameters
+
+
+# Roadmap
+
+# Planning Metrics - Must have
+`plan.py` script with experiments that would log stuff about performance of Planning
+Probably should use lab, but perhaps we can have something with MLFlow
+
+# Try to optimize GPU stuff with `pin_memory` - NICE TO HAVE
+From this link:
+- https://blog.paperspace.com/dataloaders-abstractions-pytorch/
+```python3
+device = "cuda" if torch.cuda.is_available() else "cpu"
+kwargs = {'num_workers': 1, 'pin_memory': True} if device=='cuda' else {}
+
+train_loader = torch.utils.data.DataLoader(
+  torchvision.datasets.MNIST('/files/', train=True, download=True),
+  batch_size=batch_size_train, **kwargs)
+
+test_loader = torch.utils.data.DataLoader(
+  torchvision.datasets.MNIST('files/', train=False, download=True),
+  batch_size=batch_size, **kwargs)
+```
+
+# Build a FC NN on top of our GNN stuff - NICE TO HAVE
+We currently output one neuron for each operator, perhaps we could use 
+GNN as node-to-vec for each operator and then we could put a FC NN on top of the vector
+for classification

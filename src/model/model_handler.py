@@ -1,10 +1,12 @@
 from typing import TYPE_CHECKING
 
+from model.architectures import DynamicGNN
 import torch
 from model.metrics import EEvalMetric, ELossFunction, Results, compute_results
 from torch.optim import Optimizer
 from torch_geometric.data import HeteroData
 from torch_geometric.nn import to_hetero
+from torch.utils.data.dataloader import DataLoader
 
 if TYPE_CHECKING:
     from metrics import (
@@ -37,20 +39,16 @@ class ModelHandler:
         loss_function: ELossFunction,
         eval_metric: EEvalMetric,
         weights_path=None,
-        pos_weight,
-        neg_weight,
     ):  # TODO hyperparameter on aggr
         if self.class_record_value != 0:
             raise ValueError("Only one instance of ModelHandler is allowed")
         self.class_record_value = 1
-        self.model = to_hetero(init_model, metadata=METADATA, aggr="sum")
+        self.model: DynamicGNN = to_hetero(init_model, metadata=METADATA, aggr="sum")
         if weights_path is not None:
             self.model.load_state_dict(torch.load(weights_path))
 
         self.loss_function = loss_function.to_function()
         self.eval_metric = eval_metric.to_function()
-        self.pos_weight: float = pos_weight
-        self.neg_weight: float = neg_weight
         self.optimizer = None
 
     def init_optimizer(self, OptimizerClass: type[Optimizer], learning_rate=None) -> torch.optim.Optimizer:
@@ -67,7 +65,7 @@ class ModelHandler:
     def load_model(self, model_path: str) -> None:
         self.model.load_state_dict(torch.load(model_path))
 
-    def train(self, train_loader: torch.utils.data.DataLoader, device: torch.DeviceObjType):
+    def train(self, train_loader: torch.utils.data.DataLoader, device: torch.DeviceObjType, pos_weight: float, neg_weight: float) -> Results:
         self.model.train()
 
         batch_results_list: list[Results] = []
@@ -78,8 +76,8 @@ class ModelHandler:
             results = compute_results(
                 batch,
                 self.model,
-                self.pos_weight,
-                self.neg_weight,
+                pos_weight,
+                neg_weight,
                 self.loss_function,
                 self.eval_metric,
             )
@@ -102,7 +100,10 @@ class ModelHandler:
         return action_predictions
 
     @torch.no_grad()
-    def test(self, data_loader: torch.utils.data.DataLoader, device) -> Results:
+    def test(self, data_loader: DataLoader | None, device) -> Results:
+        if data_loader is None:
+            return None
+        
         self.model.eval()
         test_batch = next(iter(data_loader))
         test_batch = test_batch.to(device)
@@ -115,3 +116,5 @@ class ModelHandler:
             self.loss_function,
             self.eval_metric,
         )
+
+

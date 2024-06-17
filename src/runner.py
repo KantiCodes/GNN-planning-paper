@@ -4,6 +4,8 @@ import random
 import warnings
 from typing import TYPE_CHECKING, Optional
 
+from model.data_loading import DataSetsHolder
+
 # Original Code here:
 # https://github.com/pytorch/examples/blob/master/mnist/main.py
 import optuna
@@ -40,8 +42,19 @@ class Runner:
         random.shuffle(all_instances)
         # Do random split here
         self.training_instances = all_instances[: int(len(all_instances) * 0.8)]
-        self.test_instances = all_instances[int(len(all_instances) * 0.8) :]
-        self.val_instances = None
+        self.val_instances = all_instances[int(len(all_instances) * 0.8) :]
+        self.test_instances = []
+
+        if DataSetsHolder.domain_pickle_exists(self.domain):
+            self.data_sets_holder = DataSetsHolder.from_pickle(domain=self.domain)
+        
+        else:
+            self.data_sets_holder = DataSetsHolder.from_instances(
+                train_instances=self.training_instances,
+                val_instances=self.val_instances,
+                test_instances=self.test_instances,
+                domain=self.domain,
+            )
 
     def __init__(
         self,
@@ -77,12 +90,17 @@ class Runner:
         # training_cases = self.get_trainig_cases()
         config["model_settings_path"] = os.path.join(ROOT_FOLDER, "model-settings", os.urandom(16).hex() + ".json")
 
+        model_setting=ModelSetting(**config)
+        train_loader, val_loader, test_loader = self.data_sets_holder.create_loaders(batch_size=model_setting.batch_size)
+
         case = TrainingCase(
             domain=self.domain,
-            model_setting=ModelSetting(**config),
-            training_instances=self.training_instances,
-            test_instances=self.test_instances,
-            val_instances=self.val_instances,
+            model_setting=model_setting,
+            train_loader=train_loader,
+            val_loader=val_loader,
+            test_loader=test_loader,
+            pos_weight=self.data_sets_holder.pos_weight,
+            neg_weight=self.data_sets_holder.neg_weight,
         )
         test_puo = case.compute()
         return test_puo
