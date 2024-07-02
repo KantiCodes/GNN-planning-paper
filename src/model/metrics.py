@@ -2,19 +2,21 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
 
+import matplotlib
+
+# Use non-interactive backend because plotting and debugging don't go well together
+matplotlib.use("Agg")  # noqa
+from logging import Logger, basicConfig, getLogger
+
 import matplotlib.pyplot as plt
-from sklearn import metrics
+import sklearn.metrics
 import torch
 import torch.nn.functional as F
-from torch_geometric.loader import DataLoader
 from model import ReprStrEnum
-import sklearn.metrics
-
+from sklearn import metrics
 from sklearn.metrics import precision_recall_fscore_support
+from torch_geometric.loader import DataLoader
 from torcheval.metrics.functional import binary_f1_score
-
-import logging
-from logging import Logger, basicConfig, getLogger
 
 logger = getLogger(__name__)
 
@@ -100,6 +102,7 @@ def compute_results(
     neg_weight,
     loss_function,
     eval_metric,
+    count_metrics_flags: dict[str, bool],  # whether to calculate certain metrics
 ) -> Results:
     """returns loss, preds, original"""
     weights = torch.ones_like(batch["operator"].y)
@@ -117,7 +120,8 @@ def compute_results(
     y_pred_numpy = y_pred.cpu().squeeze().detach().numpy()
     y_true_numpy = y_true.cpu().squeeze().detach().numpy()
 
-    puo, auc, threshold = puo_auc_threshold(y_pred=y_pred_numpy, y_true=y_true_numpy)
+    puo, auc, threshold = puo_auc_threshold(y_pred=y_pred_numpy, y_true=y_true_numpy, calculate=count_metrics_flags["puo"])
+
     
     metric_result = eval_metric(y_pred.squeeze(), y_true.squeeze())
     (
@@ -147,12 +151,15 @@ def compute_results(
     )
 
 
-def puo_auc_threshold(*, y_pred, y_true):
+def puo_auc_threshold(*, y_pred, y_true, calculate: bool):
     """Get the puo and the threshold for the puo from the roc curve
 
     PUO: https://icaps23.icaps-conference.org/program/workshops/keps/KEPS-23_paper_1243.pdf
     - basically how many false positives we have when we have 100% true positives
     """
+    if not calculate:
+        return None, None, None
+
     fpr, tpr, thresholds = metrics.roc_curve(y_true, y_pred, pos_label=1)
     auc = metrics.auc(fpr, tpr)
 
@@ -170,19 +177,16 @@ def make_and_save_confusion_matrix(model:torch.nn.Module, loader: DataLoader, fi
     if loader is None:
         logger.warning("%s set loader is None, skipping saving confusion matrix", set_)
         return
-    
     assert len(loader) == 1, "This only works for eval/test sets that have a single batch"
     batch_entire_set = next(iter(loader))
 
     out = model(batch_entire_set.x_dict, batch_entire_set.edge_index_dict)
-    y_pred = out["operator"].squeeze()
+    y_pred:torch.Tensor = out["operator"].squeeze()
     y_true = batch_entire_set["operator"].y.squeeze()
-
-
     # Create a new figure
     plt.figure()
 
-    y_pred_classes = (y_pred >= threshold).astype(int)
+    y_pred_classes = (y_pred >= threshold).type(torch.int)
 
 
     confusion_matrix = sklearn.metrics.ConfusionMatrixDisplay(

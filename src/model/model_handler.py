@@ -1,3 +1,4 @@
+import time
 from typing import TYPE_CHECKING
 
 from model.architectures import DynamicGNN
@@ -13,7 +14,7 @@ if TYPE_CHECKING:
         EEvalMetric,
         ELossFunction,
     )
-
+import logging
 
 # TestValResults = namedtuple('Test_Val_Results', ['test', 'val'])
 METADATA = (
@@ -28,6 +29,13 @@ METADATA = (
     ],
 )
 
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+ch.setFormatter(formatter)
+logger.addHandler(ch)
 
 class ModelHandler:
     class_record_value = 0
@@ -65,7 +73,9 @@ class ModelHandler:
     def load_model(self, model_path: str) -> None:
         self.model.load_state_dict(torch.load(model_path))
 
-    def train(self, train_loader: torch.utils.data.DataLoader, device: torch.DeviceObjType, pos_weight: float, neg_weight: float) -> Results:
+    def train(self, train_loader: torch.utils.data.DataLoader, device: torch.DeviceObjType, pos_weight: float, neg_weight: float, count_metrics_flags: dict[str, bool]) -> Results:
+        logger.info("Started training")
+        start = time.time()
         self.model.train()
 
         batch_results_list: list[Results] = []
@@ -80,12 +90,14 @@ class ModelHandler:
                 neg_weight,
                 self.loss_function,
                 self.eval_metric,
+                count_metrics_flags
             )
             batch_results_list.append(results)
             results.loss.backward()
             self.optimizer.step()
 
         epoch_mean_results = Results.reduce_list_of_results(batch_results_list)
+        logger.info("Finished training, it took: %s", time.time() - start)
         return epoch_mean_results
 
     @torch.no_grad()
@@ -100,7 +112,7 @@ class ModelHandler:
         return action_predictions
 
     @torch.no_grad()
-    def test(self, data_loader: DataLoader | None, device) -> Results:
+    def test(self, data_loader: DataLoader | None, device, count_metrics_flags: dict[str, bool]) -> Results:
         if data_loader is None:
             return None
         
@@ -115,6 +127,7 @@ class ModelHandler:
             1,
             self.loss_function,
             self.eval_metric,
+            count_metrics_flags,
         )
 
 

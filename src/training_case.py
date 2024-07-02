@@ -62,7 +62,7 @@ class TrainingCase:
 
 
         # TODO: Where fo we parameterize this?
-        self.num_epochs = 11
+        self.num_epochs = 100
     
 
     def compute(self):
@@ -85,16 +85,23 @@ class TrainingCase:
             print(
                 f"Training using pos_weight: {self.pos_weight} and neg_weight: {self.neg_weight}"
             )
-            for epoch in range(1, self.num_epochs):
+            for epoch in range(1, self.num_epochs+1):
                 print("epoch: ", epoch)
                 this_epoch_metrics = {}
                 val_metrics_dict = {}  # Convenience for the if statement
                 # Average over batches
+
+                count_metrics_flags = {
+                    "puo": epoch%10 == 0,
+                }
+
                 epoch_train_results: Results = self.model_handler.train(
-                    self.train_loader, device, pos_weight=self.pos_weight, neg_weight=self.neg_weight
+                    self.train_loader, device, pos_weight=self.pos_weight, neg_weight=self.neg_weight, count_metrics_flags=count_metrics_flags,
                 )
-                epoch_val_results = self.model_handler.test(self.val_loader, device)
-                epoch_test_results = self.model_handler.test(self.test_loader, device)
+                epoch_val_results = self.model_handler.test(self.val_loader, device, count_metrics_flags=count_metrics_flags)
+                epoch_test_results = self.model_handler.test(self.test_loader, device, count_metrics_flags=count_metrics_flags)
+
+
 
                 train_metrics_dict = TrainingCase.create_metrics_dict("train", epoch_train_results)
                 val_metrics_dict = TrainingCase.create_metrics_dict("val", epoch_val_results)
@@ -123,17 +130,18 @@ class TrainingCase:
             
             make_and_save_confusion_matrix(
                 model=self.model_handler.model,
-                data_loader=self.val_loader,
+                loader=self.val_loader,
                 file_name=FILE_NAME_CONF_RECALL_1,
-                threshold=epoch_test_results.puo_threshold,
+                threshold=epoch_val_results.puo_threshold,
                 set_ = "val"
             )
 
             make_and_save_confusion_matrix(
                 model=self.model_handler.model,
-                true_labels=self.val_loader,
+                loader=self.val_loader,
                 file_name=FILE_NAME_CONF_DEFAULT,
                 threshold=0.5,  # TODO keep it in once place as parameter
+                set_ = "val"
             )
             mlflow.log_artifact(FILE_NAME_CONF_DEFAULT)
             mlflow.log_artifact(FILE_NAME_CONF_RECALL_1)

@@ -27,8 +27,8 @@ ROOT_FOLDER = os.path.abspath(".")
 
 if TYPE_CHECKING:
     from training_case import EDomain
-
-random.seed(42)
+RANDOM_SEED = 42
+random.seed(RANDOM_SEED)
 
 GRAPH_DATA_PATH = "alvaro_data"
 
@@ -131,8 +131,9 @@ class Runner:
         def objective(trial):
             params = {
                 "lr": trial.suggest_loguniform("lr", 0.01, 0.1),
-                "layers_num": trial.suggest_int("layers_num", 4, 16),
-                "hidden_size": trial.suggest_int("hidden_size", 4, 16),
+                "layers_num": trial.suggest_int("layers_num", 2, 4),
+                # "hidden_size": trial.suggest_int("hidden_size", 4, 64),
+                "hidden_size": trial.suggest_categorical("hidden_size", [4, 8, 16]),
                 "optimizer": trial.suggest_categorical("optimizer", list(EOptimizer)),
                 "conv_type": trial.suggest_categorical("conv_type", list(EConvolution)),
                 "activation_function": trial.suggest_categorical("activation_function", list(EActivationFunction)),
@@ -154,11 +155,11 @@ class Runner:
         # See here for a full list: https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/003_efficient_optimization_algorithms.html
         study = optuna.create_study(
             direction="maximize",
-            sampler=optuna.samplers.TPESampler(seed=42),
+            sampler=optuna.samplers.TPESampler(seed=RANDOM_SEED),
             pruner=optuna.pruners.HyperbandPruner(),
         )
 
-        study.optimize(objective, n_trials=100)
+        study.optimize(objective, n_trials=20)
 
         best_params = study.best_params
         best_puo = study.best_value
